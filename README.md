@@ -4,9 +4,9 @@
 # Neodius
 ![](https://img.shields.io/badge/Updated-September%2019,%202017-lightgrey.svg)
 [![License](http://img.shields.io/badge/license-MIT-green.svg?style=flat)](LICENSE)
-[![GitHub issues](https://img.shields.io/github/issues/ITSVision/Neodius.svg	)]()
-[![GitHub pull requests](https://img.shields.io/github/issues-pr/ITSVision/Neodius.svg)]()
-[![GitHub contributors](https://img.shields.io/github/contributors/ITSVision/Neodius.svg)]()
+[![GitHub issues](https://img.shields.io/github/issues/ITSVision/Neodius.svg)](issues/)
+[![GitHub pull requests](https://img.shields.io/github/issues-pr/ITSVision/Neodius.svg)](pulls/)
+[![GitHub contributors](https://img.shields.io/github/contributors/ITSVision/Neodius.svg)](contributors/)
 
 Neodius is a NEO blockchain tool. Neodius let's you easily view your balance in various ways based on your address. A must have for every NEO fan. Ofcourse poured in a pretty-and-easy iOS interface. It has been submitted to the Apple AppStore. So I'm waiting for approval. Once it's approved, the link will be available here.
 
