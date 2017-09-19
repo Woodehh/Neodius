@@ -1,0 +1,1 @@
+../../../FontAwesome4-ios/NSString+FontAwesome.h

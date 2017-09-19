@@ -1,0 +1,37 @@
+{
+	"1": {
+        "id": "1",
+        "labelValue": "1",
+        "labelType" : "second"
+    },
+    "5": {
+        "id": "5",
+        "labelValue": "5",
+        "labelType" : "seconds"
+    },
+    "10": {
+        "id": "10",
+        "labelValue": "10",
+        "labelType" : "seconds"
+    },
+    "20": {
+        "id": "20",
+        "labelValue": "20",
+        "labelType" : "seconds"
+    },
+    "30": {
+        "id": "30",
+        "labelValue": "30",
+        "labelType" : "seconds"
+    },
+    "60": {
+        "id": "60",
+        "labelValue": "1",
+        "labelType" : "minute"
+    },
+    "120": {
+        "id": "120",
+        "labelValue": "2",
+        "labelType" : "minutes"
+    }
+}

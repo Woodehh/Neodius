@@ -1,0 +1,194 @@
+{
+    "AUD": {
+        "id": "AUD",
+        "name": "Australian Dollar",
+        "symbol": "$",
+        "node": "price_aud"
+    },
+    "BRL": {
+        "id": "BRL",
+        "name": "Brazilian Real",
+        "symbol": "R$",
+        "node": "price_brl"
+    },
+    "CAD": {
+        "id": "CAD",
+        "name": "Canadian Dollar",
+        "symbol": "$",
+        "node": "price_cad"
+    },
+    "CHF": {
+        "id": "CHF",
+        "name": "Swiss Franc",
+        "symbol": "CHF",
+        "node": "price_chf"
+    },
+    "CLP": {
+        "id": "CLP",
+        "name": "Chilean Peso",
+        "symbol": "$",
+        "node": "price_clp"
+    },
+    "CNY": {
+        "id": "CNY",
+        "name": "Chinese Yuan",
+        "symbol": "CN\u00a5",
+        "node": "price_cny"
+    },
+    "CZK": {
+        "id": "CZK",
+        "name": "Czech Republic Koruna",
+        "symbol": "K\u010d",
+        "node": "price_czk"
+    },
+    "DKK": {
+        "id": "DKK",
+        "name": "Danish Krone",
+        "symbol": "kr",
+        "node": "price_dkk"
+    },
+    "EUR": {
+        "id": "EUR",
+        "name": "Euro",
+        "symbol": "\u20ac",
+        "node": "price_eur"
+    },
+    "GBP": {
+        "id": "GBP",
+        "name": "British Pound Sterling",
+        "symbol": "\u00a3",
+        "node": "price_gbp"
+    },
+    "HKD": {
+        "id": "HKD",
+        "name": "Hong Kong Dollar",
+        "symbol": "$",
+        "node": "price_hkd"
+    },
+    "HUF": {
+        "id": "HUF",
+        "name": "Hungarian Forint",
+        "symbol": "Ft",
+        "node": "price_huf"
+    },
+    "IDR": {
+        "id": "IDR",
+        "name": "Indonesian Rupiah",
+        "symbol": "Rp",
+        "node": "price_idr"
+    },
+    "ILS": {
+        "id": "ILS",
+        "name": "Israeli New Sheqel",
+        "symbol": "\u20aa",
+        "node": "price_ils"
+    },
+    "INR": {
+        "id": "INR",
+        "name": "Indian Rupee",
+        "symbol": "₹",
+        "node": "price_inr"
+    },
+    "JPY": {
+        "id": "JPY",
+        "name": "Japanese Yen",
+        "symbol": "\uffe5",
+        "node": "price_jpy"
+    },
+    "KRW": {
+        "id": "KRW",
+        "name": "South Korean Won",
+        "symbol": "\u20a9",
+        "node": "price_krw"
+    },
+    "MXN": {
+        "id": "MXN",
+        "name": "Mexican Peso",
+        "symbol": "$",
+        "node": "price_mxn"
+    },
+    "MYR": {
+        "id": "MYR",
+        "name": "Malaysian Ringgit",
+        "symbol": "RM",
+        "node": "price_myr"
+    },
+    "NOK": {
+        "id": "NOK",
+        "name": "Norwegian Krone",
+        "symbol": "kr",
+        "node": "price_nok"
+    },
+    "NZD": {
+        "id": "NZD",
+        "name": "New Zealand Dollar",
+        "symbol": "$",
+        "node": "price_nzd"
+    },
+    "PHP": {
+        "id": "PHP",
+        "name": "Philippine Peso",
+        "symbol": "\u20b1",
+        "node": "price_php"
+    },
+    "PKR": {
+        "id": "PKR",
+        "name": "Pakistani Rupee",
+        "symbol": "\u20a8",
+        "node": "price_pkr"
+    },
+    "PLN": {
+        "id": "PLN",
+        "name": "Polish Zloty",
+        "symbol": "z\u0142",
+        "node": "price_pln"
+    },
+    "RUB": {
+        "id": "RUB",
+        "name": "Russian Ruble",
+        "symbol": "\u0440\u0443\u0431.",
+        "node": "price_rub"
+    },
+    "SEK": {
+        "id": "SEK",
+        "name": "Swedish Krona",
+        "symbol": "kr",
+        "node": "price_sek"
+    },
+    "SGD": {
+        "id": "SGD",
+        "name": "Singapore Dollar",
+        "symbol": "$",
+        "node": "price_sgd"
+    },
+    "THB": {
+        "id": "THB",
+        "name": "Thai Baht",
+        "symbol": "\u0e3f",
+        "node": "price_thb"
+    },
+    "TRY": {
+        "id": "TRY",
+        "name": "Turkish Lira",
+        "symbol": "TL",
+        "node": "price_try"
+    },
+    "TWD": {
+        "id": "TWD",
+        "name": "New Taiwan Dollar",
+        "symbol": "NT$",
+        "node": "price_twd"
+    },
+    "USD": {
+        "id": "USD",
+        "name": "US Dollars",
+        "symbol": "$",
+        "node": "price_usd"
+    },
+    "ZAR": {
+        "id": "ZAR",
+        "name": "South African Rand",
+        "symbol": "R",
+        "node": "price_zar"
+    }
+}
