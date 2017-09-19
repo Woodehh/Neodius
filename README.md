@@ -1,7 +1,13 @@
-<img src="Artwork/Logos/Logo.png" width="300" alt="Wallet view">
+<img src="Artwork/Logos/PNGs/Logo-Github.png" width="400" alt="Wallet view">
 
-![](https://img.shields.io/badge/Updated-September%2019,%202017-lightgrey.svg)
+
 # Neodius
+![](https://img.shields.io/badge/Updated-September%2019,%202017-lightgrey.svg)
+[![License](http://img.shields.io/badge/license-MIT-green.svg?style=flat)](LICENSE)
+[![GitHub issues](https://img.shields.io/github/issues/ITSVision/Neodius.svg	)]()
+[![GitHub pull requests](https://img.shields.io/github/issues-pr/ITSVision/Neodius.svg)]()
+[![GitHub contributors](https://img.shields.io/github/contributors/ITSVision/Neodius.svg)]()
+
 Neodius is a NEO blockchain tool. Neodius let's you easily view your balance in various ways based on your address. A must have for every NEO fan. Ofcourse poured in a pretty-and-easy iOS interface. It has been submitted to the Apple AppStore. So I'm waiting for approval. Once it's approved, the link will be available here.
 
 <img src="Artwork/Screenshots/iPhone/Screenshot-wallet.png" width="200" alt="Wallet view"> <img src="Artwork/Screenshots/iPhone/Screenshot-copy-wallet.png" width="200" alt="Settings view"> <img src="Artwork/Screenshots/iPhone/Screenshot-settings.png" width="200" alt="Settings view"> <img src="Artwork/Screenshots/iPhone/Screenshot-menu.png" width="200" alt="Menu view"> 
@@ -61,3 +67,14 @@ You can always send me some cryptos
 * NEO: `AJYoERJ6VFGVPq8nKjUvnfBLpYqkG39j4x`
 * BTC: `1Es9qssB7275Wf9x9A21aPf8xf9wYomfv1`
 * ETH: `0x442a0092725a7c6c17938605c76c4c1d2b8bb4c1`
+
+## Authors
+The authors working on this project:
+
+* **Benjamin de Bos**
+
+See also the list of [contributors](contributors) who participated in this project.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details. Enjoy the code and see you in Zion.
