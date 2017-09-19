@@ -243,7 +243,7 @@
     if (section == 0)
         return [storedWallets count]+1;
     else if (section == 1)
-        return 2;
+        return 3;
     else
         return 3;
 }
