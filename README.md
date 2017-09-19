@@ -44,7 +44,7 @@ As stated above; it's currently being approved for the App Store where you'll so
 ### Building it yourself
 So you want to build it to your iDevice yourself? We have a beautiful markdown for that: [Check this out](BUILD.md).
 
-##Credit where credits due
+## Credit where credits due
 We're making use of the API's of the awesome City of Zion developers community. These guys are making everyones NEO life a lot better. Check them out at [www.cityofzion.io]() and don't for get to donate some NEO at: `Adr3XjZ5QDzVJrWvzmsTTchpLRRGSzgS5A`.
 
 ## I want to help!
