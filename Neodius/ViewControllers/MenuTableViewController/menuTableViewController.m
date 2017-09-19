@@ -215,7 +215,7 @@
     [headerview addSubview:menuLogo];
     
     UITapGestureRecognizer *t = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(resetKeychain)];
-    [t setNumberOfTapsRequired:5];
+    [t setNumberOfTapsRequired:20];
     [headerview addGestureRecognizer:t];
     
     return headerview;
