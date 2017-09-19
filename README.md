@@ -36,12 +36,12 @@ Features currently are:
 * More to come! :)
 
 ## Looks awesome, but how can i use it.
-######The AppStore
+###### The AppStore
 As stated above; it's currently being approved for the App Store where you'll soon be able to download it for free. However; since i believe in the power of open-source; it's here so everyone can use, edit and contribute to it.
 
-**I will post the AppStore link here and on Reddit when it's approved**
+**I will post the AppStore link here and on [Reddit](https://www.reddit.com/r/NEO/) when it's approved!**
 
-######Building it yourself
+###### Building it yourself
 So you want to build it to your iDevice yourself? We have a beautiful markdown for that: [Check this out](BUILD.md).
 
 ##Credit where credits due
