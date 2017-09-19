@@ -212,7 +212,7 @@ static NeodiusDataSource *sharedData = nil;
 -(void)deleteAllKeysForSecClass:(CFTypeRef)secClass {
     NSMutableDictionary* dict = [NSMutableDictionary dictionary];
     [dict setObject:(__bridge id)secClass forKey:(__bridge id)kSecClass];
-    OSStatus result = SecItemDelete((__bridge CFDictionaryRef) dict);
+    OSStatus result __unused = SecItemDelete((__bridge CFDictionaryRef) dict) ;
     NSAssert(result == noErr || result == errSecItemNotFound, @"Error deleting keychain data (%d)", (int)result);
 }
 
