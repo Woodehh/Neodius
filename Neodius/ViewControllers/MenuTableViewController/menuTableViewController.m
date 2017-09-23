@@ -10,6 +10,7 @@
 #import "NeodiusDataSource.h"
 #import "walletViewTableViewController.h"
 #import "settingsTableViewController.h"
+#import "marketInfoTableViewController.h"
 
 @implementation menuTableViewController
 
@@ -51,12 +52,15 @@
         }
     } else if (indexPath.section == 1) {
         if (indexPath.row == 0) {
+            cell.textLabel.text = NSLocalizedString(@"Market information",nil);
+            icon = @"fa-line-chart";
+        } else if (indexPath.row == 1) {
             cell.textLabel.text = NSLocalizedString(@"Quick address lookup",nil);
             icon = @"fa-eye";
-        }else if (indexPath.row == 1) {
+        }else if (indexPath.row == 2) {
             cell.textLabel.text = NSLocalizedString(@"Settings",nil);
             icon = @"fa-cog";
-        } else if (indexPath.row == 2) {
+        } else if (indexPath.row == 3) {
             cell.textLabel.text = NSLocalizedString(@"About",nil);
             icon = @"fa-question-circle-o";
         }
@@ -124,6 +128,10 @@
         UIViewController *menuItem;
         
         if (indexPath.row == 0) {
+        menuItem = [[marketInfoTableViewController alloc] initWithStyle:UITableViewStyleGrouped];
+        self.viewDeckController.centerViewController = [[UINavigationController alloc] initWithRootViewController:menuItem];
+
+        } else if (indexPath.row == 1) {
             
             close = NO;
             
@@ -146,10 +154,11 @@
             };
             [av show];
             
-        } else if (indexPath.row == 1) {
+        } else if (indexPath.row == 2) {
             menuItem = [[settingsTableViewController alloc] initWithStyle:UITableViewStyleGrouped];
             self.viewDeckController.centerViewController = [[UINavigationController alloc] initWithRootViewController:menuItem];
-        } else if (indexPath.row == 2) {
+            
+        } else if (indexPath.row == 3) {
             RFAboutViewController* menuItem = [[RFAboutViewController alloc] initWithAppName:@"NEODIUS"
                                                            appVersion:nil
                                                              appBuild:nil
@@ -243,7 +252,7 @@
     if (section == 0)
         return [storedWallets count]+1;
     else if (section == 1)
-        return 3;
+        return 4;
     else
         return 3;
 }

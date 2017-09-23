@@ -10,6 +10,7 @@
 #import "walletViewTableViewController.h"
 #import "settingsTableViewController.h"
 #import "NeodiusDataSource.h"
+#import "marketInfoTableViewController.h"
 
 @implementation AppDelegate
 @synthesize window = _window;
@@ -30,7 +31,7 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
    
     
-    UIViewController *centerController = [[walletViewTableViewController alloc] initWithStyle:UITableViewStyleGrouped];
+    UIViewController *centerController = [[marketInfoTableViewController alloc] initWithStyle:UITableViewStyleGrouped];
     UIViewController *menuController = [[menuTableViewController alloc] initWithStyle:UITableViewStyleGrouped];
     
     //create navigation controller for center

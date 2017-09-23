@@ -56,4 +56,6 @@
 -(void)resetKeychain;
 -(NSString*)switchIntervalLabel:(NSString*)labelValue andType:(NSString*)labelType;
 
+-(NSString*)formatNumber:(NSNumber*)number ofType:(int)type withFiatSymbol:(NSString*)fiatSymbol;
+
 @end

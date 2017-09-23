@@ -1,0 +1,1 @@
+../../../MSSimpleGauge/SimpleGauge/Gauges/MSAnnotatedGauge.h

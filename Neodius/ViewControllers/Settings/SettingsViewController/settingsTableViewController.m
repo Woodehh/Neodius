@@ -26,7 +26,6 @@
                                                                             action:@selector(openLeftSide)];
 }
 
-
 -(void)viewWillAppear:(BOOL)animated {
     baseFiat        = [[[NeodiusDataSource sharedData] getFiatData] objectForKey:[[NeodiusDataSource sharedData] getBaseFiat]];
     baseCrypto      = [[[NeodiusDataSource sharedData] getCryptoData] objectForKey:[[NeodiusDataSource sharedData] getBaseCrypto]];

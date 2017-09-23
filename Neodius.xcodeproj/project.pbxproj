@@ -20,6 +20,7 @@
 		E22FEECD1F7109AA000922C4 /* NEOButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E22FEEC91F7109AA000922C4 /* NEOButton.m */; };
 		E22FEECE1F7109AA000922C4 /* neodiusDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = E22FEECC1F7109AA000922C4 /* neodiusDataSource.m */; };
 		E22FEED31F7109E2000922C4 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E22FEED01F7109E2000922C4 /* Localizable.strings */; };
+		E26176C31F7667AD00DE6098 /* marketInfoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E26176C21F7667AD00DE6098 /* marketInfoTableViewController.m */; };
 		E2AD85A11F6FED9A00D03087 /* Acknowledgements.plist in Resources */ = {isa = PBXBuildFile; fileRef = E2AD85A01F6FED9A00D03087 /* Acknowledgements.plist */; };
 		E2C20A8B1F6DCED700C2F8AB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C20A6E1F6DCED700C2F8AB /* AppDelegate.m */; };
 		E2C20A8C1F6DCED700C2F8AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2C20A701F6DCED700C2F8AB /* Assets.xcassets */; };
@@ -55,6 +56,8 @@
 		E22FEECC1F7109AA000922C4 /* neodiusDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = neodiusDataSource.m; sourceTree = "<group>"; };
 		E22FEED11F7109E2000922C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
 		E22FEED21F7109E2000922C4 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E26176C11F7667AD00DE6098 /* marketInfoTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = marketInfoTableViewController.h; path = "neodius/ViewControllers/New Group/marketInfoTableViewController.h"; sourceTree = SOURCE_ROOT; };
+		E26176C21F7667AD00DE6098 /* marketInfoTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = marketInfoTableViewController.m; path = "neodius/ViewControllers/New Group/marketInfoTableViewController.m"; sourceTree = SOURCE_ROOT; };
 		E2AD85A01F6FED9A00D03087 /* Acknowledgements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Acknowledgements.plist; path = neodius/Acknowledgements.plist; sourceTree = SOURCE_ROOT; };
 		E2C20A031F6D094500C2F8AB /* Neodius.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Neodius.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2C20A381F6DBE7700C2F8AB /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -106,6 +109,7 @@
 				E22FEE8E1F7006C4000922C4 /* WalletViewTableViewController */,
 				E22FEE811F7006C4000922C4 /* MenuTableViewController */,
 				E22FEE841F7006C4000922C4 /* SettingsControllers */,
+				E26176C51F7667BD00DE6098 /* MarketInfoTableViewController */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -220,6 +224,16 @@
 			path = "neodius/Supporting Files/LocalizedData";
 			sourceTree = SOURCE_ROOT;
 		};
+		E26176C51F7667BD00DE6098 /* MarketInfoTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E26176C11F7667AD00DE6098 /* marketInfoTableViewController.h */,
+				E26176C21F7667AD00DE6098 /* marketInfoTableViewController.m */,
+			);
+			name = MarketInfoTableViewController;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
 		E2C209FA1F6D094500C2F8AB = {
 			isa = PBXGroup;
 			children = (
@@ -312,7 +326,7 @@
 		E2C209FB1F6D094500C2F8AB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = "ITS-VIsion";
 				TargetAttributes = {
 					E2C20A021F6D094500C2F8AB = {
@@ -434,6 +448,7 @@
 				E22FEE951F7006C4000922C4 /* walletViewTableViewController.m in Sources */,
 				E22FEE921F7006C4000922C4 /* selectionSettingsTableViewController.m in Sources */,
 				E2C20A8B1F6DCED700C2F8AB /* AppDelegate.m in Sources */,
+				E26176C31F7667AD00DE6098 /* marketInfoTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -463,7 +478,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -471,7 +488,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -513,7 +534,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -521,7 +544,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;

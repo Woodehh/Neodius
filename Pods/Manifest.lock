@@ -20,6 +20,7 @@ PODS:
   - KLCPopup (1.0)
   - LTHPasscodeViewController (3.8.10)
   - MBProgressHUD (1.0.0)
+  - MSSimpleGauge (0.5)
   - QrcodeBuilder (1.0.1)
   - Reachability (3.2)
   - RFAboutView (1.0.4)
@@ -38,6 +39,7 @@ DEPENDENCIES:
   - KLCPopup
   - LTHPasscodeViewController
   - MBProgressHUD
+  - MSSimpleGauge
   - QrcodeBuilder
   - Reachability
   - RFAboutView (from `https://github.com/ITSVision/RFAboutView.git`)
@@ -70,6 +72,7 @@ SPEC CHECKSUMS:
   KLCPopup: 76c5a19227977f1e53d85236f9ef42257c168d98
   LTHPasscodeViewController: 17b0d49903dc1db6d35b95ccc4ecc4253791601f
   MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  MSSimpleGauge: e5f7bf2561f1338055fcd321c5469b0d6c689d14
   QrcodeBuilder: 542404d402bee839245eddb16c23b749fd15b5a4
   Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
   RFAboutView: d775536bf571a2c61baea9974a027371fe7fa65c
@@ -80,6 +83,6 @@ SPEC CHECKSUMS:
   ViewDeck: 942d90dd23c9f97cc8038be352255378167edcca
   YCFirstTime: 7daef261357bd74b4badd85113e2adb309d69900
 
-PODFILE CHECKSUM: 40ec3246c7fcc65a0993a8305d74f0fa5ecc339d
+PODFILE CHECKSUM: 10f5456bdf69e8db1adccec6af32bbec952bdfcb
 
 COCOAPODS: 1.2.0

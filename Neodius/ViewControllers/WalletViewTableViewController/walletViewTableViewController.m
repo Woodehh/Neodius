@@ -305,34 +305,7 @@
     return customTableHeader;
 }
 
--(NSString*)formatNumber:(NSNumber*)number ofType:(int)type {
-    NSNumberFormatter *f = [[NSNumberFormatter alloc] init];
-    
-    if (type == 0) {
-        f.maximumFractionDigits = 0;
-        
-    } else if (type == 1) {
-        f.numberStyle = NSNumberFormatterCurrencyStyle;
-        f.maximumFractionDigits = 5;
-        f.minimumFractionDigits = 0;
-        f.currencySymbol = @"";
-        
-    } else if (type == 2) {
-        f.locale = [NSLocale currentLocale];
-        f.numberStyle = NSNumberFormatterCurrencyStyle;
-        f.currencySymbol = [NSString stringWithFormat:@"%@",[baseFiat objectForKey:@"symbol"]];
-        f.usesGroupingSeparator = YES;
-    
-    } else if (type == 3) {
-        f.numberStyle = NSNumberFormatterCurrencyStyle;
-        f.maximumFractionDigits = 8;
-        f.minimumFractionDigits = 0;
-        f.currencySymbol = @"";
-        
-    }
-    
-    return [f stringFromNumber:number];
-}
+
 
 -(UILabel*)formatValueField:(UILabel*)s withLabel:(NSString*)lbl andValue:(NSNumber*)value andType:(int)type {
     //set attributes
@@ -350,9 +323,10 @@
     NSMutableAttributedString *titleString = [[NSMutableAttributedString alloc] initWithString:[NSString stringWithFormat:@"%@\n",lbl] attributes: titleDict];
     //value dictionaries
     NSDictionary *valueDict = [NSDictionary dictionaryWithObject:valueFont forKey:NSFontAttributeName];
-    NSMutableAttributedString *valueString = [[NSMutableAttributedString alloc] initWithString:[[self formatNumber:value ofType:type] stringByTrimmingCharactersInSet:
+    NSMutableAttributedString *valueString = [[NSMutableAttributedString alloc] 
+                                              initWithString:[[[NeodiusDataSource sharedData] formatNumber:value ofType:type withFiatSymbol:[baseFiat objectForKey:@"symbol"]] stringByTrimmingCharactersInSet:
                                               [NSCharacterSet whitespaceCharacterSet]] attributes: valueDict];
-    
+
     //append the value to the title
     [titleString appendAttributedString:valueString];
     
@@ -431,7 +405,7 @@
         
         cell.textLabel.textAlignment = NSTextAlignmentLeft;
         cell.textLabel.font = [UIFont fontWithName:@"HelveticaNeue-Light" size:16];
-        cell.textLabel.text = [NSString stringWithFormat:@"%@: %@",trxType, [self formatNumber:trxAmount ofType:3]];
+        cell.textLabel.text = [NSString stringWithFormat:@"%@: %@",trxType, [[NeodiusDataSource sharedData] formatNumber:trxAmount ofType:3 withFiatSymbol:@""]];
         cell.detailTextLabel.text = txid;
         cell.detailTextLabel.font = [UIFont fontWithName:@"HelveticaNeue-Light" size:14];
     }

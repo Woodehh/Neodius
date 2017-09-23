@@ -232,6 +232,36 @@ static NeodiusDataSource *sharedData = nil;
 }
 
 
+//number formatter
+-(NSString*)formatNumber:(NSNumber*)number ofType:(int)type withFiatSymbol:(NSString*)fiatSymbol {
+    NSNumberFormatter *f = [[NSNumberFormatter alloc] init];
+    
+    if (type == 0) {
+        f.maximumFractionDigits = 0;
+        
+    } else if (type == 1) {
+        f.numberStyle = NSNumberFormatterCurrencyStyle;
+        f.maximumFractionDigits = 5;
+        f.minimumFractionDigits = 0;
+        f.currencySymbol = @"";
+        
+    } else if (type == 2) {
+        f.locale = [NSLocale currentLocale];
+        f.numberStyle = NSNumberFormatterCurrencyStyle;
+        f.currencySymbol = fiatSymbol;
+        f.usesGroupingSeparator = YES;
+        
+    } else if (type == 3) {
+        f.numberStyle = NSNumberFormatterCurrencyStyle;
+        f.maximumFractionDigits = 8;
+        f.minimumFractionDigits = 0;
+        f.currencySymbol = @"";
+        
+    }
+    
+    return [f stringFromNumber:number];
+}
+
 
 
 + (id)allocWithZone:(NSZone *)zone {
