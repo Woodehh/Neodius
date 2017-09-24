@@ -134,7 +134,7 @@
                                progress:nil
                                 success:^(NSURLSessionTask *task, id responseObject) {
                                     
-                                    NSString *fiatValue = [[responseObject objectAtIndex:0] objectForKey:[baseFiat objectForKey:@"node"]];
+                                    NSString *fiatValue = [[responseObject objectAtIndex:0] objectForKey:[baseFiat objectForKey:@"node_price"]];
                                     NSNumber *totalFiat = @([fiatValue floatValue] * [neoAmount floatValue]);
                                     [self formatValueField:fiatLabel withLabel:[[baseFiat objectForKey:@"name"] uppercaseString] andValue:totalFiat andType:2];
                                 } failure:^(NSURLSessionTask *operation, NSError *error) {

@@ -3,192 +3,256 @@
         "id": "AUD",
         "name": "Australian Dollar",
         "symbol": "$",
-        "node": "price_aud"
+        "node_price": "price_aud",
+        "node_volume": "24h_volume_aud",
+        "node_cap": "market_cap_aud"
     },
     "BRL": {
         "id": "BRL",
         "name": "Brazilian Real",
         "symbol": "R$",
-        "node": "price_brl"
+        "node_price": "price_brl",
+        "node_volume": "24h_volume_brl",
+        "node_cap": "market_cap_brl"
     },
     "CAD": {
         "id": "CAD",
         "name": "Canadian Dollar",
         "symbol": "$",
-        "node": "price_cad"
+        "node_price": "price_cad",
+        "node_volume": "24h_volume_cad",
+        "node_cap": "market_cap_cad"
     },
     "CHF": {
         "id": "CHF",
         "name": "Swiss Franc",
         "symbol": "CHF",
-        "node": "price_chf"
+        "node_price": "price_chf",
+        "node_volume": "24h_volume_chf",
+        "node_cap": "market_cap_chf"
     },
     "CLP": {
         "id": "CLP",
         "name": "Chilean Peso",
         "symbol": "$",
-        "node": "price_clp"
+        "node_price": "price_clp",
+        "node_volume": "24h_volume_clp",
+        "node_cap": "market_cap_clp"
     },
     "CNY": {
         "id": "CNY",
         "name": "Chinese Yuan",
         "symbol": "CN\u00a5",
-        "node": "price_cny"
+        "node_price": "price_cny",
+        "node_volume": "24h_volume_cny",
+        "node_cap": "market_cap_cny"
     },
     "CZK": {
         "id": "CZK",
         "name": "Czech Republic Koruna",
         "symbol": "K\u010d",
-        "node": "price_czk"
+        "node_price": "price_czk",
+        "node_volume": "24h_volume_czk",
+        "node_cap": "market_cap_czk"
     },
     "DKK": {
         "id": "DKK",
         "name": "Danish Krone",
         "symbol": "kr",
-        "node": "price_dkk"
+        "node_price": "price_dkk",
+        "node_volume": "24h_volume_dkk",
+        "node_cap": "market_cap_dkk"
     },
     "EUR": {
         "id": "EUR",
         "name": "Euro",
         "symbol": "\u20ac",
-        "node": "price_eur"
+        "node_price": "price_eur",
+        "node_volume": "24h_volume_eur",
+        "node_cap": "market_cap_eur"
     },
     "GBP": {
         "id": "GBP",
         "name": "British Pound Sterling",
         "symbol": "\u00a3",
-        "node": "price_gbp"
+        "node_price": "price_gbp",
+        "node_volume": "24h_volume_gbp",
+        "node_cap": "market_cap_gbp"
     },
     "HKD": {
         "id": "HKD",
         "name": "Hong Kong Dollar",
         "symbol": "$",
-        "node": "price_hkd"
+        "node_price": "price_hkd",
+        "node_volume": "24h_volume_hkd",
+        "node_cap": "market_cap_hkd"
     },
     "HUF": {
         "id": "HUF",
         "name": "Hungarian Forint",
         "symbol": "Ft",
-        "node": "price_huf"
+        "node_price": "price_huf",
+        "node_volume": "24h_volume_huf",
+        "node_cap": "market_cap_huf"
     },
     "IDR": {
         "id": "IDR",
         "name": "Indonesian Rupiah",
         "symbol": "Rp",
-        "node": "price_idr"
+        "node_price": "price_idr",
+        "node_volume": "24h_volume_idr",
+        "node_cap": "market_cap_idr"
     },
     "ILS": {
         "id": "ILS",
         "name": "Israeli New Sheqel",
         "symbol": "\u20aa",
-        "node": "price_ils"
+        "node_price": "price_ils",
+        "node_volume": "24h_volume_ils",
+        "node_cap": "market_cap_ils"
     },
     "INR": {
         "id": "INR",
         "name": "Indian Rupee",
-        "symbol": "₹",
-        "node": "price_inr"
+        "symbol": "\u20b9",
+        "node_price": "price_inr",
+        "node_volume": "24h_volume_inr",
+        "node_cap": "market_cap_inr"
     },
     "JPY": {
         "id": "JPY",
         "name": "Japanese Yen",
         "symbol": "\uffe5",
-        "node": "price_jpy"
+        "node_price": "price_jpy",
+        "node_volume": "24h_volume_jpy",
+        "node_cap": "market_cap_jpy"
     },
     "KRW": {
         "id": "KRW",
         "name": "South Korean Won",
         "symbol": "\u20a9",
-        "node": "price_krw"
+        "node_price": "price_krw",
+        "node_volume": "24h_volume_krw",
+        "node_cap": "market_cap_krw"
     },
     "MXN": {
         "id": "MXN",
         "name": "Mexican Peso",
         "symbol": "$",
-        "node": "price_mxn"
+        "node_price": "price_mxn",
+        "node_volume": "24h_volume_mxn",
+        "node_cap": "market_cap_mxn"
     },
     "MYR": {
         "id": "MYR",
         "name": "Malaysian Ringgit",
         "symbol": "RM",
-        "node": "price_myr"
+        "node_price": "price_myr",
+        "node_volume": "24h_volume_myr",
+        "node_cap": "market_cap_myr"
     },
     "NOK": {
         "id": "NOK",
         "name": "Norwegian Krone",
         "symbol": "kr",
-        "node": "price_nok"
+        "node_price": "price_nok",
+        "node_volume": "24h_volume_nok",
+        "node_cap": "market_cap_nok"
     },
     "NZD": {
         "id": "NZD",
         "name": "New Zealand Dollar",
         "symbol": "$",
-        "node": "price_nzd"
+        "node_price": "price_nzd",
+        "node_volume": "24h_volume_nzd",
+        "node_cap": "market_cap_nzd"
     },
     "PHP": {
         "id": "PHP",
         "name": "Philippine Peso",
         "symbol": "\u20b1",
-        "node": "price_php"
+        "node_price": "price_php",
+        "node_volume": "24h_volume_php",
+        "node_cap": "market_cap_php"
     },
     "PKR": {
         "id": "PKR",
         "name": "Pakistani Rupee",
         "symbol": "\u20a8",
-        "node": "price_pkr"
+        "node_price": "price_pkr",
+        "node_volume": "24h_volume_pkr",
+        "node_cap": "market_cap_pkr"
     },
     "PLN": {
         "id": "PLN",
         "name": "Polish Zloty",
         "symbol": "z\u0142",
-        "node": "price_pln"
+        "node_price": "price_pln",
+        "node_volume": "24h_volume_pln",
+        "node_cap": "market_cap_pln"
     },
     "RUB": {
         "id": "RUB",
         "name": "Russian Ruble",
         "symbol": "\u0440\u0443\u0431.",
-        "node": "price_rub"
+        "node_price": "price_rub",
+        "node_volume": "24h_volume_rub",
+        "node_cap": "market_cap_rub"
     },
     "SEK": {
         "id": "SEK",
         "name": "Swedish Krona",
         "symbol": "kr",
-        "node": "price_sek"
+        "node_price": "price_sek",
+        "node_volume": "24h_volume_sek",
+        "node_cap": "market_cap_sek"
     },
     "SGD": {
         "id": "SGD",
         "name": "Singapore Dollar",
         "symbol": "$",
-        "node": "price_sgd"
+        "node_price": "price_sgd",
+        "node_volume": "24h_volume_sgd",
+        "node_cap": "market_cap_sgd"
     },
     "THB": {
         "id": "THB",
         "name": "Thai Baht",
         "symbol": "\u0e3f",
-        "node": "price_thb"
+        "node_price": "price_thb",
+        "node_volume": "24h_volume_thb",
+        "node_cap": "market_cap_thb"
     },
     "TRY": {
         "id": "TRY",
         "name": "Turkish Lira",
         "symbol": "TL",
-        "node": "price_try"
+        "node_price": "price_try",
+        "node_volume": "24h_volume_try",
+        "node_cap": "market_cap_try"
     },
     "TWD": {
         "id": "TWD",
         "name": "New Taiwan Dollar",
         "symbol": "NT$",
-        "node": "price_twd"
+        "node_price": "price_twd",
+        "node_volume": "24h_volume_twd",
+        "node_cap": "market_cap_twd"
     },
     "USD": {
         "id": "USD",
         "name": "US Dollars",
         "symbol": "$",
-        "node": "price_usd"
+        "node_price": "price_usd",
+        "node_volume": "24h_volume_usd",
+        "node_cap": "market_cap_usd"
     },
     "ZAR": {
         "id": "ZAR",
         "name": "South African Rand",
         "symbol": "R",
-        "node": "price_zar"
+        "node_price": "price_zar",
+        "node_volume": "24h_volume_zar",
+        "node_cap": "market_cap_zar"
     }
 }
