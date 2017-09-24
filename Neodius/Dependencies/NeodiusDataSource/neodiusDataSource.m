@@ -254,7 +254,7 @@ static NeodiusDataSource *sharedData = nil;
     } else if (type == 3) {
         f.numberStyle = NSNumberFormatterCurrencyStyle;
         f.maximumFractionDigits = 8;
-        f.minimumFractionDigits = 0;
+        f.minimumFractionDigits = 8;
         f.currencySymbol = @"";
         
     }
