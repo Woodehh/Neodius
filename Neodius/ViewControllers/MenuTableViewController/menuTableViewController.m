@@ -77,11 +77,9 @@
         } else if (indexPath.row == 2) {
             cell.textLabel.text = NSLocalizedString(@"Visit GAS on Poloniex",nil);
             icon = @"fa-bus";
-
         }
     }
-    
-    
+
     cell.imageView.image = [[NeodiusDataSource sharedData] tableIconPositive:icon];
     cell.imageView.highlightedImage = [[NeodiusDataSource sharedData] tableIconNegative:icon];
 
