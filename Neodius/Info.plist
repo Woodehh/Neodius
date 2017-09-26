@@ -19,19 +19,7 @@
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
 	<key>CFBundleVersion</key>
-<<<<<<< HEAD
-	<string>559</string>
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-	<string>853</string>
-=======
-	<string>846</string>
->>>>>>> ba114b815bacd60f33fbe3e3ab93436501024e9d
-=======
-	<string>547</string>
->>>>>>> parent of c872a38... Version 1.1
->>>>>>> 15d6c1e1e9d1e2207c8856a69f978abf4c4169ad
+	<string>854</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSAppTransportSecurity</key>
