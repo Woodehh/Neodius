@@ -24,7 +24,10 @@
 		E2B3ADD11F77D4A700713798 /* marketInfoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2B3ADD01F77D3CC00713798 /* marketInfoTableViewController.m */; };
 		E2B3ADE61F7A51AF00713798 /* marketViewCustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E2B3ADE51F7A518400713798 /* marketViewCustomTableViewCell.m */; };
 		E2B3ADE71F7A51B700713798 /* neodiusDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = E2B3ADE21F7A50FB00713798 /* neodiusDataSource.m */; };
+<<<<<<< HEAD
 		E2B3ADE81F7A564C00713798 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2B3ADDB1F79BB7500713798 /* Assets.xcassets */; };
+=======
+>>>>>>> ba114b815bacd60f33fbe3e3ab93436501024e9d
 		E2C20A8B1F6DCED700C2F8AB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C20A6E1F6DCED700C2F8AB /* AppDelegate.m */; };
 		E2C20A941F6DCED700C2F8AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C20A7D1F6DCED700C2F8AB /* main.m */; };
 		E2C20A9A1F6DDF5C00C2F8AB /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2C20A991F6DDF5C00C2F8AB /* LocalAuthentication.framework */; };

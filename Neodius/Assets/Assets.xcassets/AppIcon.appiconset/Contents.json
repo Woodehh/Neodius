@@ -109,9 +109,14 @@
       "scale" : "2x"
     },
     {
+<<<<<<< HEAD
       "size" : "1024x1024",
       "idiom" : "ios-marketing",
       "filename" : "App-icon-non-transparant.png",
+=======
+      "idiom" : "ios-marketing",
+      "size" : "1024x1024",
+>>>>>>> ba114b815bacd60f33fbe3e3ab93436501024e9d
       "scale" : "1x"
     }
   ],
