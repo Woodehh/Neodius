@@ -114,7 +114,7 @@ static NeodiusDataSource *sharedData = nil;
 
 -(void)updateWalletAtIndex:(NSUInteger)index withName:(NSString*)name andAddress:(NSString*)address {
     NSMutableArray *_tmpWallets = [[NSMutableArray alloc] initWithArray:[self getStoredWallets]];
-    [_tmpWallets replaceObjectAtIndex:index withObject:@{@"name":name,@"address":address}];
+    _tmpWallets[index] = @{@"name":name,@"address":address};
     [[NeodiusDataSource sharedData] setStoredWallets:(NSArray*)_tmpWallets];
 }
 
@@ -211,7 +211,7 @@ static NeodiusDataSource *sharedData = nil;
 
 -(void)deleteAllKeysForSecClass:(CFTypeRef)secClass {
     NSMutableDictionary* dict = [NSMutableDictionary dictionary];
-    [dict setObject:(__bridge id)secClass forKey:(__bridge id)kSecClass];
+    dict[(__bridge id)kSecClass] = (__bridge id)secClass;
     OSStatus result __unused = SecItemDelete((__bridge CFDictionaryRef) dict) ;
     NSAssert(result == noErr || result == errSecItemNotFound, @"Error deleting keychain data (%d)", (int)result);
 }
@@ -257,6 +257,11 @@ static NeodiusDataSource *sharedData = nil;
         f.minimumFractionDigits = 8;
         f.currencySymbol = @"";
         
+    } else if (type == 4) {
+        number = @(number.floatValue/100);
+        f.maximumFractionDigits = 2;
+        f.minimumFractionDigits = 2;
+        f.numberStyle = NSNumberFormatterPercentStyle;
     }
     
     return [f stringFromNumber:number];
@@ -265,15 +270,15 @@ static NeodiusDataSource *sharedData = nil;
 
 
 + (id)allocWithZone:(NSZone *)zone {
-	@synchronized(self)
-	{
-		if (sharedData == nil)
-		{
-			sharedData = [super allocWithZone:zone];
-			return sharedData;
-		}
-	}
-	return nil;
+    @synchronized(self)
+    {
+        if (sharedData == nil)
+        {
+            sharedData = [super allocWithZone:zone];
+            return sharedData;
+        }
+    }
+    return nil;
 }
 
 - (id)copyWithZone:(NSZone *)zone {

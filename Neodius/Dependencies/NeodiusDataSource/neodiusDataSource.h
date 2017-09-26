@@ -22,36 +22,29 @@
 
 -(NSString*)buildAPIUrlWithEndpoint:(NSString*)property;
 
--(NSDictionary*)getFiatData;
--(NSDictionary*)getCryptoData;
--(NSDictionary*)getIntervalData;
+@property (NS_NONATOMIC_IOSONLY, getter=getFiatData, readonly, copy) NSDictionary *fiatData;
+@property (NS_NONATOMIC_IOSONLY, getter=getCryptoData, readonly, copy) NSDictionary *cryptoData;
+@property (NS_NONATOMIC_IOSONLY, getter=getIntervalData, readonly, copy) NSDictionary *intervalData;
 
--(void)setBaseFiat:(NSString *)selectedBaseFiat;
--(void)setBaseCrypto:(NSString *)selectedBaseCrypto;
 
--(NSString*)getBaseFiat;
--(NSString*)getBaseCrypto;
--(NSArray*)getStoredWallets;
+@property (NS_NONATOMIC_IOSONLY, getter=getBaseFiat, copy) NSString *baseFiat;
+@property (NS_NONATOMIC_IOSONLY, getter=getBaseCrypto, copy) NSString *baseCrypto;
+@property (NS_NONATOMIC_IOSONLY, getter=getStoredWallets, copy) NSArray *storedWallets;
 
--(void)setStoredWallets:(NSArray*)wallets;
 -(void)addNewWallet:(NSString*)name withAddress:(NSString*)address;
 -(void)updateWalletAtIndex:(NSUInteger)index withName:(NSString*)name andAddress:(NSString*)address;
 
 
--(void)setShowTimer:(BOOL)showTimer;
--(BOOL)getShowTimer;
+@property (NS_NONATOMIC_IOSONLY, getter=getShowTimer) BOOL showTimer;
 
--(void)setShowMessages:(BOOL)showMessages;
--(BOOL)getShowMessages;
+@property (NS_NONATOMIC_IOSONLY, getter=getShowMessages) BOOL showMessages;
 
--(void)setUseMainNet:(BOOL)mainNet;
--(BOOL)getUseMainNet;
+@property (NS_NONATOMIC_IOSONLY, getter=getUseMainNet) BOOL useMainNet;
 
 -(UIImage*)tableIconNegative:(NSString*)icon;
 -(UIImage*)tableIconPositive:(NSString*)icon;
 
--(void)setRefreshInterval:(NSString *)refreshInterval;
--(NSString*)getRefreshInterval;
+@property (NS_NONATOMIC_IOSONLY, getter=getRefreshInterval, copy) NSString *refreshInterval;
 
 -(void)resetKeychain;
 -(NSString*)switchIntervalLabel:(NSString*)labelValue andType:(NSString*)labelType;

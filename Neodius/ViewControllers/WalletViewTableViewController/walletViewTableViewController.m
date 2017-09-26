@@ -15,9 +15,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    baseCrypto  = [[[NeodiusDataSource sharedData] getCryptoData] objectForKey:[[NeodiusDataSource sharedData] getBaseCrypto]];
-    baseFiat    = [[[NeodiusDataSource sharedData] getFiatData] objectForKey:[[NeodiusDataSource sharedData] getBaseFiat]];
-    refreshInterval = [NSNumber numberWithInt:[[[NeodiusDataSource sharedData] getRefreshInterval] intValue]];
+    baseCrypto  = [[NeodiusDataSource sharedData] getCryptoData][[[NeodiusDataSource sharedData] getBaseCrypto]];
+    baseFiat    = [[NeodiusDataSource sharedData] getFiatData][[[NeodiusDataSource sharedData] getBaseFiat]];
+    refreshInterval = @([[NeodiusDataSource sharedData] getRefreshInterval].intValue);
     transactions = @[];
 
     //show first time
@@ -51,14 +51,14 @@
     //setup header
     UIView *headerView = [self headerView];
     [self.tableView addParallaxWithView:headerView andHeight:headerView.frame.size.height];
-    [self.tableView.parallaxView setDelegate:self];
+    (self.tableView.parallaxView).delegate = self;
     
     if (_walletAddress == nil && _walletTitle == nil) {
         NSArray *storedWallets = [[NeodiusDataSource sharedData] getStoredWallets];
-        if ([storedWallets count] > 0) {
-            self.title = [[storedWallets objectAtIndex:0] objectForKey:@"name"];
-            _walletTitle = [[storedWallets objectAtIndex:0] objectForKey:@"title"];
-            _walletAddress = [[storedWallets objectAtIndex:0] objectForKey:@"address"];
+        if (storedWallets.count > 0) {
+            self.title = storedWallets[0][@"name"];
+            _walletTitle = storedWallets[0][@"title"];
+            _walletAddress = storedWallets[0][@"address"];
             [self loadData];
         } else {
             
@@ -112,31 +112,31 @@
              parameters:nil
                progress:nil
                 success:^(NSURLSessionTask *task, id responseObject) {
-                    neoAmount = [[responseObject objectForKey:@"NEO"] objectForKey:@"balance"];
-                    gasAmount = [[responseObject objectForKey:@"GAS"] objectForKey:@"balance"];
+                    neoAmount = responseObject[@"NEO"][@"balance"];
+                    gasAmount = responseObject[@"GAS"][@"balance"];
                     
                     [self formatValueField:neoLabel withLabel:@"NEO" andValue:neoAmount andType:0];
                     [self formatValueField:gasLabel withLabel:@"GAS" andValue:gasAmount andType:1];
 
-                    [networkManager GET:[NSString stringWithFormat:@"https://bittrex.com/api/v1.1/public/getmarketsummary?market=%@-NEO",[baseCrypto objectForKey:@"symbol"]]
+                    [networkManager GET:[NSString stringWithFormat:@"https://bittrex.com/api/v1.1/public/getmarketsummary?market=%@-NEO",baseCrypto[@"symbol"]]
                              parameters:nil
                                progress:nil
                                 success:^(NSURLSessionTask *task, id responseObject) {
-                                    cryptoValue = [[[responseObject objectForKey:@"result"] objectAtIndex:0] objectForKey:@"Bid"];
-                                    NSNumber *totalCrypto = @([cryptoValue floatValue] * [neoAmount floatValue]);
-                                    [self formatValueField:baseCryptoLabel withLabel:[baseCrypto objectForKey:@"symbol"] andValue:totalCrypto andType:3];
+                                    cryptoValue = responseObject[@"result"][0][@"Bid"];
+                                    NSNumber *totalCrypto = @(cryptoValue.floatValue * neoAmount.floatValue);
+                                    [self formatValueField:baseCryptoLabel withLabel:baseCrypto[@"symbol"] andValue:totalCrypto andType:3];
                                 } failure:^(NSURLSessionTask *operation, NSError *error) {
                                     NSLog(@"Error: %@", error);
                                 }];
                     
-                    [networkManager GET:[NSString stringWithFormat:@"https://api.coinmarketcap.com/v1/ticker/NEO/?convert=%@",[baseFiat objectForKey:@"id"]]
+                    [networkManager GET:[NSString stringWithFormat:@"https://api.coinmarketcap.com/v1/ticker/NEO/?convert=%@",baseFiat[@"id"]]
                              parameters:nil
                                progress:nil
                                 success:^(NSURLSessionTask *task, id responseObject) {
                                     
-                                    NSString *fiatValue = [[responseObject objectAtIndex:0] objectForKey:[baseFiat objectForKey:@"node_price"]];
-                                    NSNumber *totalFiat = @([fiatValue floatValue] * [neoAmount floatValue]);
-                                    [self formatValueField:fiatLabel withLabel:[[baseFiat objectForKey:@"name"] uppercaseString] andValue:totalFiat andType:2];
+                                    NSString *fiatValue = responseObject[0][baseFiat[@"node_price"]];
+                                    NSNumber *totalFiat = @(fiatValue.floatValue * neoAmount.floatValue);
+                                    [self formatValueField:fiatLabel withLabel:[baseFiat[@"name"] uppercaseString] andValue:totalFiat andType:2];
                                 } failure:^(NSURLSessionTask *operation, NSError *error) {
                                     NSLog(@"Error: %@", error);
                                 }];
@@ -152,8 +152,8 @@
                progress:nil
                 success:^(NSURLSessionTask *task, id responseObject) {
                     
-                    unclaimedGasAmount = [NSNumber numberWithFloat:([[responseObject objectForKey:@"total_unspent_claim"] floatValue]+[[responseObject objectForKey:@"total_claim"] floatValue])/100000000];
-                    [self formatValueField:unclaimedGasLabel withLabel:[NSLocalizedString(@"Unclaimed GAS",nil) uppercaseString] andValue:unclaimedGasAmount andType:3];
+                    unclaimedGasAmount = @(([responseObject[@"total_unspent_claim"] floatValue]+[responseObject[@"total_claim"] floatValue])/100000000);
+                    [self formatValueField:unclaimedGasLabel withLabel:NSLocalizedString(@"Unclaimed GAS",nil).uppercaseString andValue:unclaimedGasAmount andType:3];
 
                 } failure:^(NSURLSessionTask *operation, NSError *error) {
                     NSLog(@"Error: %@", error);
@@ -165,7 +165,7 @@
                progress:nil
                 success:^(NSURLSessionTask *task, id responseObject) {
                     
-                    transactions = [responseObject objectForKey:@"history"];
+                    transactions = responseObject[@"history"];
                     [self.tableView reloadData];
                     
                 } failure:^(NSURLSessionTask *operation, NSError *error) {
@@ -178,35 +178,35 @@
 
 -(void)showQrModal {
     
-    if ([transactions count]==0)
+    if (transactions.count==0)
         return;
     
     UIView *v = [[UIView alloc] initWithFrame:CGRectMake(0,0, 280, 420)];
     
     UILabel *title = [[UILabel alloc] initWithFrame:CGRectMake(20, 20, v.frame.size.width-40, 40)];
-    [title setTextAlignment:NSTextAlignmentCenter];
+    title.textAlignment = NSTextAlignmentCenter;
     [title setText:NSLocalizedString(@"Wallet address",nil)];
-    [title adjustsFontSizeToFitWidth];
-    [title setFont:[UIFont fontWithName:@"HelveticaNeue-Light" size:32]];
+    title.adjustsFontSizeToFitWidth = YES;
+    title.font = [UIFont fontWithName:@"HelveticaNeue-Light" size:32];
     [v addSubview:title];
 
     UILabel *address = [[UILabel alloc] initWithFrame:CGRectMake(20, 60, v.frame.size.width-40, 40)];
-    [address setTextAlignment:NSTextAlignmentCenter];
-    [address setText:_walletAddress];
-    [address adjustsFontSizeToFitWidth];
-    [address setFont:[UIFont fontWithName:@"HelveticaNeue-Light" size:16]];
-    [address setNumberOfLines:0];
+    address.textAlignment = NSTextAlignmentCenter;
+    address.text = _walletAddress;
+    address.adjustsFontSizeToFitWidth = YES;;
+    address.font = [UIFont fontWithName:@"HelveticaNeue-Light" size:16];
+    address.numberOfLines = 0;
     [v addSubview:address];
     
     
     UIImage *qrImage = [UIImage coro_createQRCodeWithText:@"AXCLjFvfi47R1sKLrebbRJnqWgbcsncfro" size:200];
     UIImageView *qrHolder = [[UIImageView alloc] initWithFrame:CGRectMake(20, 110, 240, 240)];
-    [qrHolder setFrame:CGRectMake(qrHolder.frame.origin.x,
+    qrHolder.frame = CGRectMake(qrHolder.frame.origin.x,
                                   qrHolder.frame.origin.y,
                                   qrHolder.frame.size.width,
-                                  qrHolder.frame.size.height)];
+                                  qrHolder.frame.size.height);
     
-    [qrHolder setImage:qrImage];
+    qrHolder.image = qrImage;
     
     NEOButton *btnCopy = [[NEOButton alloc]
                                 initWithFrame:CGRectMake(20,360,v.frame.size.width-40,40)
@@ -221,7 +221,7 @@
     [v addSubview:btnCopy];
     v.layer.cornerRadius = 10.0f;
     
-    [v setBackgroundColor:[UIColor whiteColor]];
+    v.backgroundColor = [UIColor whiteColor];
     
     walletPopup = [KLCPopup popupWithContentView:v
                                         showType:KLCPopupShowTypeBounceInFromBottom
@@ -253,7 +253,7 @@
     dispatch_after(delay, dispatch_get_main_queue(), ^(void){
         [[UIApplication sharedApplication] setNetworkActivityIndicatorVisible:NO];
         [self showTimerProcess:timer];
-        dispatch_time_t delay = dispatch_time(DISPATCH_TIME_NOW, NSEC_PER_SEC * [timer floatValue]+1);
+        dispatch_time_t delay = dispatch_time(DISPATCH_TIME_NOW, NSEC_PER_SEC * timer.floatValue+1);
         dispatch_after(delay, dispatch_get_main_queue(), ^(void){
             [self loadData];
         });
@@ -263,7 +263,7 @@
 
 -(void)showTimerProcess:(NSNumber*)timer {
     if ([[NeodiusDataSource sharedData] getShowTimer])
-        [self.navigationController showSGProgressWithDuration:[timer floatValue] andTintColor:[UIColor whiteColor]];
+        [self.navigationController showSGProgressWithDuration:timer.floatValue andTintColor:[UIColor whiteColor]];
 }
 
 -(UIView*)headerView {
@@ -283,15 +283,15 @@
 
     //set gas label
     unclaimedGasLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, gasLabel.frame.origin.y+gasLabel.frame.size.height+spacing, self.tableView.frame.size.width, 60)];
-    [self formatValueField:unclaimedGasLabel withLabel:[NSLocalizedString(@"Unclaimed GAS",nil) uppercaseString] andValue:@0 andType:1];
+    [self formatValueField:unclaimedGasLabel withLabel:NSLocalizedString(@"Unclaimed GAS",nil).uppercaseString andValue:@0 andType:1];
 
     //set BTC label
     baseCryptoLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, unclaimedGasLabel.frame.origin.y+unclaimedGasLabel.frame.size.height+spacing, self.tableView.frame.size.width, 60)];
-    [self formatValueField:baseCryptoLabel withLabel:[baseCrypto objectForKey:@"symbol"] andValue:@0 andType:4];
+    [self formatValueField:baseCryptoLabel withLabel:baseCrypto[@"symbol"] andValue:@0 andType:4];
     
     //set fiat label
     fiatLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, baseCryptoLabel.frame.origin.y+baseCryptoLabel.frame.size.height+spacing, self.tableView.frame.size.width, 60)];
-    [self formatValueField:fiatLabel withLabel:[[baseFiat objectForKey:@"name"] uppercaseString] andValue:@0 andType:2];
+    [self formatValueField:fiatLabel withLabel:[baseFiat[@"name"] uppercaseString] andValue:@0 andType:2];
     
     customTableHeader.frame = CGRectMake(0, 0, self.tableView.frame.size.width, fiatLabel.frame.origin.y+fiatLabel.frame.size.height-headSpace);
 
@@ -319,12 +319,12 @@
     UIFont *valueFont = [UIFont fontWithName:@"HelveticaNeue" size:30];
     
     //title dictionary
-    NSDictionary *titleDict = [NSDictionary dictionaryWithObject:titleFont forKey:NSFontAttributeName];
+    NSDictionary *titleDict = @{NSFontAttributeName: titleFont};
     NSMutableAttributedString *titleString = [[NSMutableAttributedString alloc] initWithString:[NSString stringWithFormat:@"%@\n",lbl] attributes: titleDict];
     //value dictionaries
-    NSDictionary *valueDict = [NSDictionary dictionaryWithObject:valueFont forKey:NSFontAttributeName];
+    NSDictionary *valueDict = @{NSFontAttributeName: valueFont};
     NSMutableAttributedString *valueString = [[NSMutableAttributedString alloc] 
-                                              initWithString:[[[NeodiusDataSource sharedData] formatNumber:value ofType:type withFiatSymbol:[baseFiat objectForKey:@"symbol"]] stringByTrimmingCharactersInSet:
+                                              initWithString:[[[NeodiusDataSource sharedData] formatNumber:value ofType:type withFiatSymbol:baseFiat[@"symbol"]] stringByTrimmingCharactersInSet:
                                               [NSCharacterSet whitespaceCharacterSet]] attributes: valueDict];
 
     //append the value to the title
@@ -356,16 +356,16 @@
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    if ([transactions count] == 0)
+    if (transactions.count == 0)
         return 1;
-    return [transactions count];
+    return transactions.count;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     UITableViewCell *cell;
 
     if (cell == nil) {
-        if ([transactions count] == 0) {
+        if (transactions.count == 0) {
             cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"transactionCell"];
             cell.selectionStyle = UITableViewCellSelectionStyleNone;
             cell.accessoryType = UITableViewCellAccessoryNone;
@@ -387,21 +387,21 @@
         cell = [tableView dequeueReusableCellWithIdentifier:@"transactionCell"];
     }
 
-    if ([transactions count] == 0) {
+    if (transactions.count == 0) {
         cell.textLabel.textAlignment = NSTextAlignmentCenter;
         cell.textLabel.font = [UIFont fontWithName:@"HelveticaNeue-LightItalic" size:14];
         cell.textLabel.text = NSLocalizedString(@"No transactions found", nil);
         
     } else {
-        NSString *txid = [[[transactions objectAtIndex:indexPath.row] objectForKey:@"txid"] substringToIndex:32];
+        NSString *txid = [transactions[indexPath.row][@"txid"] substringToIndex:32];
         NSString *trxType;
-        if ([[[[transactions objectAtIndex:indexPath.row] objectForKey:@"gas_sent"] stringValue] isEqualToString:@"1"]) {
+        if ([[transactions[indexPath.row][@"gas_sent"] stringValue] isEqualToString:@"1"]) {
             trxType = @"GAS";
         } else {
             trxType = @"NEO";
         }
         
-        NSNumber *trxAmount = [NSNumber numberWithFloat:[[[transactions objectAtIndex:indexPath.row] objectForKey:trxType] floatValue]];
+        NSNumber *trxAmount = @([transactions[indexPath.row][trxType] floatValue]);
         
         cell.textLabel.textAlignment = NSTextAlignmentLeft;
         cell.textLabel.font = [UIFont fontWithName:@"HelveticaNeue-Light" size:16];
@@ -413,11 +413,11 @@
 }
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    if ([transactions count] == 0)
+    if (transactions.count == 0)
         return;
         
         
-    NSString *url = [NSString stringWithFormat:@"https://neotracker.io/tx/%@",[[transactions objectAtIndex:indexPath.row] objectForKey:@"txid"]];
+    NSString *url = [NSString stringWithFormat:@"https://neotracker.io/tx/%@",transactions[indexPath.row][@"txid"]];
 
     webViewRoot = [[UIViewController alloc] init];
     [webViewRoot setTitle:NSLocalizedString(@"View transaction", nil)];
@@ -434,7 +434,7 @@
                                              NSLog(@"Failed loading %@", error);
                                          }];
 
-    [webViewRoot setView:webView];
+    webViewRoot.view = webView;
 
     MBProgressHUD *hud = [MBProgressHUD showHUDAddedTo:webViewRoot.view animated:YES];
     hud.mode = MBProgressHUDModeIndeterminate;

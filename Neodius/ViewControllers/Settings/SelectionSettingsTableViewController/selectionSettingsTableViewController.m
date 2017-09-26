@@ -31,7 +31,7 @@
         sectionHeader = NSLocalizedString(@"Select interval",nil);
     }
     //get currency keys and sort them
-    settingDataKeys = [[settingData allKeys] sortedArrayUsingSelector:@selector(localizedCaseInsensitiveCompare:)];
+    settingDataKeys = [settingData.allKeys sortedArrayUsingSelector:@selector(localizedCaseInsensitiveCompare:)];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -44,7 +44,7 @@
 
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    NSString *key = [settingDataKeys objectAtIndex:indexPath.row];
+    NSString *key = settingDataKeys[indexPath.row];
     
     for (int row = 0; row < [tableView numberOfRowsInSection:0]; row++) {
         NSIndexPath* cellPath = [NSIndexPath indexPathForRow:row inSection:0];
@@ -70,12 +70,12 @@
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return [settingDataKeys count];
+    return settingDataKeys.count;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     
-    NSString *key = [settingDataKeys objectAtIndex:indexPath.row];
+    NSString *key = settingDataKeys[indexPath.row];
     
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"menuCell"];
     
@@ -91,17 +91,17 @@
     }
     
     if ([_type isEqualToString:@"fiat"] || [_type isEqualToString:@"crypto"]) {
-    cell.textLabel.text = [NSString stringWithFormat:@"%@ (%@)",[[settingData objectForKey:key] objectForKey:@"name"],[[settingData objectForKey:key] objectForKey:@"symbol"]];
+    cell.textLabel.text = [NSString stringWithFormat:@"%@ (%@)",settingData[key][@"name"],settingData[key][@"symbol"]];
     } else if ([_type isEqualToString:@"refreshInterval"]) {
         
-        NSString *labelValue = [[settingData objectForKey:key] objectForKey:@"labelValue"];
-        NSString *labelType = [[settingData objectForKey:key] objectForKey:@"labelType"];
+        NSString *labelValue = settingData[key][@"labelValue"];
+        NSString *labelType = settingData[key][@"labelType"];
 
         cell.textLabel.text = [[NeodiusDataSource sharedData] switchIntervalLabel:labelValue andType:labelType];
         
     }
     
-    if ([[[settingData objectForKey:key] objectForKey:@"id"] isEqualToString:currentlySelected])
+    if ([settingData[key][@"id"] isEqualToString:currentlySelected])
         cell.accessoryType = UITableViewCellAccessoryCheckmark;
     else
         cell.accessoryType = UITableViewCellAccessoryNone;

@@ -43,11 +43,11 @@
     NSString *icon;
     
     if (indexPath.section == 0) {
-        if (indexPath.row >= [storedWallets count]) {
+        if (indexPath.row >= storedWallets.count) {
             cell.textLabel.text = NSLocalizedString(@"Add wallet",nil);
             icon = @"fa-plus-circle";
         } else {
-            cell.textLabel.text = [[storedWallets objectAtIndex:indexPath.row] objectForKey:@"name"];
+            cell.textLabel.text = storedWallets[indexPath.row][@"name"];
             icon = @"fa-folder-o";
         }
     } else if (indexPath.section == 1) {
@@ -56,7 +56,7 @@
             icon = @"fa-line-chart";
         } else if (indexPath.row == 1) {
             cell.textLabel.text = [NSString stringWithFormat:NSLocalizedString(@"%@ Market information",nil),@"GAS"];
-            icon = @"fa-line-chart";
+            icon = @"fa-area-chart";
         } else if (indexPath.row == 2) {
             cell.textLabel.text = NSLocalizedString(@"Quick address lookup",nil);
             icon = @"fa-eye";
@@ -91,7 +91,7 @@
     BOOL close = YES;
     
     if (indexPath.section == 0) {
-        if (indexPath.row >= [storedWallets count]) {
+        if (indexPath.row >= storedWallets.count) {
             
             //new wallet part
             UIAlertView *av = [[UIAlertView alloc] initWithTitle:NSLocalizedString(@"Add wallet",nil)
@@ -107,8 +107,8 @@
             [[av textFieldAtIndex:1] setPlaceholder:NSLocalizedString(@"Enter the address", nil)];
             av.tapBlock = ^(UIAlertView *alertView, NSInteger buttonIndex) {
                 if (buttonIndex == alertView.firstOtherButtonIndex) {
-                    [[NeodiusDataSource sharedData] addNewWallet:[[alertView textFieldAtIndex:0] text]
-                                                       withAddress:[[alertView textFieldAtIndex:1] text]];
+                    [[NeodiusDataSource sharedData] addNewWallet:[alertView textFieldAtIndex:0].text
+                                                       withAddress:[alertView textFieldAtIndex:1].text];
                     //reload the stored wallets
                     storedWallets = [[NeodiusDataSource sharedData] getStoredWallets];
                     [self.tableView reloadData];
@@ -119,8 +119,8 @@
 
         } else {
             
-            [self showWalletWithTitle:[[storedWallets objectAtIndex:indexPath.row] objectForKey:@"name"]
-                           andAddress:[[storedWallets objectAtIndex:indexPath.row] objectForKey:@"address"]];
+            [self showWalletWithTitle:storedWallets[indexPath.row][@"name"]
+                           andAddress:storedWallets[indexPath.row][@"address"]];
 
         }
     } else if (indexPath.section == 1) {
@@ -155,7 +155,7 @@
             av.tapBlock = ^(UIAlertView *alertView, NSInteger buttonIndex) {
                 if (buttonIndex == alertView.firstOtherButtonIndex) {
                     [self showWalletWithTitle:NSLocalizedString(@"Quick address lookup", nil)
-                                   andAddress:[[alertView textFieldAtIndex:0] text]];
+                                   andAddress:[alertView textFieldAtIndex:0].text];
                 }
                 [tableView deselectRowAtIndexPath:indexPath animated:YES];
             };
@@ -231,7 +231,7 @@
     [headerview addSubview:menuLogo];
     
     UITapGestureRecognizer *t = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(resetKeychain)];
-    [t setNumberOfTapsRequired:20];
+    t.numberOfTapsRequired = 20;
     [headerview addGestureRecognizer:t];
     
     return headerview;
@@ -257,7 +257,7 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     if (section == 0)
-        return [storedWallets count]+1;
+        return storedWallets.count+1;
     else if (section == 1)
         return 5;
     else

@@ -27,9 +27,9 @@
 }
 
 -(void)viewWillAppear:(BOOL)animated {
-    baseFiat        = [[[NeodiusDataSource sharedData] getFiatData] objectForKey:[[NeodiusDataSource sharedData] getBaseFiat]];
-    baseCrypto      = [[[NeodiusDataSource sharedData] getCryptoData] objectForKey:[[NeodiusDataSource sharedData] getBaseCrypto]];
-    refreshInterval = [[[NeodiusDataSource sharedData] getIntervalData] objectForKey:[[NeodiusDataSource sharedData] getRefreshInterval]];
+    baseFiat        = [[NeodiusDataSource sharedData] getFiatData][[[NeodiusDataSource sharedData] getBaseFiat]];
+    baseCrypto      = [[NeodiusDataSource sharedData] getCryptoData][[[NeodiusDataSource sharedData] getBaseCrypto]];
+    refreshInterval = [[NeodiusDataSource sharedData] getIntervalData][[[NeodiusDataSource sharedData] getRefreshInterval]];
     [self.tableView reloadData];
 }
 
@@ -91,8 +91,8 @@
             icon = @"fa-folder-o";
         } else if (indexPath.row == 1) {
             cell.textLabel.text = NSLocalizedString(@"Wallet refresh interval", nil);
-            cell.detailTextLabel.text = [[NeodiusDataSource sharedData] switchIntervalLabel:[refreshInterval objectForKey:@"labelValue"]
-                                                                                    andType:[refreshInterval objectForKey:@"labelType"]];
+            cell.detailTextLabel.text = [[NeodiusDataSource sharedData] switchIntervalLabel:refreshInterval[@"labelValue"]
+                                                                                    andType:refreshInterval[@"labelType"]];
             icon = @"fa-clock-o";
         }
     } else if (indexPath.section == 1) {
@@ -100,11 +100,11 @@
         if (indexPath.row == 0) {
             cell.textLabel.text = NSLocalizedString(@"Base fiat currency", nil);
             
-            cell.detailTextLabel.text = [baseFiat objectForKey:@"name"];
+            cell.detailTextLabel.text = baseFiat[@"name"];
             icon = @"fa-usd";
         } else if (indexPath.row == 1) {
             cell.textLabel.text = NSLocalizedString(@"Base crypto currency", nil);
-            cell.detailTextLabel.text = [baseCrypto objectForKey:@"name"];
+            cell.detailTextLabel.text = baseCrypto[@"name"];
             icon = @"fa-bitcoin";
         }
     } else if (indexPath.section == 2) {
@@ -115,7 +115,7 @@
             securitySwitch = [[UISwitch alloc] initWithFrame:CGRectZero];
             securitySwitch.tintColor = neoGreenColor;
             securitySwitch.tag = 0;
-            [securitySwitch setOn: [LTHPasscodeViewController doesPasscodeExist]];
+            securitySwitch.on = [LTHPasscodeViewController doesPasscodeExist];
             [securitySwitch addTarget:self action:@selector(toggleSwitch:) forControlEvents:UIControlEventValueChanged];
             cell.accessoryView = securitySwitch;
             cell.selectionStyle = UITableViewCellSelectionStyleNone;
@@ -126,7 +126,7 @@
             touchIdSwitch.tintColor = neoGreenColor;
             touchIdSwitch.tag = 1;
             touchIdSwitch.enabled = ([LTHPasscodeViewController doesPasscodeExist] && [self isTouchIDAvailable]);
-            [touchIdSwitch setOn: [[LTHPasscodeViewController sharedUser] allowUnlockWithTouchID]];
+            touchIdSwitch.on = [LTHPasscodeViewController sharedUser].allowUnlockWithTouchID;
             [touchIdSwitch addTarget:self action:@selector(toggleSwitch:) forControlEvents:UIControlEventValueChanged];
             cell.accessoryView = touchIdSwitch;
             cell.selectionStyle = UITableViewCellSelectionStyleNone;
@@ -139,7 +139,7 @@
             showTimer = [[UISwitch alloc] initWithFrame:CGRectZero];
             showTimer.tintColor = neoGreenColor;
             showTimer.tag = 2;
-            [showTimer setOn: [[NeodiusDataSource sharedData] getShowTimer]];
+            showTimer.on = [[NeodiusDataSource sharedData] getShowTimer];
             [showTimer addTarget:self action:@selector(toggleSwitch:) forControlEvents:UIControlEventValueChanged];
             cell.accessoryView = showTimer;
             cell.selectionStyle = UITableViewCellSelectionStyleNone;
@@ -149,7 +149,7 @@
             showMessages = [[UISwitch alloc] initWithFrame:CGRectZero];
             showMessages.tintColor = neoGreenColor;
             showMessages.tag = 3;
-            [showMessages setOn: [[NeodiusDataSource sharedData] getShowMessages]];
+            showMessages.on = [[NeodiusDataSource sharedData] getShowMessages];
             [showMessages addTarget:self action:@selector(toggleSwitch:) forControlEvents:UIControlEventValueChanged];
             cell.accessoryView = showMessages;
             cell.selectionStyle = UITableViewCellSelectionStyleNone;
@@ -161,7 +161,7 @@
             useMainNet = [[UISwitch alloc] initWithFrame:CGRectZero];
             useMainNet.tintColor = neoGreenColor;
             useMainNet.tag = 4;
-            [useMainNet setOn: [[NeodiusDataSource sharedData] getUseMainNet]];
+            useMainNet.on = [[NeodiusDataSource sharedData] getUseMainNet];
             [useMainNet addTarget:self action:@selector(toggleSwitch:) forControlEvents:UIControlEventValueChanged];
             cell.accessoryView = useMainNet;
             cell.selectionStyle = UITableViewCellSelectionStyleNone;
@@ -190,11 +190,11 @@
     } else if (switchControl.tag == 1) {
         
         if (switchControl.on) {
-            [[LTHPasscodeViewController sharedUser] setEnablePasscodeString:@"Aan"];
+            [LTHPasscodeViewController sharedUser].enablePasscodeString = @"Aan";
         } else {
-            [[LTHPasscodeViewController sharedUser] setEnablePasscodeString:@"Uit"];
+            [LTHPasscodeViewController sharedUser].enablePasscodeString = @"Uit";
         }
-        [[LTHPasscodeViewController sharedUser] setAllowUnlockWithTouchID:switchControl.on];
+        [LTHPasscodeViewController sharedUser].allowUnlockWithTouchID = switchControl.on;
 
     } else if (switchControl.tag == 2) {
         [[NeodiusDataSource sharedData] setShowTimer:switchControl.on];
@@ -226,7 +226,7 @@
 }
 
 - (BOOL)isTouchIDAvailable {
-    if ([[[UIDevice currentDevice] systemVersion] compare:@"8.0" options:NSNumericSearch] != NSOrderedAscending)
+    if ([[UIDevice currentDevice].systemVersion compare:@"8.0" options:NSNumericSearch] != NSOrderedAscending)
         return [[[LAContext alloc] init] canEvaluatePolicy:LAPolicyDeviceOwnerAuthenticationWithBiometrics error:nil];
     return NO;
 }

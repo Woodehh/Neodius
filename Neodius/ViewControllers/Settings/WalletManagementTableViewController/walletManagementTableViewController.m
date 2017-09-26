@@ -51,7 +51,7 @@
     if (section == 0)
         return 1;
     else
-    return [storedWallets count];
+    return storedWallets.count;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -77,8 +77,8 @@
         cell.imageView.image = [[NeodiusDataSource sharedData] tableIconPositive:@"fa-plus-circle"];
         cell.imageView.highlightedImage = [[NeodiusDataSource sharedData] tableIconNegative:@"fa-plus-circle"];
     } else {
-        cell.textLabel.text = [[storedWallets objectAtIndex:indexPath.row] objectForKey:@"name"];
-        cell.detailTextLabel.text = [[storedWallets objectAtIndex:indexPath.row] objectForKey:@"address"];
+        cell.textLabel.text = storedWallets[indexPath.row][@"name"];
+        cell.detailTextLabel.text = storedWallets[indexPath.row][@"address"];
         cell.imageView.image = [[NeodiusDataSource sharedData] tableIconPositive:@"fa-folder-o"];
         cell.imageView.highlightedImage = [[NeodiusDataSource sharedData] tableIconNegative:@"fa-folder-o"];
         
@@ -104,8 +104,8 @@
         [[av textFieldAtIndex:1] setPlaceholder:NSLocalizedString(@"Enter the address", nil)];
         av.tapBlock = ^(UIAlertView *alertView, NSInteger buttonIndex) {
             if (buttonIndex == alertView.firstOtherButtonIndex) {
-                [[NeodiusDataSource sharedData] addNewWallet:[[alertView textFieldAtIndex:0] text]
-                                                   withAddress:[[alertView textFieldAtIndex:1] text]];
+                [[NeodiusDataSource sharedData] addNewWallet:[alertView textFieldAtIndex:0].text
+                                                   withAddress:[alertView textFieldAtIndex:1].text];
                 //reload the stored wallets
                 storedWallets = (NSMutableArray*)[[NeodiusDataSource sharedData] getStoredWallets];
                 [self.tableView reloadData];
@@ -115,8 +115,8 @@
         [av show];
     } else {
         
-        NSString *walletName = [[storedWallets objectAtIndex:indexPath.row] objectForKey:@"name"];
-        NSString *walletAddress = [[storedWallets objectAtIndex:indexPath.row] objectForKey:@"address"];
+        NSString *walletName = storedWallets[indexPath.row][@"name"];
+        NSString *walletAddress = storedWallets[indexPath.row][@"address"];
         
         UIAlertView *av = [[UIAlertView alloc] initWithTitle:NSLocalizedString(@"Edit wallet",nil)
                                                      message:NSLocalizedString(@"Enter a name and the address",nil)
@@ -127,18 +127,18 @@
         //set to two fields
         av.alertViewStyle = UIAlertViewStyleLoginAndPasswordInput;
         [[av textFieldAtIndex:0] setPlaceholder:NSLocalizedString(@"Enter a name", nil)];
-        [[av textFieldAtIndex:0] setText:walletName];
+        [av textFieldAtIndex:0].text = walletName;
         
         [[av textFieldAtIndex:1] setSecureTextEntry:NO];
         [[av textFieldAtIndex:1] setPlaceholder:NSLocalizedString(@"Enter the address", nil)];
-        [[av textFieldAtIndex:1] setText:walletAddress];
+        [av textFieldAtIndex:1].text = walletAddress;
         
         av.tapBlock = ^(UIAlertView *alertView, NSInteger buttonIndex) {
             if (buttonIndex == alertView.firstOtherButtonIndex) {
 
                 [[NeodiusDataSource sharedData] updateWalletAtIndex:indexPath.row
-                                                          withName:[[alertView textFieldAtIndex:0] text]
-                                                           andAddress:[[alertView textFieldAtIndex:1] text]];
+                                                          withName:[alertView textFieldAtIndex:0].text
+                                                           andAddress:[alertView textFieldAtIndex:1].text];
                 //reload the stored wallets
                 storedWallets = (NSMutableArray*)[[NeodiusDataSource sharedData] getStoredWallets];
                 [self.tableView reloadData];
@@ -157,12 +157,12 @@
 }
 
 -(void)toggleTableEdit {
-    if (![super isEditing]) {
-        [editButton setImage:doneIcon];
+    if (!super.editing) {
+        editButton.image = doneIcon;
     } else {
-        [editButton setImage:editIcon];
+        editButton.image = editIcon;
     }
-    [super setEditing:![self.tableView isEditing] animated:YES];
+    [super setEditing:!(self.tableView).editing animated:YES];
 }
 
 -(BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -178,7 +178,7 @@
 - (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath {
     
     if (editingStyle == UITableViewCellEditingStyleDelete) {
-        NSString *walletTitle = [[storedWallets objectAtIndex:indexPath.row] objectForKey:@"name"];
+        NSString *walletTitle = storedWallets[indexPath.row][@"name"];
         [UIAlertView showWithTitle:NSLocalizedString(@"Are you sure?", nil)
                            message:[NSString stringWithFormat:NSLocalizedString(@"You're about to remove %@. Are you sure?", nil),walletTitle]
                  cancelButtonTitle:NSLocalizedString(@"Cancel", nil)
@@ -194,7 +194,7 @@
 }
 
 - (void)tableView:(UITableView *)tableView moveRowAtIndexPath:(NSIndexPath *)sourceIndexPath toIndexPath:(NSIndexPath *)destinationIndexPath {
-    NSDictionary *record = [storedWallets objectAtIndex:sourceIndexPath.row];
+    NSDictionary *record = storedWallets[sourceIndexPath.row];
     [storedWallets removeObjectAtIndex:sourceIndexPath.row];
     [storedWallets insertObject:record atIndex:destinationIndexPath.row];
     [[NeodiusDataSource sharedData] setStoredWallets:storedWallets];

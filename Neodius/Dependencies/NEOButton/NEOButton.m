@@ -11,7 +11,7 @@
 
 @implementation NEOButton
 
-- (id)initWithFrame:(CGRect)frame withTitle:(NSString*)titleValue withIcon:(NSInteger)icon isPrimary:(BOOL)primary {
+- (instancetype)initWithFrame:(CGRect)frame withTitle:(NSString*)titleValue withIcon:(NSInteger)icon isPrimary:(BOOL)primary {
     
     greenColor = [UIColor colorWithRed:0.35 green:0.75 blue:0.00 alpha:1.0];
     whiteColor = [UIColor whiteColor];
