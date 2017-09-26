@@ -1,1 +1,0 @@
-../../../FontAwesome4-ios/UIImage+FontAwesome.h
