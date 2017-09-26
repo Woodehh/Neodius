@@ -1,6 +1,5 @@
 project 'Neodius.xcodeproj'
 platform :ios, '8.0'
-#use_frameworks!
 target 'Neodius' do
 
   #Git pods

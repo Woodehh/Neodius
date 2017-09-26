@@ -7,69 +7,66 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9876A2F2ECEC5C7D3617B8E3 /* libPods-Neodius.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 122C7CBC29ADBBDF249CA68D /* libPods-Neodius.a */; };
-		E22FEE911F7006C4000922C4 /* menuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E22FEE831F7006C4000922C4 /* menuTableViewController.m */; };
-		E22FEE921F7006C4000922C4 /* selectionSettingsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E22FEE871F7006C4000922C4 /* selectionSettingsTableViewController.m */; };
-		E22FEE931F7006C4000922C4 /* settingsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E22FEE8A1F7006C4000922C4 /* settingsTableViewController.m */; };
-		E22FEE941F7006C4000922C4 /* walletManagementTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E22FEE8D1F7006C4000922C4 /* walletManagementTableViewController.m */; };
-		E22FEE951F7006C4000922C4 /* walletViewTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E22FEE901F7006C4000922C4 /* walletViewTableViewController.m */; };
 		E22FEEA31F70F9C1000922C4 /* FontAwesome4.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E22FEE9F1F70F9C1000922C4 /* FontAwesome4.ttf */; };
-		E22FEEBE1F7108FC000922C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E22FEEBD1F7108FC000922C4 /* LaunchScreen.storyboard */; };
 		E22FEEC31F71091C000922C4 /* cryptoCurrencies.json in Resources */ = {isa = PBXBuildFile; fileRef = E22FEEC01F71091C000922C4 /* cryptoCurrencies.json */; };
 		E22FEEC41F71091C000922C4 /* fiatCurrencies.json in Resources */ = {isa = PBXBuildFile; fileRef = E22FEEC11F71091C000922C4 /* fiatCurrencies.json */; };
 		E22FEEC51F71091C000922C4 /* refreshIntervals.json in Resources */ = {isa = PBXBuildFile; fileRef = E22FEEC21F71091C000922C4 /* refreshIntervals.json */; };
-		E22FEECD1F7109AA000922C4 /* NEOButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E22FEEC91F7109AA000922C4 /* NEOButton.m */; };
 		E22FEED31F7109E2000922C4 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E22FEED01F7109E2000922C4 /* Localizable.strings */; };
 		E2AD85A11F6FED9A00D03087 /* Acknowledgements.plist in Resources */ = {isa = PBXBuildFile; fileRef = E2AD85A01F6FED9A00D03087 /* Acknowledgements.plist */; };
-		E2B3ADD11F77D4A700713798 /* marketInfoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2B3ADD01F77D3CC00713798 /* marketInfoTableViewController.m */; };
-		E2B3ADE61F7A51AF00713798 /* marketViewCustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E2B3ADE51F7A518400713798 /* marketViewCustomTableViewCell.m */; };
-		E2B3ADE71F7A51B700713798 /* neodiusDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = E2B3ADE21F7A50FB00713798 /* neodiusDataSource.m */; };
-<<<<<<< HEAD
-		E2B3ADE81F7A564C00713798 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2B3ADDB1F79BB7500713798 /* Assets.xcassets */; };
-=======
->>>>>>> ba114b815bacd60f33fbe3e3ab93436501024e9d
-		E2C20A8B1F6DCED700C2F8AB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C20A6E1F6DCED700C2F8AB /* AppDelegate.m */; };
+		E2B3AE0D1F7A58CD00713798 /* marketViewCustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E2B3ADEC1F7A58AA00713798 /* marketViewCustomTableViewCell.m */; };
+		E2B3AE0E1F7A58CD00713798 /* NEOButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E2B3ADEF1F7A58AA00713798 /* NEOButton.m */; };
+		E2B3AE0F1F7A58CD00713798 /* neodiusDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = E2B3ADF21F7A58AA00713798 /* neodiusDataSource.m */; };
+		E2B3AE101F7A58CD00713798 /* marketInfoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2B3ADFC1F7A58AA00713798 /* marketInfoTableViewController.m */; };
+		E2B3AE111F7A58CD00713798 /* menuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2B3ADFF1F7A58AA00713798 /* menuTableViewController.m */; };
+		E2B3AE121F7A58CD00713798 /* selectionSettingsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2B3AE031F7A58AA00713798 /* selectionSettingsTableViewController.m */; };
+		E2B3AE131F7A58CD00713798 /* settingsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2B3AE061F7A58AA00713798 /* settingsTableViewController.m */; };
+		E2B3AE141F7A58CD00713798 /* walletManagementTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2B3AE091F7A58AA00713798 /* walletManagementTableViewController.m */; };
+		E2B3AE151F7A58CD00713798 /* walletViewTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2B3AE0C1F7A58AA00713798 /* walletViewTableViewController.m */; };
+		E2B3AE161F7A58D600713798 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E2B3ADF81F7A58AA00713798 /* AppDelegate.m */; };
+		E2B3AE171F7A590500713798 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2B3ADF41F7A58AA00713798 /* Assets.xcassets */; };
+		E2B3AE181F7A5BFB00713798 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2B3ADF51F7A58AA00713798 /* LaunchScreen.storyboard */; };
 		E2C20A941F6DCED700C2F8AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C20A7D1F6DCED700C2F8AB /* main.m */; };
 		E2C20A9A1F6DDF5C00C2F8AB /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2C20A991F6DDF5C00C2F8AB /* LocalAuthentication.framework */; };
+		ED30859781AE9E136D7C7CB8 /* libPods-Neodius.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E8A89C7184B03B999346CB0 /* libPods-Neodius.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		122C7CBC29ADBBDF249CA68D /* libPods-Neodius.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Neodius.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A106154801C575D9B4B9A94 /* Pods-neodius.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-neodius.debug.xcconfig"; path = "Pods/Target Support Files/Pods-neodius/Pods-neodius.debug.xcconfig"; sourceTree = "<group>"; };
 		502D902AA73201C39B38338B /* Pods-Neodius.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Neodius.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Neodius/Pods-Neodius.debug.xcconfig"; sourceTree = "<group>"; };
+		7E8A89C7184B03B999346CB0 /* libPods-Neodius.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Neodius.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8382A969674BAE6B3F96E96F /* Pods-Neodius.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Neodius.release.xcconfig"; path = "Pods/Target Support Files/Pods-Neodius/Pods-Neodius.release.xcconfig"; sourceTree = "<group>"; };
 		ABF317706F0129D456A7E0AB /* Pods-neodius.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-neodius.release.xcconfig"; path = "Pods/Target Support Files/Pods-neodius/Pods-neodius.release.xcconfig"; sourceTree = "<group>"; };
-		E22FEE821F7006C4000922C4 /* menuTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = menuTableViewController.h; sourceTree = "<group>"; };
-		E22FEE831F7006C4000922C4 /* menuTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = menuTableViewController.m; sourceTree = "<group>"; };
-		E22FEE861F7006C4000922C4 /* selectionSettingsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = selectionSettingsTableViewController.h; sourceTree = "<group>"; };
-		E22FEE871F7006C4000922C4 /* selectionSettingsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = selectionSettingsTableViewController.m; sourceTree = "<group>"; };
-		E22FEE891F7006C4000922C4 /* settingsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = settingsTableViewController.h; sourceTree = "<group>"; };
-		E22FEE8A1F7006C4000922C4 /* settingsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = settingsTableViewController.m; sourceTree = "<group>"; };
-		E22FEE8C1F7006C4000922C4 /* walletManagementTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = walletManagementTableViewController.h; sourceTree = "<group>"; };
-		E22FEE8D1F7006C4000922C4 /* walletManagementTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = walletManagementTableViewController.m; sourceTree = "<group>"; };
-		E22FEE8F1F7006C4000922C4 /* walletViewTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = walletViewTableViewController.h; sourceTree = "<group>"; };
-		E22FEE901F7006C4000922C4 /* walletViewTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = walletViewTableViewController.m; sourceTree = "<group>"; };
 		E22FEE9F1F70F9C1000922C4 /* FontAwesome4.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome4.ttf; sourceTree = "<group>"; };
-		E22FEEBD1F7108FC000922C4 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E22FEEC01F71091C000922C4 /* cryptoCurrencies.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = cryptoCurrencies.json; sourceTree = "<group>"; };
 		E22FEEC11F71091C000922C4 /* fiatCurrencies.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fiatCurrencies.json; sourceTree = "<group>"; };
 		E22FEEC21F71091C000922C4 /* refreshIntervals.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = refreshIntervals.json; sourceTree = "<group>"; };
-		E22FEEC81F7109AA000922C4 /* NEOButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEOButton.h; sourceTree = "<group>"; };
-		E22FEEC91F7109AA000922C4 /* NEOButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEOButton.m; sourceTree = "<group>"; };
 		E22FEED11F7109E2000922C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
 		E22FEED21F7109E2000922C4 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/Localizable.strings; sourceTree = "<group>"; };
 		E2AD85A01F6FED9A00D03087 /* Acknowledgements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Acknowledgements.plist; path = neodius/Acknowledgements.plist; sourceTree = SOURCE_ROOT; };
-		E2B3ADCF1F77D3CC00713798 /* marketInfoTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = marketInfoTableViewController.h; sourceTree = "<group>"; };
-		E2B3ADD01F77D3CC00713798 /* marketInfoTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = marketInfoTableViewController.m; sourceTree = "<group>"; };
-		E2B3ADDB1F79BB7500713798 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Neodius/Assets/Assets.xcassets; sourceTree = SOURCE_ROOT; };
-		E2B3ADE11F7A50FB00713798 /* neodiusDataSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = neodiusDataSource.h; sourceTree = "<group>"; };
-		E2B3ADE21F7A50FB00713798 /* neodiusDataSource.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = neodiusDataSource.m; sourceTree = "<group>"; };
-		E2B3ADE41F7A518400713798 /* marketViewCustomTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = marketViewCustomTableViewCell.h; sourceTree = "<group>"; };
-		E2B3ADE51F7A518400713798 /* marketViewCustomTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = marketViewCustomTableViewCell.m; sourceTree = "<group>"; };
+		E2B3ADEB1F7A58AA00713798 /* marketViewCustomTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = marketViewCustomTableViewCell.h; sourceTree = "<group>"; };
+		E2B3ADEC1F7A58AA00713798 /* marketViewCustomTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = marketViewCustomTableViewCell.m; sourceTree = "<group>"; };
+		E2B3ADEE1F7A58AA00713798 /* NEOButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NEOButton.h; sourceTree = "<group>"; };
+		E2B3ADEF1F7A58AA00713798 /* NEOButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NEOButton.m; sourceTree = "<group>"; };
+		E2B3ADF11F7A58AA00713798 /* neodiusDataSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = neodiusDataSource.h; sourceTree = "<group>"; };
+		E2B3ADF21F7A58AA00713798 /* neodiusDataSource.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = neodiusDataSource.m; sourceTree = "<group>"; };
+		E2B3ADF41F7A58AA00713798 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E2B3ADF51F7A58AA00713798 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E2B3ADF71F7A58AA00713798 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E2B3ADF81F7A58AA00713798 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E2B3ADFB1F7A58AA00713798 /* marketInfoTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = marketInfoTableViewController.h; sourceTree = "<group>"; };
+		E2B3ADFC1F7A58AA00713798 /* marketInfoTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = marketInfoTableViewController.m; sourceTree = "<group>"; };
+		E2B3ADFE1F7A58AA00713798 /* menuTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = menuTableViewController.h; sourceTree = "<group>"; };
+		E2B3ADFF1F7A58AA00713798 /* menuTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = menuTableViewController.m; sourceTree = "<group>"; };
+		E2B3AE021F7A58AA00713798 /* selectionSettingsTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = selectionSettingsTableViewController.h; sourceTree = "<group>"; };
+		E2B3AE031F7A58AA00713798 /* selectionSettingsTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = selectionSettingsTableViewController.m; sourceTree = "<group>"; };
+		E2B3AE051F7A58AA00713798 /* settingsTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = settingsTableViewController.h; sourceTree = "<group>"; };
+		E2B3AE061F7A58AA00713798 /* settingsTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = settingsTableViewController.m; sourceTree = "<group>"; };
+		E2B3AE081F7A58AA00713798 /* walletManagementTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = walletManagementTableViewController.h; sourceTree = "<group>"; };
+		E2B3AE091F7A58AA00713798 /* walletManagementTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = walletManagementTableViewController.m; sourceTree = "<group>"; };
+		E2B3AE0B1F7A58AA00713798 /* walletViewTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = walletViewTableViewController.h; sourceTree = "<group>"; };
+		E2B3AE0C1F7A58AA00713798 /* walletViewTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = walletViewTableViewController.m; sourceTree = "<group>"; };
 		E2C20A031F6D094500C2F8AB /* Neodius.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Neodius.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2C20A381F6DBE7700C2F8AB /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E2C20A6D1F6DCED700C2F8AB /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		E2C20A6E1F6DCED700C2F8AB /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		E2C20A7D1F6DCED700C2F8AB /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E2C20A991F6DDF5C00C2F8AB /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
 		F4DCA91E818B7B19BC8331F1 /* libPods-neodius.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-neodius.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -81,7 +78,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E2C20A9A1F6DDF5C00C2F8AB /* LocalAuthentication.framework in Frameworks */,
-				9876A2F2ECEC5C7D3617B8E3 /* libPods-Neodius.a in Frameworks */,
+				ED30859781AE9E136D7C7CB8 /* libPods-Neodius.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,76 +101,9 @@
 			children = (
 				E2C20A991F6DDF5C00C2F8AB /* LocalAuthentication.framework */,
 				F4DCA91E818B7B19BC8331F1 /* libPods-neodius.a */,
-				122C7CBC29ADBBDF249CA68D /* libPods-Neodius.a */,
+				7E8A89C7184B03B999346CB0 /* libPods-Neodius.a */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		E22FEE801F7006C4000922C4 /* ViewControllers */ = {
-			isa = PBXGroup;
-			children = (
-				E22FEE8E1F7006C4000922C4 /* WalletViewTableViewController */,
-				E22FEE811F7006C4000922C4 /* MenuTableViewController */,
-				E22FEE841F7006C4000922C4 /* SettingsControllers */,
-				E2B3ADCE1F77D3CC00713798 /* MarketInfoTableViewController */,
-			);
-			path = ViewControllers;
-			sourceTree = "<group>";
-		};
-		E22FEE811F7006C4000922C4 /* MenuTableViewController */ = {
-			isa = PBXGroup;
-			children = (
-				E22FEE821F7006C4000922C4 /* menuTableViewController.h */,
-				E22FEE831F7006C4000922C4 /* menuTableViewController.m */,
-			);
-			path = MenuTableViewController;
-			sourceTree = "<group>";
-		};
-		E22FEE841F7006C4000922C4 /* SettingsControllers */ = {
-			isa = PBXGroup;
-			children = (
-				E22FEE851F7006C4000922C4 /* SelectionSettingsTableViewController */,
-				E22FEE881F7006C4000922C4 /* SettingsViewController */,
-				E22FEE8B1F7006C4000922C4 /* WalletManagementTableViewController */,
-			);
-			name = SettingsControllers;
-			path = Settings;
-			sourceTree = "<group>";
-		};
-		E22FEE851F7006C4000922C4 /* SelectionSettingsTableViewController */ = {
-			isa = PBXGroup;
-			children = (
-				E22FEE861F7006C4000922C4 /* selectionSettingsTableViewController.h */,
-				E22FEE871F7006C4000922C4 /* selectionSettingsTableViewController.m */,
-			);
-			path = SelectionSettingsTableViewController;
-			sourceTree = "<group>";
-		};
-		E22FEE881F7006C4000922C4 /* SettingsViewController */ = {
-			isa = PBXGroup;
-			children = (
-				E22FEE891F7006C4000922C4 /* settingsTableViewController.h */,
-				E22FEE8A1F7006C4000922C4 /* settingsTableViewController.m */,
-			);
-			path = SettingsViewController;
-			sourceTree = "<group>";
-		};
-		E22FEE8B1F7006C4000922C4 /* WalletManagementTableViewController */ = {
-			isa = PBXGroup;
-			children = (
-				E22FEE8C1F7006C4000922C4 /* walletManagementTableViewController.h */,
-				E22FEE8D1F7006C4000922C4 /* walletManagementTableViewController.m */,
-			);
-			path = WalletManagementTableViewController;
-			sourceTree = "<group>";
-		};
-		E22FEE8E1F7006C4000922C4 /* WalletViewTableViewController */ = {
-			isa = PBXGroup;
-			children = (
-				E22FEE8F1F7006C4000922C4 /* walletViewTableViewController.h */,
-				E22FEE901F7006C4000922C4 /* walletViewTableViewController.m */,
-			);
-			path = WalletViewTableViewController;
 			sourceTree = "<group>";
 		};
 		E22FEE9E1F70F9C1000922C4 /* Fonts */ = {
@@ -194,25 +124,6 @@
 			path = SettingCache;
 			sourceTree = "<group>";
 		};
-		E22FEEC61F7109AA000922C4 /* Dependencies */ = {
-			isa = PBXGroup;
-			children = (
-				E2B3ADE31F7A518400713798 /* marketViewCustomTableViewCell */,
-				E2B3ADE01F7A50FB00713798 /* NeodiusDataSource */,
-				E22FEEC71F7109AA000922C4 /* NEOButton */,
-			);
-			path = Dependencies;
-			sourceTree = "<group>";
-		};
-		E22FEEC71F7109AA000922C4 /* NEOButton */ = {
-			isa = PBXGroup;
-			children = (
-				E22FEEC81F7109AA000922C4 /* NEOButton.h */,
-				E22FEEC91F7109AA000922C4 /* NEOButton.m */,
-			);
-			path = NEOButton;
-			sourceTree = "<group>";
-		};
 		E22FEECF1F7109E2000922C4 /* LocalizedData */ = {
 			isa = PBXGroup;
 			children = (
@@ -222,35 +133,139 @@
 			path = "neodius/Supporting Files/LocalizedData";
 			sourceTree = SOURCE_ROOT;
 		};
-		E2B3ADCE1F77D3CC00713798 /* MarketInfoTableViewController */ = {
+		E2B3ADE91F7A58AA00713798 /* Dependencies */ = {
 			isa = PBXGroup;
 			children = (
-				E2B3ADCF1F77D3CC00713798 /* marketInfoTableViewController.h */,
-				E2B3ADD01F77D3CC00713798 /* marketInfoTableViewController.m */,
+				E2B3ADEA1F7A58AA00713798 /* marketViewCustomTableViewCell */,
+				E2B3ADED1F7A58AA00713798 /* NEOButton */,
+				E2B3ADF01F7A58AA00713798 /* NeodiusDataSource */,
 			);
-			name = MarketInfoTableViewController;
-			path = neodius/ViewControllers/MarketInfoTableViewController;
+			name = Dependencies;
+			path = Neodius/Dependencies;
 			sourceTree = SOURCE_ROOT;
 		};
-		E2B3ADE01F7A50FB00713798 /* NeodiusDataSource */ = {
+		E2B3ADEA1F7A58AA00713798 /* marketViewCustomTableViewCell */ = {
 			isa = PBXGroup;
 			children = (
-				E2B3ADE11F7A50FB00713798 /* neodiusDataSource.h */,
-				E2B3ADE21F7A50FB00713798 /* neodiusDataSource.m */,
+				E2B3ADEB1F7A58AA00713798 /* marketViewCustomTableViewCell.h */,
+				E2B3ADEC1F7A58AA00713798 /* marketViewCustomTableViewCell.m */,
 			);
-			name = NeodiusDataSource;
-			path = Neodius/Dependencies/NeodiusDataSource;
+			path = marketViewCustomTableViewCell;
+			sourceTree = "<group>";
+		};
+		E2B3ADED1F7A58AA00713798 /* NEOButton */ = {
+			isa = PBXGroup;
+			children = (
+				E2B3ADEE1F7A58AA00713798 /* NEOButton.h */,
+				E2B3ADEF1F7A58AA00713798 /* NEOButton.m */,
+			);
+			path = NEOButton;
+			sourceTree = "<group>";
+		};
+		E2B3ADF01F7A58AA00713798 /* NeodiusDataSource */ = {
+			isa = PBXGroup;
+			children = (
+				E2B3ADF11F7A58AA00713798 /* neodiusDataSource.h */,
+				E2B3ADF21F7A58AA00713798 /* neodiusDataSource.m */,
+			);
+			path = NeodiusDataSource;
+			sourceTree = "<group>";
+		};
+		E2B3ADF31F7A58AA00713798 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				E2B3ADF41F7A58AA00713798 /* Assets.xcassets */,
+				E2B3ADF51F7A58AA00713798 /* LaunchScreen.storyboard */,
+			);
+			name = Assets;
+			path = Neodius/Assets;
 			sourceTree = SOURCE_ROOT;
 		};
-		E2B3ADE31F7A518400713798 /* marketViewCustomTableViewCell */ = {
+		E2B3ADF61F7A58AA00713798 /* AppDelegate */ = {
 			isa = PBXGroup;
 			children = (
-				E2B3ADE41F7A518400713798 /* marketViewCustomTableViewCell.h */,
-				E2B3ADE51F7A518400713798 /* marketViewCustomTableViewCell.m */,
+				E2B3ADF71F7A58AA00713798 /* AppDelegate.h */,
+				E2B3ADF81F7A58AA00713798 /* AppDelegate.m */,
 			);
-			name = marketViewCustomTableViewCell;
-			path = neodius/Dependencies/marketViewCustomTableViewCell;
+			name = AppDelegate;
+			path = Neodius/AppDelegate;
 			sourceTree = SOURCE_ROOT;
+		};
+		E2B3ADF91F7A58AA00713798 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E2B3ADFA1F7A58AA00713798 /* MarketInfoTableViewController */,
+				E2B3ADFD1F7A58AA00713798 /* MenuTableViewController */,
+				E2B3AE001F7A58AA00713798 /* Settings */,
+				E2B3AE0A1F7A58AA00713798 /* WalletViewTableViewController */,
+			);
+			name = ViewControllers;
+			path = Neodius/ViewControllers;
+			sourceTree = SOURCE_ROOT;
+		};
+		E2B3ADFA1F7A58AA00713798 /* MarketInfoTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E2B3ADFB1F7A58AA00713798 /* marketInfoTableViewController.h */,
+				E2B3ADFC1F7A58AA00713798 /* marketInfoTableViewController.m */,
+			);
+			path = MarketInfoTableViewController;
+			sourceTree = "<group>";
+		};
+		E2B3ADFD1F7A58AA00713798 /* MenuTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E2B3ADFE1F7A58AA00713798 /* menuTableViewController.h */,
+				E2B3ADFF1F7A58AA00713798 /* menuTableViewController.m */,
+			);
+			path = MenuTableViewController;
+			sourceTree = "<group>";
+		};
+		E2B3AE001F7A58AA00713798 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				E2B3AE011F7A58AA00713798 /* SelectionSettingsTableViewController */,
+				E2B3AE041F7A58AA00713798 /* SettingsViewController */,
+				E2B3AE071F7A58AA00713798 /* WalletManagementTableViewController */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		E2B3AE011F7A58AA00713798 /* SelectionSettingsTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E2B3AE021F7A58AA00713798 /* selectionSettingsTableViewController.h */,
+				E2B3AE031F7A58AA00713798 /* selectionSettingsTableViewController.m */,
+			);
+			path = SelectionSettingsTableViewController;
+			sourceTree = "<group>";
+		};
+		E2B3AE041F7A58AA00713798 /* SettingsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E2B3AE051F7A58AA00713798 /* settingsTableViewController.h */,
+				E2B3AE061F7A58AA00713798 /* settingsTableViewController.m */,
+			);
+			path = SettingsViewController;
+			sourceTree = "<group>";
+		};
+		E2B3AE071F7A58AA00713798 /* WalletManagementTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E2B3AE081F7A58AA00713798 /* walletManagementTableViewController.h */,
+				E2B3AE091F7A58AA00713798 /* walletManagementTableViewController.m */,
+			);
+			path = WalletManagementTableViewController;
+			sourceTree = "<group>";
+		};
+		E2B3AE0A1F7A58AA00713798 /* WalletViewTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E2B3AE0B1F7A58AA00713798 /* walletViewTableViewController.h */,
+				E2B3AE0C1F7A58AA00713798 /* walletViewTableViewController.m */,
+			);
+			path = WalletViewTableViewController;
+			sourceTree = "<group>";
 		};
 		E2C209FA1F6D094500C2F8AB = {
 			isa = PBXGroup;
@@ -273,34 +288,16 @@
 		E2C20A051F6D094500C2F8AB /* Neodius */ = {
 			isa = PBXGroup;
 			children = (
-				E22FEEC61F7109AA000922C4 /* Dependencies */,
-				E2C20A6C1F6DCED700C2F8AB /* AppDelegate */,
-				E22FEE801F7006C4000922C4 /* ViewControllers */,
-				E2C20A6F1F6DCED700C2F8AB /* Assets */,
+				E2B3ADF61F7A58AA00713798 /* AppDelegate */,
+				E2B3ADF31F7A58AA00713798 /* Assets */,
+				E2B3ADE91F7A58AA00713798 /* Dependencies */,
+				E2B3ADF91F7A58AA00713798 /* ViewControllers */,
 				E2C20A781F6DCED700C2F8AB /* Supporting Files */,
 				E2C20A381F6DBE7700C2F8AB /* Info.plist */,
 				E2AD85A01F6FED9A00D03087 /* Acknowledgements.plist */,
 			);
 			name = Neodius;
 			path = neodius;
-			sourceTree = "<group>";
-		};
-		E2C20A6C1F6DCED700C2F8AB /* AppDelegate */ = {
-			isa = PBXGroup;
-			children = (
-				E2C20A6D1F6DCED700C2F8AB /* AppDelegate.h */,
-				E2C20A6E1F6DCED700C2F8AB /* AppDelegate.m */,
-			);
-			path = AppDelegate;
-			sourceTree = "<group>";
-		};
-		E2C20A6F1F6DCED700C2F8AB /* Assets */ = {
-			isa = PBXGroup;
-			children = (
-				E2B3ADDB1F79BB7500713798 /* Assets.xcassets */,
-				E22FEEBD1F7108FC000922C4 /* LaunchScreen.storyboard */,
-			);
-			path = Assets;
 			sourceTree = "<group>";
 		};
 		E2C20A781F6DCED700C2F8AB /* Supporting Files */ = {
@@ -379,8 +376,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E2B3ADE81F7A564C00713798 /* Assets.xcassets in Resources */,
-				E22FEEBE1F7108FC000922C4 /* LaunchScreen.storyboard in Resources */,
+				E2B3AE181F7A5BFB00713798 /* LaunchScreen.storyboard in Resources */,
+				E2B3AE171F7A590500713798 /* Assets.xcassets in Resources */,
 				E22FEEC31F71091C000922C4 /* cryptoCurrencies.json in Resources */,
 				E22FEEC41F71091C000922C4 /* fiatCurrencies.json in Resources */,
 				E22FEEA31F70F9C1000922C4 /* FontAwesome4.ttf in Resources */,
@@ -471,17 +468,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E2B3ADE71F7A51B700713798 /* neodiusDataSource.m in Sources */,
-				E2B3ADE61F7A51AF00713798 /* marketViewCustomTableViewCell.m in Sources */,
-				E2B3ADD11F77D4A700713798 /* marketInfoTableViewController.m in Sources */,
-				E22FEE911F7006C4000922C4 /* menuTableViewController.m in Sources */,
-				E22FEE931F7006C4000922C4 /* settingsTableViewController.m in Sources */,
+				E2B3AE161F7A58D600713798 /* AppDelegate.m in Sources */,
+				E2B3AE0D1F7A58CD00713798 /* marketViewCustomTableViewCell.m in Sources */,
+				E2B3AE0E1F7A58CD00713798 /* NEOButton.m in Sources */,
+				E2B3AE0F1F7A58CD00713798 /* neodiusDataSource.m in Sources */,
+				E2B3AE101F7A58CD00713798 /* marketInfoTableViewController.m in Sources */,
+				E2B3AE111F7A58CD00713798 /* menuTableViewController.m in Sources */,
+				E2B3AE121F7A58CD00713798 /* selectionSettingsTableViewController.m in Sources */,
+				E2B3AE131F7A58CD00713798 /* settingsTableViewController.m in Sources */,
+				E2B3AE141F7A58CD00713798 /* walletManagementTableViewController.m in Sources */,
+				E2B3AE151F7A58CD00713798 /* walletViewTableViewController.m in Sources */,
 				E2C20A941F6DCED700C2F8AB /* main.m in Sources */,
-				E22FEE941F7006C4000922C4 /* walletManagementTableViewController.m in Sources */,
-				E22FEECD1F7109AA000922C4 /* NEOButton.m in Sources */,
-				E22FEE951F7006C4000922C4 /* walletViewTableViewController.m in Sources */,
-				E22FEE921F7006C4000922C4 /* selectionSettingsTableViewController.m in Sources */,
-				E2C20A8B1F6DCED700C2F8AB /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

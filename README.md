@@ -10,7 +10,7 @@
 
 Neodius is a NEO blockchain tool. Neodius let's you easily view your balance in various ways based on your address. A must have for every NEO fan. Ofcourse poured in a pretty-and-easy iOS interface. It has been submitted to the Apple AppStore. So I'm waiting for approval. Once it's approved, the link will be available here.
 
-<img src="Artwork/Screenshots/iPhone/Screenshot-wallet.png" width="200" alt="Wallet view"> <img src="Artwork/Screenshots/iPhone/Screenshot-copy-wallet.png" width="200" alt="Settings view"> <img src="Artwork/Screenshots/iPhone/Screenshot-settings.png" width="200" alt="Settings view"> <img src="Artwork/Screenshots/iPhone/Screenshot-menu.png" width="200" alt="Menu view"> 
+<img src="Artwork/Screenshots/iPhone/Screenshot-wallet.png" width="200" alt="Wallet view"> <img src="Artwork/Screenshots/iPhone/Screenshot-market-view.png" width="200" alt="Market view"> <img src="Artwork/Screenshots/iPhone/Screenshot-menu.png" width="200" alt="Menu view"> <img src="Artwork/Screenshots/iPhone/Screenshot-settings.png" width="200" alt="Settings view"> 
 
 ## What's this NEO all about
 NEO, formerly Antshares, is China's first ever open source blockchain. Founded in 2014, NEO’s mission has been to reinvent the way commerce is done. So basically it's just another improved Bitcoin rip-off. However, NEO has a lot of extra features which make it a good investment.
