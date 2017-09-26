@@ -39,6 +39,11 @@ Features currently are:
 	* Dutch
 	* English
 	* More to come? (help us out here :kissing_heart: )
+* View market information on GAS and NEO
+	* Bid/ask prices
+	* Current market (cap, volume, position)
+	* Changes (1h, 24h, 7d)
+	* Gauge showing current position on 24h tradingview
 * More to come! :)
 
 ## Looks awesome, but how can i use it.
@@ -57,7 +62,7 @@ We're making use of the API's of the awesome City of Zion developers community. 
 You can! I'll reward you with a lot of hugs :-) Send me a message or do a pull request.
 
 ## That's it
-I put a few days in this app and i'd love to hear your reaction about it. Feel free to contribute and suggest stuff.
+I put a few days of effort in this app and i'd love to hear your reaction about it. Feel free to contribute and suggest stuff.
 
 ## Where can i pay?
 You don't need to pay for this, but it's on GitHub so you probably knew that :-)  However if you want to donate: Click the button below:
