@@ -29,7 +29,7 @@
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
    
     
-    UIViewController *centerController = [[walletViewTableViewController alloc] init];
+    UIViewController *centerController = [[walletViewTableViewController alloc] initWithStyle:UITableViewStyleGrouped];
     UIViewController *menuController = [[menuTableViewController alloc] initWithStyle:UITableViewStyleGrouped];
     
     //create navigation controller for center
