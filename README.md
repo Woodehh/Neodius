@@ -44,6 +44,7 @@ Features currently are:
 	* Current market (cap, volume, position)
 	* Changes (1h, 24h, 7d)
 	* Gauge showing current position on 24h tradingview
+* Scanning QR-Codes to add a wallet
 * More to come! :)
 
 ## Looks awesome, but how can i use it.
