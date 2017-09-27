@@ -11,11 +11,13 @@
 #import <UIAlertView+Blocks/UIAlertView+Blocks.h>
 #import <QRCodeReaderViewController/QRCodeReaderViewController.h>
 #import "NeodiusDataSource.h"
+#import "neodiusUIComponents.h"
 
 @interface walletManagementTableViewController : UITableViewController <QRCodeReaderDelegate> {
     NSMutableArray *storedWallets;
     UIImage *editIcon,*doneIcon;
     UIBarButtonItem *editButton;
+    NeodiusUIComponents *UIComponents;
 }
 
 @end

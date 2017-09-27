@@ -6,8 +6,21 @@
 //  Copyright © 2017 ITS-VIsion. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+#import "UIAlertView+Blocks.h"
+#import <QRCodeReaderViewController/QRCodeReaderViewController.h>
 
-@interface neodiusUIComponents : NSObject
+@interface NeodiusUIComponents : NSObject <QRCodeReaderDelegate> {
+    QRCodeReaderViewController *vc;
+}
+
++ (NeodiusUIComponents*)sharedComponents;
+
+
+typedef void (^addNewWalletCompletionBlock)(bool addressEntered, NSString* walletName, NSString* walletAddress);
+-(void)inputWalletInformationOnViewController:(UIViewController*)presentationView withAddressAndName:(BOOL)addressAndName WithCompletionBlock:(addNewWalletCompletionBlock)block;
+
+
+
 
 @end

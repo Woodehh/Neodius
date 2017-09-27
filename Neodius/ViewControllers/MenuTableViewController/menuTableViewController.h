@@ -10,12 +10,11 @@
 #import <FontAwesome4-ios/FontAwesome4-ios.h>
 #import <RFAboutView/RFAboutViewController.h>
 #import <ViewDeck/ViewDeck.h>
-#import "UIAlertView+Blocks.h"
-#import <QRCodeReaderViewController/QRCodeReaderViewController.h>
+#import "neodiusUIComponents.h"
 
-
-@interface menuTableViewController : UITableViewController  <QRCodeReaderDelegate> {
+@interface menuTableViewController : UITableViewController  {
     NSArray *storedWallets;
+    NeodiusUIComponents *UIComponents;
 }
 
 @end

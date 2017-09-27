@@ -21,6 +21,7 @@
 -(void)viewWillAppear:(BOOL)animated {
     self.tableView.tableHeaderView = [self headerView];
     storedWallets = [[NeodiusDataSource sharedData] getStoredWallets];
+    UIComponents = [NeodiusUIComponents sharedComponents];
     [self.tableView reloadData];
 }
 
@@ -64,6 +65,9 @@
             cell.textLabel.text = NSLocalizedString(@"Settings",nil);
             icon = @"fa-cog";
         } else if (indexPath.row == 4) {
+            cell.textLabel.text = NSLocalizedString(@"Tip jar",nil);
+            icon = @"fa-beer";
+        } else if (indexPath.row == 5) {
             cell.textLabel.text = NSLocalizedString(@"About",nil);
             icon = @"fa-question-circle-o";
         }
@@ -79,10 +83,10 @@
             icon = @"fa-bus";
         }
     }
-
+    
     cell.imageView.image = [[NeodiusDataSource sharedData] tableIconPositive:icon];
     cell.imageView.highlightedImage = [[NeodiusDataSource sharedData] tableIconNegative:icon];
-
+    
     return cell;
 }
 
@@ -92,77 +96,32 @@
     
     if (indexPath.section == 0) {
         if (indexPath.row >= storedWallets.count) {
-            
-            [UIAlertView showWithTitle:nil
-                               message:NSLocalizedString(@"Pick a method",nil)
-                     cancelButtonTitle:NSLocalizedString(@"Cancel",nil)
-                     otherButtonTitles:@[NSLocalizedString(@"By QR-Code",nil),NSLocalizedString(@"By entering an address",nil)]
-                              tapBlock:^(UIAlertView *alertView, NSInteger buttonIndex) {
-                                  
-                                  if (buttonIndex == 1 || buttonIndex == 2) {
-                                      
-                                      //new wallet part
-                                      UIAlertView *av = [[UIAlertView alloc] initWithTitle:NSLocalizedString(@"Add wallet",nil)
-                                                                                   message:NSLocalizedString(@"Enter a name and the address",nil)
-                                                                                  delegate:self
-                                                                         cancelButtonTitle:NSLocalizedString(@"Cancel",nil)
-                                                                         otherButtonTitles:NSLocalizedString(@"Okay",nil), nil];
-                                      
-                                      //set to two fields
-                                      av.alertViewStyle = UIAlertViewStyleLoginAndPasswordInput;
-                                      [[av textFieldAtIndex:0] setPlaceholder:NSLocalizedString(@"Enter a name", nil)];
-                                      [[av textFieldAtIndex:1] setSecureTextEntry:NO];
-                                      [[av textFieldAtIndex:1] setPlaceholder:NSLocalizedString(@"Enter the address", nil)];
-                                      av.tapBlock = ^(UIAlertView *alertView, NSInteger buttonIndex) {
-                                          if (buttonIndex == alertView.firstOtherButtonIndex) {
-                                              [[NeodiusDataSource sharedData] addNewWallet:[alertView textFieldAtIndex:0].text
-                                                                               withAddress:[alertView textFieldAtIndex:1].text];
-                                              //reload the stored wallets
+            [UIComponents inputWalletInformationOnViewController:self
+                                   withAddressAndName:YES
+                                  WithCompletionBlock:^(bool addressEntered, NSString *walletName, NSString *walletAddress) {
+                                      if (addressEntered) {
+                                          if (![walletName isEqualToString:@""]) {         
+                                              [[NeodiusDataSource sharedData] addNewWallet:walletName withAddress:walletAddress];
                                               storedWallets = [[NeodiusDataSource sharedData] getStoredWallets];
                                               [self.tableView reloadData];
                                           }
-                                          [tableView deselectRowAtIndexPath:indexPath animated:YES];
-                                      };
-                                      
-                                      
-                                      if (buttonIndex == 1) {
-                                          QRCodeReader *reader = [QRCodeReader readerWithMetadataObjectTypes:@[AVMetadataObjectTypeQRCode]];
-                                          QRCodeReaderViewController *vc = [QRCodeReaderViewController readerWithCancelButtonTitle:NSLocalizedString(@"Cancel",nil)
-                                                                                                                        codeReader:reader
-                                                                                                               startScanningAtLoad:YES
-                                                                                                            showSwitchCameraButton:YES
-                                                                                                                   showTorchButton:YES];
-                                          vc.modalPresentationStyle = UIModalPresentationFormSheet;
-                                          vc.delegate = self;
-                                          [self presentViewController:vc animated:YES completion:nil];
-                                          [reader setCompletionWithBlock:^(NSString *resultAsString) {
-                                              [vc dismissViewControllerAnimated:YES completion:^{
-                                                  [[av textFieldAtIndex:1] setText:resultAsString];
-                                                  [av show];
-                                              }];
-                                              
-                                          }];
-                                      } else if (buttonIndex == 2) {
-                                          [av show];
                                       }
-                                  }
-                              }];
+                                      [self.tableView deselectRowAtIndexPath:indexPath animated:YES];
+                                  }];
             
-            
-            
-
-
         } else {
             
             [self showWalletWithTitle:storedWallets[indexPath.row][@"name"]
                            andAddress:storedWallets[indexPath.row][@"address"]];
-
+            
         }
+        
+        
     } else if (indexPath.section == 1) {
         
         
         UIViewController *menuItem;
-
+        
         if (indexPath.row == 0) {
             marketInfoTableViewController *menuItem = [[marketInfoTableViewController alloc] initWithStyle:UITableViewStyleGrouped];
             menuItem.type = @"NEO";
@@ -172,63 +131,22 @@
             marketInfoTableViewController *menuItem = [[marketInfoTableViewController alloc] initWithStyle:UITableViewStyleGrouped];
             menuItem.type = @"GAS";
             self.viewDeckController.centerViewController = [[UINavigationController alloc] initWithRootViewController:menuItem];
-
+            
         } else if (indexPath.row == 2) {
             
             close = NO;
-            
-            [UIAlertView showWithTitle:nil
-                               message:NSLocalizedString(@"Pick a method",nil)
-                     cancelButtonTitle:NSLocalizedString(@"Cancel",nil)
-                     otherButtonTitles:@[NSLocalizedString(@"By QR-Code",nil),NSLocalizedString(@"By entering an address",nil)]
-                              tapBlock:^(UIAlertView *alertView, NSInteger buttonIndex) {
-                                  
-                                  if (buttonIndex == 1 || buttonIndex == 2) {
-                                      if (buttonIndex == 1) {
-                                  
-                                          QRCodeReader *reader = [QRCodeReader readerWithMetadataObjectTypes:@[AVMetadataObjectTypeQRCode]];
-                                          QRCodeReaderViewController *vc = [QRCodeReaderViewController readerWithCancelButtonTitle:NSLocalizedString(@"Cancel",nil)
-                                                                                                                        codeReader:reader
-                                                                                                               startScanningAtLoad:YES
-                                                                                                            showSwitchCameraButton:YES
-                                                                                                                   showTorchButton:YES];
-                                          vc.modalPresentationStyle = UIModalPresentationFormSheet;
-                                          vc.delegate = self;
-                                          [self presentViewController:vc animated:YES completion:nil];
-                                          [reader setCompletionWithBlock:^(NSString *resultAsString) {
-                                              [vc dismissViewControllerAnimated:YES completion:^{
-                                                  [self showWalletWithTitle:NSLocalizedString(@"Quick address lookup", nil)
-                                                                 andAddress:resultAsString];
 
-                                              }];
-                                              
-                                          }];
-                                      } else if (buttonIndex == 2) {
-                                          //new wallet part
-                                          UIAlertView *av = [[UIAlertView alloc] initWithTitle:NSLocalizedString(@"Quick address lookup",nil)
-                                                                                       message:NSLocalizedString(@"Enter a name and the address",nil)
-                                                                                      delegate:self
-                                                                             cancelButtonTitle:NSLocalizedString(@"Cancel",nil)
-                                                                             otherButtonTitles:NSLocalizedString(@"Okay",nil), nil];
-                                          
-                                          //set to two fields
-                                          av.alertViewStyle = UIAlertViewStylePlainTextInput;
-                                          [[av textFieldAtIndex:0] setPlaceholder:NSLocalizedString(@"Enter the address", nil)];
-                                          av.tapBlock = ^(UIAlertView *alertView, NSInteger buttonIndex) {
-                                              if (buttonIndex == alertView.firstOtherButtonIndex) {
-                                                  [self showWalletWithTitle:NSLocalizedString(@"Quick address lookup", nil)
-                                                                 andAddress:[alertView textFieldAtIndex:0].text];
-                                              }
-                                              [tableView deselectRowAtIndexPath:indexPath animated:YES];
-                                          };
-                                          [av show];
+            [UIComponents inputWalletInformationOnViewController:self
+                                   withAddressAndName:NO
+                                  WithCompletionBlock:^(bool addressEntered, NSString *walletName, NSString *walletAddress) {
+                                      if (addressEntered) {
+                                          if (![walletAddress isEqualToString:@""]) {
+                                              [self showWalletWithTitle:NSLocalizedString(@"Quick address lookup", nil)
+                                                             andAddress:walletAddress];
+                                          }
                                       }
-
-                                  }
-                                  
-                              }
-             ];
-                                      
+                                      [self.tableView deselectRowAtIndexPath:indexPath animated:YES];
+                                  }];
             
             
         } else if (indexPath.row == 3) {
@@ -237,14 +155,14 @@
             
         } else if (indexPath.row == 4) {
             RFAboutViewController* menuItem = [[RFAboutViewController alloc] initWithAppName:@"NEODIUS"
-                                                           appVersion:nil
-                                                             appBuild:nil
-                                                  copyrightHolderName:@"ITS-Vision"
-                                                         contactEmail:@"info@its-vision.nl"
-                                                        titleForEmail:@"Contact us"
-                                                           websiteURL:[NSURL URLWithString:@"https://github.com/ITSVision"]
-                                                   titleForWebsiteURL:@"https://github.com/ITSVision"
-                                                   andPublicationYear:@"2017"];
+                                                                                  appVersion:nil
+                                                                                    appBuild:nil
+                                                                         copyrightHolderName:@"ITS-Vision"
+                                                                                contactEmail:@"info@its-vision.nl"
+                                                                               titleForEmail:@"Contact us"
+                                                                                  websiteURL:[NSURL URLWithString:@"https://github.com/ITSVision"]
+                                                                          titleForWebsiteURL:@"https://github.com/ITSVision"
+                                                                          andPublicationYear:@"2017"];
             
             menuItem.closeButtonImage = [[NeodiusDataSource sharedData] tableIconPositive:@"fa-reorder"];
             menuItem.tintColor = [UIColor whiteColor];
@@ -260,12 +178,13 @@
                                                                      action:@selector(openLeftSide)];
             
             UINavigationController *c = [[UINavigationController alloc] initWithRootViewController:menuItem];
-
+            
             self.viewDeckController.centerViewController = c;
         }
         
         if (close)
             [self.viewDeckController closeSide:YES];
+
     } else {
         if (indexPath.row == 0) {
             UIApplication *application = [UIApplication sharedApplication];
@@ -273,7 +192,7 @@
         } else if (indexPath.row == 1) {
             UIApplication *application = [UIApplication sharedApplication];
             [application openURL:[NSURL URLWithString:@"https://bittrex.com/Market/Index?MarketName=BTC-NEO"] options:@{} completionHandler:nil];
-
+            
         } else if (indexPath.row == 2) {
             UIApplication *application = [UIApplication sharedApplication];
             [application openURL:[NSURL URLWithString:@"https://poloniex.com/exchange#btc_gas"] options:@{} completionHandler:nil];
@@ -317,7 +236,7 @@
         return NSLocalizedString(@"Wallets",nil);
     if (section == 1)
         return NSLocalizedString(@"Tools",nil);
-
+    
     return NSLocalizedString(@"Links",nil);
 }
 
@@ -329,7 +248,7 @@
     if (section == 0)
         return storedWallets.count+1;
     else if (section == 1)
-        return 5;
+        return 6;
     else
         return 3;
 }
