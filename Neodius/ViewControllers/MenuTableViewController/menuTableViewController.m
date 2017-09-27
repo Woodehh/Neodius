@@ -159,7 +159,7 @@
                                                                                     appBuild:nil
                                                                          copyrightHolderName:@"ITS-Vision"
                                                                                 contactEmail:@"info@its-vision.nl"
-                                                                               titleForEmail:@"Contact us"
+                                                                               titleForEmail:NSLocalizedString(@"Contact us",nil)
                                                                                   websiteURL:[NSURL URLWithString:@"https://github.com/ITSVision"]
                                                                           titleForWebsiteURL:@"https://github.com/ITSVision"
                                                                           andPublicationYear:@"2017"];

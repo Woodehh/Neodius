@@ -78,6 +78,9 @@
 "Connection status messages" = "Verbindingsstatus berichten";
 
 /* No comment provided by engineer. */
+"Contact us" = "Neem contact op";
+
+/* No comment provided by engineer. */
 "Copy address" = "Kopieer adres";
 
 /* Copy diagnostic info to pasteboard */
@@ -240,7 +243,7 @@
 "Wallet management" = "Wallet management";
 
 /* No comment provided by engineer. */
-"Wallet refresh interval" = "Wallet refresh interval";
+"Wallet refresh interval" = "Wallet ververs interval";
 
 /* No comment provided by engineer. */
 "Wallets" = "Wallets";
@@ -258,4 +261,4 @@
 "You're about to remove %@. Are you sure?" = "Je staat op het punt om %@ te verwijderen, weet je het zeker?";
 
 /* Sending email message failed body */
-"Your email has failed to send." = "Your email has failed to send.";
+"Your email has failed to send." = "Je e-mail is niet verzonden";
