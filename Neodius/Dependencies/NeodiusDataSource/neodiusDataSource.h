@@ -13,10 +13,7 @@
 #define UIColorFromRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0];
 #define neoGreenColor [UIColor colorWithRed:0.35 green:0.75 blue:0.00 alpha:1.0]
 
-
-@interface NeodiusDataSource : NSObject  {
-}
-
+@interface NeodiusDataSource : NSObject
 
 + (NeodiusDataSource*)sharedData;
 
@@ -25,7 +22,6 @@
 @property (NS_NONATOMIC_IOSONLY, getter=getFiatData, readonly, copy) NSDictionary *fiatData;
 @property (NS_NONATOMIC_IOSONLY, getter=getCryptoData, readonly, copy) NSDictionary *cryptoData;
 @property (NS_NONATOMIC_IOSONLY, getter=getIntervalData, readonly, copy) NSDictionary *intervalData;
-
 
 @property (NS_NONATOMIC_IOSONLY, getter=getBaseFiat, copy) NSString *baseFiat;
 @property (NS_NONATOMIC_IOSONLY, getter=getBaseCrypto, copy) NSString *baseCrypto;
@@ -36,9 +32,7 @@
 
 
 @property (NS_NONATOMIC_IOSONLY, getter=getShowTimer) BOOL showTimer;
-
 @property (NS_NONATOMIC_IOSONLY, getter=getShowMessages) BOOL showMessages;
-
 @property (NS_NONATOMIC_IOSONLY, getter=getUseMainNet) BOOL useMainNet;
 
 -(UIImage*)tableIconNegative:(NSString*)icon;

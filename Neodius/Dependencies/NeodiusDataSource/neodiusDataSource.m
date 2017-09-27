@@ -7,8 +7,6 @@
 //
 
 #import "neodiusDataSource.h"
-
-
 @implementation NeodiusDataSource
 
 static NeodiusDataSource *sharedData = nil;
@@ -22,14 +20,11 @@ static NeodiusDataSource *sharedData = nil;
 
 
 -(NSString*)buildAPIUrlWithEndpoint:(NSString*)property {
-    
     NSString *apiLocation;
-    
     if ([self getUseMainNet])
         apiLocation = @"http://api.wallet.cityofzion.io/v2%@";
     else
         apiLocation = @"http://testnet-api.wallet.cityofzion.io/v2%@";
-
     return [NSString stringWithFormat:apiLocation,property];
 }
 
@@ -266,8 +261,7 @@ static NeodiusDataSource *sharedData = nil;
     
     return [f stringFromNumber:number];
 }
-
-
+    
 
 + (id)allocWithZone:(NSZone *)zone {
     @synchronized(self)
