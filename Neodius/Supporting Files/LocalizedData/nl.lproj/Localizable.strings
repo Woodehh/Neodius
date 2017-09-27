@@ -36,6 +36,9 @@
 "Address copied to clipboard" = "Adres is gekopieerd naar het klemboord";
 
 /* No comment provided by engineer. */
+"Address input" = "Adres invoer";
+
+/* No comment provided by engineer. */
 "Are you sure?" = "Weet je het zeker?";
 
 /* No comment provided by engineer. */
@@ -54,7 +57,7 @@
 "By entering an address" = "Door een adres in te voeren";
 
 /* No comment provided by engineer. */
-"By QR-Code" = "Door QR code";
+"By QR-Code" = "Door QR code te scannen";
 
 /* No comment provided by engineer. */
 "Cancel" = "Annuleren";
@@ -187,6 +190,9 @@
 
 /* No comment provided by engineer. */
 "Settings" = "Instellingen";
+
+/* No comment provided by engineer. */
+"Tip jar" = "Fooienpot";
 
 /* No comment provided by engineer. */
 "Tools" = "Hulp";
