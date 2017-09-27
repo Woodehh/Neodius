@@ -23,6 +23,8 @@ target 'Neodius' do
   pod "YCFirstTime"
   pod "MSSimpleGauge"
   pod "QRCodeReaderViewController"
+  pod "BDGShare"
+  pod "AsyncImageView"
   
   post_install do |installer|
     require 'fileutils'

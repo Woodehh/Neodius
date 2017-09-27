@@ -16,14 +16,13 @@
 #import <Reachability/Reachability.h>
 #import <CWStatusBarNotification/CWStatusBarNotification.h>
 #import <ViewDeck/ViewDeck.h>
-#import <KLCPopup/KLCPopup.h>
-#import <QrcodeBuilder/QrcodeBuilder.h>
 #import <UIWebView-Blocks/UIWebView+Blocks.h>
 #import <MBProgressHUD/MBProgressHUD.h>
 #import <YCFirstTime/YCFirstTime.h>
 #import <UIAlertView+Blocks/UIAlertView+Blocks.h>
 #import "NEOButton.h"
 #import "NeodiusDataSource.h"
+#import "neodiusUIComponents.h"
 
 
 @interface walletViewTableViewController : UITableViewController <APParallaxViewDelegate> {

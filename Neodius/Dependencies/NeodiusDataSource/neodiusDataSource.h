@@ -22,6 +22,7 @@
 @property (NS_NONATOMIC_IOSONLY, getter=getFiatData, readonly, copy) NSDictionary *fiatData;
 @property (NS_NONATOMIC_IOSONLY, getter=getCryptoData, readonly, copy) NSDictionary *cryptoData;
 @property (NS_NONATOMIC_IOSONLY, getter=getIntervalData, readonly, copy) NSDictionary *intervalData;
+@property (NS_NONATOMIC_IOSONLY, getter=getDonationData, readonly, copy) NSArray *donationData;
 
 @property (NS_NONATOMIC_IOSONLY, getter=getBaseFiat, copy) NSString *baseFiat;
 @property (NS_NONATOMIC_IOSONLY, getter=getBaseCrypto, copy) NSString *baseCrypto;

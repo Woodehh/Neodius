@@ -1,0 +1,26 @@
+ [
+  {
+      "name": "NEO",
+      "symbol": "NEO",
+      "address": "AJYoERJ6VFGVPq8nKjUvnfBLpYqkG39j4x",
+      "image": "donationNeo"
+  },
+  {
+      "name": "GAS",
+      "symbol": "GAS",
+      "address": "AJYoERJ6VFGVPq8nKjUvnfBLpYqkG39j4x",
+      "image": "donationGas"
+  },
+  {
+      "name": "Bitcoin",
+      "symbol": "BTC",
+      "address": "1Es9qssB7275Wf9x9A21aPf8xf9wYomfv1",
+      "image": "donationBitcoin"
+  },
+  {
+      "name": "Ethereum",
+      "symbol": "BTC",
+      "address": "0x1Es9qssB7275Wf9x9A21aPf8xf9wYomfv1",
+      "image": "donationEthereum"
+  }
+]

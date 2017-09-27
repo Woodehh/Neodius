@@ -27,7 +27,8 @@
     
     
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-   
+    
+    [[UIBarButtonItem appearanceWhenContainedIn:[UINavigationBar class], nil] setTintColor:[UIColor whiteColor]];
     
     UIViewController *centerController = [[walletViewTableViewController alloc] initWithStyle:UITableViewStyleGrouped];
     UIViewController *menuController = [[menuTableViewController alloc] initWithStyle:UITableViewStyleGrouped];
@@ -43,10 +44,10 @@
     [_window makeKeyAndVisible];
 
     [LTHPasscodeViewController useKeychain:YES];
-    [LTHPasscodeViewController sharedUser].touchIDString = @"Enter use TouchID to unlock Neodius";
+    [LTHPasscodeViewController sharedUser].touchIDString = NSLocalizedString(@"Use TouchID to unlock Neodius", nil);
     [LTHPasscodeViewController sharedUser].backgroundColor = [UIColor whiteColor];
     [LTHPasscodeViewController sharedUser].backgroundImage = [UIImage imageNamed:@"menuLogo"];
-    [[LTHPasscodeViewController sharedUser] setLabelTextColor:neoGreenColor];
+    [LTHPasscodeViewController sharedUser].labelTextColor = neoGreenColor;
     [LTHPasscodeViewController sharedUser].labelFont = [UIFont fontWithName:@"HelveticaNeue-Light" size:20];
     
     if ([LTHPasscodeViewController doesPasscodeExist]) {

@@ -17,9 +17,9 @@
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.2</string>
+	<string>1.3</string>
 	<key>CFBundleVersion</key>
-	<string>948</string>
+	<string>1069</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSAppTransportSecurity</key>
@@ -29,6 +29,8 @@
 	</dict>
 	<key>NSCameraUsageDescription</key>
 	<string>For scanning QR Codes</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>For saving QR Codes</string>
 	<key>UIAppFonts</key>
 	<array>
 		<string>FontAwesome4.ttf</string>

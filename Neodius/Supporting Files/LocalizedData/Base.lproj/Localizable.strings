@@ -1,4 +1,7 @@
 
+/* Acknowlegdments header title */
+"%@ makes use of the following third party libraries. Many thanks to the developers making them available!" = "%@ makes use of the following third party libraries. Many thanks to the developers making them available!";
+
 /* No comment provided by engineer. */
 "%@ Market information" = "%@ Market information";
 
@@ -99,6 +102,9 @@
 "Dismiss" = "Dismiss";
 
 /* No comment provided by engineer. */
+"Donate %@" = "Donate %@";
+
+/* No comment provided by engineer. */
 "Edit wallet" = "Edit wallet";
 
 /* No comment provided by engineer. */
@@ -109,6 +115,9 @@
 
 /* No comment provided by engineer. */
 "Enter the address" = "Enter the address";
+
+/* No comment provided by engineer. */
+"Feel free to send some %@ in order to make support the Neodius development! :-)" = "Feel free to send some %@ in order to make support the Neodius development! :-)";
 
 /* No comment provided by engineer. */
 "General" = "General";
@@ -192,6 +201,18 @@
 "Settings" = "Settings";
 
 /* No comment provided by engineer. */
+"Share address" = "Share address";
+
+/* No comment provided by engineer. */
+"Shared address!" = "Shared address";
+
+/* No comment provided by engineer. */
+"The NEO address. Feel free to transfer some NEO or GAS! :)" = "The NEO address. Feel free to transfer some NEO or GAS! :)";
+
+/* No comment provided by engineer. */
+"This is the NEO address. Feel free to transfer some NEO or GAS! :)" = "This is the NEO address. Feel free to transfer some NEO or GAS! :)";
+
+/* No comment provided by engineer. */
 "Tip jar" = "Tip jar";
 
 /* No comment provided by engineer. */
@@ -211,6 +232,9 @@
 
 /* No comment provided by engineer. */
 "Use MainNet blockchain" = "Use MainNet blockchain";
+
+/* No comment provided by engineer. */
+"Use TouchID to unlock Neodius" = "Use TouchID to unlock Neodius";
 
 /* No comment provided by engineer. */
 "View transaction" = "View transaction";
@@ -256,9 +280,6 @@
 
 /* Sending email message failed body */
 "Your email has failed to send." = "Your email has failed to send.";
-
-/* Acknowlegdments header title */
-"%@ makes use of the following third party libraries. Many thanks to the developers making them available!" = "";
 
 /* Error message: no email accounts available */
 "Unfortunately there are no Email accounts available on your device.\n\nFor support questions, please send an Email to %@ and include the following information: %@.\n\nTab the 'Copy info' button to copy this information to your pasteboard. Thank you!" = "";

@@ -60,7 +60,10 @@ static NeodiusDataSource *sharedData = nil;
 -(NSDictionary*)getIntervalData {
     return [self loadCacheForJsonFile:@"refreshIntervals"];
 }
-
+//get refreshintervals
+-(NSArray*)getDonationData {
+    return (NSArray*)[self loadCacheForJsonFile:@"donationData"];
+}
 
 
 
@@ -264,10 +267,8 @@ static NeodiusDataSource *sharedData = nil;
     
 
 + (id)allocWithZone:(NSZone *)zone {
-    @synchronized(self)
-    {
-        if (sharedData == nil)
-        {
+    @synchronized(self) {
+        if (sharedData == nil) {
             sharedData = [super allocWithZone:zone];
             return sharedData;
         }

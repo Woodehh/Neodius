@@ -15,6 +15,8 @@ PODS:
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
   - APParallaxHeader (0.1.6)
+  - AsyncImageView (1.6)
+  - BDGShare (0.0.11)
   - CWStatusBarNotification (2.3.5)
   - FontAwesome4-ios (0.2.1)
   - KLCPopup (1.0)
@@ -35,6 +37,8 @@ PODS:
 DEPENDENCIES:
   - AFNetworking
   - APParallaxHeader
+  - AsyncImageView
+  - BDGShare
   - CWStatusBarNotification
   - FontAwesome4-ios (from `https://github.com/ITSVision/FontAwesome4-ios.git`)
   - KLCPopup
@@ -69,6 +73,8 @@ CHECKOUT OPTIONS:
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
   APParallaxHeader: 854bc48a2487ca12c702f8a236fec0d89cdac5c3
+  AsyncImageView: 416e99402e5b1f20571de70ad619ced90f56a7d9
+  BDGShare: 32748bcc08221d403115d68d76f9ee9ed1734883
   CWStatusBarNotification: 3d2738b25c3207f60cc50201388d3c96182545ff
   FontAwesome4-ios: 1ec6f396a7dd88b8116bebb8fa20a2bd8c2508bd
   KLCPopup: 76c5a19227977f1e53d85236f9ef42257c168d98
@@ -86,6 +92,6 @@ SPEC CHECKSUMS:
   ViewDeck: 942d90dd23c9f97cc8038be352255378167edcca
   YCFirstTime: 7daef261357bd74b4badd85113e2adb309d69900
 
-PODFILE CHECKSUM: 7950a30b9a64fe75e2c900573022cb16bccb6aa7
+PODFILE CHECKSUM: 7fb693107a55b1c2fb73ce9f695308d05a64a361
 
 COCOAPODS: 1.2.0

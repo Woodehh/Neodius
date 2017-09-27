@@ -102,6 +102,9 @@
 "Dismiss" = "Oke";
 
 /* No comment provided by engineer. */
+"Donate %@" = "Donate %@";
+
+/* No comment provided by engineer. */
 "Edit wallet" = "Pas wallet aan";
 
 /* No comment provided by engineer. */
@@ -112,6 +115,9 @@
 
 /* No comment provided by engineer. */
 "Enter the address" = "Voer het adres in";
+
+/* No comment provided by engineer. */
+"Feel free to send some %@ in order to make support the Neodius development! :-)" = "Voel je vrij om wat %@ te sturen ten behoeven van de Neodius ontwikkeling! :)";
 
 /* No comment provided by engineer. */
 "General" = "Algemeen";
@@ -195,6 +201,18 @@
 "Settings" = "Instellingen";
 
 /* No comment provided by engineer. */
+"Share address" = "Deel adres";
+
+/* No comment provided by engineer. */
+"Shared address!" = "Adres gedeelt!";
+
+/* No comment provided by engineer. */
+"The NEO address. Feel free to transfer some NEO or GAS! :)" = "Het NEO adres. Vooel je vrij om wat NEO of GAS over te maken :)";
+
+/* No comment provided by engineer. */
+"This is the NEO address. Feel free to transfer some NEO or GAS! :)" = "Dit is het NEO adres. Voel je vrij om er wat NEO of GAS heen te sturen :)";
+
+/* No comment provided by engineer. */
 "Tip jar" = "Fooienpot";
 
 /* No comment provided by engineer. */
@@ -217,6 +235,9 @@
 
 /* No comment provided by engineer. */
 "Use MainNet blockchain" = "Gebruik MainNet blockchain";
+
+/* No comment provided by engineer. */
+"Use TouchID to unlock Neodius" = "Gebruik TouchID om Neodius te openen.";
 
 /* No comment provided by engineer. */
 "View transaction" = "Bekijk transactie";
@@ -249,7 +270,7 @@
 "Wallets" = "Wallets";
 
 /* No comment provided by engineer. */
-"Welcome to Neodius, we aim to make the NEO blockchain more accessible to everybody.\n\nTo use this app, get your wallet address and add this to Neodius. You can do that by tapping the menu button on the left top side and tap Add Wallet.\n\nDon't forget to give feedback through the about screen!" = "Welkom bij Neodius, wij proberen de NEO blockhain toegankelijker te maken voor meer mensen.\n\nOm deze app te gebruiken, voer je je wallet adres in bij Neodius. Je kunt dat doen door op de menu knop linksboven in te drukken en daarna op Voeg wallet toe.\n\nVergeet niet om feedback te geven in het Over scherm!";
+"Welcome to Neodius, we aim to make the NEO blockchain more accessible to everybody.\n\nTo use this app, get your wallet address and add this to Neodius. You can do that by tapping the menu button on the left top side and tap Add Wallet.\n\nDon't forget to give feedback through the about screen!" = "Welkom bij Neodius, wij proberen de NEO blockchain toegankelijker te maken voor meer mensen.\n\nOm deze app te gebruiken, voer je je wallet adres in bij Neodius. Je kunt dat doen door op de menu knop linksboven in te drukken en daarna op Voeg wallet toe.\n\nVergeet niet om feedback te geven in het Over scherm!";
 
 /* No comment provided by engineer. */
 "WiFi" = "WiFi";

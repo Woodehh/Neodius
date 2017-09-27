@@ -11,6 +11,7 @@
 #import "walletViewTableViewController.h"
 #import "settingsTableViewController.h"
 #import "marketInfoTableViewController.h"
+#import "tipJarTableViewController.h"
 
 @implementation menuTableViewController
 
@@ -152,8 +153,10 @@
         } else if (indexPath.row == 3) {
             menuItem = [[settingsTableViewController alloc] initWithStyle:UITableViewStyleGrouped];
             self.viewDeckController.centerViewController = [[UINavigationController alloc] initWithRootViewController:menuItem];
-            
         } else if (indexPath.row == 4) {
+            menuItem = [[tipJarTableViewController alloc] initWithStyle:UITableViewStyleGrouped];
+            self.viewDeckController.centerViewController = [[UINavigationController alloc] initWithRootViewController:menuItem];
+        } else if (indexPath.row == 5) {
             RFAboutViewController* menuItem = [[RFAboutViewController alloc] initWithAppName:@"NEODIUS"
                                                                                   appVersion:nil
                                                                                     appBuild:nil
@@ -215,7 +218,7 @@
 -(UIView*) headerView {
     UIView* headerview = [[UIView alloc] initWithFrame:CGRectMake(15, 30, 200, 80)];
     UIImageView *menuLogo = [[UIImageView alloc] initWithFrame:headerview.frame];
-    menuLogo.image = [UIImage imageNamed:@"MenuLogo"];
+    menuLogo.image = [UIImage imageNamed:@"imageMenu"];
     menuLogo.contentMode = UIViewContentModeScaleAspectFit;
     [headerview addSubview:menuLogo];
     

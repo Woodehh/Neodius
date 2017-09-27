@@ -76,9 +76,7 @@
 }
 
 -(void)loadData {
-    
-    
-    
+
     Reachability *networkReachability = [Reachability reachabilityForInternetConnection];
     NetworkStatus networkStatus = [networkReachability currentReachabilityStatus];
     if (networkStatus == NotReachable) {
@@ -181,68 +179,11 @@
     if (transactions.count==0)
         return;
     
-    UIView *v = [[UIView alloc] initWithFrame:CGRectMake(0,0, 280, 420)];
+    [[NeodiusUIComponents sharedComponents] showQrModalOnViewController:self
+                                                            withAddress:_walletAddress
+                                                              withTitle:nil
+                                                       andShareMessage:nil];
     
-    UILabel *title = [[UILabel alloc] initWithFrame:CGRectMake(20, 20, v.frame.size.width-40, 40)];
-    title.textAlignment = NSTextAlignmentCenter;
-    [title setText:NSLocalizedString(@"Wallet address",nil)];
-    title.adjustsFontSizeToFitWidth = YES;
-    title.font = [UIFont fontWithName:@"HelveticaNeue-Light" size:32];
-    [v addSubview:title];
-
-    UILabel *address = [[UILabel alloc] initWithFrame:CGRectMake(20, 60, v.frame.size.width-40, 40)];
-    address.textAlignment = NSTextAlignmentCenter;
-    address.text = _walletAddress;
-    address.adjustsFontSizeToFitWidth = YES;;
-    address.font = [UIFont fontWithName:@"HelveticaNeue-Light" size:16];
-    address.numberOfLines = 0;
-    [v addSubview:address];
-    
-    
-    UIImage *qrImage = [UIImage coro_createQRCodeWithText:@"AXCLjFvfi47R1sKLrebbRJnqWgbcsncfro" size:200];
-    UIImageView *qrHolder = [[UIImageView alloc] initWithFrame:CGRectMake(20, 110, 240, 240)];
-    qrHolder.frame = CGRectMake(qrHolder.frame.origin.x,
-                                  qrHolder.frame.origin.y,
-                                  qrHolder.frame.size.width,
-                                  qrHolder.frame.size.height);
-    
-    qrHolder.image = qrImage;
-    
-    NEOButton *btnCopy = [[NEOButton alloc]
-                                initWithFrame:CGRectMake(20,360,v.frame.size.width-40,40)
-                                withTitle:NSLocalizedString(@"Copy address",nil)
-                                withIcon:FAIconClone
-                                isPrimary:YES
-                                ];
-    [btnCopy addTarget:self action:@selector(copyToClipboard) forControlEvents:UIControlEventTouchUpInside];
-    
-    [v addSubview:address];
-    [v addSubview:qrHolder];
-    [v addSubview:btnCopy];
-    v.layer.cornerRadius = 10.0f;
-    
-    v.backgroundColor = [UIColor whiteColor];
-    
-    walletPopup = [KLCPopup popupWithContentView:v
-                                        showType:KLCPopupShowTypeBounceInFromBottom
-                                     dismissType:KLCPopupDismissTypeShrinkOut
-                                        maskType:KLCPopupMaskTypeDimmed
-                        dismissOnBackgroundTouch:YES
-                           dismissOnContentTouch:NO];
-    [walletPopup show];
-    
-}
-
--(void)copyToClipboard {
-    UIPasteboard *pasteboard = [UIPasteboard generalPasteboard];
-    pasteboard.string = _walletAddress;
-    
-    if ([[NeodiusDataSource sharedData] getShowMessages])  {
-        CWStatusBarNotification *n = [CWStatusBarNotification new];
-        n.notificationLabelBackgroundColor = neoGreenColor;
-        n.notificationLabelTextColor = [UIColor whiteColor];
-        [n displayNotificationWithMessage:NSLocalizedString(@"Address copied to clipboard", nil) forDuration:3];
-    }
 }
 
 -(void)restartTimerProcessForSeconds:(NSNumber*)timer {

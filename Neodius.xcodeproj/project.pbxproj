@@ -13,6 +13,8 @@
 		E22FEEC51F71091C000922C4 /* refreshIntervals.json in Resources */ = {isa = PBXBuildFile; fileRef = E22FEEC21F71091C000922C4 /* refreshIntervals.json */; };
 		E22FEED31F7109E2000922C4 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E22FEED01F7109E2000922C4 /* Localizable.strings */; };
 		E25AB2AC1F7BC7E200CA1FF2 /* neodiusUIComponents.m in Sources */ = {isa = PBXBuildFile; fileRef = E25AB2AB1F7BC5BA00CA1FF2 /* neodiusUIComponents.m */; };
+		E25AB2AF1F7C01BF00CA1FF2 /* tipJarTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E25AB2AE1F7C01BF00CA1FF2 /* tipJarTableViewController.m */; };
+		E25AB2B11F7C05E300CA1FF2 /* donationData.json in Resources */ = {isa = PBXBuildFile; fileRef = E25AB2B01F7C038700CA1FF2 /* donationData.json */; };
 		E2AD85A11F6FED9A00D03087 /* Acknowledgements.plist in Resources */ = {isa = PBXBuildFile; fileRef = E2AD85A01F6FED9A00D03087 /* Acknowledgements.plist */; };
 		E2B3AE0D1F7A58CD00713798 /* marketViewCustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E2B3ADEC1F7A58AA00713798 /* marketViewCustomTableViewCell.m */; };
 		E2B3AE0E1F7A58CD00713798 /* NEOButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E2B3ADEF1F7A58AA00713798 /* NEOButton.m */; };
@@ -45,6 +47,9 @@
 		E22FEED21F7109E2000922C4 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/Localizable.strings; sourceTree = "<group>"; };
 		E25AB2AA1F7BC5BA00CA1FF2 /* neodiusUIComponents.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = neodiusUIComponents.h; sourceTree = "<group>"; };
 		E25AB2AB1F7BC5BA00CA1FF2 /* neodiusUIComponents.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = neodiusUIComponents.m; sourceTree = "<group>"; };
+		E25AB2AD1F7C01BF00CA1FF2 /* tipJarTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = tipJarTableViewController.h; path = tipjarTableViewController/tipJarTableViewController.h; sourceTree = "<group>"; };
+		E25AB2AE1F7C01BF00CA1FF2 /* tipJarTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = tipJarTableViewController.m; path = tipjarTableViewController/tipJarTableViewController.m; sourceTree = "<group>"; };
+		E25AB2B01F7C038700CA1FF2 /* donationData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = donationData.json; path = "Neodius/Supporting Files/SettingCache/donationData.json"; sourceTree = SOURCE_ROOT; };
 		E2AD85A01F6FED9A00D03087 /* Acknowledgements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Acknowledgements.plist; path = neodius/Acknowledgements.plist; sourceTree = SOURCE_ROOT; };
 		E2B3ADEB1F7A58AA00713798 /* marketViewCustomTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = marketViewCustomTableViewCell.h; sourceTree = "<group>"; };
 		E2B3ADEC1F7A58AA00713798 /* marketViewCustomTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = marketViewCustomTableViewCell.m; sourceTree = "<group>"; };
@@ -120,6 +125,7 @@
 		E22FEEBF1F71091C000922C4 /* SettingCache */ = {
 			isa = PBXGroup;
 			children = (
+				E25AB2B01F7C038700CA1FF2 /* donationData.json */,
 				E22FEEC01F71091C000922C4 /* cryptoCurrencies.json */,
 				E22FEEC11F71091C000922C4 /* fiatCurrencies.json */,
 				E22FEEC21F71091C000922C4 /* refreshIntervals.json */,
@@ -212,6 +218,8 @@
 				E2B3ADFD1F7A58AA00713798 /* MenuTableViewController */,
 				E2B3AE001F7A58AA00713798 /* Settings */,
 				E2B3AE0A1F7A58AA00713798 /* WalletViewTableViewController */,
+				E25AB2AD1F7C01BF00CA1FF2 /* tipJarTableViewController.h */,
+				E25AB2AE1F7C01BF00CA1FF2 /* tipJarTableViewController.m */,
 			);
 			name = ViewControllers;
 			path = Neodius/ViewControllers;
@@ -390,6 +398,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E25AB2B11F7C05E300CA1FF2 /* donationData.json in Resources */,
 				E2B3AE181F7A5BFB00713798 /* LaunchScreen.storyboard in Resources */,
 				E2B3AE171F7A590500713798 /* Assets.xcassets in Resources */,
 				E22FEEC31F71091C000922C4 /* cryptoCurrencies.json in Resources */,
@@ -490,6 +499,7 @@
 				E2B3AE101F7A58CD00713798 /* marketInfoTableViewController.m in Sources */,
 				E2B3AE111F7A58CD00713798 /* menuTableViewController.m in Sources */,
 				E2B3AE121F7A58CD00713798 /* selectionSettingsTableViewController.m in Sources */,
+				E25AB2AF1F7C01BF00CA1FF2 /* tipJarTableViewController.m in Sources */,
 				E2B3AE131F7A58CD00713798 /* settingsTableViewController.m in Sources */,
 				E2B3AE141F7A58CD00713798 /* walletManagementTableViewController.m in Sources */,
 				E2B3AE151F7A58CD00713798 /* walletViewTableViewController.m in Sources */,
