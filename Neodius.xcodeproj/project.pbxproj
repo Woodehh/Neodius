@@ -12,6 +12,7 @@
 		E22FEEC41F71091C000922C4 /* fiatCurrencies.json in Resources */ = {isa = PBXBuildFile; fileRef = E22FEEC11F71091C000922C4 /* fiatCurrencies.json */; };
 		E22FEEC51F71091C000922C4 /* refreshIntervals.json in Resources */ = {isa = PBXBuildFile; fileRef = E22FEEC21F71091C000922C4 /* refreshIntervals.json */; };
 		E22FEED31F7109E2000922C4 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E22FEED01F7109E2000922C4 /* Localizable.strings */; };
+		E25AB2AC1F7BC7E200CA1FF2 /* neodiusUIComponents.m in Sources */ = {isa = PBXBuildFile; fileRef = E25AB2AB1F7BC5BA00CA1FF2 /* neodiusUIComponents.m */; };
 		E2AD85A11F6FED9A00D03087 /* Acknowledgements.plist in Resources */ = {isa = PBXBuildFile; fileRef = E2AD85A01F6FED9A00D03087 /* Acknowledgements.plist */; };
 		E2B3AE0D1F7A58CD00713798 /* marketViewCustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E2B3ADEC1F7A58AA00713798 /* marketViewCustomTableViewCell.m */; };
 		E2B3AE0E1F7A58CD00713798 /* NEOButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E2B3ADEF1F7A58AA00713798 /* NEOButton.m */; };
@@ -42,6 +43,8 @@
 		E22FEEC21F71091C000922C4 /* refreshIntervals.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = refreshIntervals.json; sourceTree = "<group>"; };
 		E22FEED11F7109E2000922C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
 		E22FEED21F7109E2000922C4 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E25AB2AA1F7BC5BA00CA1FF2 /* neodiusUIComponents.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = neodiusUIComponents.h; sourceTree = "<group>"; };
+		E25AB2AB1F7BC5BA00CA1FF2 /* neodiusUIComponents.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = neodiusUIComponents.m; sourceTree = "<group>"; };
 		E2AD85A01F6FED9A00D03087 /* Acknowledgements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Acknowledgements.plist; path = neodius/Acknowledgements.plist; sourceTree = SOURCE_ROOT; };
 		E2B3ADEB1F7A58AA00713798 /* marketViewCustomTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = marketViewCustomTableViewCell.h; sourceTree = "<group>"; };
 		E2B3ADEC1F7A58AA00713798 /* marketViewCustomTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = marketViewCustomTableViewCell.m; sourceTree = "<group>"; };
@@ -133,11 +136,22 @@
 			path = "neodius/Supporting Files/LocalizedData";
 			sourceTree = SOURCE_ROOT;
 		};
+		E25AB2A91F7BC5BA00CA1FF2 /* NeodiusUIComponents */ = {
+			isa = PBXGroup;
+			children = (
+				E25AB2AA1F7BC5BA00CA1FF2 /* neodiusUIComponents.h */,
+				E25AB2AB1F7BC5BA00CA1FF2 /* neodiusUIComponents.m */,
+			);
+			name = NeodiusUIComponents;
+			path = Neodius/Dependencies/NeodiusUIComponents;
+			sourceTree = SOURCE_ROOT;
+		};
 		E2B3ADE91F7A58AA00713798 /* Dependencies */ = {
 			isa = PBXGroup;
 			children = (
 				E2B3ADEA1F7A58AA00713798 /* marketViewCustomTableViewCell */,
 				E2B3ADED1F7A58AA00713798 /* NEOButton */,
+				E25AB2A91F7BC5BA00CA1FF2 /* NeodiusUIComponents */,
 				E2B3ADF01F7A58AA00713798 /* NeodiusDataSource */,
 			);
 			name = Dependencies;
@@ -468,6 +482,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E25AB2AC1F7BC7E200CA1FF2 /* neodiusUIComponents.m in Sources */,
 				E2B3AE161F7A58D600713798 /* AppDelegate.m in Sources */,
 				E2B3AE0D1F7A58CD00713798 /* marketViewCustomTableViewCell.m in Sources */,
 				E2B3AE0E1F7A58CD00713798 /* NEOButton.m in Sources */,
