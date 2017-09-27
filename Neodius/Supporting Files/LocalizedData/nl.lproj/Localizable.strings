@@ -51,6 +51,12 @@
 "Bid price" = "Bied prijs";
 
 /* No comment provided by engineer. */
+"By entering an address" = "Door een adres in te voeren";
+
+/* No comment provided by engineer. */
+"By QR-Code" = "Door QR code";
+
+/* No comment provided by engineer. */
 "Cancel" = "Annuleren";
 
 /* Cannot send Email */
@@ -142,6 +148,9 @@
 
 /* No comment provided by engineer. */
 "Okay" = "Okay";
+
+/* No comment provided by engineer. */
+"Pick a method" = "Selecteer een methode";
 
 /* No comment provided by engineer. */
 "Quick address lookup" = "Snel een adres bekijken";

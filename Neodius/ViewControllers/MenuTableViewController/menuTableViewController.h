@@ -11,9 +11,10 @@
 #import <RFAboutView/RFAboutViewController.h>
 #import <ViewDeck/ViewDeck.h>
 #import "UIAlertView+Blocks.h"
+#import <QRCodeReaderViewController/QRCodeReaderViewController.h>
 
 
-@interface menuTableViewController : UITableViewController {
+@interface menuTableViewController : UITableViewController  <QRCodeReaderDelegate> {
     NSArray *storedWallets;
 }
 

@@ -22,6 +22,7 @@ target 'Neodius' do
   pod "UIWebView-Blocks"
   pod "YCFirstTime"
   pod "MSSimpleGauge"
+  pod "QRCodeReaderViewController"
   
   post_install do |installer|
     require 'fileutils'
