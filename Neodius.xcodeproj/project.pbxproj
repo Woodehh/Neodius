@@ -13,8 +13,10 @@
 		E22FEEC51F71091C000922C4 /* refreshIntervals.json in Resources */ = {isa = PBXBuildFile; fileRef = E22FEEC21F71091C000922C4 /* refreshIntervals.json */; };
 		E22FEED31F7109E2000922C4 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E22FEED01F7109E2000922C4 /* Localizable.strings */; };
 		E25AB2AC1F7BC7E200CA1FF2 /* neodiusUIComponents.m in Sources */ = {isa = PBXBuildFile; fileRef = E25AB2AB1F7BC5BA00CA1FF2 /* neodiusUIComponents.m */; };
-		E25AB2AF1F7C01BF00CA1FF2 /* tipJarTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E25AB2AE1F7C01BF00CA1FF2 /* tipJarTableViewController.m */; };
 		E25AB2B11F7C05E300CA1FF2 /* donationData.json in Resources */ = {isa = PBXBuildFile; fileRef = E25AB2B01F7C038700CA1FF2 /* donationData.json */; };
+		E25AB2B81F7C2BB500CA1FF2 /* tipJarTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E25AB2B71F7C2B6700CA1FF2 /* tipJarTableViewController.m */; };
+		E25AB2BB1F7C3EDA00CA1FF2 /* gasCalculationTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E25AB2BA1F7C3EDA00CA1FF2 /* gasCalculationTableViewController.m */; };
+		E25AB2C31F7C431400CA1FF2 /* gasCalculationTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E25AB2C21F7C412300CA1FF2 /* gasCalculationTableViewCell.m */; };
 		E2AD85A11F6FED9A00D03087 /* Acknowledgements.plist in Resources */ = {isa = PBXBuildFile; fileRef = E2AD85A01F6FED9A00D03087 /* Acknowledgements.plist */; };
 		E2B3AE0D1F7A58CD00713798 /* marketViewCustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E2B3ADEC1F7A58AA00713798 /* marketViewCustomTableViewCell.m */; };
 		E2B3AE0E1F7A58CD00713798 /* NEOButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E2B3ADEF1F7A58AA00713798 /* NEOButton.m */; };
@@ -47,9 +49,13 @@
 		E22FEED21F7109E2000922C4 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/Localizable.strings; sourceTree = "<group>"; };
 		E25AB2AA1F7BC5BA00CA1FF2 /* neodiusUIComponents.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = neodiusUIComponents.h; sourceTree = "<group>"; };
 		E25AB2AB1F7BC5BA00CA1FF2 /* neodiusUIComponents.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = neodiusUIComponents.m; sourceTree = "<group>"; };
-		E25AB2AD1F7C01BF00CA1FF2 /* tipJarTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = tipJarTableViewController.h; path = tipjarTableViewController/tipJarTableViewController.h; sourceTree = "<group>"; };
-		E25AB2AE1F7C01BF00CA1FF2 /* tipJarTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = tipJarTableViewController.m; path = tipjarTableViewController/tipJarTableViewController.m; sourceTree = "<group>"; };
 		E25AB2B01F7C038700CA1FF2 /* donationData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = donationData.json; path = "Neodius/Supporting Files/SettingCache/donationData.json"; sourceTree = SOURCE_ROOT; };
+		E25AB2B61F7C2B6700CA1FF2 /* tipJarTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tipJarTableViewController.h; sourceTree = "<group>"; };
+		E25AB2B71F7C2B6700CA1FF2 /* tipJarTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tipJarTableViewController.m; sourceTree = "<group>"; };
+		E25AB2B91F7C3EDA00CA1FF2 /* gasCalculationTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = gasCalculationTableViewController.h; path = GasCalculationTableViewController/gasCalculationTableViewController.h; sourceTree = "<group>"; };
+		E25AB2BA1F7C3EDA00CA1FF2 /* gasCalculationTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = gasCalculationTableViewController.m; path = GasCalculationTableViewController/gasCalculationTableViewController.m; sourceTree = "<group>"; };
+		E25AB2C11F7C412300CA1FF2 /* gasCalculationTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gasCalculationTableViewCell.h; sourceTree = "<group>"; };
+		E25AB2C21F7C412300CA1FF2 /* gasCalculationTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gasCalculationTableViewCell.m; sourceTree = "<group>"; };
 		E2AD85A01F6FED9A00D03087 /* Acknowledgements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Acknowledgements.plist; path = neodius/Acknowledgements.plist; sourceTree = SOURCE_ROOT; };
 		E2B3ADEB1F7A58AA00713798 /* marketViewCustomTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = marketViewCustomTableViewCell.h; sourceTree = "<group>"; };
 		E2B3ADEC1F7A58AA00713798 /* marketViewCustomTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = marketViewCustomTableViewCell.m; sourceTree = "<group>"; };
@@ -152,10 +158,29 @@
 			path = Neodius/Dependencies/NeodiusUIComponents;
 			sourceTree = SOURCE_ROOT;
 		};
+		E25AB2B51F7C2B6700CA1FF2 /* TipJarTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E25AB2B61F7C2B6700CA1FF2 /* tipJarTableViewController.h */,
+				E25AB2B71F7C2B6700CA1FF2 /* tipJarTableViewController.m */,
+			);
+			path = TipJarTableViewController;
+			sourceTree = "<group>";
+		};
+		E25AB2C01F7C412300CA1FF2 /* GasCalculationTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				E25AB2C11F7C412300CA1FF2 /* gasCalculationTableViewCell.h */,
+				E25AB2C21F7C412300CA1FF2 /* gasCalculationTableViewCell.m */,
+			);
+			path = GasCalculationTableViewCell;
+			sourceTree = "<group>";
+		};
 		E2B3ADE91F7A58AA00713798 /* Dependencies */ = {
 			isa = PBXGroup;
 			children = (
-				E2B3ADEA1F7A58AA00713798 /* marketViewCustomTableViewCell */,
+				E25AB2C01F7C412300CA1FF2 /* GasCalculationTableViewCell */,
+				E2B3ADEA1F7A58AA00713798 /* MarketViewCustomTableViewCell */,
 				E2B3ADED1F7A58AA00713798 /* NEOButton */,
 				E25AB2A91F7BC5BA00CA1FF2 /* NeodiusUIComponents */,
 				E2B3ADF01F7A58AA00713798 /* NeodiusDataSource */,
@@ -164,13 +189,13 @@
 			path = Neodius/Dependencies;
 			sourceTree = SOURCE_ROOT;
 		};
-		E2B3ADEA1F7A58AA00713798 /* marketViewCustomTableViewCell */ = {
+		E2B3ADEA1F7A58AA00713798 /* MarketViewCustomTableViewCell */ = {
 			isa = PBXGroup;
 			children = (
 				E2B3ADEB1F7A58AA00713798 /* marketViewCustomTableViewCell.h */,
 				E2B3ADEC1F7A58AA00713798 /* marketViewCustomTableViewCell.m */,
 			);
-			path = marketViewCustomTableViewCell;
+			path = MarketViewCustomTableViewCell;
 			sourceTree = "<group>";
 		};
 		E2B3ADED1F7A58AA00713798 /* NEOButton */ = {
@@ -218,8 +243,9 @@
 				E2B3ADFD1F7A58AA00713798 /* MenuTableViewController */,
 				E2B3AE001F7A58AA00713798 /* Settings */,
 				E2B3AE0A1F7A58AA00713798 /* WalletViewTableViewController */,
-				E25AB2AD1F7C01BF00CA1FF2 /* tipJarTableViewController.h */,
-				E25AB2AE1F7C01BF00CA1FF2 /* tipJarTableViewController.m */,
+				E25AB2B51F7C2B6700CA1FF2 /* TipJarTableViewController */,
+				E25AB2B91F7C3EDA00CA1FF2 /* gasCalculationTableViewController.h */,
+				E25AB2BA1F7C3EDA00CA1FF2 /* gasCalculationTableViewController.m */,
 			);
 			name = ViewControllers;
 			path = Neodius/ViewControllers;
@@ -491,15 +517,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E25AB2C31F7C431400CA1FF2 /* gasCalculationTableViewCell.m in Sources */,
+				E25AB2B81F7C2BB500CA1FF2 /* tipJarTableViewController.m in Sources */,
 				E25AB2AC1F7BC7E200CA1FF2 /* neodiusUIComponents.m in Sources */,
 				E2B3AE161F7A58D600713798 /* AppDelegate.m in Sources */,
+				E25AB2BB1F7C3EDA00CA1FF2 /* gasCalculationTableViewController.m in Sources */,
 				E2B3AE0D1F7A58CD00713798 /* marketViewCustomTableViewCell.m in Sources */,
 				E2B3AE0E1F7A58CD00713798 /* NEOButton.m in Sources */,
 				E2B3AE0F1F7A58CD00713798 /* neodiusDataSource.m in Sources */,
 				E2B3AE101F7A58CD00713798 /* marketInfoTableViewController.m in Sources */,
 				E2B3AE111F7A58CD00713798 /* menuTableViewController.m in Sources */,
 				E2B3AE121F7A58CD00713798 /* selectionSettingsTableViewController.m in Sources */,
-				E25AB2AF1F7C01BF00CA1FF2 /* tipJarTableViewController.m in Sources */,
 				E2B3AE131F7A58CD00713798 /* settingsTableViewController.m in Sources */,
 				E2B3AE141F7A58CD00713798 /* walletManagementTableViewController.m in Sources */,
 				E2B3AE151F7A58CD00713798 /* walletViewTableViewController.m in Sources */,

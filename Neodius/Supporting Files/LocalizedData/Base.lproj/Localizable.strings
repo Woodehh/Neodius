@@ -30,6 +30,9 @@
 "About" = "About";
 
 /* No comment provided by engineer. */
+"Actual GAS" = "Actual GAS";
+
+/* No comment provided by engineer. */
 "Add wallet" = "Add wallet";
 
 /* No comment provided by engineer. */
@@ -102,6 +105,9 @@
 "Dismiss" = "Dismiss";
 
 /* No comment provided by engineer. */
+"Dividend" = "Dividend";
+
+/* No comment provided by engineer. */
 "Donate %@" = "Donate %@";
 
 /* No comment provided by engineer. */
@@ -118,6 +124,9 @@
 
 /* No comment provided by engineer. */
 "Feel free to send some %@ in order to make support the Neodius development! :-)" = "Feel free to send some %@ in order to make support the Neodius development! :-)";
+
+/* No comment provided by engineer. */
+"GAS Calculation" = "GAS Calculation";
 
 /* No comment provided by engineer. */
 "General" = "General";
@@ -160,6 +169,18 @@
 
 /* No comment provided by engineer. */
 "Okay" = "Okay";
+
+/* No comment provided by engineer. */
+"Per day" = "Per day";
+
+/* No comment provided by engineer. */
+"Per month" = "Per month";
+
+/* No comment provided by engineer. */
+"Per week" = "Per week";
+
+/* No comment provided by engineer. */
+"Per year" = "Per year";
 
 /* No comment provided by engineer. */
 "Pick a method" = "Pick a method";
@@ -210,7 +231,13 @@
 "The NEO address. Feel free to transfer some NEO or GAS! :)" = "The NEO address. Feel free to transfer some NEO or GAS! :)";
 
 /* No comment provided by engineer. */
+"Theoretical GAS" = "Theoretical GAS";
+
+/* No comment provided by engineer. */
 "This is the NEO address. Feel free to transfer some NEO or GAS! :)" = "This is the NEO address. Feel free to transfer some NEO or GAS! :)";
+
+/* No comment provided by engineer. */
+"Time" = "Time";
 
 /* No comment provided by engineer. */
 "Tip jar" = "Tip jar";

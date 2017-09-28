@@ -18,7 +18,6 @@
     
     self = [super initWithFrame:frame];
     if (self) {
-        
         title = titleValue;
         
         if (primary)
@@ -37,7 +36,7 @@
     layer.masksToBounds = YES;
     layer.borderWidth = 1.0f;
     layer.borderColor = greenColor.CGColor;
-    button.titleLabel.font = [UIFont boldSystemFontOfSize:14];
+    button.titleLabel.font = [UIFont systemFontOfSize:14];
     
 
     NSMutableAttributedString *iconString = [[NSMutableAttributedString alloc] initWithString:[NSString stringWithFormat:@"%@ %@",

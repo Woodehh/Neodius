@@ -54,21 +54,24 @@
         }
     } else if (indexPath.section == 1) {
         if (indexPath.row == 0) {
-            cell.textLabel.text = [NSString stringWithFormat:NSLocalizedString(@"%@ Market information",nil),@"NEO"];
-            icon = @"fa-line-chart";
-        } else if (indexPath.row == 1) {
-            cell.textLabel.text = [NSString stringWithFormat:NSLocalizedString(@"%@ Market information",nil),@"GAS"];
-            icon = @"fa-area-chart";
-        } else if (indexPath.row == 2) {
             cell.textLabel.text = NSLocalizedString(@"Quick address lookup",nil);
             icon = @"fa-eye";
+        } else if (indexPath.row == 1) {
+            cell.textLabel.text = [NSString stringWithFormat:NSLocalizedString(@"GAS Calculation",nil),@"NEO"];
+            icon = @"fa-calculator";
+        } else if (indexPath.row == 2) {
+            cell.textLabel.text = [NSString stringWithFormat:NSLocalizedString(@"%@ Market information",nil),@"NEO"];
+            icon = @"fa-line-chart";
         } else if (indexPath.row == 3) {
+            cell.textLabel.text = [NSString stringWithFormat:NSLocalizedString(@"%@ Market information",nil),@"GAS"];
+            icon = @"fa-area-chart";
+        } else if (indexPath.row == 4) {
             cell.textLabel.text = NSLocalizedString(@"Settings",nil);
             icon = @"fa-cog";
-        } else if (indexPath.row == 4) {
+        } else if (indexPath.row == 5) {
             cell.textLabel.text = NSLocalizedString(@"Tip jar",nil);
             icon = @"fa-beer";
-        } else if (indexPath.row == 5) {
+        } else if (indexPath.row == 6) {
             cell.textLabel.text = NSLocalizedString(@"About",nil);
             icon = @"fa-question-circle-o";
         }
@@ -84,7 +87,7 @@
             icon = @"fa-bus";
         }
     }
-    
+
     cell.imageView.image = [[NeodiusDataSource sharedData] tableIconPositive:icon];
     cell.imageView.highlightedImage = [[NeodiusDataSource sharedData] tableIconNegative:icon];
     
@@ -124,39 +127,38 @@
         UIViewController *menuItem;
         
         if (indexPath.row == 0) {
+            close = NO;
+            [UIComponents inputWalletInformationOnViewController:self
+                                              withAddressAndName:NO
+                                             WithCompletionBlock:^(bool addressEntered, NSString *walletName, NSString *walletAddress) {
+                                                 if (addressEntered) {
+                                                     if (![walletAddress isEqualToString:@""]) {
+                                                         [self showWalletWithTitle:NSLocalizedString(@"Quick address lookup", nil)
+                                                                        andAddress:walletAddress];
+                                                     }
+                                                 }
+                                                 [self.tableView deselectRowAtIndexPath:indexPath animated:YES];
+                                             }];
+        } else if (indexPath.row == 1) {
+//            marketInfoTableViewController *menuItem = [[marketInfoTableViewController alloc] initWithStyle:UITableViewStyleGrouped];
+//            menuItem.type = @"NEO";
+//            self.viewDeckController.centerViewController = [[UINavigationController alloc] initWithRootViewController:menuItem];
+
+        } else if (indexPath.row == 2) {
             marketInfoTableViewController *menuItem = [[marketInfoTableViewController alloc] initWithStyle:UITableViewStyleGrouped];
             menuItem.type = @"NEO";
             self.viewDeckController.centerViewController = [[UINavigationController alloc] initWithRootViewController:menuItem];
-            
-        } else if (indexPath.row == 1) {
+        } else if (indexPath.row == 3) {
             marketInfoTableViewController *menuItem = [[marketInfoTableViewController alloc] initWithStyle:UITableViewStyleGrouped];
             menuItem.type = @"GAS";
             self.viewDeckController.centerViewController = [[UINavigationController alloc] initWithRootViewController:menuItem];
-            
-        } else if (indexPath.row == 2) {
-            
-            close = NO;
-
-            [UIComponents inputWalletInformationOnViewController:self
-                                   withAddressAndName:NO
-                                  WithCompletionBlock:^(bool addressEntered, NSString *walletName, NSString *walletAddress) {
-                                      if (addressEntered) {
-                                          if (![walletAddress isEqualToString:@""]) {
-                                              [self showWalletWithTitle:NSLocalizedString(@"Quick address lookup", nil)
-                                                             andAddress:walletAddress];
-                                          }
-                                      }
-                                      [self.tableView deselectRowAtIndexPath:indexPath animated:YES];
-                                  }];
-            
-            
-        } else if (indexPath.row == 3) {
+        } else if (indexPath.row == 4) {
             menuItem = [[settingsTableViewController alloc] initWithStyle:UITableViewStyleGrouped];
             self.viewDeckController.centerViewController = [[UINavigationController alloc] initWithRootViewController:menuItem];
-        } else if (indexPath.row == 4) {
+        } else if (indexPath.row == 5) {
             menuItem = [[tipJarTableViewController alloc] initWithStyle:UITableViewStyleGrouped];
             self.viewDeckController.centerViewController = [[UINavigationController alloc] initWithRootViewController:menuItem];
-        } else if (indexPath.row == 5) {
+        } else if (indexPath.row == 6) {
             RFAboutViewController* menuItem = [[RFAboutViewController alloc] initWithAppName:@"NEODIUS"
                                                                                   appVersion:nil
                                                                                     appBuild:nil
@@ -216,7 +218,7 @@
 }
 
 -(UIView*) headerView {
-    UIView* headerview = [[UIView alloc] initWithFrame:CGRectMake(15, 30, 200, 80)];
+    UIView* headerview = [[UIView alloc] initWithFrame:CGRectMake(15, 15, 200, 50)];
     UIImageView *menuLogo = [[UIImageView alloc] initWithFrame:headerview.frame];
     menuLogo.image = [UIImage imageNamed:@"imageMenu"];
     menuLogo.contentMode = UIViewContentModeScaleAspectFit;
@@ -251,7 +253,7 @@
     if (section == 0)
         return storedWallets.count+1;
     else if (section == 1)
-        return 6;
+        return 7;
     else
         return 3;
 }

@@ -74,10 +74,11 @@ You can always send me some cryptos
 * BTC: `1Es9qssB7275Wf9x9A21aPf8xf9wYomfv1`
 * ETH: `0x442a0092725a7c6c17938605c76c4c1d2b8bb4c1`
 
-## Authors
+## Authors/Contributors
 The authors working on this project:
 
 * **Benjamin de Bos**
+* **[@N1njaWTF](http://twitter.com/N1njaWTF)** of (NeoToGas.com) for the GAS Calculation logic
 
 See also the list of [contributors](contributors) who participated in this project.
 

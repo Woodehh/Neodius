@@ -9,6 +9,7 @@
 #import "menuTableViewController.h"
 #import "walletViewTableViewController.h"
 #import "NeodiusDataSource.h"
+#import "gasCalculationTableViewController.h"
 
 @implementation AppDelegate
 @synthesize window = _window;
@@ -30,7 +31,7 @@
     
     [[UIBarButtonItem appearanceWhenContainedIn:[UINavigationBar class], nil] setTintColor:[UIColor whiteColor]];
     
-    UIViewController *centerController = [[walletViewTableViewController alloc] initWithStyle:UITableViewStyleGrouped];
+    UIViewController *centerController = [[gasCalculationTableViewController alloc] initWithStyle:UITableViewStyleGrouped];
     UIViewController *menuController = [[menuTableViewController alloc] initWithStyle:UITableViewStyleGrouped];
     
     //create navigation controller for center
