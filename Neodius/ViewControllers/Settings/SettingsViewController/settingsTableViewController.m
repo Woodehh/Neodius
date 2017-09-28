@@ -26,6 +26,12 @@
                                                                             action:@selector(openLeftSide)];
 }
 
+- (void)tableView:(UITableView *)tableView willDisplayHeaderView:(UIView *)view forSection:(NSInteger)section {
+    UITableViewHeaderFooterView *header = (UITableViewHeaderFooterView *)view;
+    header.textLabel.font = [UIFont fontWithName:@"HelveticaNeue-Light" size:header.textLabel.font.pointSize];
+}
+
+
 -(void)viewWillAppear:(BOOL)animated {
     baseFiat        = [[NeodiusDataSource sharedData] getFiatData][[[NeodiusDataSource sharedData] getBaseFiat]];
     baseCrypto      = [[NeodiusDataSource sharedData] getCryptoData][[[NeodiusDataSource sharedData] getBaseCrypto]];

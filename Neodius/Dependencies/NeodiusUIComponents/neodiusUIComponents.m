@@ -182,6 +182,23 @@ static NeodiusUIComponents *sharedComponents = nil;
 
 }
 
+-(CGRect)calculateAutoHeightForField:(UILabel*)label andMaxWidth:(CGFloat)width {
+    NSAttributedString *attributedText =    [[NSAttributedString alloc]
+                                             initWithString:label.text
+                                             attributes:@
+                                             {
+                                             NSFontAttributeName: label.font
+                                             }];
+    
+    CGRect rect = [attributedText boundingRectWithSize:(CGSize){width, CGFLOAT_MAX}
+                                               options:NSStringDrawingUsesLineFragmentOrigin
+                                               context:nil];
+    CGSize size = rect.size;
+    CGRect labelFrame = label.frame;
+    labelFrame.size.height = size.height;
+    return labelFrame;
+}
+
 -(void)copyToClipboardWithAddress {
     UIPasteboard *pasteboard = [UIPasteboard generalPasteboard];
     pasteboard.string = tmpString;

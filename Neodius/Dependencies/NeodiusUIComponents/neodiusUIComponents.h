@@ -16,6 +16,9 @@
 #import "NEOButton.h"
 #import "neodiusDataSource.h"
 
+#define IS_IPAD (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad)
+#define SIDE_MARGIN ((IS_IPAD) ? 180 : 15)
+#define DIVIDER_MARGIN ((IS_IPAD) ? 0 : 0)
 
 @interface NeodiusUIComponents : NSObject <QRCodeReaderDelegate> {
     QRCodeReaderViewController *vc;
@@ -36,6 +39,7 @@ typedef void (^addNewWalletCompletionBlock)(bool addressEntered, NSString* walle
 
 -(void)showQrModalOnViewController:(UIViewController*)viewController withAddress:(NSString*)address withTitle:(NSString*)title andShareMessage:(NSString*)shareString;
 
+-(CGRect)calculateAutoHeightForField:(UILabel*)label andMaxWidth:(CGFloat)width;
 
 
 @end

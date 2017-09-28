@@ -388,6 +388,12 @@
                                           completion:nil];
 }
 
+- (void)tableView:(UITableView *)tableView willDisplayHeaderView:(UIView *)view forSection:(NSInteger)section {
+    UITableViewHeaderFooterView *header = (UITableViewHeaderFooterView *)view;
+    header.textLabel.font = [UIFont fontWithName:@"HelveticaNeue-Light" size:header.textLabel.font.pointSize];
+}
+
+
 -(void)closeModal {
     [webViewRoot dismissViewControllerAnimated:YES completion:nil];
 }

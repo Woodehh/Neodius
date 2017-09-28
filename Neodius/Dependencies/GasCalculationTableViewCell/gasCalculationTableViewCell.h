@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "neodiusDataSource.h"
+#import "neodiusUIComponents.h"
 
 @interface gasCalculationTableViewCell : UITableViewCell
 @property (strong, nonatomic) UILabel *label1;

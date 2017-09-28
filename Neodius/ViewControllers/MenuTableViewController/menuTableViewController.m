@@ -12,6 +12,7 @@
 #import "settingsTableViewController.h"
 #import "marketInfoTableViewController.h"
 #import "tipJarTableViewController.h"
+#import "gasCalculationTableViewController.h"
 
 @implementation menuTableViewController
 
@@ -94,6 +95,12 @@
     return cell;
 }
 
+- (void)tableView:(UITableView *)tableView willDisplayHeaderView:(UIView *)view forSection:(NSInteger)section {
+    UITableViewHeaderFooterView *header = (UITableViewHeaderFooterView *)view;
+    header.textLabel.font = [UIFont fontWithName:@"HelveticaNeue-Light" size:header.textLabel.font.pointSize];
+}
+
+
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     
     BOOL close = YES;
@@ -140,10 +147,8 @@
                                                  [self.tableView deselectRowAtIndexPath:indexPath animated:YES];
                                              }];
         } else if (indexPath.row == 1) {
-//            marketInfoTableViewController *menuItem = [[marketInfoTableViewController alloc] initWithStyle:UITableViewStyleGrouped];
-//            menuItem.type = @"NEO";
-//            self.viewDeckController.centerViewController = [[UINavigationController alloc] initWithRootViewController:menuItem];
-
+            gasCalculationTableViewController *menuItem = [[gasCalculationTableViewController alloc] initWithStyle:UITableViewStyleGrouped];
+            self.viewDeckController.centerViewController = [[UINavigationController alloc] initWithRootViewController:menuItem];
         } else if (indexPath.row == 2) {
             marketInfoTableViewController *menuItem = [[marketInfoTableViewController alloc] initWithStyle:UITableViewStyleGrouped];
             menuItem.type = @"NEO";

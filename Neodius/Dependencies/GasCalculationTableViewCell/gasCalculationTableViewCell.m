@@ -8,10 +8,6 @@
 
 #import "gasCalculationTableViewCell.h"
 
-#define SIDE_MARGIN @"20"
-#define DIVIDER_MARGIN @"5"
-
-
 @interface gasCalculationTableViewCell ()
 @property (strong, nonatomic) UIView *divider1;
 @property (strong, nonatomic) UIView *divider2;
@@ -21,13 +17,14 @@
 
 @implementation gasCalculationTableViewCell
 
+
+
 - (UILabel *)label {
     UILabel *label = [[UILabel alloc] init];
     label.translatesAutoresizingMaskIntoConstraints = NO;
     label.font = [UIFont fontWithName:@"HelveticaNeue-Light" size:14];
-    label.textAlignment = NSTextAlignmentLeft;
+    label.textAlignment = NSTextAlignmentCenter;
     label.adjustsFontSizeToFitWidth = YES;
-    //label.backgroundColor = [UIColor redColor];
     [self.contentView addSubview:label];
     return label;
 }
@@ -59,10 +56,17 @@
     self.label3 = [self label];
     
     NSDictionary *views = NSDictionaryOfVariableBindings(_label1, _label2, _label3, _divider1, _divider2,_divider3,_divider4);
+    NSString *visualFormat = [NSString stringWithFormat:@"H:|-%d-[_divider1]-%d-[_label1]-%d-[_divider2]-%d-[_label2(==_label1)]-%d-[_divider3]-%d-[_label3(==_label1)]-%d-[_divider4]-%d-|",
+                              SIDE_MARGIN,
+                              DIVIDER_MARGIN,
+                              DIVIDER_MARGIN,
+                              DIVIDER_MARGIN,
+                              DIVIDER_MARGIN,
+                              DIVIDER_MARGIN,
+                              DIVIDER_MARGIN,
+                              SIDE_MARGIN];
     
-    
-    
-    NSArray *constraints = [NSLayoutConstraint constraintsWithVisualFormat:@"H:|-"SIDE_MARGIN"-[_divider1]-"DIVIDER_MARGIN"-[_label1]-"DIVIDER_MARGIN"-[_divider2]-"DIVIDER_MARGIN"-[_label2(==_label1)]-"DIVIDER_MARGIN"-[_divider3]-"DIVIDER_MARGIN"-[_label3(==_label1)]-"SIDE_MARGIN"-[_divider4]-"SIDE_MARGIN"-|" options:NSLayoutFormatAlignAllCenterY metrics:nil views:views];
+    NSArray *constraints = [NSLayoutConstraint constraintsWithVisualFormat:visualFormat options:NSLayoutFormatAlignAllCenterY metrics:nil views:views];
     [self.contentView addConstraints:constraints];
     
     NSArray *horizontalConstraints1 = [NSLayoutConstraint constraintsWithVisualFormat:@"V:|[_divider1]|" options:0 metrics:nil views:views];
@@ -80,8 +84,11 @@
 -(void)isHeaderCell {
     self.backgroundColor = neoGreenColor;
     self.label1.textColor = [UIColor whiteColor];
+    self.label1.font = [UIFont fontWithName:@"HelveticaNeue" size:self.label1.font.pointSize];
     self.label2.textColor = [UIColor whiteColor];
+    self.label2.font = [UIFont fontWithName:@"HelveticaNeue" size:self.label2.font.pointSize];
     self.label3.textColor = [UIColor whiteColor];
+    self.label3.font = [UIFont fontWithName:@"HelveticaNeue" size:self.label3.font.pointSize];
 }
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {
