@@ -1,336 +1,336 @@
 
-/* Acknowlegdments header title */
-"%@ makes use of the following third party libraries. Many thanks to the developers making them available!" = "%@ maakt gebruik van de volgende pakketten. Met dank aan de ontwikkelaars dat ze deze vrij beschikbaar maken!";
+/*Acknowlegdments header title*/
+"%@ makes use of the following third party libraries. Many thanks to the developers making them available!" = "%@ nutzt die folgenden Drittbibliotheken. Vielen Dank an die Entwickler, die sie zur Verfügung stellen!";
 
-/* No comment provided by engineer. */
-"%@ Market information" = "%@ Marktinformatie";
+/*No comment provided by engineer.*/
+"%@ Market information" = "%@ Marktinformationen";
 
-/* No comment provided by engineer. */
-"1 Hour" = "1 Uur";
+/*No comment provided by engineer.*/
+"1 Hour" = "1 Stunde";
 
-/* No comment provided by engineer. */
-"24 Hour trading" = "24 Uurshandel";
+/*No comment provided by engineer.*/
+"24 Hour trading" = "24-Stunden-Handel";
 
-/* No comment provided by engineer. */
-"24 Hours" = "24 Uur";
+/*No comment provided by engineer.*/
+"24 Hours" = "24 Stunden";
 
-/* No comment provided by engineer. */
-"24h high" = "24u hoog";
+/*No comment provided by engineer.*/
+"24h high" = "24h hoch";
 
-/* No comment provided by engineer. */
-"24h low" = "24u laag";
+/*No comment provided by engineer.*/
+"24h low" = "24h niedrig";
 
-/* No comment provided by engineer. */
-"7 Days" = "7 Dagen";
+/*No comment provided by engineer.*/
+"7 Days" = "7 Tage";
 
-/* Prefilled Email message text */
-"<p>[Please insert your message here]</p><p><em>For support inquiries, please include the following information. These make it easier for me to help you. Thank you!</em><p><hr><p><strong>Support Information</strong></p></p>%@ Version %@ (%@)<br>%@ (%@)<br>iOS %@ (%@)</p><hr>" = "<p>[Please insert your message here]</p><p><em>For support inquiries, please include the following information. These make it easier for me to help you. Thank you!</em><p><hr><p><strong>Support Information</strong></p></p>%@ Version %@ (%@)<br>%@ (%@)<br>iOS %@ (%@)</p><hr>";
+/*Prefilled Email message text*/
+"<p>[Please insert your message here]</p><p><em>For support inquiries, please include the following information. These make it easier for me to help you. Thank you!</em><p><hr><p><strong>Support Information</strong></p></p>%@ Version %@ (%@)<br>%@ (%@)<br>iOS %@ (%@)</p><hr>" = "<p>[Bitte geben Sie hier Ihre Nachricht ein]</p><p><em>Für Support-Anfragen bitte die folgenden Informationen angeben. Diese machen es mir leichter, Ihnen zu helfen. Vielen Dank!</Em><p><hr><p><strong>Support-Informationen</strong></p></p>%@ Version %@ (%@) <br>%@ (%@)<br>iO S%@ (%@) </p><hr>";
 
-/* No comment provided by engineer. */
-"About" = "Over";
+/*No comment provided by engineer.*/
+"About" = "Über";
 
-/* No comment provided by engineer. */
-"Actual GAS" = "Daadwerkelijk GAS";
+/*No comment provided by engineer.*/
+"Actual GAS" = "Tatsächliches GAS";
 
-/* No comment provided by engineer. */
-"Add wallet" = "Voeg wallet toe";
+/*No comment provided by engineer.*/
+"Add wallet" = "Geldbörse hinzufügen";
 
-/* No comment provided by engineer. */
-"Address copied to clipboard" = "Adres is gekopieerd naar het klemboord";
+/*No comment provided by engineer.*/
+"Address copied to clipboard" = "Adresse in die Zwischenablage kopiert";
 
-/* No comment provided by engineer. */
-"Address input" = "Adres invoer";
+/*No comment provided by engineer.*/
+"Address input" = "Adresseingabe";
 
-/* No comment provided by engineer. */
-"Are you sure?" = "Weet je het zeker?";
+/*No comment provided by engineer.*/
+"Are you sure?" = "Bist du sicher?";
 
-/* No comment provided by engineer. */
-"Ask price" = "Laat prijs";
+/*No comment provided by engineer.*/
+"Ask price" = "Fragen Sie den Preis";
 
-/* No comment provided by engineer. */
-"Base crypto currency" = "Basis crypto valuta";
+/*No comment provided by engineer.*/
+"Base crypto currency" = "Basis Krypto Währung";
 
-/* No comment provided by engineer. */
-"Base fiat currency" = "Basis fiat valuta";
+/*No comment provided by engineer.*/
+"Base fiat currency" = "Basis-Währung";
 
-/* No comment provided by engineer. */
-"Bid price" = "Bied prijs";
+/*No comment provided by engineer.*/
+"Bid price" = "Angebotspreis";
 
-/* No comment provided by engineer. */
-"By entering an address" = "Door een adres in te voeren";
+/*No comment provided by engineer.*/
+"By entering an address" = "Durch Eingabe einer Adresse";
 
-/* No comment provided by engineer. */
-"By entering an amount of NEO" = "Door het aantal NEO in te voeren";
+/*No comment provided by engineer.*/
+"By entering an amount of NEO" = "Durch Eingabe einer Menge von NEO";
 
-/* No comment provided by engineer. */
-"By QR-Code" = "Door QR code te scannen";
+/*No comment provided by engineer.*/
+"By QR-Code" = "Nach QR-Code";
 
-/* No comment provided by engineer. */
-"By selecting a wallet" = "Door een wallet te selecteren";
+/*No comment provided by engineer.*/
+"By selecting a wallet" = "Durch Auswahl einer Brieftasche";
 
-/* No comment provided by engineer. */
-"Calculating GAS for: %@ NEO" = "Bereken GAS voor: %@ NEO";
+/*No comment provided by engineer.*/
+"Calculating GAS for: %@ NEO" = "Berechnen von GAS für: %@ NEO";
 
-/* No comment provided by engineer. */
-"Cancel" = "Annuleren";
+/*No comment provided by engineer.*/
+"Cancel" = "Stornieren";
 
-/* Cannot send Email */
-"Cannot send Email" = "Kan e-mail niet verzenden";
+/*Cannot send Email*/
+"Cannot send Email" = "Kann E-Mail nicht senden";
 
-/* No comment provided by engineer. */
-"Cellular" = "Cellular";
+/*No comment provided by engineer.*/
+"Cellular" = "Zellulär";
 
-/* No comment provided by engineer. */
-"Changes" = "Veranderingen";
+/*No comment provided by engineer.*/
+"Changes" = "Änderungen";
 
-/* No comment provided by engineer. */
-"Cheers thanks!" = "Top dank je wel!";
+/*No comment provided by engineer.*/
+"Cheers thanks!" = "Cheers Danke!";
 
-/* No comment provided by engineer. */
-"Connection status messages" = "Verbindingsstatus berichten";
+/*No comment provided by engineer.*/
+"Connection status messages" = "Verbindungsstatusmeldungen";
 
-/* No comment provided by engineer. */
-"Contact us" = "Neem contact op";
+/*No comment provided by engineer.*/
+"Contact us" = "Kontaktiere uns";
 
-/* No comment provided by engineer. */
-"Copy address" = "Kopieer adres";
+/*No comment provided by engineer.*/
+"Copy address" = "Adresse kopieren";
 
-/* Copy diagnostic info to pasteboard */
-"Copy Info" = "Kopieer informatie";
+/*Copy diagnostic info to pasteboard*/
+"Copy Info" = "Kopiere Info";
 
-/* No comment provided by engineer. */
-"Currency" = "Valuta";
+/*No comment provided by engineer.*/
+"Currency" = "Währung";
 
-/* No comment provided by engineer. */
-"Current bid/ask price" = "Huidige bied/laat prijs";
+/*No comment provided by engineer.*/
+"Current bid/ask price" = "Aktueller Gebot / Preis";
 
-/* No comment provided by engineer. */
-"Current market values" = "Huidige marktvolume";
+/*No comment provided by engineer.*/
+"Current market values" = "Aktuelle Marktwerte";
 
-/* No comment provided by engineer. */
-"Current wallets" = "Huidige wallets";
+/*No comment provided by engineer.*/
+"Current wallets" = "Aktuelle Brieftaschen";
 
-/* Dismiss error message */
-"Dismiss" = "Oke";
+/*Dismiss error message*/
+"Dismiss" = "Entlassen";
 
-/* No comment provided by engineer. */
-"Dividend" = "Divident";
+/*No comment provided by engineer.*/
+"Dividend" = "Dividende";
 
-/* No comment provided by engineer. */
-"Donate %@" = "Donate %@";
+/*No comment provided by engineer.*/
+"Donate %@" = "Spenden%@";
 
-/* No comment provided by engineer. */
-"Edit wallet" = "Pas wallet aan";
+/*No comment provided by engineer.*/
+"Edit wallet" = "Brieftasche bearbeiten";
 
-/* No comment provided by engineer. */
-"Enter a name" = "Voer naam in";
+/*No comment provided by engineer.*/
+"Enter a name" = "Geben Sie einen Namen ein";
 
-/* No comment provided by engineer. */
-"Enter a name and the address" = "Voer een naam en het adres in";
+/*No comment provided by engineer.*/
+"Enter a name and the address" = "Geben Sie einen Namen und die Adresse ein";
 
-/* No comment provided by engineer. */
-"Enter NEO Amount" = "Voer aantal NEO in";
+/*No comment provided by engineer.*/
+"Enter NEO Amount" = "Geben Sie NEO Betrag ein";
 
-/* No comment provided by engineer. */
-"Enter the address" = "Voer het adres in";
+/*No comment provided by engineer.*/
+"Enter the address" = "Geben Sie die Adresse ein";
 
-/* No comment provided by engineer. */
-"Feel free to send some %@ in order to make support the Neodius development! :-)" = "Voel je vrij om wat %@ te sturen ten behoeven van de Neodius ontwikkeling! :)";
+/*No comment provided by engineer.*/
+"Feel free to send some %@ in order to make support the Neodius development! :-)" = "Fühlen Sie sich frei, etwas%@ zu schicken, um die Neodius-Entwicklung zu unterstützen! :-)";
 
-/* No comment provided by engineer. */
-"GAS Calculation" = "GAS Berekening";
+/*No comment provided by engineer.*/
+"GAS Calculation" = "GAS Berechnung";
 
-/* No comment provided by engineer. */
-"GAS Calculation has been brought to life by N1njaWTF of NeoToGas.com. Neodius' encourages you to tip some NEO/GAS to N1njaWTF for his awesome work!" = "GAS Berekening is tot leven gebracht door N1njaWTF van NeoToGas.com. Neodius' raadt je aan om N1njaWTF een NEO/GAS fooi te geven voor zijn toffe werk!";
+/*No comment provided by engineer.*/
+"GAS Calculation has been brought to life by N1njaWTF of NeoToGas.com. Neodius' encourages you to tip some NEO/GAS to N1njaWTF for his awesome work!" = "Die GAS-Berechnung wurde von N1njaWTF von NeoToGas.com zum Leben erweckt. Neodius 'ermutigt Sie, einige NEO / GAS zu N1njaWTF für seine großartige Arbeit zu tippen!";
 
-/* No comment provided by engineer. */
-"General" = "Algemeen";
+/*No comment provided by engineer.*/
+"General" = "General";
 
-/* No comment provided by engineer. */
-"Hey there!" = "Hey hallo!";
+/*No comment provided by engineer.*/
+"Hey there!" = "Sie da!";
 
-/* No comment provided by engineer. */
+/*No comment provided by engineer.*/
 "Links" = "Links";
 
-/* No comment provided by engineer. */
-"Loading transaction" = "Transactie laden";
+/*No comment provided by engineer.*/
+"Loading transaction" = "Laden der Transaktion";
 
-/* No comment provided by engineer. */
-"Market Cap" = "Marktwaarde";
+/*No comment provided by engineer.*/
+"Market Cap" = "Marktmütze";
 
-/* No comment provided by engineer. */
-"Market information" = "Markt informatie";
+/*No comment provided by engineer.*/
+"Market information" = "Marktinformationen";
 
-/* Sending email message failed */
-"Message Failed!" = "Message Failed!";
+/*Sending email message failed*/
+"Message Failed!" = "Nachricht fehlgeschlagen!";
 
-/* No comment provided by engineer. */
-"minute" = "minuut";
+/*No comment provided by engineer.*/
+"minute" = "Minute";
 
-/* No comment provided by engineer. */
-"minutes" = "minnuten";
+/*No comment provided by engineer.*/
+"minutes" = "Protokoll";
 
-/* No comment provided by engineer. */
-"No Connection" = "No Connection";
+/*No comment provided by engineer.*/
+"No Connection" = "Keine Verbindung";
 
-/* No comment provided by engineer. */
-"No network we'll inform you when it's back!" = "Geen internet verbinding, we houden je op de hoogte!";
+/*No comment provided by engineer.*/
+"No network we'll inform you when it's back!" = "Kein Netzwerk wir informieren dich, wenn es wieder da ist!";
 
-/* No comment provided by engineer. */
-"No transactions found" = "Geen transacties gevonden";
+/*No comment provided by engineer.*/
+"No transactions found" = "Keine Transaktionen gefunden";
 
-/* No comment provided by engineer. */
-"Oh yes, internet is back!" = "Oh yes, internet is er weer!";
+/*No comment provided by engineer.*/
+"Oh yes, internet is back!" = "Oh ja, das Internet ist wieder da!";
 
-/* No comment provided by engineer. */
-"Okay" = "Okay";
+/*No comment provided by engineer.*/
+"Okay" = "okay";
 
-/* No comment provided by engineer. */
-"Per day" = "Per dag";
+/*No comment provided by engineer.*/
+"Per day" = "Pro Tag";
 
-/* No comment provided by engineer. */
-"Per month" = "Per maand";
+/*No comment provided by engineer.*/
+"Per month" = "Pro Monat";
 
-/* No comment provided by engineer. */
-"Per week" = "Per week";
+/*No comment provided by engineer.*/
+"Per week" = "Pro Woche";
 
-/* No comment provided by engineer. */
-"Per year" = "Per year";
+/*No comment provided by engineer.*/
+"Per year" = "Pro Jahr";
 
-/* No comment provided by engineer. */
-"Pick a method" = "Selecteer een methode";
+/*No comment provided by engineer.*/
+"Pick a method" = "Wählen Sie eine Methode aus";
 
-/* No comment provided by engineer. */
-"Quick address lookup" = "Snel een adres bekijken";
+/*No comment provided by engineer.*/
+"Quick address lookup" = "Schnelle Adresssuche";
 
-/* No comment provided by engineer. */
-"Rank" = "Marktpositie";
+/*No comment provided by engineer.*/
+"Rank" = "Rang";
 
-/* No comment provided by engineer. */
-"Refresh interval" = "Verversings interval";
+/*No comment provided by engineer.*/
+"Refresh interval" = "Aktualisierungsintervall";
 
-/* No comment provided by engineer. */
-"Refresh timer" = "Ververs timer";
+/*No comment provided by engineer.*/
+"Refresh timer" = "Aktualisierungszeitgeber";
 
-/* No comment provided by engineer. */
-"second" = "seconde";
+/*No comment provided by engineer.*/
+"second" = "zweite";
 
-/* No comment provided by engineer. */
-"seconds" = "seconden";
+/*No comment provided by engineer.*/
+"seconds" = "Sekunden";
 
-/* No comment provided by engineer. */
-"Secure app with passcode" = "Beveilig app met passcode";
+/*No comment provided by engineer.*/
+"Secure app with passcode" = "Sichere App mit Passcode";
 
-/* No comment provided by engineer. */
-"Security" = "Beveiliging";
+/*No comment provided by engineer.*/
+"Security" = "Sicherheit";
 
-/* No comment provided by engineer. */
-"Select crypto currency" = "Selecteer crypto valuta";
+/*No comment provided by engineer.*/
+"Select crypto currency" = "Wählen Sie Krypto Währung";
 
-/* No comment provided by engineer. */
-"Select currency" = "Selecteer valuta";
+/*No comment provided by engineer.*/
+"Select currency" = "Währung wählen";
 
-/* No comment provided by engineer. */
-"Select interval" = "Selecteer interval";
+/*No comment provided by engineer.*/
+"Select interval" = "Intervall auswählen";
 
-/* No comment provided by engineer. */
-"Select wallet" = "Selecteer wallet";
+/*No comment provided by engineer.*/
+"Select wallet" = "Wählen Sie Brieftasche";
 
-/* No comment provided by engineer. */
-"Settings" = "Instellingen";
+/*No comment provided by engineer.*/
+"Settings" = "Einstellungen";
 
-/* No comment provided by engineer. */
-"Share address" = "Deel adres";
+/*No comment provided by engineer.*/
+"Share address" = "Adresse teilen";
 
-/* No comment provided by engineer. */
-"Shared address!" = "Adres gedeelt!";
+/*No comment provided by engineer.*/
+"Shared address!" = "Gemeinsame Adresse!";
 
-/* No comment provided by engineer. */
-"Tap the icon on the right upper side to enter the NEO amount to calculate!" = "Tap op het icoon rechtsbovenin om het NEO aantal op te geven voor de berekening!";
+/*No comment provided by engineer.*/
+"Tap the icon on the right upper side to enter the NEO amount to calculate!" = "Tippen Sie auf das Symbol auf der rechten Oberseite, um den NEO-Betrag zu berechnen!";
 
-/* No comment provided by engineer. */
-"The NEO address. Feel free to transfer some NEO or GAS! :)" = "Het NEO adres. Vooel je vrij om wat NEO of GAS over te maken :)";
+/*No comment provided by engineer.*/
+"The NEO address. Feel free to transfer some NEO or GAS! :)" = "Die NEO-Adresse. Fühlen Sie sich frei, einige NEO oder GAS zu übertragen! :)";
 
-/* No comment provided by engineer. */
-"Theoretical GAS" = "Theoretisch GAS";
+/*No comment provided by engineer.*/
+"Theoretical GAS" = "Theoretisches GAS";
 
-/* No comment provided by engineer. */
-"This is the NEO address. Feel free to transfer some NEO or GAS! :)" = "Dit is het NEO adres. Voel je vrij om er wat NEO of GAS heen te sturen :)";
+/*No comment provided by engineer.*/
+"This is the NEO address. Feel free to transfer some NEO or GAS! :)" = "Dies ist die NEO-Adresse. Fühlen Sie sich frei, einige NEO oder GAS zu übertragen! :)";
 
-/* No comment provided by engineer. */
-"Time" = "Tijd";
+/*No comment provided by engineer.*/
+"Time" = "Zeit";
 
-/* No comment provided by engineer. */
-"Tip jar" = "Fooienpot";
+/*No comment provided by engineer.*/
+"Tip jar" = "Trinkgeld Glas";
 
-/* No comment provided by engineer. */
-"Tools" = "Hulp";
+/*No comment provided by engineer.*/
+"Tools" = "Werkzeuge";
 
-/* No comment provided by engineer. */
+/*No comment provided by engineer.*/
 "TouchID" = "TouchID";
 
-/* No comment provided by engineer. */
-"TouchID (not available)" = "TouchID (niet beschikbaar)";
+/*No comment provided by engineer.*/
+"TouchID (not available)" = "TouchID (nicht verfügbar)";
 
-/* No comment provided by engineer. */
-"Transactions" = "Transacties";
+/*No comment provided by engineer.*/
+"Transactions" = "Transaktionen";
 
-/* No comment provided by engineer. */
-"Unclaimed GAS" = "Ongeclaimd GAS";
+/*No comment provided by engineer.*/
+"Unclaimed GAS" = "Unbestrittenes GAS";
 
-/* Error message: no email accounts available */
-"Unfortunately there are no Email accounts available on your device.\n\nFor support questions, please send an Email to %@ and include the following information: %@.\n\nTab the 'Copy info' button to copy this information to your pasteboard. Thank you!" = "Unfortunately there are no Email accounts available on your device.\n\nFor support questions, please send an Email to %@ and include the following information: %@.\n\nTab the 'Copy info' button to copy this information to your pasteboard. Thank you!";
+/*Error message: no email accounts available*/
+"Unfortunately there are no Email accounts available on your device.\n\nFor support questions, please send an Email to %@ and include the following information: %@.\n\nTab the 'Copy info' button to copy this information to your pasteboard. Thank you!" = "Leider gibt es auf Ihrem Gerät keine E-Mail-Konten.\n\nFür Support-Fragen senden Sie bitte eine E-Mail an%@ und geben Sie folgende Informationen ein:%@.\n\nKlicken Sie auf die Schaltfläche \"Copy info\", um diese Informationen in Ihre Paste zu kopieren. Vielen Dank!";
 
-/* No comment provided by engineer. */
-"Use MainNet blockchain" = "Gebruik MainNet blockchain";
+/*No comment provided by engineer.*/
+"Use MainNet blockchain" = "Verwenden Sie MainNet-Blockkette";
 
-/* No comment provided by engineer. */
-"Use TouchID to unlock Neodius" = "Gebruik TouchID om Neodius te openen.";
+/*No comment provided by engineer.*/
+"Use TouchID to unlock Neodius" = "Verwenden Sie TouchID, um Neodius zu entsperren";
 
-/* No comment provided by engineer. */
-"View transaction" = "Bekijk transactie";
+/*No comment provided by engineer.*/
+"View transaction" = "Transaktion anzeigen";
 
-/* No comment provided by engineer. */
-"Visit GAS on Poloniex" = "Bezoek GAS op Poloniex";
+/*No comment provided by engineer.*/
+"Visit GAS on Poloniex" = "Besuchen Sie GAS auf Poloniex";
 
-/* No comment provided by engineer. */
-"Visit NEO on Bittrex" = "Bezoek NEO op Bittrex";
+/*No comment provided by engineer.*/
+"Visit NEO on Bittrex" = "Besuchen Sie NEO auf Bittrex";
 
-/* No comment provided by engineer. */
-"Visit NEO.org" = "Bezoek NEO.org";
+/*No comment provided by engineer.*/
+"Visit NEO.org" = "Besuchen Sie NEO.org";
 
-/* No comment provided by engineer. */
-"Visual and messages" = "Visueel en berichten";
+/*No comment provided by engineer.*/
+"Visual and messages" = "Visual und Nachrichten";
 
-/* No comment provided by engineer. */
-"Volume" = "Volume";
+/*No comment provided by engineer.*/
+"Volume" = "Volumen";
 
-/* No comment provided by engineer. */
-"Wallet address" = "Wallet adres";
+/*No comment provided by engineer.*/
+"Wallet address" = "Wallet-Adresse";
 
-/* No comment provided by engineer. */
-"Wallet management" = "Wallet management";
+/*No comment provided by engineer.*/
+"Wallet management" = "Wallet Management";
 
-/* No comment provided by engineer. */
-"Wallet refresh interval" = "Wallet ververs interval";
+/*No comment provided by engineer.*/
+"Wallet refresh interval" = "Wallet-Aktualisierungsintervall";
 
-/* No comment provided by engineer. */
-"Wallets" = "Wallets";
+/*No comment provided by engineer.*/
+"Wallets" = "Brieftaschen";
 
-/* No comment provided by engineer. */
-"Welcome to Neodius, we aim to make the NEO blockchain more accessible to everybody.\n\nTo use this app, get your wallet address and add this to Neodius. You can do that by tapping the menu button on the left top side and tap Add Wallet.\n\nDon't forget to give feedback through the about screen!" = "Welkom bij Neodius, wij proberen de NEO blockchain toegankelijker te maken voor meer mensen.\n\nOm deze app te gebruiken, voer je je wallet adres in bij Neodius. Je kunt dat doen door op de menu knop linksboven in te drukken en daarna op Voeg wallet toe.\n\nVergeet niet om feedback te geven in het Over scherm!";
+/*No comment provided by engineer.*/
+"Welcome to Neodius, we aim to make the NEO blockchain more accessible to everybody.\n\nTo use this app, get your wallet address and add this to Neodius. You can do that by tapping the menu button on the left top side and tap Add Wallet.\n\nDon't forget to give feedback through the about screen!" = "Willkommen bei Neodius, wir wollen die NEO-Blockchain für jedermann zugänglicher machen.\n\nUm diese App zu benutzen, bekomme deine Brieftasche Adresse und füge diese zu Neodius hinzu. Sie können dies tun, indem Sie auf die Menütaste auf der linken Oberseite tippen und tippen Sie auf Wallet hinzufügen.\n\nVergessen Sie nicht, Feedback über den Bildschirm zu geben!";
 
-/* No comment provided by engineer. */
-"What source would you like to have for the GAS Calculation?" = "Welke bron wil je gebruiken voor de GAS Berekening?";
+/*No comment provided by engineer.*/
+"What source would you like to have for the GAS Calculation?" = "Welche Quelle würdest du gern für die GAS-Berechnung haben?";
 
-/* No comment provided by engineer. */
-"WiFi" = "WiFi";
+/*No comment provided by engineer.*/
+"WiFi" = "W-lan";
 
-/* No comment provided by engineer. */
+/*No comment provided by engineer.*/
 "Yes" = "Ja";
 
-/* No comment provided by engineer. */
-"You're about to remove %@. Are you sure?" = "Je staat op het punt om %@ te verwijderen, weet je het zeker?";
+/*No comment provided by engineer.*/
+"You're about to remove %@. Are you sure?" = "Du bist dabei,%@ zu entfernen. Bist du sicher?";
 
-/* Sending email message failed body */
-"Your email has failed to send." = "Je e-mail is niet verzonden";
+/*Sending email message failed body*/
+"Your email has failed to send." = "Ihre E-Mail wurde nicht gesendet.";
