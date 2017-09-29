@@ -28,7 +28,7 @@ Features currently are:
 * view your GAS
 * View your unclaimed gas
 * View NEO value in BTC/ETH
-* View NEO value in fiat currencies ([View currencies](Neodius/Neodius/Supporting Files/SettingCache/fiatCurrencies.json))
+* View NEO value in fiat currencies ([View currencies](https://github.com/ITSVision/Neodius/blob/master/Neodius/Supporting%20Files/SettingCache/fiatCurrencies.json))
 * Automatic refreshing of your wallet. Fun for real-time stats
 * Securing Neodius with a passcode or TouchID
 * Quick address lookup
