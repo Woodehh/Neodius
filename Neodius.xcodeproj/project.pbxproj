@@ -41,6 +41,7 @@
 		7E8A89C7184B03B999346CB0 /* libPods-Neodius.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Neodius.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8382A969674BAE6B3F96E96F /* Pods-Neodius.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Neodius.release.xcconfig"; path = "Pods/Target Support Files/Pods-Neodius/Pods-Neodius.release.xcconfig"; sourceTree = "<group>"; };
 		ABF317706F0129D456A7E0AB /* Pods-neodius.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-neodius.release.xcconfig"; path = "Pods/Target Support Files/Pods-neodius/Pods-neodius.release.xcconfig"; sourceTree = "<group>"; };
+		E21545961F7EA571006533C3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = "../../../Neodius/Supporting Files/LocalizedData/en.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		E22FEE9F1F70F9C1000922C4 /* FontAwesome4.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome4.ttf; sourceTree = "<group>"; };
 		E22FEEC01F71091C000922C4 /* cryptoCurrencies.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = cryptoCurrencies.json; sourceTree = "<group>"; };
 		E22FEEC11F71091C000922C4 /* fiatCurrencies.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fiatCurrencies.json; sourceTree = "<group>"; };
@@ -55,8 +56,6 @@
 		E25AB2C91F7D021600CA1FF2 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = "../../../Neodius/Supporting Files/LocalizedData/nl.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		E25AB2CB1F7D14FE00CA1FF2 /* gasCalculationTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gasCalculationTableViewController.h; sourceTree = "<group>"; };
 		E25AB2CC1F7D14FE00CA1FF2 /* gasCalculationTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gasCalculationTableViewController.m; sourceTree = "<group>"; };
-		E25AB2D51F7D19DE00CA1FF2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = "../../../Neodius/Supporting Files/LocalizedData/en.lproj/Localizable.strings"; sourceTree = "<group>"; };
-		E25AB2D61F7D1AA300CA1FF2 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = "../../../Neodius/Supporting Files/LocalizedData/de.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		E2AD85A01F6FED9A00D03087 /* Acknowledgements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Acknowledgements.plist; path = neodius/Acknowledgements.plist; sourceTree = SOURCE_ROOT; };
 		E2B3ADEB1F7A58AA00713798 /* marketViewCustomTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = marketViewCustomTableViewCell.h; sourceTree = "<group>"; };
 		E2B3ADEC1F7A58AA00713798 /* marketViewCustomTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = marketViewCustomTableViewCell.m; sourceTree = "<group>"; };
@@ -503,7 +502,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "if which bartycrouch > /dev/null; then\n    # Incrementally update all Storyboards/XIBs strings files\n    bartycrouch interfaces -p \"$PROJECT_DIR\"\n\n    # Add new keys to Localizable.strings files from NSLocalizedString in code\n    bartycrouch code -p \"$PROJECT_DIR\" -l \"$PROJECT_DIR\" -a -s\nelse\n    echo \"warning: BartyCrouch not installed, download it from https://github.com/Flinesoft/BartyCrouch\"\nfi";
+			shellScript = "#if which bartycrouch > /dev/null; then\n#    bartycrouch interfaces -p \"$PROJECT_DIR\"\n#    bartycrouch code -p \"$PROJECT_DIR\" -l \"$PROJECT_DIR\" -a -s\n#else\n#    echo \"warning: BartyCrouch not installed, download it from https://github.com/Flinesoft/BartyCrouch\"\n#fi";
 		};
 		EA32CC3EB19668BB6DF410FC /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -552,8 +551,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				E25AB2C91F7D021600CA1FF2 /* nl */,
-				E25AB2D51F7D19DE00CA1FF2 /* en */,
-				E25AB2D61F7D1AA300CA1FF2 /* de */,
+				E21545961F7EA571006533C3 /* en */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";

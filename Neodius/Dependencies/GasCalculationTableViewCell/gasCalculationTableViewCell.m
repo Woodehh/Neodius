@@ -23,7 +23,6 @@
     UILabel *label = [[UILabel alloc] init];
     label.translatesAutoresizingMaskIntoConstraints = NO;
     label.font = [UIFont fontWithName:@"HelveticaNeue-Light" size:14];
-    label.textAlignment = NSTextAlignmentCenter;
     label.adjustsFontSizeToFitWidth = YES;
     [self.contentView addSubview:label];
     return label;
@@ -89,6 +88,12 @@
     self.label2.font = [UIFont fontWithName:@"HelveticaNeue" size:self.label2.font.pointSize];
     self.label3.textColor = [UIColor whiteColor];
     self.label3.font = [UIFont fontWithName:@"HelveticaNeue" size:self.label3.font.pointSize];
+}
+
+-(void)isFooterCell {
+    self.label1.font = [UIFont fontWithName:@"HelveticaNeue" size:14];
+    self.label2.font = [UIFont fontWithName:@"HelveticaNeue" size:14];
+    self.label3.font = [UIFont fontWithName:@"HelveticaNeue" size:14];
 }
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {

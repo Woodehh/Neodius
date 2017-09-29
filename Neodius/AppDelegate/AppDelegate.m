@@ -31,7 +31,7 @@
     
     [[UIBarButtonItem appearanceWhenContainedIn:[UINavigationBar class], nil] setTintColor:[UIColor whiteColor]];
     
-    UIViewController *centerController = [[gasCalculationTableViewController alloc] initWithStyle:UITableViewStyleGrouped];
+    UIViewController *centerController = [[walletViewTableViewController alloc] initWithStyle:UITableViewStyleGrouped];
     UIViewController *menuController = [[menuTableViewController alloc] initWithStyle:UITableViewStyleGrouped];
     
     //create navigation controller for center

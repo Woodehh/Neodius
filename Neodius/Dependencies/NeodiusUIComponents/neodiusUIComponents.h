@@ -18,7 +18,7 @@
 
 #define IS_IPAD (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad)
 #define SIDE_MARGIN ((IS_IPAD) ? 180 : 15)
-#define DIVIDER_MARGIN ((IS_IPAD) ? 0 : 0)
+#define DIVIDER_MARGIN ((IS_IPAD) ? 10 : 10)
 
 @interface NeodiusUIComponents : NSObject <QRCodeReaderDelegate> {
     QRCodeReaderViewController *vc;

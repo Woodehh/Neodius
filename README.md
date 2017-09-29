@@ -45,6 +45,7 @@ Features currently are:
 	* Changes (1h, 24h, 7d)
 	* Gauge showing current position on 24h tradingview
 * Scanning QR-Codes to add a wallet
+* GAS Calculation from a wallet or a user decided amount
 * More to come! :)
 
 ## Looks awesome, but how can i use it.
