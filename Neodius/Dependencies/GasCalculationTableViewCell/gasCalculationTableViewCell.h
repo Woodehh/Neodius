@@ -15,4 +15,5 @@
 @property (strong, nonatomic) UILabel *label2;
 @property (strong, nonatomic) UILabel *label3;
 -(void)isHeaderCell;
+-(void)isFooterCell;
 @end

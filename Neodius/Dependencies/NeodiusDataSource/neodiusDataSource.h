@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 #import <SimpleKeychain/SimpleKeychain.h>
 #import <FontAwesome4-ios/FontAwesome4-ios.h>
+#import <AFNetworking/AFNetworking.h>
 
 #define UIColorFromRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0];
 #define neoGreenColor [UIColor colorWithRed:0.35 green:0.75 blue:0.00 alpha:1.0]
@@ -45,5 +46,14 @@
 -(NSString*)switchIntervalLabel:(NSString*)labelValue andType:(NSString*)labelType;
 
 -(NSString*)formatNumber:(NSNumber*)number ofType:(int)type withFiatSymbol:(NSString*)fiatSymbol;
+
+-(CGFloat)calculateGasForNeo:(CGFloat)neoAmount andBlockGenerationTime:(CGFloat)generationtime;
+-(CGFloat)calculateGasForNeo:(CGFloat)neoAmount;
+
+typedef void (^blockGenerationCompletionBlock)(CGFloat blockGenerationTime, NSError* error);
+typedef void (^blockGenerationProgressBlock)(CGFloat percentage,NSString *localizedMessage);
+-(void)calculateBlockGenerationTimeWithCompletionBlock:(blockGenerationCompletionBlock)block andProgressBlock:(blockGenerationProgressBlock)progress;
+
+
 
 @end

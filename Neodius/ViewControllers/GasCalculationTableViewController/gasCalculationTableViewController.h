@@ -21,6 +21,9 @@
     CGFloat t_gas, a_gas, t_dividend, a_dividend;
     AFHTTPSessionManager *networkManager;
     NSNumber *neoAmount;
+    NSNumber *generationTime;
+    MBProgressHUD *hud;
+    
 }
 
 @end

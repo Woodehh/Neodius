@@ -36,7 +36,7 @@ static NeodiusDataSource *sharedData = nil;
 //getters
 -(NSString*)getPreferenceForKey:(NSString*)key {
     if ([[A0SimpleKeychain keychain] stringForKey:key] == nil)
-    return @"";
+        return @"";
     return [[A0SimpleKeychain keychain] stringForKey:key];
 }
 
@@ -191,9 +191,9 @@ static NeodiusDataSource *sharedData = nil;
 
 -(UIImage*)tableIconPositive:(NSString*)icon  {
     return [UIImage imageWithIcon:icon
-           backgroundColor:[UIColor clearColor]
-                 iconColor:neoGreenColor
-                 iconScale:1.0
+                  backgroundColor:[UIColor clearColor]
+                        iconColor:neoGreenColor
+                        iconScale:1.0
                           andSize:CGSizeMake(24, 24)];
 }
 
@@ -264,7 +264,104 @@ static NeodiusDataSource *sharedData = nil;
     
     return [f stringFromNumber:number];
 }
+
+
+-(CGFloat)calculateGasForNeo:(CGFloat)neoAmount andBlockGenerationTime:(CGFloat)generationtime {
+    CGFloat gasPerBlock         = 8,
+    availableNeoSupply  = 100000000,
+    seconds_in_day      = 60 * 60 * 24;
     
+    return ((neoAmount / availableNeoSupply) * gasPerBlock * seconds_in_day) / generationtime;
+}
+
+-(CGFloat)calculateGasForNeo:(CGFloat)neoAmount {
+    return [self calculateGasForNeo:neoAmount andBlockGenerationTime:15];
+}
+
+-(void)calculateBlockGenerationTimeWithCompletionBlock:(blockGenerationCompletionBlock)block andProgressBlock:(blockGenerationProgressBlock)progress {
+    
+    AFHTTPSessionManager *networkManager = [AFHTTPSessionManager manager];
+    networkManager.responseSerializer.acceptableContentTypes = [NSSet setWithObjects:@"application/json", @"application/json-rpc", nil];
+    
+    [networkManager GET:[[NeodiusDataSource sharedData] buildAPIUrlWithEndpoint:@"/network/best_node"]
+             parameters:nil
+               progress:nil
+                success:^(NSURLSessionTask *task, id responseObject) {
+                    progress(.25,NSLocalizedString(@"Getting best node", ));
+                    
+                    NSString *bestNode;
+                    if (responseObject[@"node"] == nil){
+                        bestNode = [responseObject objectForKey:@"node"];
+                    } else {
+                        bestNode = @"http://seed1.cityofzion.io:8080";
+                    }
+                    
+                    [networkManager GET:[NSString stringWithFormat:@"%@/myservice?jsonrpc=2.0&method=getblockcount&params=%%5B%%5D&id=5",bestNode]
+                             parameters:nil
+                               progress:nil
+                                success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
+                                    progress(.50,NSLocalizedString(@"Getting last block", nil));
+                                    if (responseObject[@"result"] != nil){
+                                        CGFloat blockCount = [responseObject[@"result"] floatValue];
+                                        
+                                        [networkManager GET:[NSString stringWithFormat:@"%@/myservice?jsonrpc=2.0&method=getblock&params=[%f,1]&id=4",bestNode,(blockCount - 1)]
+                                                 parameters:nil
+                                                   progress:nil
+                                                    success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
+                                                        progress(.75,[NSString stringWithFormat:NSLocalizedString(@"Get block %@", nil),[NSNumber numberWithFloat:(blockCount - 1)]]);
+                                                        if (responseObject[@"result"] != nil){
+                                                            CGFloat last_block_data = [responseObject[@"result"][@"time"] floatValue];
+                                                            
+                                                            [networkManager GET:[NSString stringWithFormat:@"%@/myservice?jsonrpc=2.0&method=getblock&params=[%f,1]&id=4",bestNode,(blockCount - 5001)]
+                                                                     parameters:nil
+                                                                       progress:nil
+                                                                        success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
+                                                                            progress(1,[NSString stringWithFormat:NSLocalizedString(@"Get block %@", nil),[NSNumber numberWithFloat:(blockCount - 5001)]]);
+                                                                            if (responseObject[@"result"] != nil) {
+                                                                                CGFloat last_block_minus_5000 = [responseObject[@"result"][@"time"] floatValue];
+                                                                                block(((last_block_data - last_block_minus_5000) / 5000),nil);
+                                                                            } else {
+                                                                                block(NO,[self generateErrorWithCode:3 andSpecification:@"no_last_minus_5000_block_node"]);
+                                                                            }
+                                                                            
+                                                                        } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
+                                                                            block(NO,[self generateErrorWithCode:3 andSpecification:@"no_last_minus_5000_block"]);
+                                                                        }];
+                                                        } else {
+                                                            block(NO,[self generateErrorWithCode:3 andSpecification:@"no_last_block_node"]);
+                                                        }
+                                                    }
+                                                    failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
+                                                        block(NO,[self generateErrorWithCode:3 andSpecification:@"no_last_block"]);
+                                                    }];
+                                        
+                                        
+                                        
+                                        
+                                        
+                                    } else {
+                                        block(NO,[self generateErrorWithCode:2 andSpecification:@"no_block_count_node"]);
+                                    }
+                                } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
+                                    block(NO,[self generateErrorWithCode:2 andSpecification:@"no_block_count"]);
+                                }];
+                } failure:^(NSURLSessionTask *operation, NSError *error) {
+                    block(NO,[self generateErrorWithCode:1 andSpecification:@"no_best_node"]);
+                }];
+}
+
+
+
+-(NSError*)generateErrorWithCode:(NSInteger)code andSpecification:(NSString*)specification{
+    return [self generateErrorWithCode:code andMessage:nil andErrorSpecification:specification];
+}
+
+-(NSError*)generateErrorWithCode:(NSInteger)code andMessage:(NSString*)message andErrorSpecification:(NSString*)specification{
+    return [NSError errorWithDomain:NSCocoaErrorDomain
+                               code:code
+                           userInfo:@{@"specification":specification}];
+}
+
 
 + (id)allocWithZone:(NSZone *)zone {
     @synchronized(self) {
