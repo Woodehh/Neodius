@@ -76,6 +76,11 @@ You can always send me some cryptos
 * BTC: `1Es9qssB7275Wf9x9A21aPf8xf9wYomfv1`
 * ETH: `0x442a0092725a7c6c17938605c76c4c1d2b8bb4c1`
 
+## Press
+We have some press displays. These can be found here: [Press Displays](https://github.com/ITSVision/Neodius/blob/master/Artwork/Press Displays/Press-displays.md)
+
+For press inquiries, please send an e-mail to: Neodius[at]ITS-Vision[dot]nl
+
 ## Authors/Contributors
 The authors working on this project:
 
