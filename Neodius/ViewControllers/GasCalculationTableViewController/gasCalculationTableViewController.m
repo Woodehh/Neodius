@@ -220,20 +220,20 @@
         [cell isHeaderCell];
     } else if (indexPath.row == 1) {
         cell.label1.text = NSLocalizedString(@"Per day",nil);
-        cell.label2.text = [NSString stringWithFormat:@"%.4f GAS",t_gas];
-        cell.label3.text = [NSString stringWithFormat:@"%.4f GAS",a_gas];
+        cell.label2.text = [NSString stringWithFormat:@"%.4f GAS",a_gas];
+        cell.label3.text = [NSString stringWithFormat:@"%.4f GAS",t_gas];
     } else if (indexPath.row == 2) {
         cell.label1.text = NSLocalizedString(@"Per week",nil);
-        cell.label2.text = [NSString stringWithFormat:@"%.4f GAS",t_gas*7];
-        cell.label3.text = [NSString stringWithFormat:@"%.4f GAS",a_gas*7];
+        cell.label2.text = [NSString stringWithFormat:@"%.4f GAS",a_gas*7];
+        cell.label3.text = [NSString stringWithFormat:@"%.4f GAS",t_gas*7];
     } else if (indexPath.row == 3) {
         cell.label1.text = NSLocalizedString(@"Per month",nil);
-        cell.label2.text = [NSString stringWithFormat:@"%.1f GAS",t_gas*31];
-        cell.label3.text = [NSString stringWithFormat:@"%.1f GAS",a_gas*31];
+        cell.label2.text = [NSString stringWithFormat:@"%.1f GAS",a_gas*31];
+        cell.label3.text = [NSString stringWithFormat:@"%.1f GAS",t_gas*31];
     } else if (indexPath.row == 4) {
         cell.label1.text = NSLocalizedString(@"Per year",nil);
-        cell.label2.text = [NSString stringWithFormat:@"%.1f GAS",t_gas*365];
-        cell.label3.text = [NSString stringWithFormat:@"%.1f GAS",a_gas*365];
+        cell.label2.text = [NSString stringWithFormat:@"%.1f GAS",a_gas*365];
+        cell.label3.text = [NSString stringWithFormat:@"%.1f GAS",t_gas*365];
     } else if (indexPath.row == 5) {
         [cell isFooterCell];
         cell.label1.text = NSLocalizedString(@"Dividend",nil);
