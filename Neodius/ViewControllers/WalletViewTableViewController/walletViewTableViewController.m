@@ -209,7 +209,7 @@
 
 -(UIView*)headerView {
 
-    CGFloat headSpace = 25, spacing = 20;
+    CGFloat headSpace = ((IS_IPHONE_X) ? 60 : 25), spacing = 20;
     
     customTableHeader = [[UIView alloc] initWithFrame:CGRectNull];
     [customTableHeader setBackgroundColor:neoGreenColor];

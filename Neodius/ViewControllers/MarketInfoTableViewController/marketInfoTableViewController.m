@@ -145,7 +145,7 @@
                                                    progress:nil
                                                     success:^(NSURLSessionTask *task, id responseObject) {
                                                         
-                                                        NSDictionary *tmpDict = responseObject[[NSString stringWithFormat:@"%@_GAS",@"BTC"]];
+                                                        NSDictionary *tmpDict = responseObject[[NSString stringWithFormat:@"%@_GAS",baseCrypto[@"id"]]];
                                                         
                                                         statsArray[0] = @{@"label": @"GAS",
                                                                           @"24low": @([tmpDict[@"low24hr"] floatValue]),
