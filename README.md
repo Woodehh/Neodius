@@ -10,7 +10,7 @@
 
 Neodius is a NEO blockchain tool. Neodius let's you easily view your balance in various ways based on your address. A must have for every NEO fan. Ofcourse poured in a pretty-and-easy iOS interface. It has been submitted to the Apple AppStore. So I'm waiting for approval. Once it's approved, the link will be available here.
 
-<img src="Artwork/Screenshots/iPhone/Screenshot-wallet.png" width="200" alt="Wallet view"> <img src="Artwork/Screenshots/iPhone/Screenshot-market-view.png" width="200" alt="Market view"> <img src="Artwork/Screenshots/iPhone/Screenshot-menu.png" width="200" alt="Menu view"> <img src="Artwork/Screenshots/iPhone/Screenshot-settings.png" width="200" alt="Settings view"> 
+<img src="Artwork/Screenshots/English/iPhone/screen-wallet.png" width="200" alt="Wallet view"> <img src="Artwork/Screenshots/English/iPhone/screen-neo-market-info.png" width="200" alt="Market view"> <img src="Artwork/Screenshots/English/iPhone/screen-menu.png" width="200" alt="Menu view"> <img src="Artwork/Screenshots/English/iPhone/screen-settings.png" width="200" alt="Settings view"> 
 
 ## What's this NEO all about
 NEO, formerly Antshares, is China's first ever open source blockchain. Founded in 2014, NEO’s mission has been to reinvent the way commerce is done. So basically it's just another improved Bitcoin rip-off. However, NEO has a lot of extra features which make it a good investment.
@@ -36,9 +36,9 @@ Features currently are:
 * QRCode for your address.
 * Switch between MainNet and TestNet
 * Localization in
-	* Dutch
-	* English
-	* French: Thanks to mati14! Cheers mate!
+	* Dutch [Dutch screenshots](https://github.com/ITSVision/Neodius/blob/master/Artwork/Screenshots/Dutch/iPhone/dutch-screenshots.md)
+	* English [English screenshots](https://github.com/ITSVision/Neodius/blob/master/Artwork/Screenshots/English/iPhone/english-screenshots.md)
+	* French: Thanks to mati14! Cheers mate! [French screenshots](https://github.com/ITSVision/Neodius/blob/master/Artwork/Screenshots/French/iPhone/french-screenshots.md)
 	* More to come? (help us out here :kissing_heart: )
 * View market information on GAS and NEO
 	* Bid/ask prices
