@@ -56,6 +56,7 @@
 		E25AB2C91F7D021600CA1FF2 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = "../../../Neodius/Supporting Files/LocalizedData/nl.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		E25AB2CB1F7D14FE00CA1FF2 /* gasCalculationTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gasCalculationTableViewController.h; sourceTree = "<group>"; };
 		E25AB2CC1F7D14FE00CA1FF2 /* gasCalculationTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gasCalculationTableViewController.m; sourceTree = "<group>"; };
+		E2A445AB1F82BE2200A829FC /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = "../../../Neodius/Supporting Files/LocalizedData/fr.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		E2AD85A01F6FED9A00D03087 /* Acknowledgements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Acknowledgements.plist; path = neodius/Acknowledgements.plist; sourceTree = SOURCE_ROOT; };
 		E2B3ADEB1F7A58AA00713798 /* marketViewCustomTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = marketViewCustomTableViewCell.h; sourceTree = "<group>"; };
 		E2B3ADEC1F7A58AA00713798 /* marketViewCustomTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = marketViewCustomTableViewCell.m; sourceTree = "<group>"; };
@@ -417,6 +418,7 @@
 				nl,
 				en,
 				de,
+				fr,
 			);
 			mainGroup = E2C209FA1F6D094500C2F8AB;
 			productRefGroup = E2C20A041F6D094500C2F8AB /* Products */;
@@ -502,7 +504,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "#if which bartycrouch > /dev/null; then\n#    bartycrouch interfaces -p \"$PROJECT_DIR\"\n#    bartycrouch code -p \"$PROJECT_DIR\" -l \"$PROJECT_DIR\" -a -s\n#else\n#    echo \"warning: BartyCrouch not installed, download it from https://github.com/Flinesoft/BartyCrouch\"\n#fi";
+			shellScript = "if which bartycrouch > /dev/null; then\n    bartycrouch interfaces -p \"$PROJECT_DIR\"\n    bartycrouch code -p \"$PROJECT_DIR\" -l \"$PROJECT_DIR\" -a -s\n    echo \"// Empty English Localization\" > \"$PROJECT_DIR/Neodius/Supporting Files/LocalizedData/en.lproj/Localizable.strings\"\nelse\n    echo \"warning: BartyCrouch not installed, download it from https://github.com/Flinesoft/BartyCrouch\"\nfi";
 		};
 		EA32CC3EB19668BB6DF410FC /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -552,6 +554,7 @@
 			children = (
 				E25AB2C91F7D021600CA1FF2 /* nl */,
 				E21545961F7EA571006533C3 /* en */,
+				E2A445AB1F82BE2200A829FC /* fr */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";

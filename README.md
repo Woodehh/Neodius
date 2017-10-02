@@ -38,6 +38,7 @@ Features currently are:
 * Localization in
 	* Dutch
 	* English
+	* French: Thanks to mati14! Cheers mate!
 	* More to come? (help us out here :kissing_heart: )
 * View market information on GAS and NEO
 	* Bid/ask prices
@@ -80,6 +81,7 @@ The authors working on this project:
 
 * **Benjamin de Bos**
 * **[@N1njaWTF](http://twitter.com/N1njaWTF)** of (NeoToGas.com) for the GAS Calculation logic
+* **mati14** for the French translation
 
 See also the list of [contributors](contributors) who participated in this project.
 
