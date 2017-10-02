@@ -62,7 +62,11 @@ So you want to build it to your iDevice yourself? We have a beautiful markdown f
 We're making use of the API's of the awesome City of Zion developers community. These guys are making everyones NEO life a lot better. Check them out at [www.cityofzion.io]() and don't for get to donate some NEO at: `Adr3XjZ5QDzVJrWvzmsTTchpLRRGSzgS5A`.
 
 ## I want to help!
+### Coding
 You can! I'll reward you with a lot of hugs :-) Send me a message or do a pull request.
+
+### Translating
+You can help translating through [POEditor.com](https://www.poeditor.com). I have an application there and that way it keeps the strings updated and the contributors informed on new strings. Open an issue if you would like to help translating with your e-mail (nick)name and language or send me a message on the NEO Slack @Woodehh. I'll send you an invite for that!
 
 ## That's it
 I put a few days of effort in this app and i'd love to hear your reaction about it. Feel free to contribute and suggest stuff.
