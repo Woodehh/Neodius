@@ -276,7 +276,7 @@
                                                                        creditLabel.frame.origin.y+creditLabel.frame.size.height+20,
                                                                        footerView.frame.size.width,
                                                                        40)
-                                                  withTitle:@"Tip N1njaWTF"
+                                                  withTitle:NSLocalizedString(@"Tip N1njaWTF",nil)
                                                    withIcon:FAIconThumbsUp
                                                   isPrimary:YES];
     [btnDonate addTarget:self action:@selector(showTipJar) forControlEvents:UIControlEventTouchUpInside];
@@ -287,7 +287,7 @@
                                                                        btnDonate.frame.origin.y+btnDonate.frame.size.height+10,
                                                                        footerView.frame.size.width,
                                                                        40)
-                                                  withTitle:@"Visit NeoToGas.com"
+                                                  withTitle:NSLocalizedString(@"Visit NeoToGas.com",nil)
                                                    withIcon:FAIconGlobe
                                                   isPrimary:NO];
     [btnVisit addTarget:self action:@selector(visitWebsite) forControlEvents:UIControlEventTouchUpInside];
