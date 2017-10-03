@@ -207,6 +207,10 @@ static NeodiusDataSource *sharedData = nil;
     [self deleteAllKeysForSecClass:kSecClassIdentity];
 }
 
+-(void)contributionDumm {
+    NSLocalizedString(@"English is translated by: <your name>", @"Translator: enter your information for credits!");
+}
+
 -(void)deleteAllKeysForSecClass:(CFTypeRef)secClass {
     NSMutableDictionary* dict = [NSMutableDictionary dictionary];
     dict[(__bridge id)kSecClass] = (__bridge id)secClass;
