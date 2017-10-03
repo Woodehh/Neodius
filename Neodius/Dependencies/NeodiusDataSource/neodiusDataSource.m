@@ -208,7 +208,7 @@ static NeodiusDataSource *sharedData = nil;
 }
 
 -(void)contributionDumm {
-    NSLocalizedString(@"<Language> is translated by: <your (nick) name> (<e-mail)", @"Translator: enter your information for credits!");
+    NSLocalizedString(@"<Language> is translated by: <your (nick) name> (<e-mail>)", @"Translator: enter your information for credits! In English please. Like this: Dutch is translated by Benjamin de Bos (info@its-vision.nl). E-mail is not required!");
 }
 
 -(void)deleteAllKeysForSecClass:(CFTypeRef)secClass {

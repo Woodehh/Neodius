@@ -23,6 +23,9 @@
 /*No comment provided by engineer.*/
 "7 Days" = "7 Tage";
 
+/* Translator: enter your information for credits! In English please. Like this: Dutch is translated by Benjamin de Bos (info@its-vision.nl). E-mail is not required! */
+"<Language> is translated by: <your (nick) name> (<e-mail>)" = "German is translated by: Dominik Thanner (crashyourself22@gmail.com)";
+
 /*Prefilled Email message text*/
 "<p>[Please insert your message here]</p><p><em>For support inquiries, please include the following information. These make it easier for me to help you. Thank you!</em><p><hr><p><strong>Support Information</strong></p></p>%@ Version %@ (%@)<br>%@ (%@)<br>iOS %@ (%@)</p><hr>" = "<p>[Bitte gib Deine Nachricht hier ein]</p><p><em>Für Support-Anfragen bitte die folgenden Informationen angeben. Das macht es uns leichter Dir zu helfen. Vielen Dank!</em><p><hr><p><strong>Support Information</strong></p></p>%@ Version %@ (%@)<br>%@ (%@)<br>iOS %@ (%@)</p><hr>";
 
@@ -186,6 +189,9 @@
 "minutes" = "Minuten";
 
 /*No comment provided by engineer.*/
+"N1njaWTF Tip jar" = "N1njaWTF Spendenbox";
+
+/*No comment provided by engineer.*/
 "No Connection" = "Keine Verbindung";
 
 /*No comment provided by engineer.*/
@@ -276,6 +282,12 @@
 "Tip jar" = "Spendenbox";
 
 /*No comment provided by engineer.*/
+"Tip N1njaWTF" = "Spende N1njaWTF";
+
+/*No comment provided by engineer.*/
+"Tip N1njaWTF of NeoToGas.com some GAS or NEO! :-)" = "Spende N1njaWTF über NeoToGas.com ein paar GAS oder NEO! :-)";
+
+/*No comment provided by engineer.*/
 "Tools" = "Werkzeuge";
 
 /*No comment provided by engineer.*/
@@ -312,6 +324,9 @@
 "Visit NEO.org" = "Besuche NEO.org";
 
 /*No comment provided by engineer.*/
+"Visit NeoToGas.com" = "Besuche NeoToGas.com";
+
+/*No comment provided by engineer.*/
 "Visual and messages" = "Nachrichten";
 
 /*No comment provided by engineer.*/
@@ -346,18 +361,3 @@
 
 /*Sending email message failed body*/
 "Your email has failed to send." = "Deine E-Mail konnte nicht versendet werden.";
-
-/*No comment provided by engineer.*/
-"Tip N1njaWTF" = "Spende N1njaWTF";
-
-/*No comment provided by engineer.*/
-"Visit NeoToGas.com" = "Besuche NeoToGas.com";
-
-/*No comment provided by engineer.*/
-"N1njaWTF Tip jar" = "N1njaWTF Spendenbox";
-
-/*No comment provided by engineer.*/
-"Tip N1njaWTF of NeoToGas.com some GAS or NEO! :-)" = "Spende N1njaWTF über NeoToGas.com ein paar GAS oder NEO! :-)";
-
-/*/* Translator: enter your information for credits! In English please. Like this: Dutch is translated by Benjamin de Bos (info@its-vision.nl). E-mail is not required! */*/
-"<Language> is translated by: <your (nick) name> (<e-mail>)" = "German is translated by: Dominik Thanner (crashyourself22@gmail.com)";
