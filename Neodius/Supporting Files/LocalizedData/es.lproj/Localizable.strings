@@ -57,7 +57,7 @@
 "Bid price" = "Precio de oferta";
 
 /*No comment provided by engineer.*/
-"Block generation time: %.1fs" = "Tiempo de generación de bloque";
+"Block generation time: %.1fs" = "Tiempo de generación de bloque %.1fs";
 
 /*No comment provided by engineer.*/
 "By entering an address" = "Introduciendo una dirección";
