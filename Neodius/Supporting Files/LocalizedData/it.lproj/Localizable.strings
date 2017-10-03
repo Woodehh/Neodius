@@ -119,9 +119,6 @@
 /*No comment provided by engineer.*/
 "Current wallets" = "Portafoglio corrente";
 
-/* Translator enter your name! */
-"%@ is translated by: <input your name>" = "";
-
 /* Translator: enter your information for credits! */
 "<Language> is translated by: <your (nick) name> (<e-mail)" = "";
 
@@ -136,9 +133,6 @@
 
 /*No comment provided by engineer.*/
 "Edit wallet" = "";
-
-/* Translator: enter your information for credits! */
-"English is translated by: <your name>" = "";
 
 /*No comment provided by engineer.*/
 "Enter a name" = "";

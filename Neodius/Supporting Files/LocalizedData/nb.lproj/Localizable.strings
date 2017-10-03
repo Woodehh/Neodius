@@ -158,9 +158,6 @@
 /*Sending email message failed body*/
 "Your email has failed to send." = "Noe gikk feil ved å sende eposten din.";
 
-/* Translator enter your name! */
-"%@ is translated by: <input your name>" = "";
-
 /*Acknowlegdments header title*/
 "%@ makes use of the following third party libraries. Many thanks to the developers making them available!" = "";
 
@@ -265,9 +262,6 @@
 
 /*No comment provided by engineer.*/
 "Edit wallet" = "";
-
-/* Translator: enter your information for credits! */
-"English is translated by: <your name>" = "";
 
 /*No comment provided by engineer.*/
 "Feel free to send some %@ in order to make support the Neodius development! :-)" = "";
