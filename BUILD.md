@@ -1,4 +1,5 @@
-<img src="Artwork/Logos/Logo.png" width="300" alt="Wallet view">
+<img src="Artwork/Logos/PNGs/Logo-Github.png" width="400" alt="Neodius Logo">
+
 # Building Neodius
 So you can't wait and want to build it yourself? Or you want to contribute to Neodius: You can! You actually don't need to be a rocket scientist (:rocket: to the moon). Follow these easy steps to get it running on your iDevice (or wait for the App Store approval).
 

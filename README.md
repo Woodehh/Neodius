@@ -1,4 +1,4 @@
-<img src="Artwork/Logos/PNGs/Logo-Github.png" width="400" alt="Wallet view">
+<img src="Artwork/Logos/PNGs/Logo-Github.png" width="400" alt="Neodius Logo">
 
 
 # Neodius
