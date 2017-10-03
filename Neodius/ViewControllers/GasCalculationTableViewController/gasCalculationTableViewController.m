@@ -307,11 +307,10 @@
 }
 
 -(void)showTipJar {
-    NSLog(@"called");
     [[NeodiusUIComponents sharedComponents] showQrModalOnViewController:self
                                                             withAddress:@"AbZiS1dhT2ciBMMRU7aScDC4johyMy35sA"
-                                                              withTitle:@"N1njaWTF Tip jar"
-                                                        andShareMessage:@"Tip N1njaWTF of NeoToGas.com some GAS or NEO! :-)"];
+                                                              withTitle:NSLocalizedString(@"N1njaWTF Tip jar",nil)
+                                                        andShareMessage:NSLocalizedString(@"Tip N1njaWTF of NeoToGas.com some GAS or NEO! :-)",nil)];
 }
 
 @end
