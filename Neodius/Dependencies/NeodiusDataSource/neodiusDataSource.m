@@ -312,14 +312,14 @@ static NeodiusDataSource *sharedData = nil;
                                                         if (responseObject[@"result"] != nil){
                                                             CGFloat last_block_data = [responseObject[@"result"][@"time"] floatValue];
                                                             
-                                                            [networkManager GET:[NSString stringWithFormat:@"%@/myservice?jsonrpc=2.0&method=getblock&params=[%f,1]&id=4",bestNode,(blockCount - 5001)]
+                                                            [networkManager GET:[NSString stringWithFormat:@"%@/myservice?jsonrpc=2.0&method=getblock&params=[%f,1]&id=4",bestNode,(blockCount - 201)]
                                                                      parameters:nil
                                                                        progress:nil
                                                                         success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
-                                                                            progress(1,[NSString stringWithFormat:NSLocalizedString(@"Get block %@", nil),[NSNumber numberWithFloat:(blockCount - 5001)]]);
+                                                                            progress(1,[NSString stringWithFormat:NSLocalizedString(@"Get block %@", nil),[NSNumber numberWithFloat:(blockCount - 201)]]);
                                                                             if (responseObject[@"result"] != nil) {
                                                                                 CGFloat last_block_minus_5000 = [responseObject[@"result"][@"time"] floatValue];
-                                                                                block(((last_block_data - last_block_minus_5000) / 5000),nil);
+                                                                                block(((last_block_data - last_block_minus_5000) / 200),nil);
                                                                             } else {
                                                                                 block(NO,[self generateErrorWithCode:3 andSpecification:@"no_last_minus_5000_block_node"]);
                                                                             }
