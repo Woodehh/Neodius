@@ -24,7 +24,7 @@
 "7 Days" = "7天";
 
 /*Prefilled Email message text*/
-"<p>[Please insert your message here]</p><p><em>For support inquiries, please include the following information. These make it easier for me to help you. Thank you!</em><p><hr><p><strong>Support Information</strong></p></p>%@ Version %@ (%@)<br>%@ (%@)<br>iOS %@ (%@)</p><hr>" = "<p> [请在此处插入您的信息] </ p> <p> <em>有关支持查询，请提供以下信息。这些使我更容易帮助你。谢谢！</ em> <p> <hr> <p> <strong>支持信息</ strong> </ p> </ p>％@版本％@（％@） ）<br> iOS％@（％@）</ p> <hr>";
+"<p>[Please insert your message here]</p><p><em>For support inquiries, please include the following information. These make it easier for me to help you. Thank you!</em><p><hr><p><strong>Support Information</strong></p></p>%@ Version %@ (%@)<br>%@ (%@)<br>iOS %@ (%@)</p><hr>" = "<p>[请在此处插入您的信息]</p><p><em>有关支持查询，请提供以下信息。这些使我更容易帮助你。谢谢！</em><p><hr><p><strong>支持信息</ strong></p></p>%@版本%@（%@)<br> iOS %@（%@）</p><hr>";
 
 /*UINavigationBar Title*/
 "About" = "关于";
