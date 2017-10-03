@@ -1,9 +1,9 @@
 
 /*Acknowlegdments header title*/
-"%@ makes use of the following third party libraries. Many thanks to the developers making them available!" = "％@使用以下第三方库。非常感谢开发人员可以使用它们！";
+"%@ makes use of the following third party libraries. Many thanks to the developers making them available!" = "%@使用以下第三方库。非常感谢开发人员可以使用它们！";
 
 /*No comment provided by engineer.*/
-"%@ Market information" = "％@市场信息";
+"%@ Market information" = "%@市场信息";
 
 /*No comment provided by engineer.*/
 "1 Hour" = "1小时";
@@ -75,7 +75,7 @@
 "Calculating GAS" = "计算气体";
 
 /*No comment provided by engineer.*/
-"Calculating GAS for: %@ NEO" = "计算GAS为：％@ NEO";
+"Calculating GAS for: %@ NEO" = "计算GAS为：%@ NEO";
 
 /*Cancel*/
 "Cancel" = "取消";
@@ -126,7 +126,7 @@
 "Dividend" = "股利";
 
 /*No comment provided by engineer.*/
-"Donate %@" = "捐赠％@";
+"Donate %@" = "捐赠%@";
 
 /*No comment provided by engineer.*/
 "Edit wallet" = "编辑钱包";
@@ -144,7 +144,7 @@
 "Enter the address" = "输入地址";
 
 /*No comment provided by engineer.*/
-"Feel free to send some %@ in order to make support the Neodius development! :-)" = "随时发送一些％@以支持Neodius开发！ :-)";
+"Feel free to send some %@ in order to make support the Neodius development! :-)" = "随时发送一些%@以支持Neodius开发！ :-)";
 
 /*No comment provided by engineer.*/
 "GAS Calculation" = "气体计算";
@@ -156,7 +156,7 @@
 "General" = "一般";
 
 /*No comment provided by engineer.*/
-"Get block %@" = "获取块％@";
+"Get block %@" = "获取块%@";
 
 /*No comment provided by engineer.*/
 "Getting best node" = "获得最佳节点";
@@ -276,6 +276,9 @@
 "Tip jar" = "提示罐";
 
 /*No comment provided by engineer.*/
+"Tip N1njaWTF" = "提示N1njaWTF";
+
+/*No comment provided by engineer.*/
 "Tools" = "工具";
 
 /*No comment provided by engineer.*/
@@ -291,7 +294,7 @@
 "Unclaimed GAS" = "无人认领的气体";
 
 /*Error message: no email accounts available*/
-"Unfortunately there are no Email accounts available on your device.\n\nFor support questions, please send an Email to %@ and include the following information: %@.\n\nTab the 'Copy info' button to copy this information to your pasteboard. Thank you!" = "不幸的是，您的设备上没有可用的电子邮件帐户。\n\n有关支持问题，请发送电子邮件至％@并包含以下信息：％@。\n\n选中“复制信息”按钮将此信息复制到您的粘贴板。谢谢！";
+"Unfortunately there are no Email accounts available on your device.\n\nFor support questions, please send an Email to %@ and include the following information: %@.\n\nTab the 'Copy info' button to copy this information to your pasteboard. Thank you!" = "不幸的是，您的设备上没有可用的电子邮件帐户。\n\n有关支持问题，请发送电子邮件至%@并包含以下信息：%@。\n\n选中“复制信息”按钮将此信息复制到您的粘贴板。谢谢！";
 
 /*No comment provided by engineer.*/
 "Use MainNet blockchain" = "使用MainNet块链";
@@ -310,6 +313,9 @@
 
 /*No comment provided by engineer.*/
 "Visit NEO.org" = "访问NEO.org";
+
+/*No comment provided by engineer.*/
+"Visit NeoToGas.com" = "访问NeoToGas.com";
 
 /*No comment provided by engineer.*/
 "Visual and messages" = "视觉和消息";
@@ -342,16 +348,10 @@
 "Yes" = "是";
 
 /*No comment provided by engineer.*/
-"You're about to remove %@. Are you sure?" = "您即将删除％@。你确定？";
+"You're about to remove %@. Are you sure?" = "您即将删除%@。你确定？";
 
 /*Sending email message failed body*/
 "Your email has failed to send." = "您的电子邮件无法发送。";
-
-/*No comment provided by engineer.*/
-"Tip N1njaWTF" = "提示N1njaWTF";
-
-/*No comment provided by engineer.*/
-"Visit NeoToGas.com" = "访问NeoToGas.com";
 
 /*No comment provided by engineer.*/
 "N1njaWTF Tip jar" = "";
