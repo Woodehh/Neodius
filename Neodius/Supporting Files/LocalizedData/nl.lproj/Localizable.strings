@@ -353,6 +353,9 @@
 /*Sending email message failed body*/
 "Your email has failed to send." = "Je e-mail is niet verzonden!!";
 
+/* Translator enter your name! */
+"%@ is translated by: <input your name>" = "";
+
 /*No comment provided by engineer.*/
 "N1njaWTF Tip jar" = "";
 

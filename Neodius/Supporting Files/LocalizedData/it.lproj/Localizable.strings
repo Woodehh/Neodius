@@ -119,6 +119,9 @@
 /*No comment provided by engineer.*/
 "Current wallets" = "Portafoglio corrente";
 
+/* Translator enter your name! */
+"%@ is translated by: <input your name>" = "";
+
 /*Dismiss error message*/
 "Dismiss" = "";
 
