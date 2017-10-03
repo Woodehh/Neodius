@@ -276,9 +276,6 @@
 "Tip jar" = "Fooienpot";
 
 /*No comment provided by engineer.*/
-"Tip N1njaWTF" = "Geef N1njaWTF een fooi";
-
-/*No comment provided by engineer.*/
 "Tools" = "Hulp";
 
 /*No comment provided by engineer.*/
@@ -315,9 +312,6 @@
 "Visit NEO.org" = "Bezoek NEO.org";
 
 /*No comment provided by engineer.*/
-"Visit NeoToGas.com" = "Bezoek NeoToGas.com";
-
-/*No comment provided by engineer.*/
 "Visual and messages" = "Visueel en berichten";
 
 /*No comment provided by engineer.*/
@@ -352,3 +346,9 @@
 
 /*Sending email message failed body*/
 "Your email has failed to send." = "Je e-mail is niet verzonden";
+
+/*No comment provided by engineer.*/
+"Tip N1njaWTF" = "Geef N1njaWTF een fooi";
+
+/*No comment provided by engineer.*/
+"Visit NeoToGas.com" = "Bezoek NeoToGas.com";
