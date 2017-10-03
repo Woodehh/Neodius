@@ -41,7 +41,7 @@ Features currently are:
 	* French - Thanks to mati14! Cheers mate! - [French screenshots](https://github.com/ITSVision/Neodius/blob/master/Artwork/Screenshots/French/iPhone/french-screenshots.md)
 	* Spanish - Thanks to &lt;Unknown&gt; -> Contact me mate! I donno your name :-) [Spanish screenshots](https://github.com/ITSVision/Neodius/blob/master/Artwork/Screenshots/Spanish/iPhone/spanish-screenshots.md)
 	* **Work in progress: Chinese Traditional, Norwegian, Italian**
-	* More to come? (help us out here :kissing_heart: )
+	* **More to come: Help me out here [and join the translation project](https://poeditor.com/join/project/UCLcpved6I). We'll exchange for contributions :) <3)**
 * View market information on GAS and NEO
 	* Bid/ask prices
 	* Current market (cap, volume, position)
