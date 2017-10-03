@@ -354,9 +354,6 @@
 "Your email has failed to send." = "Tu correo no se ha podido enviar.";
 
 /* Translator: enter your information for credits! */
-"<Language> is translated by: <your (nick) name> (<e-mail)" = "";
-
-/* Translator: enter your information for credits! */
 "<Language> is translated by: <your (nick) name> (<e-mail>)" = "";
 
 /*No comment provided by engineer.*/

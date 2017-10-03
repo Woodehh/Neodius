@@ -354,9 +354,6 @@
 "Your email has failed to send." = "您的电子邮件无法发送。";
 
 /* Translator: enter your information for credits! */
-"<Language> is translated by: <your (nick) name> (<e-mail)" = "";
-
-/* Translator: enter your information for credits! */
 "<Language> is translated by: <your (nick) name> (<e-mail>)" = "";
 
 /*No comment provided by engineer.*/
