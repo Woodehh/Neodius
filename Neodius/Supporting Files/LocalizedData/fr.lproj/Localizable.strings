@@ -356,6 +356,9 @@
 /* Translator: enter your information for credits! */
 "<Language> is translated by: <your (nick) name> (<e-mail)" = "";
 
+/* Translator: enter your information for credits! */
+"<Language> is translated by: <your (nick) name> (<e-mail>)" = "";
+
 /*No comment provided by engineer.*/
 "N1njaWTF Tip jar" = "";
 
