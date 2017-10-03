@@ -39,7 +39,7 @@ Features currently are:
 	* English - [English screenshots](https://github.com/ITSVision/Neodius/blob/master/Artwork/Screenshots/English/iPhone/english-screenshots.md)
 	* Dutch - [Dutch screenshots](https://github.com/ITSVision/Neodius/blob/master/Artwork/Screenshots/Dutch/iPhone/dutch-screenshots.md)
 	* French - Thanks to mati14! Cheers mate! - [French screenshots](https://github.com/ITSVision/Neodius/blob/master/Artwork/Screenshots/French/iPhone/french-screenshots.md)
-	* Spanish - Thanks to &lt;Unknown&gt; -> Contact me mate! I donno your name :-) [French screenshots](https://github.com/ITSVision/Neodius/blob/master/Artwork/Screenshots/Spanish/iPhone/spanish-screenshots.md)
+	* Spanish - Thanks to &lt;Unknown&gt; -> Contact me mate! I donno your name :-) [Spanish screenshots](https://github.com/ITSVision/Neodius/blob/master/Artwork/Screenshots/Spanish/iPhone/spanish-screenshots.md)
 	* **Work in progress: Chinese Traditional, Norwegian, Italian**
 	* More to come? (help us out here :kissing_heart: )
 * View market information on GAS and NEO
