@@ -122,6 +122,9 @@
 /* Translator enter your name! */
 "%@ is translated by: <input your name>" = "";
 
+/* Translator: enter your information for credits! */
+"<Language> is translated by: <your (nick) name> (<e-mail)" = "";
+
 /*Dismiss error message*/
 "Dismiss" = "";
 

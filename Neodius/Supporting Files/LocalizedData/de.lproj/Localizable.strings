@@ -23,6 +23,9 @@
 /* No comment provided by engineer. */
 "7 Days" = "";
 
+/* Translator: enter your information for credits! */
+"<Language> is translated by: <your (nick) name> (<e-mail)" = "";
+
 /* Prefilled Email message text */
 "<p>[Please insert your message here]</p><p><em>For support inquiries, please include the following information. These make it easier for me to help you. Thank you!</em><p><hr><p><strong>Support Information</strong></p></p>%@ Version %@ (%@)<br>%@ (%@)<br>iOS %@ (%@)</p><hr>" = "";
 
