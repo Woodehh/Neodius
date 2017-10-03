@@ -12,6 +12,9 @@ Neodius is a NEO blockchain tool. Neodius let's you easily view your balance in 
 
 <img src="Artwork/Screenshots/English/iPhone/screen-wallet.png" width="200" alt="Wallet view"> <img src="Artwork/Screenshots/English/iPhone/screen-neo-market-info.png" width="200" alt="Market view"> <img src="Artwork/Screenshots/English/iPhone/screen-menu.png" width="200" alt="Menu view"> <img src="Artwork/Screenshots/English/iPhone/screen-settings.png" width="200" alt="Settings view"> 
 
+## Beta testing now open on Test Flight
+Test Flight is now open! Enroll in the Test Flight program to be an early try out for Neodius! [Enroll in Test Flight](http://www.its-vision.nl/Neodius/)
+
 ## What's this NEO all about
 NEO, formerly Antshares, is China's first ever open source blockchain. Founded in 2014, NEO’s mission has been to reinvent the way commerce is done. So basically it's just another improved Bitcoin rip-off. However, NEO has a lot of extra features which make it a good investment.
 
