@@ -57,6 +57,11 @@
 		E25AB2CB1F7D14FE00CA1FF2 /* gasCalculationTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gasCalculationTableViewController.h; sourceTree = "<group>"; };
 		E25AB2CC1F7D14FE00CA1FF2 /* gasCalculationTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gasCalculationTableViewController.m; sourceTree = "<group>"; };
 		E2A445AB1F82BE2200A829FC /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = "../../../Neodius/Supporting Files/LocalizedData/fr.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		E2A445AC1F8398DC00A829FC /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = "../../../Neodius/Supporting Files/LocalizedData/es.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		E2A445AD1F8398E700A829FC /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "../../../Neodius/Supporting Files/LocalizedData/zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		E2A445AE1F8398ED00A829FC /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "../../../Neodius/Supporting Files/LocalizedData/zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		E2A445AF1F8398F600A829FC /* nb */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nb; path = "../../../Neodius/Supporting Files/LocalizedData/nb.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		E2A445B01F83991A00A829FC /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = "../../../Neodius/Supporting Files/LocalizedData/it.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		E2AD85A01F6FED9A00D03087 /* Acknowledgements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Acknowledgements.plist; path = neodius/Acknowledgements.plist; sourceTree = SOURCE_ROOT; };
 		E2B3ADEB1F7A58AA00713798 /* marketViewCustomTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = marketViewCustomTableViewCell.h; sourceTree = "<group>"; };
 		E2B3ADEC1F7A58AA00713798 /* marketViewCustomTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = marketViewCustomTableViewCell.m; sourceTree = "<group>"; };
@@ -417,8 +422,12 @@
 			knownRegions = (
 				nl,
 				en,
-				de,
 				fr,
+				es,
+				"zh-Hans",
+				"zh-Hant",
+				nb,
+				it,
 			);
 			mainGroup = E2C209FA1F6D094500C2F8AB;
 			productRefGroup = E2C20A041F6D094500C2F8AB /* Products */;
@@ -555,6 +564,11 @@
 				E25AB2C91F7D021600CA1FF2 /* nl */,
 				E21545961F7EA571006533C3 /* en */,
 				E2A445AB1F82BE2200A829FC /* fr */,
+				E2A445AC1F8398DC00A829FC /* es */,
+				E2A445AD1F8398E700A829FC /* zh-Hans */,
+				E2A445AE1F8398ED00A829FC /* zh-Hant */,
+				E2A445AF1F8398F600A829FC /* nb */,
+				E2A445B01F83991A00A829FC /* it */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
