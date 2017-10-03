@@ -345,7 +345,7 @@
 "You're about to remove %@. Are you sure?" = "Je staat op het punt om %@ te verwijderen, weet je het zeker?";
 
 /*Sending email message failed body*/
-"Your email has failed to send." = "Je e-mail is niet verzonden";
+"Your email has failed to send." = "Je e-mail is niet verzonden.";
 
 /*No comment provided by engineer.*/
 "Tip N1njaWTF" = "Geef N1njaWTF een fooi";
