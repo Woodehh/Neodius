@@ -57,7 +57,7 @@
 "Bid price" = "竞价";
 
 /*No comment provided by engineer.*/
-"Block generation time: %.1fs" = "块生成时间：％.1fs";
+"Block generation time: %.1fs" = "块生成时间：%.1fs";
 
 /*No comment provided by engineer.*/
 "By entering an address" = "通过输入地址";
@@ -276,9 +276,6 @@
 "Tip jar" = "提示罐";
 
 /*No comment provided by engineer.*/
-"Tip N1njaWTF" = "提示N1njaWTF";
-
-/*No comment provided by engineer.*/
 "Tools" = "工具";
 
 /*No comment provided by engineer.*/
@@ -315,9 +312,6 @@
 "Visit NEO.org" = "访问NEO.org";
 
 /*No comment provided by engineer.*/
-"Visit NeoToGas.com" = "访问NeoToGas.com";
-
-/*No comment provided by engineer.*/
 "Visual and messages" = "视觉和消息";
 
 /*No comment provided by engineer.*/
@@ -352,6 +346,12 @@
 
 /*Sending email message failed body*/
 "Your email has failed to send." = "您的电子邮件无法发送。";
+
+/*No comment provided by engineer.*/
+"Tip N1njaWTF" = "提示N1njaWTF";
+
+/*No comment provided by engineer.*/
+"Visit NeoToGas.com" = "访问NeoToGas.com";
 
 /*No comment provided by engineer.*/
 "N1njaWTF Tip jar" = "";
