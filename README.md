@@ -8,7 +8,7 @@
 [![GitHub pull requests](https://img.shields.io/github/issues-pr/ITSVision/Neodius.svg)](https://github.com/ITSVision/Neodius/pulls/)
 [![GitHub contributors](https://img.shields.io/github/contributors/ITSVision/Neodius.svg)](https://github.com/ITSVision/Neodius/contributors/)
 
-Neodius is a NEO blockchain tool. Neodius let's you easily view your balance in various ways based on your address. A must have for every NEO fan. Ofcourse poured in a pretty-and-easy iOS interface. It has been submitted to the Apple AppStore. So I'm waiting for approval. Once it's approved, the link will be available here.
+Neodius is a NEO blockchain tool. Neodius let's you easily view your balance in various ways based on your address. A must have for every NEO fan. Poured in a pretty-and-easy iOS interface, of course. 
 
 <img src="Artwork/Screenshots/English/iPhone/screen-wallet.png" width="200" alt="Wallet view"> <img src="Artwork/Screenshots/English/iPhone/screen-neo-market-info.png" width="200" alt="Market view"> <img src="Artwork/Screenshots/English/iPhone/screen-menu.png" width="200" alt="Menu view"> <img src="Artwork/Screenshots/English/iPhone/screen-settings.png" width="200" alt="Settings view"> 
 
@@ -19,7 +19,7 @@ Test Flight is now open! Enroll in the Test Flight program to be an early try ou
 NEO, formerly Antshares, is China's first ever open source blockchain. Founded in 2014, NEO’s mission has been to reinvent the way commerce is done. So basically it's just another improved Bitcoin rip-off. However, NEO has a lot of extra features which make it a good investment.
 
 ## But what does Neodius do?
-Neodius was built with the idea to have a better insight into your Neo Crypto assets (love those hypie words :). Since NEO has that awesome GAS ([neotogas.com click on about](https://neotogas.com)), it's good to see how much you have and how much you can claim. But most importantly, you want to know how many beers you can buy with your NEO :beer:. So i have implemented an automatic conversion from NEO to a (realistic) fiat value.
+Neodius was built with the idea to have a better insight into your Neo Crypto assets (love those hippie words :). Since NEO has that awesome GAS ([neotogas.com click on about](https://neotogas.com)), it's good to see how much you have and how much you can claim. But most importantly, you want to know how many beers you can buy with your NEO :beer:. So i have implemented an automatic conversion from NEO to a (realistic) fiat value.
 
 ## What are the features?
 Probably the most important is:
@@ -28,7 +28,7 @@ Neodius is based on public address, no private keys needed. So no worries about 
 Features currently are:
 * Multi-wallet
 * View your amount of NEO
-* view your GAS
+* View your GAS
 * View your unclaimed gas
 * View NEO value in BTC/ETH
 * View NEO value in fiat currencies ([View currencies](https://github.com/ITSVision/Neodius/blob/master/Neodius/Supporting%20Files/SettingCache/fiatCurrencies.json))
@@ -57,9 +57,7 @@ Features currently are:
 
 ## Looks awesome, but how can i use it.
 ### The AppStore
-As stated above; it's currently being approved for the App Store where you'll soon be able to download it for free. However; since i believe in the power of open-source; it's here so everyone can use, edit and contribute to it.
-
-**I will post the AppStore link here and on [Reddit](https://www.reddit.com/r/NEO/) when it's approved!**
+You'll soon be able to download it for free. However; since I believe in the power of open-source; it's here so everyone can use, edit and contribute to it.
 
 ### Building it yourself
 So you want to build it to your iDevice yourself? We have a beautiful markdown for that: [Check this out](BUILD.md).
