@@ -276,9 +276,6 @@
 "Tip jar" = "Pourboire";
 
 /*No comment provided by engineer.*/
-"Tip N1njaWTF" = "Donnez à N1njaWTF un conseil";
-
-/*No comment provided by engineer.*/
 "Tools" = "Outils";
 
 /*No comment provided by engineer.*/
@@ -313,9 +310,6 @@
 
 /*No comment provided by engineer.*/
 "Visit NEO.org" = "Aller sur NEO.org";
-
-/*No comment provided by engineer.*/
-"Visit NeoToGas.com" = "Visitez NeoToGas.com";
 
 /*No comment provided by engineer.*/
 "Visual and messages" = "Visuel et messages";
@@ -353,11 +347,17 @@
 /*Sending email message failed body*/
 "Your email has failed to send." = "Votre email n'a pas pu être envoyé.";
 
-/* Translator: enter your information for credits! */
-"<Language> is translated by: <your (nick) name> (<e-mail>)" = "";
+/*No comment provided by engineer.*/
+"Tip N1njaWTF" = "Donnez à N1njaWTF un conseil";
+
+/*No comment provided by engineer.*/
+"Visit NeoToGas.com" = "Visitez NeoToGas.com";
 
 /*No comment provided by engineer.*/
 "N1njaWTF Tip jar" = "";
 
 /*No comment provided by engineer.*/
 "Tip N1njaWTF of NeoToGas.com some GAS or NEO! :-)" = "";
+
+/*/* Translator: enter your information for credits! In English please. Like this: Dutch is translated by Benjamin de Bos (info@its-vision.nl). E-mail is not required! */*/
+"<Language> is translated by: <your (nick) name> (<e-mail>)" = "French is translated by mati14";
