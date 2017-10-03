@@ -282,18 +282,20 @@ static NeodiusDataSource *sharedData = nil;
     
     AFHTTPSessionManager *networkManager = [AFHTTPSessionManager manager];
     networkManager.responseSerializer.acceptableContentTypes = [NSSet setWithObjects:@"application/json", @"application/json-rpc", nil];
-    
-    [networkManager GET:[[NeodiusDataSource sharedData] buildAPIUrlWithEndpoint:@"/network/best_node"]
+
+    [networkManager GET:[[[NeodiusDataSource sharedData] buildAPIUrlWithEndpoint:@"/network/best_node"] stringByAppendingFormat:@"?%u",arc4random()]
              parameters:nil
                progress:nil
                 success:^(NSURLSessionTask *task, id responseObject) {
-                    progress(.25,NSLocalizedString(@"Getting best node", ));
+                    progress(.25,NSLocalizedString(@"Getting best node", nil));
                     
                     NSString *bestNode;
-                    if (responseObject[@"node"] == nil){
+                    if (responseObject[@"node"] != nil){
                         bestNode = [responseObject objectForKey:@"node"];
+                        NSLog(@"Using real node");
                     } else {
                         bestNode = @"http://seed1.cityofzion.io:8080";
+                        NSLog(@"Using fallsafe");
                     }
                     
                     [networkManager GET:[NSString stringWithFormat:@"%@/myservice?jsonrpc=2.0&method=getblockcount&params=%%5B%%5D&id=5",bestNode]
