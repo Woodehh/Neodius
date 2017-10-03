@@ -263,6 +263,9 @@
 /*No comment provided by engineer.*/
 "Edit wallet" = "";
 
+/* Translator: enter your information for credits! */
+"English is translated by: <your name>" = "";
+
 /*No comment provided by engineer.*/
 "Feel free to send some %@ in order to make support the Neodius development! :-)" = "";
 
