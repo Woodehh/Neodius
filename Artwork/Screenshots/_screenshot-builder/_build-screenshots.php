@@ -86,8 +86,25 @@
 	foreach ($languages_dir as $k=>$l) {
 		//unset starting with dot
 		if (substr($l,0,1) != ".") {
+			
 			$language_code = str_replace(".lproj","",$l);
+			$language_name = $localizations[$language_code]['englishName'];
 
+			$existingTypes = array();
+			//is iphone screenshot set available:
+			if (is_dir(sprintf("../%s/iPhone/",$language_name)))
+				$existingTypes[] = "iPhone";
+				
+			//check if iPad is already available
+			if (is_dir(sprintf("../%s/iPad/",$language_name)))
+				$existingTypes[] = "iPad";			
+			
+			
+			if (count($existingTypes) > 0)
+				$addition = "(".implode(",", $existingTypes).")";
+			else
+				$addition = "";
+			
 			$languages[$language_code] = array(
 				"nameLocalized"=>@$localizations[$language_code]['localizedName'],
 				"nameEnglish"=>@$localizations[$language_code]['englishName'],
@@ -95,7 +112,7 @@
 				"stringsFile"=>realpath(LOCALIZATION_DIR.$l."/Localizable.strings")
 			);
 			
-			$language_menu_items[$language_code] = @$localizations[$language_code]['englishName'];
+			$language_menu_items[$language_code] = @$localizations[$language_code]['englishName']." ".$addition;
 		}
 	}
 
@@ -148,7 +165,7 @@
 	//loop through the screenshot array
 	foreach ($array_screenshots as $t=>$s) {
 		//check for new files
-		$new_files = askQuestionForScreenshot(sprintf("%s. Take a screenshot of \"%s\".",$i,$t),$watchFolder);
+		$new_files = askQuestionForScreenshot(sprintf("%s. Take a screenshot of «%s».",$i,$t),$watchFolder);
 		
 		//multiple files have been found. Let the user 
 		//decide which file is correct
@@ -159,7 +176,7 @@
 			}
 			
 			//get the menu option
-			$screenshot_file_name = cli\menu($fileSelection, null, $c("Multiple new screenshots found. Please select which is the \"{$t}\" screen")->white()->bg_red());
+			$screenshot_file_name = cli\menu($fileSelection, null, $c("Multiple new screenshots found. Please select which is the «{$t}» screen")->white()->bg_red());
 			$screenshot_file_path = $fileSelection[$screenshot_file_name];
 			
 		} else {
