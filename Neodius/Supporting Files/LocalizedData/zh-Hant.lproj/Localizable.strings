@@ -23,6 +23,9 @@
 /*No comment provided by engineer.*/
 "7 Days" = "7天";
 
+/* Translator: enter your information for credits! In English please. Like this: Dutch is translated by Benjamin de Bos (info@its-vision.nl). E-mail is not required! */
+"<Language> is translated by: <your (nick) name> (<e-mail>)" = "Chinese (Traditional) is translated by yenct15";
+
 /*Prefilled Email message text*/
 "<p>[Please insert your message here]</p><p><em>For support inquiries, please include the following information. These make it easier for me to help you. Thank you!</em><p><hr><p><strong>Support Information</strong></p></p>%@ Version %@ (%@)<br>%@ (%@)<br>iOS %@ (%@)</p><hr>" = "<P> [請在此處添寫您的信息] </ p> <p> <EM>後台技術查詢，請提供以下信息使我更容易幫助你。謝謝！</ EM> <P> <HR> <p> <strong>支持信息</ strong> </ p> </ p>%@版本%@（%@）<br> iOS%@（%@）</ p> <hr>";
 
@@ -166,9 +169,6 @@
 
 /*No comment provided by engineer.*/
 "Hey there!" = "嘿！";
-
-/* Translator: enter your information for credits! In English please. Like this: Dutch is translated by Benjamin de Bos (info@its-vision.nl). E-mail is not required! */
-"<Language> is translated by: <your (nick) name> (<e-mail>)" = "Chinese (Traditional) is translated by yenct15";
 
 /*No comment provided by engineer.*/
 "Language" = "語言";

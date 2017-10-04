@@ -23,6 +23,9 @@
 /*No comment provided by engineer.*/
 "7 Days" = "7 días";
 
+/* Translator: enter your information for credits! In English please. Like this: Dutch is translated by Benjamin de Bos (info@its-vision.nl). E-mail is not required! */
+"<Language> is translated by: <your (nick) name> (<e-mail>)" = "Spanish is translated by Juan";
+
 /*Prefilled Email message text*/
 "<p>[Please insert your message here]</p><p><em>For support inquiries, please include the following information. These make it easier for me to help you. Thank you!</em><p><hr><p><strong>Support Information</strong></p></p>%@ Version %@ (%@)<br>%@ (%@)<br>iOS %@ (%@)</p><hr>" = "<p>[Por favor ingresar su mensaje aquí]</p><p><em>Para consultas de soporte, por favor incluya la siguiente información. Esto me hace más fácil ayudarte. ¡Muchas gracias!</em><p><hr><p><strong>Información de soporte</strong></p></p>%@ Version %@ (%@)<br>%@ (%@)<br>iOS %@ (%@)</p><hr>";
 
@@ -361,6 +364,3 @@
 
 /*Sending email message failed body*/
 "Your email has failed to send." = "Tu correo no se ha podido enviar.";
-
-/* Translator: enter your information for credits! In English please. Like this: Dutch is translated by Benjamin de Bos (info@its-vision.nl). E-mail is not required! */
-"<Language> is translated by: <your (nick) name> (<e-mail>)" = "Spanish is translated by Juan";
