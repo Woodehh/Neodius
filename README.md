@@ -43,6 +43,7 @@ Features currently are:
 	* Dutch - [Dutch screenshots](https://github.com/ITSVision/Neodius/blob/master/Artwork/Screenshots/Dutch/iPhone/dutch-screenshots.md)
 	* French - Thanks to mati14! Cheers mate! - [French screenshots](https://github.com/ITSVision/Neodius/blob/master/Artwork/Screenshots/French/iPhone/french-screenshots.md)
 	* Spanish - Thanks to &lt;Unknown&gt; -> Contact me mate! I donno your name :-) [Spanish screenshots](https://github.com/ITSVision/Neodius/blob/master/Artwork/Screenshots/Spanish/iPhone/spanish-screenshots.md)
+	* German - Thanks to Dominik Thanner
 	* Chinese Simplified - Thanks to Yenct15! Cheers mate! [Chinese Simplified screenshots](https://github.com/ITSVision/Neodius/blob/master/Artwork/Screenshots/Chinese Simplified/iPhone/chinese-simplified-screenshots.md)
 	* **Work in progress: Chinese Traditional, Norwegian, Italian**
 	* **More to come: Help me out here [and join the translation project](https://poeditor.com/join/project/UCLcpved6I). We'll exchange for contributions :) <3)**
@@ -96,6 +97,7 @@ The authors working on this project:
 * **[@N1njaWTF](http://twitter.com/N1njaWTF)** of (NeoToGas.com) for the GAS Calculation logic
 * **mati14** for the French translation
 * **Unknown** for the Spanish translation -> Contact me!
+* **Dominik Thanner** for the German translation
 
 See also the list of [contributors](contributors) who participated in this project.
 
