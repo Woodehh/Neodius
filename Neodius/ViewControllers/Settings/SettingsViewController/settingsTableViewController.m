@@ -26,7 +26,6 @@
                                                                             action:@selector(openLeftSide)];
     
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(languageChanged:) name:NSCurrentLocaleDidChangeNotification object:nil];
-    localizationBundle = [[NeodiusDataSource sharedData] getInternationalisationBundle];
 }
 
 - (void)languageChanged:(NSNotification *)notification {
@@ -113,7 +112,7 @@
                                                                                     andType:refreshInterval[@"labelType"]];
             icon = @"fa-clock-o";
         } else if (indexPath.row == 2) {
-            cell.textLabel.text = NSLocalizedStringFromTableInBundle(@"LANGUAGE", @"InternationalSettings", localizationBundle, nil);
+            cell.textLabel.text = NSLocalizedString(@"Language", nil);
             icon = @"fa-globe";
             NSLocale *currentLocale = [NSLocale localeWithLocaleIdentifier:[NSBundle defaultLanguage]];
             cell.detailTextLabel.text = [currentLocale displayNameForKey:NSLocaleIdentifier value:[NSBundle defaultLanguage]];
@@ -244,6 +243,7 @@
             vc.cellTintColor = neoGreenColor;
             vc.cellFont = [UIFont fontWithName:@"HelveticaNeue" size:16.0];
             vc.cellDetailFont = [UIFont fontWithName:@"HelveticaNeue-Light" size:14.0];
+            vc.title = NSLocalizedString(@"Language", nil);
             [self.navigationController pushViewController:vc animated:YES];
         }
     } else if (indexPath.section == 1) {
