@@ -1,4 +1,5 @@
 # Dutch (Nederlands) screenshots
 
+**Dutch is translated by Benjamin de Bos (info@its-vision.nl)**
 
 <img src="screen-wallet.png" width="200" alt="Huidige wallets"> <img src="screen-gas-calculation-input.png" width="200" alt="GAS Berekening - Selecteer een methode"> <img src="screen-gas-calculation.png" width="200" alt="GAS Berekening"> <img src="screen-neo-market-info.png" width="200" alt="NEO Marktinformatie"> <img src="screen-gas-market-info.png" width="200" alt="GAS Marktinformatie"> <img src="screen-tip-jar.png" width="200" alt="Fooienpot"> <img src="screen-settings.png" width="200" alt="Instellingen"> <img src="screen-menu.png" width="200" alt="Neodius">
