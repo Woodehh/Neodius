@@ -41,7 +41,9 @@ Features currently are:
 * Localization in
 	* English - [English screenshots](https://github.com/ITSVision/Neodius/blob/master/Artwork/Screenshots/English/iPhone/english-screenshots.md)
 	* Dutch - [Dutch screenshots](https://github.com/ITSVision/Neodius/blob/master/Artwork/Screenshots/Dutch/iPhone/dutch-screenshots.md)
+	* Flemish - [Flemish screenshots](https://github.com/ITSVision/Neodius/blob/master/Artwork/Screenshots/Dutch%20(Belgium)/iPhone/dutch-belgium-screenshots.md)
 	* French - [French screenshots](https://github.com/ITSVision/Neodius/blob/master/Artwork/Screenshots/French/iPhone/french-screenshots.md)
+	* French Canadian - [French Canadian screenshots](https://github.com/ITSVision/Neodius/blob/master/Artwork/Screenshots/French%20(Canada)/iPhone/french-canada-screenshots.md)
 	* Spanish - [Spanish screenshots](https://github.com/ITSVision/Neodius/blob/master/Artwork/Screenshots/Spanish/iPhone/spanish-screenshots.md)
 	* German - [German screenshots](https://github.com/ITSVision/Neodius/blob/master/Artwork/Screenshots/German/iPhone/german-screenshots.md)
 	* Chinese Simplified - [Chinese Simplified screenshots](https://github.com/ITSVision/Neodius/blob/master/Artwork/Screenshots/Chinese%20Simplified/iPhone/chinese-simplified-screenshots.md)
@@ -101,6 +103,8 @@ The authors working on this project:
 * **Juan** for the Spanish translation
 * **Dominik Thanner** for the German translation
 * **yenct15** for both of the Chinese translations
+* **mpeter** for French (Canadian) translation
+* **ManicPreacher** for Flemish translation
 
 See also the list of [contributors](contributors) who participated in this project.
 
