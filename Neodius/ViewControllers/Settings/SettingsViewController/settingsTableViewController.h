@@ -11,11 +11,14 @@
 #import <FontAwesome4-ios/FontAwesome4-ios.h>
 #import <LTHPasscodeViewController/LTHPasscodeViewController.h>
 #import <LocalAuthentication/LocalAuthentication.h>
+#import <GSLanguagePickerController/GSLanguagePickerController.h>
 #import "NeodiusDataSource.h"
 
 @interface settingsTableViewController : UITableViewController {
     NSDictionary *baseFiat,*baseCrypto,*refreshInterval;
     UISwitch *securitySwitch, *touchIdSwitch, *showTimer, *showMessages, *useMainNet;
+    NSBundle *localizationBundle;
+    
 }
 
 @end

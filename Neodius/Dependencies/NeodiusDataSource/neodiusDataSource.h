@@ -53,7 +53,7 @@
 typedef void (^blockGenerationCompletionBlock)(CGFloat blockGenerationTime, NSError* error);
 typedef void (^blockGenerationProgressBlock)(CGFloat percentage,NSString *localizedMessage);
 -(void)calculateBlockGenerationTimeWithCompletionBlock:(blockGenerationCompletionBlock)block andProgressBlock:(blockGenerationProgressBlock)progress;
-
+-(NSBundle*)getInternationalisationBundle;
 
 
 @end

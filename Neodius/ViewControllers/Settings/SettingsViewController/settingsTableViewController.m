@@ -24,7 +24,16 @@
                                                                              style:UIBarButtonItemStylePlain
                                                                             target:self
                                                                             action:@selector(openLeftSide)];
+    
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(languageChanged:) name:NSCurrentLocaleDidChangeNotification object:nil];
+    localizationBundle = [[NeodiusDataSource sharedData] getInternationalisationBundle];
 }
+
+- (void)languageChanged:(NSNotification *)notification {
+    [self.tableView reloadData];
+    self.title = NSLocalizedString(@"Settings", nil);
+}
+
 
 - (void)tableView:(UITableView *)tableView willDisplayHeaderView:(UIView *)view forSection:(NSInteger)section {
     UITableViewHeaderFooterView *header = (UITableViewHeaderFooterView *)view;
@@ -52,6 +61,9 @@
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    if (section == 0)
+        return 3;
+
     if (section == 4)
         return 1;
     
@@ -100,9 +112,14 @@
             cell.detailTextLabel.text = [[NeodiusDataSource sharedData] switchIntervalLabel:refreshInterval[@"labelValue"]
                                                                                     andType:refreshInterval[@"labelType"]];
             icon = @"fa-clock-o";
+        } else if (indexPath.row == 2) {
+            cell.textLabel.text = NSLocalizedStringFromTableInBundle(@"LANGUAGE", @"InternationalSettings", localizationBundle, nil);
+            icon = @"fa-globe";
+            NSLocale *currentLocale = [NSLocale localeWithLocaleIdentifier:[NSBundle defaultLanguage]];
+            cell.detailTextLabel.text = [currentLocale displayNameForKey:NSLocaleIdentifier value:[NSBundle defaultLanguage]];
         }
-    } else if (indexPath.section == 1) {
         
+    } else if (indexPath.section == 1) {
         if (indexPath.row == 0) {
             cell.textLabel.text = NSLocalizedString(@"Base fiat currency", nil);
             
@@ -114,7 +131,6 @@
             icon = @"fa-bitcoin";
         }
     } else if (indexPath.section == 2) {
-        
         if (indexPath.row == 0) {
             cell.textLabel.text = NSLocalizedString(@"Secure app with passcode",nil);
             icon = @"fa-lock";
@@ -220,6 +236,15 @@
         } else if (indexPath.row == 1) {
             sstvc.type = @"refreshInterval";
             [self.navigationController pushViewController:sstvc animated:YES];
+        } else {
+            GSLanguagePickerController *vc = [GSLanguagePickerController new];
+            vc.useDoneButton = NO;
+            vc.cellSelectedFontColor = [UIColor whiteColor];
+            vc.cellSelectedBackgroundColor = neoGreenColor;
+            vc.cellTintColor = neoGreenColor;
+            vc.cellFont = [UIFont fontWithName:@"HelveticaNeue" size:16.0];
+            vc.cellDetailFont = [UIFont fontWithName:@"HelveticaNeue-Light" size:14.0];
+            [self.navigationController pushViewController:vc animated:YES];
         }
     } else if (indexPath.section == 1) {
         if (indexPath.row == 0) {

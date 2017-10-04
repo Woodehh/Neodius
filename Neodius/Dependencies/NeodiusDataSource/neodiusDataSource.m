@@ -368,6 +368,13 @@ static NeodiusDataSource *sharedData = nil;
                            userInfo:@{@"specification":specification}];
 }
 
+-(NSBundle*)getInternationalisationBundle {
+    NSString *InternationalSettingsBundlePath = @"/System/Library/PreferenceBundles/InternationalSettings.bundle";
+#if TARGET_IPHONE_SIMULATOR
+    InternationalSettingsBundlePath = [NSString stringWithFormat:@"/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/%@", InternationalSettingsBundlePath];
+#endif
+    return [NSBundle bundleWithPath:InternationalSettingsBundlePath];
+}
 
 + (id)allocWithZone:(NSZone *)zone {
     @synchronized(self) {

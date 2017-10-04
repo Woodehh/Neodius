@@ -19,6 +19,7 @@ PODS:
   - BDGShare (0.0.11)
   - CWStatusBarNotification (2.3.5)
   - FontAwesome4-ios (0.2.1)
+  - GSLanguagePickerController (1.2.0)
   - KLCPopup (1.0)
   - LTHPasscodeViewController (3.8.10)
   - MBProgressHUD (1.0.0)
@@ -41,6 +42,7 @@ DEPENDENCIES:
   - BDGShare
   - CWStatusBarNotification
   - FontAwesome4-ios (from `https://github.com/ITSVision/FontAwesome4-ios.git`)
+  - GSLanguagePickerController (from `https://github.com/ITSVision/GSLanguagePickerController.git`)
   - KLCPopup
   - LTHPasscodeViewController
   - MBProgressHUD
@@ -59,6 +61,8 @@ DEPENDENCIES:
 EXTERNAL SOURCES:
   FontAwesome4-ios:
     :git: https://github.com/ITSVision/FontAwesome4-ios.git
+  GSLanguagePickerController:
+    :git: https://github.com/ITSVision/GSLanguagePickerController.git
   RFAboutView:
     :git: https://github.com/ITSVision/RFAboutView.git
 
@@ -66,6 +70,9 @@ CHECKOUT OPTIONS:
   FontAwesome4-ios:
     :commit: 59f322aff31dade278531ca9c68ae1ca18562765
     :git: https://github.com/ITSVision/FontAwesome4-ios.git
+  GSLanguagePickerController:
+    :commit: 8031433a3dc42fcea2d25243f7ca2bb7460997ac
+    :git: https://github.com/ITSVision/GSLanguagePickerController.git
   RFAboutView:
     :commit: 4b363f7e5deed2a04f923a1e2b99a4417aa47468
     :git: https://github.com/ITSVision/RFAboutView.git
@@ -77,6 +84,7 @@ SPEC CHECKSUMS:
   BDGShare: 32748bcc08221d403115d68d76f9ee9ed1734883
   CWStatusBarNotification: 3d2738b25c3207f60cc50201388d3c96182545ff
   FontAwesome4-ios: 1ec6f396a7dd88b8116bebb8fa20a2bd8c2508bd
+  GSLanguagePickerController: 1bb3cd830de672a3d4fe26ae4bf72cf014e4e408
   KLCPopup: 76c5a19227977f1e53d85236f9ef42257c168d98
   LTHPasscodeViewController: 17b0d49903dc1db6d35b95ccc4ecc4253791601f
   MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
@@ -92,6 +100,6 @@ SPEC CHECKSUMS:
   ViewDeck: 942d90dd23c9f97cc8038be352255378167edcca
   YCFirstTime: 7daef261357bd74b4badd85113e2adb309d69900
 
-PODFILE CHECKSUM: 7fb693107a55b1c2fb73ce9f695308d05a64a361
+PODFILE CHECKSUM: 70a010896a043fac65f1d8330f9e17c9813650f9
 
 COCOAPODS: 1.2.0

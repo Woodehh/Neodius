@@ -5,7 +5,7 @@ target 'Neodius' do
   #Git pods
   pod "FontAwesome4-ios", :git => 'https://github.com/ITSVision/FontAwesome4-ios.git'
   pod "RFAboutView", :git => 'https://github.com/ITSVision/RFAboutView.git'
-  
+  pod "GSLanguagePickerController", :git=>'https://github.com/ITSVision/GSLanguagePickerController.git'
   #Real pods
   pod "ViewDeck"
   pod "APParallaxHeader"
