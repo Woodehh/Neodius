@@ -1,366 +1,366 @@
 
-/* Acknowlegdments header title */
-"%@ makes use of the following third party libraries. Many thanks to the developers making them available!" = "";
+/*Acknowlegdments header title*/
+"%@ makes use of the following third party libraries. Many thanks to the developers making them available!" = "%@ utilise les applications tierces suivantes. Merci à leurs développeurs pour les avoir rendu disponibles !";
 
-/* No comment provided by engineer. */
-"%@ Market information" = "";
+/*No comment provided by engineer.*/
+"%@ Market information" = "%@ Information sur les marchés";
 
-/* No comment provided by engineer. */
-"1 Hour" = "";
+/*No comment provided by engineer.*/
+"1 Hour" = "1 heure";
 
-/* No comment provided by engineer. */
-"24 Hour trading" = "";
+/*No comment provided by engineer.*/
+"24 Hour trading" = "24 heures d'échange";
 
-/* No comment provided by engineer. */
-"24 Hours" = "";
+/*No comment provided by engineer.*/
+"24 Hours" = "24 heures";
 
-/* No comment provided by engineer. */
-"24h high" = "";
+/*No comment provided by engineer.*/
+"24h high" = "Haut 24h";
 
-/* No comment provided by engineer. */
-"24h low" = "";
+/*No comment provided by engineer.*/
+"24h low" = "Bas 24h";
 
-/* No comment provided by engineer. */
-"7 Days" = "";
+/*No comment provided by engineer.*/
+"7 Days" = "7 jours";
 
-/* Translator: enter your information for credits! In English please. Like this: Dutch is translated by Benjamin de Bos (info@its-vision.nl). E-mail is not required! */
-"<Language> is translated by: <your (nick) name> (<e-mail>)" = "";
+/*Translator: enter your information for credits! In English please. Like this: Dutch is translated by Benjamin de Bos (info@its-vision.nl). E-mail is not required!*/
+"<Language> is translated by: <your (nick) name> (<e-mail>)" = "French (Canadian) is translated by: mpeter";
 
-/* Prefilled Email message text */
-"<p>[Please insert your message here]</p><p><em>For support inquiries, please include the following information. These make it easier for me to help you. Thank you!</em><p><hr><p><strong>Support Information</strong></p></p>%@ Version %@ (%@)<br>%@ (%@)<br>iOS %@ (%@)</p><hr>" = "";
+/*Prefilled Email message text*/
+"<p>[Please insert your message here]</p><p><em>For support inquiries, please include the following information. These make it easier for me to help you. Thank you!</em><p><hr><p><strong>Support Information</strong></p></p>%@ Version %@ (%@)<br>%@ (%@)<br>iOS %@ (%@)</p><hr>" = "<p>[Veuillez insérer votre message ici]</p><p><em>Pour faire une requête de support, veuillez fournir les informations suivantes afin de faciliter nos échanges. Merci!</em><p><hr><p><strong>Informations relatives au support</strong></p></p>%@ Version %@ (%@)<br>%@ (%@)<br>iOS %@ (%@)</p><hr>";
 
-/* UINavigationBar Title */
-"About" = "";
+/*UINavigationBar Title*/
+"About" = "A propos";
 
-/* No comment provided by engineer. */
-"Actual" = "";
+/*No comment provided by engineer.*/
+"Actual" = "Actuel";
 
-/* No comment provided by engineer. */
-"Add wallet" = "";
+/*No comment provided by engineer.*/
+"Add wallet" = "Ajouter un portefeuille";
 
-/* No comment provided by engineer. */
-"Address copied to clipboard" = "";
+/*No comment provided by engineer.*/
+"Address copied to clipboard" = "Adresses copiées dans le presse papier";
 
-/* No comment provided by engineer. */
-"Address input" = "";
+/*No comment provided by engineer.*/
+"Address input" = "Saisie d'adresse";
 
-/* No comment provided by engineer. */
-"Are you sure?" = "";
+/*No comment provided by engineer.*/
+"Are you sure?" = "Êtes vous sur ?";
 
-/* No comment provided by engineer. */
-"Ask price" = "";
+/*No comment provided by engineer.*/
+"Ask price" = "Demander le prix";
 
-/* No comment provided by engineer. */
-"Base crypto currency" = "";
+/*No comment provided by engineer.*/
+"Base crypto currency" = "Cryptocurrencies de référence";
 
-/* No comment provided by engineer. */
-"Base fiat currency" = "";
+/*No comment provided by engineer.*/
+"Base fiat currency" = "Fiat de référence";
 
-/* No comment provided by engineer. */
-"Bid price" = "";
+/*No comment provided by engineer.*/
+"Bid price" = "Prix demandé";
 
-/* No comment provided by engineer. */
-"Block generation time: %.1fs" = "";
+/*No comment provided by engineer.*/
+"Block generation time: %.1fs" = "Temps de génération d'un block: %.1fs";
 
-/* No comment provided by engineer. */
-"By entering an address" = "";
+/*No comment provided by engineer.*/
+"By entering an address" = "En entrant une adresse";
 
-/* No comment provided by engineer. */
-"By entering an amount of NEO" = "";
+/*No comment provided by engineer.*/
+"By entering an amount of NEO" = "En entrant un montant de NEO";
 
-/* No comment provided by engineer. */
-"By QR-Code" = "";
+/*No comment provided by engineer.*/
+"By QR-Code" = "Par QR-Code";
 
-/* No comment provided by engineer. */
-"By selecting a wallet" = "";
+/*No comment provided by engineer.*/
+"By selecting a wallet" = "En sélectionnant un portefeuille";
 
-/* No comment provided by engineer. */
-"Calculating GAS" = "";
+/*No comment provided by engineer.*/
+"Calculating GAS" = "Calcul du GAS";
 
-/* No comment provided by engineer. */
-"Calculating GAS for: %@ NEO" = "";
+/*No comment provided by engineer.*/
+"Calculating GAS for: %@ NEO" = "Calcul du GAS pour: %@ NEO";
 
-/* Cancel */
-"Cancel" = "";
+/*Cancel*/
+"Cancel" = "Annuler";
 
-/* Cannot send Email */
-"Cannot send Email" = "";
+/*Cannot send Email*/
+"Cannot send Email" = "Impossible d'envoyer cet Email";
 
-/* No comment provided by engineer. */
-"Cellular" = "";
+/*No comment provided by engineer.*/
+"Cellular" = "Téléphone portable";
 
-/* No comment provided by engineer. */
-"Changes" = "";
+/*No comment provided by engineer.*/
+"Changes" = "Changements";
 
-/* No comment provided by engineer. */
-"Cheers thanks!" = "";
+/*No comment provided by engineer.*/
+"Cheers thanks!" = "Merci beaucoup!";
 
-/* No comment provided by engineer. */
-"Connecting to the blockchain" = "";
+/*No comment provided by engineer.*/
+"Connecting to the blockchain" = "Connexion à la blockchain";
 
-/* No comment provided by engineer. */
-"Connection status messages" = "";
+/*No comment provided by engineer.*/
+"Connection status messages" = "Statut de la connection";
 
-/* No comment provided by engineer. */
-"Contact us" = "";
+/*No comment provided by engineer.*/
+"Contact us" = "Nous contacter";
 
-/* No comment provided by engineer. */
-"Copy address" = "";
+/*No comment provided by engineer.*/
+"Copy address" = "Copier l'adresse";
 
-/* Copy diagnostic info to pasteboard */
-"Copy Info" = "";
+/*Copy diagnostic info to pasteboard*/
+"Copy Info" = "Copier ces infos";
 
-/* No comment provided by engineer. */
-"Currency" = "";
+/*No comment provided by engineer.*/
+"Currency" = "Monnaie";
 
-/* No comment provided by engineer. */
-"Current bid/ask price" = "";
+/*No comment provided by engineer.*/
+"Current bid/ask price" = "Prix demandé/offert actuellement";
 
-/* No comment provided by engineer. */
-"Current market values" = "";
+/*No comment provided by engineer.*/
+"Current market values" = "Valeur actuel sur le marché";
 
-/* No comment provided by engineer. */
-"Current wallets" = "";
+/*No comment provided by engineer.*/
+"Current wallets" = "Portefeuilles actuels";
 
-/* Dismiss error message */
-"Dismiss" = "";
+/*Dismiss error message*/
+"Dismiss" = "Annuler";
 
-/* No comment provided by engineer. */
-"Dividend" = "";
+/*No comment provided by engineer.*/
+"Dividend" = "Dividende";
 
-/* No comment provided by engineer. */
-"Donate %@" = "";
+/*No comment provided by engineer.*/
+"Donate %@" = "Donner %@";
 
-/* No comment provided by engineer. */
-"Edit wallet" = "";
+/*No comment provided by engineer.*/
+"Edit wallet" = "Modifier le portefeuille";
 
-/* No comment provided by engineer. */
-"Enter a name" = "";
+/*No comment provided by engineer.*/
+"Enter a name" = "Entrer un nom";
 
-/* No comment provided by engineer. */
-"Enter a name and the address" = "";
+/*No comment provided by engineer.*/
+"Enter a name and the address" = "Entrer un nom et une adresse";
 
-/* No comment provided by engineer. */
-"Enter NEO Amount" = "";
+/*No comment provided by engineer.*/
+"Enter NEO Amount" = "Entrer un montant de NEO";
 
-/* No comment provided by engineer. */
-"Enter the address" = "";
+/*No comment provided by engineer.*/
+"Enter the address" = "Entrer l'adresse";
 
-/* No comment provided by engineer. */
-"Feel free to send some %@ in order to make support the Neodius development! :-)" = "";
+/*No comment provided by engineer.*/
+"Feel free to send some %@ in order to make support the Neodius development! :-)" = "N'hésitez pas à envoyer quelques %@ afin de supporter le développement de Neodius :)";
 
-/* No comment provided by engineer. */
-"GAS Calculation" = "";
+/*No comment provided by engineer.*/
+"GAS Calculation" = "Calcul du GAS";
 
-/* No comment provided by engineer. */
-"GAS Calculation has been brought to life by N1njaWTF of NeoToGas.com. Neodius' encourages you to tip some NEO/GAS to N1njaWTF for his awesome work!" = "";
+/*No comment provided by engineer.*/
+"GAS Calculation has been brought to life by N1njaWTF of NeoToGas.com. Neodius' encourages you to tip some NEO/GAS to N1njaWTF for his awesome work!" = "Le calcul du GAS est effectué grâce à N1njaWTF of NeoToGas.com. Nous vous encourageons à le récompenser pour son excellent travail!";
 
-/* No comment provided by engineer. */
-"General" = "";
+/*No comment provided by engineer.*/
+"General" = "Général";
 
-/* No comment provided by engineer. */
-"Get block %@" = "";
+/*No comment provided by engineer.*/
+"Get block %@" = "Block %@";
 
-/* No comment provided by engineer. */
-"Getting best node" = "";
+/*No comment provided by engineer.*/
+"Getting best node" = "Obtention du meilleur noeud";
 
-/* No comment provided by engineer. */
-"Getting last block" = "";
+/*No comment provided by engineer.*/
+"Getting last block" = "Obtention du dernier block";
 
-/* No comment provided by engineer. */
-"Hey there!" = "";
+/*No comment provided by engineer.*/
+"Hey there!" = "Salut !";
 
-/* No comment provided by engineer. */
-"Language" = "";
+/*No comment provided by engineer.*/
+"Language" = "Langage";
 
-/* No comment provided by engineer. */
-"Links" = "";
+/*No comment provided by engineer.*/
+"Links" = "Liens";
 
-/* No comment provided by engineer. */
-"Loading transaction" = "";
+/*No comment provided by engineer.*/
+"Loading transaction" = "Chargement de la traduction";
 
-/* No comment provided by engineer. */
-"Market Cap" = "";
+/*No comment provided by engineer.*/
+"Market Cap" = "Capitalisation";
 
-/* Sending email message failed */
-"Message Failed!" = "";
+/*Sending email message failed*/
+"Message Failed!" = "Échec de l'envoi du message";
 
-/* No comment provided by engineer. */
-"minute" = "";
+/*No comment provided by engineer.*/
+"minute" = "minute";
 
-/* No comment provided by engineer. */
-"minutes" = "";
+/*No comment provided by engineer.*/
+"minutes" = "minutes";
 
-/* No comment provided by engineer. */
-"N1njaWTF Tip jar" = "";
+/*No comment provided by engineer.*/
+"N1njaWTF Tip jar" = "Tipper N1njaWTF";
 
-/* No comment provided by engineer. */
-"No Connection" = "";
+/*No comment provided by engineer.*/
+"No Connection" = "Aucune connection";
 
-/* No comment provided by engineer. */
-"No network we'll inform you when it's back!" = "";
+/*No comment provided by engineer.*/
+"No network we'll inform you when it's back!" = "Aucun réseau détecté, vous recevrez un message quand nous en détecterons un";
 
-/* No comment provided by engineer. */
-"No transactions found" = "";
+/*No comment provided by engineer.*/
+"No transactions found" = "Aucune transaction trouvée";
 
-/* No comment provided by engineer. */
-"Oh yes, internet is back!" = "";
+/*No comment provided by engineer.*/
+"Oh yes, internet is back!" = "Le réseau est de retour!";
 
-/* No comment provided by engineer. */
-"Okay" = "";
+/*No comment provided by engineer.*/
+"Okay" = "D'accord";
 
-/* No comment provided by engineer. */
-"Per day" = "";
+/*No comment provided by engineer.*/
+"Per day" = "Par jour";
 
-/* No comment provided by engineer. */
-"Per month" = "";
+/*No comment provided by engineer.*/
+"Per month" = "Par mois";
 
-/* No comment provided by engineer. */
-"Per week" = "";
+/*No comment provided by engineer.*/
+"Per week" = "Par semaine";
 
-/* No comment provided by engineer. */
-"Per year" = "";
+/*No comment provided by engineer.*/
+"Per year" = "Par an";
 
-/* No comment provided by engineer. */
-"Pick a method" = "";
+/*No comment provided by engineer.*/
+"Pick a method" = "Choisissez une méthode";
 
-/* No comment provided by engineer. */
-"Quick address lookup" = "";
+/*No comment provided by engineer.*/
+"Quick address lookup" = "Rechercher rapidement une adresse";
 
-/* No comment provided by engineer. */
-"Rank" = "";
+/*No comment provided by engineer.*/
+"Rank" = "Rang";
 
-/* No comment provided by engineer. */
-"Receiving NEO Amount from wallet" = "";
+/*No comment provided by engineer.*/
+"Receiving NEO Amount from wallet" = "Réception de NEO depuis le portefeuille";
 
-/* No comment provided by engineer. */
-"Refresh interval" = "";
+/*No comment provided by engineer.*/
+"Refresh interval" = "Rafraichir l'intervalle";
 
-/* No comment provided by engineer. */
-"Refresh timer" = "";
+/*No comment provided by engineer.*/
+"Refresh timer" = "Rafraichir le timer";
 
-/* No comment provided by engineer. */
-"second" = "";
+/*No comment provided by engineer.*/
+"second" = "seconde";
 
-/* No comment provided by engineer. */
-"seconds" = "";
+/*No comment provided by engineer.*/
+"seconds" = "secondes";
 
-/* No comment provided by engineer. */
-"Secure app with passcode" = "";
+/*No comment provided by engineer.*/
+"Secure app with passcode" = "Application sécurisée pare un mot de passe";
 
-/* No comment provided by engineer. */
-"Security" = "";
+/*No comment provided by engineer.*/
+"Security" = "Sécurité";
 
-/* No comment provided by engineer. */
-"Select crypto currency" = "";
+/*No comment provided by engineer.*/
+"Select crypto currency" = "Choisissez une cryptocurrency";
 
-/* No comment provided by engineer. */
-"Select currency" = "";
+/*No comment provided by engineer.*/
+"Select currency" = "Choisissez une monnaie";
 
-/* No comment provided by engineer. */
-"Select interval" = "";
+/*No comment provided by engineer.*/
+"Select interval" = "Sélectionnez un intervalle";
 
-/* No comment provided by engineer. */
-"Select wallet" = "";
+/*No comment provided by engineer.*/
+"Select wallet" = "Sélectionnez un portefeuille";
 
-/* No comment provided by engineer. */
-"Settings" = "";
+/*No comment provided by engineer.*/
+"Settings" = "Réglages";
 
-/* No comment provided by engineer. */
-"Share address" = "";
+/*No comment provided by engineer.*/
+"Share address" = "Partager l'adresse";
 
-/* No comment provided by engineer. */
-"Tap the icon on the right upper side to enter the NEO amount to calculate!" = "";
+/*No comment provided by engineer.*/
+"Tap the icon on the right upper side to enter the NEO amount to calculate!" = "Appuyez sur l’icône en haut à droite pour entrer la quantité de NEO à calculer ";
 
-/* No comment provided by engineer. */
-"Theoretical" = "";
+/*No comment provided by engineer.*/
+"Theoretical" = "Théorique";
 
-/* No comment provided by engineer. */
-"This is the NEO address. Feel free to transfer some NEO or GAS! :)" = "";
+/*No comment provided by engineer.*/
+"This is the NEO address. Feel free to transfer some NEO or GAS! :)" = "Voici l'adresse pour NEO. N'hésitez pas à y transférer quelques NEO ou GAS :)";
 
-/* No comment provided by engineer. */
-"Time" = "";
+/*No comment provided by engineer.*/
+"Time" = "Temps";
 
-/* No comment provided by engineer. */
-"Tip jar" = "";
+/*No comment provided by engineer.*/
+"Tip jar" = "Tipper";
 
-/* No comment provided by engineer. */
-"Tip N1njaWTF" = "";
+/*No comment provided by engineer.*/
+"Tip N1njaWTF" = "Tipper N1njaWTF";
 
-/* No comment provided by engineer. */
-"Tip N1njaWTF of NeoToGas.com some GAS or NEO! :-)" = "";
+/*No comment provided by engineer.*/
+"Tip N1njaWTF of NeoToGas.com some GAS or NEO! :-)" = "Tipper N1njaWTF ou NeoToGas.com quelques GAS ou NEO :-)";
 
-/* No comment provided by engineer. */
-"Tools" = "";
+/*No comment provided by engineer.*/
+"Tools" = "Outils";
 
-/* No comment provided by engineer. */
-"TouchID" = "";
+/*No comment provided by engineer.*/
+"TouchID" = "TouchID";
 
-/* No comment provided by engineer. */
-"TouchID (not available)" = "";
+/*No comment provided by engineer.*/
+"TouchID (not available)" = "TouchID (Non disponible)";
 
-/* No comment provided by engineer. */
-"Transactions" = "";
+/*No comment provided by engineer.*/
+"Transactions" = "Transactions";
 
-/* No comment provided by engineer. */
-"Unclaimed GAS" = "";
+/*No comment provided by engineer.*/
+"Unclaimed GAS" = "GAS non réclamé";
 
-/* Error message: no email accounts available */
-"Unfortunately there are no Email accounts available on your device.\n\nFor support questions, please send an Email to %@ and include the following information: %@.\n\nTab the 'Copy info' button to copy this information to your pasteboard. Thank you!" = "";
+/*Error message: no email accounts available*/
+"Unfortunately there are no Email accounts available on your device.\n\nFor support questions, please send an Email to %@ and include the following information: %@.\n\nTab the 'Copy info' button to copy this information to your pasteboard. Thank you!" = "Malheureusement, aucune adresse email n'est associée à votre appareil. \n\nPour contacter le support, veuillez envoyer un email à %@ et y inclure le message suivant: %@\n\nAppuyez sur le bouton 'Copier message' pour le copier directement dans le presse papier. Merci!";
 
-/* No comment provided by engineer. */
-"Use MainNet blockchain" = "";
+/*No comment provided by engineer.*/
+"Use MainNet blockchain" = "Utiliser le réseau principal de la blockchain";
 
-/* No comment provided by engineer. */
-"Use TouchID to unlock Neodius" = "";
+/*No comment provided by engineer.*/
+"Use TouchID to unlock Neodius" = "Utiliser le TouchID pour déverrouiller Neodius";
 
-/* No comment provided by engineer. */
-"View transaction" = "";
+/*No comment provided by engineer.*/
+"View transaction" = "Voir la transaction";
 
-/* No comment provided by engineer. */
-"Visit GAS on Poloniex" = "";
+/*No comment provided by engineer.*/
+"Visit GAS on Poloniex" = "Voir le GAS sur Poloniex";
 
-/* No comment provided by engineer. */
-"Visit NEO on Bittrex" = "";
+/*No comment provided by engineer.*/
+"Visit NEO on Bittrex" = "Voir le GAS sur Bittrex";
 
-/* No comment provided by engineer. */
-"Visit NEO.org" = "";
+/*No comment provided by engineer.*/
+"Visit NEO.org" = "Visiter NEO.org";
 
-/* No comment provided by engineer. */
-"Visit NeoToGas.com" = "";
+/*No comment provided by engineer.*/
+"Visit NeoToGas.com" = "Visiter NeoToGas.com";
 
-/* No comment provided by engineer. */
-"Visual and messages" = "";
+/*No comment provided by engineer.*/
+"Visual and messages" = "Messages et images";
 
-/* No comment provided by engineer. */
-"Volume" = "";
+/*No comment provided by engineer.*/
+"Volume" = "Volume";
 
-/* No comment provided by engineer. */
-"Wallet address" = "";
+/*No comment provided by engineer.*/
+"Wallet address" = "Adresse du portefeuille";
 
-/* No comment provided by engineer. */
-"Wallet management" = "";
+/*No comment provided by engineer.*/
+"Wallet management" = "Organiser les portefeuilles";
 
-/* No comment provided by engineer. */
-"Wallet refresh interval" = "";
+/*No comment provided by engineer.*/
+"Wallet refresh interval" = "Temps de rafraichissement des portefeuilles";
 
-/* No comment provided by engineer. */
-"Wallets" = "";
+/*No comment provided by engineer.*/
+"Wallets" = "Portefeuilles";
 
-/* No comment provided by engineer. */
-"Welcome to Neodius, we aim to make the NEO blockchain more accessible to everybody.\n\nTo use this app, get your wallet address and add this to Neodius. You can do that by tapping the menu button on the left top side and tap Add Wallet.\n\nDon't forget to give feedback through the about screen!" = "";
+/*No comment provided by engineer.*/
+"Welcome to Neodius, we aim to make the NEO blockchain more accessible to everybody.\n\nTo use this app, get your wallet address and add this to Neodius. You can do that by tapping the menu button on the left top side and tap Add Wallet.\n\nDon't forget to give feedback through the about screen!" = "Bienvenue sur Neodius, notre objectif est de rentre NEO accessible au grand public. \n\nAfin d'utiliser cette application, ajouter votre adresse NEO sur Neodius en tapant sur le bouton menu en haut à gauche, puis en cliquant sur Ajouter un portefeuille\n\nN'hésitez pas à nous renvoyer votre feedback dans le menu A propos!";
 
-/* No comment provided by engineer. */
-"What source would you like to have for the GAS Calculation?" = "";
+/*No comment provided by engineer.*/
+"What source would you like to have for the GAS Calculation?" = "Quelle source souhaitez vous utiliser pour calculer le GAS ?";
 
-/* No comment provided by engineer. */
-"WiFi" = "";
+/*No comment provided by engineer.*/
+"WiFi" = "Wifi";
 
-/* No comment provided by engineer. */
-"Yes" = "";
+/*No comment provided by engineer.*/
+"Yes" = "Oui";
 
-/* No comment provided by engineer. */
-"You're about to remove %@. Are you sure?" = "";
+/*No comment provided by engineer.*/
+"You're about to remove %@. Are you sure?" = "Vous êtes sur le point de supprimer %@. Êtes vous sur ?";
 
-/* Sending email message failed body */
-"Your email has failed to send." = "";
+/*Sending email message failed body*/
+"Your email has failed to send." = "Votre email n'a pas pu être envoyé.";
