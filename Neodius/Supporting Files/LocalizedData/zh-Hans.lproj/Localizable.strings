@@ -23,6 +23,9 @@
 /*No comment provided by engineer.*/
 "7 Days" = "7天";
 
+/* Translator: enter your information for credits! In English please. Like this: Dutch is translated by Benjamin de Bos (info@its-vision.nl). E-mail is not required! */
+"<Language> is translated by: <your (nick) name> (<e-mail>)" = "Chinese (simplified) is translated by Yenct";
+
 /*Prefilled Email message text*/
 "<p>[Please insert your message here]</p><p><em>For support inquiries, please include the following information. These make it easier for me to help you. Thank you!</em><p><hr><p><strong>Support Information</strong></p></p>%@ Version %@ (%@)<br>%@ (%@)<br>iOS %@ (%@)</p><hr>" = "<p>[请在此处插入您的信息]</p><p><em>有关支持查询，请提供以下信息。这些使我更容易帮助你。谢谢！</em><p><hr><p><strong>支持信息</ strong></p></p>%@版本%@（%@)<br> iOS %@（%@）</p><hr>";
 
@@ -186,6 +189,9 @@
 "minutes" = "分钟";
 
 /*No comment provided by engineer.*/
+"N1njaWTF Tip jar" = "N1njaWTF提示罐";
+
+/*No comment provided by engineer.*/
 "No Connection" = "无连接";
 
 /*No comment provided by engineer.*/
@@ -276,6 +282,12 @@
 "Tip jar" = "提示罐";
 
 /*No comment provided by engineer.*/
+"Tip N1njaWTF" = "提示N1njaWTF";
+
+/*No comment provided by engineer.*/
+"Tip N1njaWTF of NeoToGas.com some GAS or NEO! :-)" = "NeoToGas.com的N1njaWTF提示有些气体或NEO！:-)";
+
+/*No comment provided by engineer.*/
 "Tools" = "工具";
 
 /*No comment provided by engineer.*/
@@ -312,6 +324,9 @@
 "Visit NEO.org" = "访问NEO.org";
 
 /*No comment provided by engineer.*/
+"Visit NeoToGas.com" = "访问NeoToGas.com";
+
+/*No comment provided by engineer.*/
 "Visual and messages" = "视觉和消息";
 
 /*No comment provided by engineer.*/
@@ -346,18 +361,3 @@
 
 /*Sending email message failed body*/
 "Your email has failed to send." = "您的电子邮件无法发送。";
-
-/*No comment provided by engineer.*/
-"Tip N1njaWTF" = "提示N1njaWTF";
-
-/*No comment provided by engineer.*/
-"Visit NeoToGas.com" = "访问NeoToGas.com";
-
-/*No comment provided by engineer.*/
-"N1njaWTF Tip jar" = "N1njaWTF提示罐";
-
-/*No comment provided by engineer.*/
-"Tip N1njaWTF of NeoToGas.com some GAS or NEO! :-)" = "NeoToGas.com的N1njaWTF提示有些气体或NEO！:-)";
-
-/*/* Translator: enter your information for credits! In English please. Like this: Dutch is translated by Benjamin de Bos (info@its-vision.nl). E-mail is not required! */*/
-"<Language> is translated by: <your (nick) name> (<e-mail>)" = "Chinese (simplified) is translated by Yenct";
