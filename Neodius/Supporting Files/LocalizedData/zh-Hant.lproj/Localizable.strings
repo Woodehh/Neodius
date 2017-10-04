@@ -167,12 +167,6 @@
 /*No comment provided by engineer.*/
 "Hey there!" = "嘿！";
 
-/*/
-"<Language> is translated by: <your (nick) name> (<e-mail>)" = "Chinese (Traditional) is translated by yenct15";
-
-/*No comment provided by engineer.*/
-"Language" = "語言";
-
 /*No comment provided by engineer.*/
 "Links" = "鏈接";
 
@@ -190,9 +184,6 @@
 
 /*No comment provided by engineer.*/
 "minutes" = "分鐘";
-
-/*No comment provided by engineer.*/
-"N1njaWTF Tip jar" = "N1njaWTF小費罐";
 
 /*No comment provided by engineer.*/
 "No Connection" = "無連接";
@@ -285,12 +276,6 @@
 "Tip jar" = "小費罐";
 
 /*No comment provided by engineer.*/
-"Tip N1njaWTF" = "捐送給N1njaWTF";
-
-/*No comment provided by engineer.*/
-"Tip N1njaWTF of NeoToGas.com some GAS or NEO! :-)" = "捐送些氣或NEO給NeoToGas.com的N1njaWTF！^^";
-
-/*No comment provided by engineer.*/
 "Tools" = "工具";
 
 /*No comment provided by engineer.*/
@@ -325,9 +310,6 @@
 
 /*No comment provided by engineer.*/
 "Visit NEO.org" = "訪問NEO.org";
-
-/*No comment provided by engineer.*/
-"Visit NeoToGas.com" = "訪問NeoToGas.com";
 
 /*No comment provided by engineer.*/
 "Visual and messages" = "視覺與消息";
@@ -365,5 +347,20 @@
 /*Sending email message failed body*/
 "Your email has failed to send." = "您的電子郵件無法發送。";
 
-/* Translator: enter your information for credits! In English please. Like this: Dutch is translated by Benjamin de Bos (info@its-vision.nl). E-mail is not required! */
-"<Language> is translated by: <your (nick) name> (<e-mail>)" = "";
+/*No comment provided by engineer.*/
+"Tip N1njaWTF" = "捐送給N1njaWTF";
+
+/*No comment provided by engineer.*/
+"Visit NeoToGas.com" = "訪問NeoToGas.com";
+
+/*No comment provided by engineer.*/
+"N1njaWTF Tip jar" = "N1njaWTF小費罐";
+
+/*No comment provided by engineer.*/
+"Tip N1njaWTF of NeoToGas.com some GAS or NEO! :-)" = "捐送些氣或NEO給NeoToGas.com的N1njaWTF！^^";
+
+/*/* Translator: enter your information for credits! In English please. Like this: Dutch is translated by Benjamin de Bos (info@its-vision.nl). E-mail is not required! */*/
+"<Language> is translated by: <your (nick) name> (<e-mail>)" = "Chinese (Traditional) is translated by yenct15";
+
+/*No comment provided by engineer.*/
+"Language" = "語言";
