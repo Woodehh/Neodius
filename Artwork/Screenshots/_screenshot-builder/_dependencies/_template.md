@@ -1,4 +1,5 @@
 # %nameEnglish% (%nameLocalized%) screenshots
-%creditLine%
+
+**%creditLine%**
 
 %screenshots%

@@ -230,5 +230,5 @@
 
 	echo $varHeader;
 	
-	echo "Done!";
+	echo "Done!\n\n";
 	
