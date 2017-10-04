@@ -46,9 +46,8 @@ Features currently are:
 	* German - [German screenshots](https://github.com/ITSVision/Neodius/blob/master/Artwork/Screenshots/German/iPhone/german-screenshots.md)
 	* Chinese Simplified - [Chinese Simplified screenshots](https://github.com/ITSVision/Neodius/blob/master/Artwork/Screenshots/Chinese%20Simplified/iPhone/chinese-simplified-screenshots.md)
 	* Chinese Traditional - [Chinese Traditional screenshots](https://github.com/ITSVision/Neodius/blob/master/Artwork/Screenshots/Chinese%20Traditional/iPhone/chinese-traditional-screenshots.md)
-
-	* **Work in progress: Chinese Traditional, Norwegian, Italian**
-	* **More to come: Help me out here [and join the translation project](https://poeditor.com/join/project/UCLcpved6I). We'll exchange for contributions :) <3)**
+	* **Work in progress: Norwegian, Italian, Japanese & Polish**
+	* **More to come: Help me out here [and join the translation project](https://poeditor.com/join/project/UCLcpved6I). We'll exchange for contributions :) <3**
 * View market information on GAS and NEO
 	* Bid/ask prices
 	* Current market (cap, volume, position)
