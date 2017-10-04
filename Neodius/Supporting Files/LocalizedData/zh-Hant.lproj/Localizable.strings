@@ -1,363 +1,363 @@
 
 /*Acknowlegdments header title*/
-"%@ makes use of the following third party libraries. Many thanks to the developers making them available!" = "";
+"%@ makes use of the following third party libraries. Many thanks to the developers making them available!" = "％@使用以下第三方程式庫。非常感謝開程式發員提供使用！";
 
 /*No comment provided by engineer.*/
-"%@ Market information" = "";
+"%@ Market information" = "％@市場信息";
 
 /*No comment provided by engineer.*/
-"1 Hour" = "";
+"1 Hour" = "1小時";
 
 /*No comment provided by engineer.*/
-"24 Hour trading" = "";
+"24 Hour trading" = "24小時交易";
 
 /*No comment provided by engineer.*/
-"24 Hours" = "";
+"24 Hours" = "24小時";
 
 /*No comment provided by engineer.*/
-"24h high" = "";
+"24h high" = "24小時最高";
 
 /*No comment provided by engineer.*/
-"24h low" = "";
+"24h low" = "24小時最低";
 
 /*No comment provided by engineer.*/
-"7 Days" = "";
-
-/* Translator: enter your information for credits! In English please. Like this: Dutch is translated by Benjamin de Bos (info@its-vision.nl). E-mail is not required! */
-"<Language> is translated by: <your (nick) name> (<e-mail>)" = "";
+"7 Days" = "7天";
 
 /*Prefilled Email message text*/
-"<p>[Please insert your message here]</p><p><em>For support inquiries, please include the following information. These make it easier for me to help you. Thank you!</em><p><hr><p><strong>Support Information</strong></p></p>%@ Version %@ (%@)<br>%@ (%@)<br>iOS %@ (%@)</p><hr>" = "";
+"<p>[Please insert your message here]</p><p><em>For support inquiries, please include the following information. These make it easier for me to help you. Thank you!</em><p><hr><p><strong>Support Information</strong></p></p>%@ Version %@ (%@)<br>%@ (%@)<br>iOS %@ (%@)</p><hr>" = "<P> [請在此處添寫您的信息] </ p> <p> <EM>後台技術查詢，請提供以下信息使我更容易幫助你。謝謝！</ EM> <P> <HR> <p> <strong>支持信息</ strong> </ p> </ p>％@版本％@（％@）<br> iOS％@（％@）</ p> <hr>";
 
 /*UINavigationBar Title*/
-"About" = "";
+"About" = "有關";
 
 /*No comment provided by engineer.*/
-"Actual" = "";
+"Actual" = "實際";
 
 /*No comment provided by engineer.*/
-"Add wallet" = "";
+"Add wallet" = "添加錢包";
 
 /*No comment provided by engineer.*/
-"Address copied to clipboard" = "";
+"Address copied to clipboard" = "複製地址到剪貼板";
 
 /*No comment provided by engineer.*/
-"Address input" = "";
+"Address input" = "地址輸入";
 
 /*No comment provided by engineer.*/
-"Are you sure?" = "";
+"Are you sure?" = "確定？";
 
 /*No comment provided by engineer.*/
-"Ask price" = "";
+"Ask price" = "要價";
 
 /*No comment provided by engineer.*/
-"Base crypto currency" = "";
+"Base crypto currency" = "基礎數位貨幣";
 
 /*No comment provided by engineer.*/
-"Base fiat currency" = "";
+"Base fiat currency" = "基本法定貨幣";
 
 /*No comment provided by engineer.*/
-"Bid price" = "";
+"Bid price" = "競價";
 
 /*No comment provided by engineer.*/
-"Block generation time: %.1fs" = "";
+"Block generation time: %.1fs" = "區塊生成時間：％1FS。";
 
 /*No comment provided by engineer.*/
-"By entering an address" = "";
+"By entering an address" = "通過輸入地址";
 
 /*No comment provided by engineer.*/
-"By entering an amount of NEO" = "";
+"By entering an amount of NEO" = "通過輸入一定量的NEO";
 
 /*No comment provided by engineer.*/
-"By QR-Code" = "";
+"By QR-Code" = "通過QR碼";
 
 /*No comment provided by engineer.*/
-"By selecting a wallet" = "";
+"By selecting a wallet" = "通過選擇一個錢包";
 
 /*No comment provided by engineer.*/
-"Calculating GAS" = "";
+"Calculating GAS" = "計算GAS";
 
 /*No comment provided by engineer.*/
-"Calculating GAS for: %@ NEO" = "";
+"Calculating GAS for: %@ NEO" = "計算GAS為：％@ NEO";
 
 /*Cancel*/
-"Cancel" = "";
+"Cancel" = "取消";
 
 /*Cannot send Email*/
-"Cannot send Email" = "";
+"Cannot send Email" = "無法發送電子郵件";
 
 /*No comment provided by engineer.*/
-"Cellular" = "";
+"Cellular" = "移動網絡";
 
 /*No comment provided by engineer.*/
-"Changes" = "";
+"Changes" = "變更";
 
 /*No comment provided by engineer.*/
-"Cheers thanks!" = "";
+"Cheers thanks!" = "感謝";
 
 /*No comment provided by engineer.*/
-"Connecting to the blockchain" = "";
+"Connecting to the blockchain" = "連接到區塊鏈";
 
 /*No comment provided by engineer.*/
-"Connection status messages" = "";
+"Connection status messages" = "連接狀態消息";
 
 /*No comment provided by engineer.*/
-"Contact us" = "";
+"Contact us" = "聯繫我們";
 
 /*No comment provided by engineer.*/
-"Copy address" = "";
+"Copy address" = "複製地址";
 
 /*Copy diagnostic info to pasteboard*/
-"Copy Info" = "";
+"Copy Info" = "複製信息";
 
 /*No comment provided by engineer.*/
-"Currency" = "";
+"Currency" = "貨幣";
 
 /*No comment provided by engineer.*/
-"Current bid/ask price" = "";
+"Current bid/ask price" = "當前出價/詢價";
 
 /*No comment provided by engineer.*/
-"Current market values" = "";
+"Current market values" = "當前市場價值";
 
 /*No comment provided by engineer.*/
-"Current wallets" = "";
+"Current wallets" = "當前錢包";
 
 /*Dismiss error message*/
-"Dismiss" = "";
+"Dismiss" = "解僱";
 
 /*No comment provided by engineer.*/
-"Dividend" = "";
+"Dividend" = "股利";
 
 /*No comment provided by engineer.*/
-"Donate %@" = "";
+"Donate %@" = "捐贈％@";
 
 /*No comment provided by engineer.*/
-"Edit wallet" = "";
+"Edit wallet" = "編輯錢包";
 
 /*No comment provided by engineer.*/
-"Enter a name" = "";
+"Enter a name" = "輸入名稱";
 
 /*No comment provided by engineer.*/
-"Enter a name and the address" = "";
+"Enter a name and the address" = "輸入名稱和地址";
 
 /*No comment provided by engineer.*/
-"Enter NEO Amount" = "";
+"Enter NEO Amount" = "輸入NEO金額";
 
 /*No comment provided by engineer.*/
-"Enter the address" = "";
+"Enter the address" = "輸入地址";
 
 /*No comment provided by engineer.*/
-"Feel free to send some %@ in order to make support the Neodius development! :-)" = "";
+"Feel free to send some %@ in order to make support the Neodius development! :-)" = "歡迎捐送％@並給支持Neodius開發！ ^^";
 
 /*No comment provided by engineer.*/
-"GAS Calculation" = "";
+"GAS Calculation" = "GAS計算";
 
 /*No comment provided by engineer.*/
-"GAS Calculation has been brought to life by N1njaWTF of NeoToGas.com. Neodius' encourages you to tip some NEO/GAS to N1njaWTF for his awesome work!" = "";
+"GAS Calculation has been brought to life by N1njaWTF of NeoToGas.com. Neodius' encourages you to tip some NEO/GAS to N1njaWTF for his awesome work!" = "NeoToGas.com由N1njaWTF所提供。Neodius鼓勵你捐送NEO / GAS給N1njaWTF，支持他為NeoToGas.com的開發";
 
 /*No comment provided by engineer.*/
-"General" = "";
+"General" = "普通";
 
 /*No comment provided by engineer.*/
-"Get block %@" = "";
+"Get block %@" = "獲取區塊％@";
 
 /*No comment provided by engineer.*/
-"Getting best node" = "";
+"Getting best node" = "獲得最佳節點";
 
 /*No comment provided by engineer.*/
-"Getting last block" = "";
+"Getting last block" = "得到最後一個區塊";
 
 /*No comment provided by engineer.*/
-"Hey there!" = "";
+"Hey there!" = "嘿！";
 
 /*No comment provided by engineer.*/
-"Links" = "";
+"Links" = "鏈接";
 
 /*No comment provided by engineer.*/
-"Loading transaction" = "";
+"Loading transaction" = "加載交易";
 
 /*No comment provided by engineer.*/
-"Market Cap" = "";
+"Market Cap" = "市值";
 
 /*Sending email message failed*/
-"Message Failed!" = "";
+"Message Failed!" = "留言失敗！";
 
 /*No comment provided by engineer.*/
-"minute" = "";
+"minute" = "分鐘";
 
 /*No comment provided by engineer.*/
-"minutes" = "";
+"minutes" = "分鐘";
 
 /*No comment provided by engineer.*/
-"N1njaWTF Tip jar" = "";
+"No Connection" = "無連接";
 
 /*No comment provided by engineer.*/
-"No Connection" = "";
+"No network we'll inform you when it's back!" = "無網絡連接，稍後重新再試";
 
 /*No comment provided by engineer.*/
-"No network we'll inform you when it's back!" = "";
+"No transactions found" = "無交易訊息";
 
 /*No comment provided by engineer.*/
-"No transactions found" = "";
+"Oh yes, internet is back!" = "網絡連接恢復！";
 
 /*No comment provided by engineer.*/
-"Oh yes, internet is back!" = "";
+"Okay" = "好";
 
 /*No comment provided by engineer.*/
-"Okay" = "";
+"Per day" = "每天";
 
 /*No comment provided by engineer.*/
-"Per day" = "";
+"Per month" = "每月";
 
 /*No comment provided by engineer.*/
-"Per month" = "";
+"Per week" = "每週";
 
 /*No comment provided by engineer.*/
-"Per week" = "";
+"Per year" = "每年";
 
 /*No comment provided by engineer.*/
-"Per year" = "";
+"Pick a method" = "選擇一種方式";
 
 /*No comment provided by engineer.*/
-"Pick a method" = "";
+"Quick address lookup" = "快速地址查詢";
 
 /*No comment provided by engineer.*/
-"Quick address lookup" = "";
+"Rank" = "排名";
 
 /*No comment provided by engineer.*/
-"Rank" = "";
+"Receiving NEO Amount from wallet" = "從錢包接收NEO金額";
 
 /*No comment provided by engineer.*/
-"Receiving NEO Amount from wallet" = "";
+"Refresh interval" = "刷新間隔";
 
 /*No comment provided by engineer.*/
-"Refresh interval" = "";
+"Refresh timer" = "刷新定時";
 
 /*No comment provided by engineer.*/
-"Refresh timer" = "";
+"second" = "秒";
 
 /*No comment provided by engineer.*/
-"second" = "";
+"seconds" = "秒";
 
 /*No comment provided by engineer.*/
-"seconds" = "";
+"Secure app with passcode" = "應用程序加密碼";
 
 /*No comment provided by engineer.*/
-"Secure app with passcode" = "";
+"Security" = "安全";
 
 /*No comment provided by engineer.*/
-"Security" = "";
+"Select crypto currency" = "選擇數位貨幣";
 
 /*No comment provided by engineer.*/
-"Select crypto currency" = "";
+"Select currency" = "選擇貨幣";
 
 /*No comment provided by engineer.*/
-"Select currency" = "";
+"Select interval" = "選擇間隔";
 
 /*No comment provided by engineer.*/
-"Select interval" = "";
+"Select wallet" = "選擇錢包";
 
 /*No comment provided by engineer.*/
-"Select wallet" = "";
+"Settings" = "設置";
 
 /*No comment provided by engineer.*/
-"Settings" = "";
+"Share address" = "分享地址";
 
 /*No comment provided by engineer.*/
-"Share address" = "";
+"Tap the icon on the right upper side to enter the NEO amount to calculate!" = "點擊右上角的圖標並輸入NEO金額即可計算！";
 
 /*No comment provided by engineer.*/
-"Tap the icon on the right upper side to enter the NEO amount to calculate!" = "";
+"Theoretical" = "理論";
 
 /*No comment provided by engineer.*/
-"Theoretical" = "";
+"This is the NEO address. Feel free to transfer some NEO or GAS! :)" = "這是NEO地址。隨意轉移NEO或GAS！^^";
 
 /*No comment provided by engineer.*/
-"This is the NEO address. Feel free to transfer some NEO or GAS! :)" = "";
+"Time" = "時間";
 
 /*No comment provided by engineer.*/
-"Time" = "";
+"Tip jar" = "小費罐";
 
 /*No comment provided by engineer.*/
-"Tip jar" = "";
+"Tools" = "工具";
 
 /*No comment provided by engineer.*/
-"Tip N1njaWTF" = "";
+"TouchID" = "TouchID";
 
 /*No comment provided by engineer.*/
-"Tip N1njaWTF of NeoToGas.com some GAS or NEO! :-)" = "";
+"TouchID (not available)" = "TouchID（無法可用）";
 
 /*No comment provided by engineer.*/
-"Tools" = "";
+"Transactions" = "交易";
 
 /*No comment provided by engineer.*/
-"TouchID" = "";
-
-/*No comment provided by engineer.*/
-"TouchID (not available)" = "";
-
-/*No comment provided by engineer.*/
-"Transactions" = "";
-
-/*No comment provided by engineer.*/
-"Unclaimed GAS" = "";
+"Unclaimed GAS" = "未認領GAS";
 
 /*Error message: no email accounts available*/
-"Unfortunately there are no Email accounts available on your device.\n\nFor support questions, please send an Email to %@ and include the following information: %@.\n\nTab the 'Copy info' button to copy this information to your pasteboard. Thank you!" = "";
+"Unfortunately there are no Email accounts available on your device.\n\nFor support questions, please send an Email to %@ and include the following information: %@.\n\nTab the 'Copy info' button to copy this information to your pasteboard. Thank you!" = "可惜，您的設備上沒有可使用的電子郵件帳戶。\n\n有關支持查詢，請發送電子郵件至％@並包含以下信息：％@。\n\n選中“複製信息”按鈕將此信息複製到您的粘貼板。謝謝！";
 
 /*No comment provided by engineer.*/
-"Use MainNet blockchain" = "";
+"Use MainNet blockchain" = "使用主網區塊鏈";
 
 /*No comment provided by engineer.*/
-"Use TouchID to unlock Neodius" = "";
+"Use TouchID to unlock Neodius" = "使用TouchID解鎖Neodius";
 
 /*No comment provided by engineer.*/
-"View transaction" = "";
+"View transaction" = "查看交易";
 
 /*No comment provided by engineer.*/
-"Visit GAS on Poloniex" = "";
+"Visit GAS on Poloniex" = "訪問Poloniex上的GAS";
 
 /*No comment provided by engineer.*/
-"Visit NEO on Bittrex" = "";
+"Visit NEO on Bittrex" = "訪問Bittrex上的NEO";
 
 /*No comment provided by engineer.*/
-"Visit NEO.org" = "";
+"Visit NEO.org" = "訪問NEO.org";
 
 /*No comment provided by engineer.*/
-"Visit NeoToGas.com" = "";
+"Visual and messages" = "視覺與消息";
 
 /*No comment provided by engineer.*/
-"Visual and messages" = "";
+"Volume" = "總量";
 
 /*No comment provided by engineer.*/
-"Volume" = "";
+"Wallet address" = "錢包地址";
 
 /*No comment provided by engineer.*/
-"Wallet address" = "";
+"Wallet management" = "錢包管理";
 
 /*No comment provided by engineer.*/
-"Wallet management" = "";
+"Wallet refresh interval" = "錢包刷新間隔";
 
 /*No comment provided by engineer.*/
-"Wallet refresh interval" = "";
+"Wallets" = "錢包";
 
 /*No comment provided by engineer.*/
-"Wallets" = "";
+"Welcome to Neodius, we aim to make the NEO blockchain more accessible to everybody.\n\nTo use this app, get your wallet address and add this to Neodius. You can do that by tapping the menu button on the left top side and tap Add Wallet.\n\nDon't forget to give feedback through the about screen!" = "歡迎到Neodius，我們的目標是使每個人都能更容易地使用NEO區塊鏈。\n\n要使用此應用程序，請取您的錢包地址，並將其添加到Neodius。您可以點擊左上角的菜單按鈕，然後點擊添加電子錢包。\n\n不要忘記通過關於屏幕的反饋！";
 
 /*No comment provided by engineer.*/
-"Welcome to Neodius, we aim to make the NEO blockchain more accessible to everybody.\n\nTo use this app, get your wallet address and add this to Neodius. You can do that by tapping the menu button on the left top side and tap Add Wallet.\n\nDon't forget to give feedback through the about screen!" = "";
+"What source would you like to have for the GAS Calculation?" = "您希望以為什麼來源計算GAS？";
 
 /*No comment provided by engineer.*/
-"What source would you like to have for the GAS Calculation?" = "";
+"WiFi" = "無線互聯網";
 
 /*No comment provided by engineer.*/
-"WiFi" = "";
+"Yes" = "是";
 
 /*No comment provided by engineer.*/
-"Yes" = "";
-
-/*No comment provided by engineer.*/
-"You're about to remove %@. Are you sure?" = "";
+"You're about to remove %@. Are you sure?" = "您即將刪除％@。你確定？";
 
 /*Sending email message failed body*/
-"Your email has failed to send." = "";
+"Your email has failed to send." = "您的電子郵件無法發送。";
+
+/*No comment provided by engineer.*/
+"Tip N1njaWTF" = "捐送給N1njaWTF";
+
+/*No comment provided by engineer.*/
+"Visit NeoToGas.com" = "訪問NeoToGas.com";
+
+/*No comment provided by engineer.*/
+"N1njaWTF Tip jar" = "N1njaWTF小費罐";
+
+/*No comment provided by engineer.*/
+"Tip N1njaWTF of NeoToGas.com some GAS or NEO! :-)" = "捐送些氣或NEO給NeoToGas.com的N1njaWTF！^^";
+
+/*/* Translator: enter your information for credits! In English please. Like this: Dutch is translated by Benjamin de Bos (info@its-vision.nl). E-mail is not required! */*/
+"<Language> is translated by: <your (nick) name> (<e-mail>)" = "Chinese (Traditional) is translated by yenct15";
