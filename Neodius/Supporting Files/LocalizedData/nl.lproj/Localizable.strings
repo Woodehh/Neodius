@@ -167,6 +167,12 @@
 /*No comment provided by engineer.*/
 "Hey there!" = "Hey hallo!";
 
+/* Translator: enter your information for credits! In English please. Like this: Dutch is translated by Benjamin de Bos (info@its-vision.nl). E-mail is not required! */
+"<Language> is translated by: <your (nick) name> (<e-mail>)" = "Dutch is translated by Benjamin de Bos (info@its-vision.nl";
+
+/*No comment provided by engineer.*/
+"Language" = "Taal";
+
 /*No comment provided by engineer.*/
 "Links" = "Links";
 
@@ -184,6 +190,9 @@
 
 /*No comment provided by engineer.*/
 "minutes" = "minnuten";
+
+/*No comment provided by engineer.*/
+"N1njaWTF Tip jar" = "N1njaWTF fooienpot";
 
 /*No comment provided by engineer.*/
 "No Connection" = "No Connection";
@@ -276,6 +285,12 @@
 "Tip jar" = "Fooienpot";
 
 /*No comment provided by engineer.*/
+"Tip N1njaWTF" = "Geef N1njaWTF een fooi";
+
+/*No comment provided by engineer.*/
+"Tip N1njaWTF of NeoToGas.com some GAS or NEO! :-)" = "Geef N1njaWTF van NeoToGas wat GAS of NEO! :-)";
+
+/*No comment provided by engineer.*/
 "Tools" = "Hulp";
 
 /*No comment provided by engineer.*/
@@ -312,6 +327,9 @@
 "Visit NEO.org" = "Bezoek NEO.org";
 
 /*No comment provided by engineer.*/
+"Visit NeoToGas.com" = "Bezoek NeoToGas.com";
+
+/*No comment provided by engineer.*/
 "Visual and messages" = "Visueel en berichten";
 
 /*No comment provided by engineer.*/
@@ -346,21 +364,3 @@
 
 /*Sending email message failed body*/
 "Your email has failed to send." = "Je e-mail is niet verzonden!!";
-
-/*No comment provided by engineer.*/
-"Tip N1njaWTF" = "Geef N1njaWTF een fooi";
-
-/*No comment provided by engineer.*/
-"Visit NeoToGas.com" = "Bezoek NeoToGas.com";
-
-/*No comment provided by engineer.*/
-"N1njaWTF Tip jar" = "N1njaWTF fooienpot";
-
-/*No comment provided by engineer.*/
-"Tip N1njaWTF of NeoToGas.com some GAS or NEO! :-)" = "Geef N1njaWTF van NeoToGas wat GAS of NEO! :-)";
-
-/*/* Translator: enter your information for credits! In English please. Like this: Dutch is translated by Benjamin de Bos (info@its-vision.nl). E-mail is not required! */*/
-"<Language> is translated by: <your (nick) name> (<e-mail>)" = "Nederlands is vertaald door Benjamin de Bos (info@its-vision.nl)";
-
-/*No comment provided by engineer.*/
-"Language" = "Taal";

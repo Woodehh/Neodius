@@ -168,6 +168,9 @@
 "Hey there!" = "¡Hola!";
 
 /*No comment provided by engineer.*/
+"Language" = "Idioma";
+
+/*No comment provided by engineer.*/
 "Links" = "Vínculos";
 
 /*No comment provided by engineer.*/
@@ -184,6 +187,9 @@
 
 /*No comment provided by engineer.*/
 "minutes" = "minutos";
+
+/*No comment provided by engineer.*/
+"N1njaWTF Tip jar" = "Bote de punta N1njaWTF";
 
 /*No comment provided by engineer.*/
 "No Connection" = "Sin conexión";
@@ -276,6 +282,12 @@
 "Tip jar" = "Frasco de propinas";
 
 /*No comment provided by engineer.*/
+"Tip N1njaWTF" = "Dar propina a N1njaWTF";
+
+/*No comment provided by engineer.*/
+"Tip N1njaWTF of NeoToGas.com some GAS or NEO! :-)" = "¡Dé a N1njaWTF algo NEO o GAS!";
+
+/*No comment provided by engineer.*/
 "Tools" = "Herramientas";
 
 /*No comment provided by engineer.*/
@@ -310,6 +322,9 @@
 
 /*No comment provided by engineer.*/
 "Visit NEO.org" = "Visitar NEO.org";
+
+/*No comment provided by engineer.*/
+"Visit NeoToGas.com" = "Visitar NeoToGas.com";
 
 /*No comment provided by engineer.*/
 "Visual and messages" = "Visual y mensajes";
@@ -347,20 +362,5 @@
 /*Sending email message failed body*/
 "Your email has failed to send." = "Tu correo no se ha podido enviar.";
 
-/*No comment provided by engineer.*/
-"Tip N1njaWTF" = "Dar propina a N1njaWTF";
-
-/*No comment provided by engineer.*/
-"Visit NeoToGas.com" = "Visitar NeoToGas.com";
-
-/*No comment provided by engineer.*/
-"N1njaWTF Tip jar" = "Bote de punta N1njaWTF";
-
-/*No comment provided by engineer.*/
-"Tip N1njaWTF of NeoToGas.com some GAS or NEO! :-)" = "¡Dé a N1njaWTF algo NEO o GAS!";
-
-/*/* Translator: enter your information for credits! In English please. Like this: Dutch is translated by Benjamin de Bos (info@its-vision.nl). E-mail is not required! */*/
+/* Translator: enter your information for credits! In English please. Like this: Dutch is translated by Benjamin de Bos (info@its-vision.nl). E-mail is not required! */
 "<Language> is translated by: <your (nick) name> (<e-mail>)" = "Spanish is translated by Juan";
-
-/*No comment provided by engineer.*/
-"Language" = "Idioma";
