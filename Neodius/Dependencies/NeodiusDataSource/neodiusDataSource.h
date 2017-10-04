@@ -10,6 +10,9 @@
 #import <SimpleKeychain/SimpleKeychain.h>
 #import <FontAwesome4-ios/FontAwesome4-ios.h>
 #import <AFNetworking/AFNetworking.h>
+#import <objc/runtime.h>
+#import "NSBundle+GSLanguage.h"
+
 
 #define UIColorFromRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0];
 #define neoGreenColor [UIColor colorWithRed:0.35 green:0.75 blue:0.00 alpha:1.0]
