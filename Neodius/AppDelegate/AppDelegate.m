@@ -23,10 +23,7 @@
                                                            NSForegroundColorAttributeName: [UIColor whiteColor],
                                                            NSFontAttributeName : [UIFont fontWithName:@"HelveticaNeue-Light" size:22]
                                                            };
-    
-    
-    
-    
+
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     
     [[UIBarButtonItem appearanceWhenContainedIn:[UINavigationBar class], nil] setTintColor:[UIColor whiteColor]];
