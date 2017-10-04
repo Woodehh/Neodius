@@ -43,8 +43,10 @@ Features currently are:
 	* Dutch - [Dutch screenshots](https://github.com/ITSVision/Neodius/blob/master/Artwork/Screenshots/Dutch/iPhone/dutch-screenshots.md)
 	* French - [French screenshots](https://github.com/ITSVision/Neodius/blob/master/Artwork/Screenshots/French/iPhone/french-screenshots.md)
 	* Spanish - [Spanish screenshots](https://github.com/ITSVision/Neodius/blob/master/Artwork/Screenshots/Spanish/iPhone/spanish-screenshots.md)
-	* German
+	* German - [German screenshots](https://github.com/ITSVision/Neodius/blob/master/Artwork/Screenshots/German/iPhone/german-screenshots.md)
 	* Chinese Simplified - [Chinese Simplified screenshots](https://github.com/ITSVision/Neodius/blob/master/Artwork/Screenshots/Chinese%20Simplified/iPhone/chinese-simplified-screenshots.md)
+	* Chinese Traditional - [Chinese Traditional screenshots](https://github.com/ITSVision/Neodius/blob/master/Artwork/Screenshots/Chinese%20Traditional/iPhone/chinese-traditional-screenshots.md)
+
 	* **Work in progress: Chinese Traditional, Norwegian, Italian**
 	* **More to come: Help me out here [and join the translation project](https://poeditor.com/join/project/UCLcpved6I). We'll exchange for contributions :) <3)**
 * View market information on GAS and NEO
@@ -97,8 +99,9 @@ The authors working on this project:
 * **Benjamin de Bos**
 * **[@N1njaWTF](http://twitter.com/N1njaWTF)** of (NeoToGas.com) for the GAS Calculation logic
 * **mati14** for the French translation
-* **Unknown** for the Spanish translation -> Contact me!
+* **Juan** for the Spanish translation
 * **Dominik Thanner** for the German translation
+* **yenct15** for both of the Chinese translations
 
 See also the list of [contributors](contributors) who participated in this project.
 
