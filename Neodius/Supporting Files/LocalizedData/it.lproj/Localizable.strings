@@ -119,9 +119,6 @@
 /*No comment provided by engineer.*/
 "Current wallets" = "Portafoglio corrente";
 
-/* Translator: enter your information for credits! In English please. Like this: Dutch is translated by Benjamin de Bos (info@its-vision.nl). E-mail is not required! */
-"<Language> is translated by: <your (nick) name> (<e-mail>)" = "";
-
 /*Dismiss error message*/
 "Dismiss" = "";
 
@@ -170,9 +167,6 @@
 /*No comment provided by engineer.*/
 "Hey there!" = "";
 
-/* No comment provided by engineer. */
-"Language" = "";
-
 /*No comment provided by engineer.*/
 "Links" = "";
 
@@ -190,9 +184,6 @@
 
 /*No comment provided by engineer.*/
 "minutes" = "";
-
-/*No comment provided by engineer.*/
-"N1njaWTF Tip jar" = "";
 
 /*No comment provided by engineer.*/
 "No Connection" = "";
@@ -285,12 +276,6 @@
 "Tip jar" = "";
 
 /*No comment provided by engineer.*/
-"Tip N1njaWTF" = "";
-
-/*No comment provided by engineer.*/
-"Tip N1njaWTF of NeoToGas.com some GAS or NEO! :-)" = "";
-
-/*No comment provided by engineer.*/
 "Tools" = "";
 
 /*No comment provided by engineer.*/
@@ -327,9 +312,6 @@
 "Visit NEO.org" = "";
 
 /*No comment provided by engineer.*/
-"Visit NeoToGas.com" = "";
-
-/*No comment provided by engineer.*/
 "Visual and messages" = "";
 
 /*No comment provided by engineer.*/
@@ -364,3 +346,21 @@
 
 /*Sending email message failed body*/
 "Your email has failed to send." = "";
+
+/*No comment provided by engineer.*/
+"Tip N1njaWTF" = "";
+
+/*No comment provided by engineer.*/
+"Visit NeoToGas.com" = "";
+
+/*No comment provided by engineer.*/
+"N1njaWTF Tip jar" = "";
+
+/*No comment provided by engineer.*/
+"Tip N1njaWTF of NeoToGas.com some GAS or NEO! :-)" = "";
+
+/*/* Translator: enter your information for credits! In English please. Like this: Dutch is translated by Benjamin de Bos (info@its-vision.nl). E-mail is not required! */*/
+"<Language> is translated by: <your (nick) name> (<e-mail>)" = "";
+
+/*No comment provided by engineer.*/
+"Language" = "";
