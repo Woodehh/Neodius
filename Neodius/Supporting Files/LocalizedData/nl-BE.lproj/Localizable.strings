@@ -364,3 +364,9 @@
 
 /*Sending email message failed body*/
 "Your email has failed to send." = "Uw email kon niet verzonden worden";
+
+/*No comment provided by engineer.*/
+"Loading article" = "Artikel laden";
+
+/*No comment provided by engineer.*/
+"NEO News" = "NEO Nieuws";
