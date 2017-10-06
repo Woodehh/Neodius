@@ -26,6 +26,12 @@ target 'Neodius' do
   pod "QRCodeReaderViewController"
   pod "BDGShare"
   pod "AsyncImageView"
+  pod "XMLReader"
+  pod "KXHtmlLabel"
+  pod "Regexer"
+  pod "AsyncImageView"
+  pod "UIImageViewAligned"
+  pod "EXPhotoViewer"
   
   post_install do |installer|
     require 'fileutils'

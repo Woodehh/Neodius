@@ -78,11 +78,13 @@ EOM
 }
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_resource "$PODS_CONFIGURATION_BUILD_DIR/FontAwesome4-ios/FontAwesome.bundle"
+  install_resource "KXHtmlLabel/KXHtmlLabel/FontAwesome.otf"
   install_resource "LTHPasscodeViewController/Localizations/LTHPasscodeViewController.bundle"
   install_resource "$PODS_CONFIGURATION_BUILD_DIR/RFAboutView/RFAboutView.bundle"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_resource "$PODS_CONFIGURATION_BUILD_DIR/FontAwesome4-ios/FontAwesome.bundle"
+  install_resource "KXHtmlLabel/KXHtmlLabel/FontAwesome.otf"
   install_resource "LTHPasscodeViewController/Localizations/LTHPasscodeViewController.bundle"
   install_resource "$PODS_CONFIGURATION_BUILD_DIR/RFAboutView/RFAboutView.bundle"
 fi
