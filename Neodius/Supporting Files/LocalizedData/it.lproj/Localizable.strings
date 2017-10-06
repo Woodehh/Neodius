@@ -23,6 +23,9 @@
 /*No comment provided by engineer.*/
 "7 Days" = "7 Giorni";
 
+/*Translator: enter your information for credits! In English please. Like this: Dutch is translated by Benjamin de Bos (info@its-vision.nl). E-mail is not required!*/
+"<Language> is translated by: <your (nick) name> (<e-mail>)" = "";
+
 /*Prefilled Email message text*/
 "<p>[Please insert your message here]</p><p><em>For support inquiries, please include the following information. These make it easier for me to help you. Thank you!</em><p><hr><p><strong>Support Information</strong></p></p>%@ Version %@ (%@)<br>%@ (%@)<br>iOS %@ (%@)</p><hr>" = "<p>[Inserisci il tuo messaggio qui]</p><p><em>Per le domande di supporto, includi le seguenti informazioni. Questo renderà le cose più facili per poterti aiutare. Grazie!</em><p><hr><p><strong>Informazioni di supporto</strong></p></p>%@ Versione %@ (%@)<br>%@ (%@)<br>iOS %@ (%@)</p><hr>";
 
@@ -119,68 +122,62 @@
 /*No comment provided by engineer.*/
 "Current wallets" = "Portafoglio corrente";
 
-/* Translator: enter your information for credits! In English please. Like this: Dutch is translated by Benjamin de Bos (info@its-vision.nl). E-mail is not required! */
-"<Language> is translated by: <your (nick) name> (<e-mail>)" = "";
-
 /*Dismiss error message*/
-"Dismiss" = "";
+"Dismiss" = "Rimuovere";
 
 /*No comment provided by engineer.*/
-"Dividend" = "";
+"Dividend" = "Dividendo";
 
 /*No comment provided by engineer.*/
-"Donate %@" = "";
+"Donate %@" = "Donare %@";
 
 /*No comment provided by engineer.*/
-"Edit wallet" = "";
+"Edit wallet" = "Modifica il portafoglio";
 
 /*No comment provided by engineer.*/
-"Enter a name" = "";
+"Enter a name" = "Inserisci il nome";
 
 /*No comment provided by engineer.*/
-"Enter a name and the address" = "";
+"Enter a name and the address" = "Inserisci il nome e l'indirizzo";
 
 /*No comment provided by engineer.*/
-"Enter NEO Amount" = "";
+"Enter NEO Amount" = "Inserisci una somma di NEO";
 
 /*No comment provided by engineer.*/
-"Enter the address" = "";
+"Enter the address" = "Inserisci l'indirizzo";
 
 /*No comment provided by engineer.*/
-"Feel free to send some %@ in order to make support the Neodius development! :-)" = "";
+"Feel free to send some %@ in order to make support the Neodius development! :-)" = "Sentiti libero di fare una donazione dalla somma %@ per supportare gli sviluppatori di Neodius :-)";
 
 /*No comment provided by engineer.*/
-"GAS Calculation" = "";
+"GAS Calculation" = "GAS Calculator";
 
 /*No comment provided by engineer.*/
-"GAS Calculation has been brought to life by N1njaWTF of NeoToGas.com. Neodius' encourages you to tip some NEO/GAS to N1njaWTF for his awesome work!" = "";
+"GAS Calculation has been brought to life by N1njaWTF of NeoToGas.com. Neodius' encourages you to tip some NEO/GAS to N1njaWTF for his awesome work!" = "GAS Calculator è stato creato da N1njaWTF di NeoToGas.com. Neodius ti incoraggia a donare qualche NEO/GAS a N1njaWTF per il suo fantastico lavoro!";
 
 /*No comment provided by engineer.*/
-"General" = "";
+"General" = "Principale";
 
 /*No comment provided by engineer.*/
-"Get block %@" = "";
+"Get block %@" = "Ottieni block %@";
 
 /*No comment provided by engineer.*/
-"Getting best node" = "";
+"Getting best node" = "Ottieni il miglior node";
 
 /*No comment provided by engineer.*/
-"Getting last block" = "";
+"Getting last block" = "Ottieni l'ultimo block";
 
 /*No comment provided by engineer.*/
-"Hey there!" = "";
-
-/*/
-"<Language> is translated by: <your (nick) name> (<e-mail>)" = "";
+"Hey there!" = "Ciao!";
 
 /*No comment provided by engineer.*/
-"Language" = "";
+"Language" = "Lingua";
 
 /*No comment provided by engineer.*/
-"Links" = "";
+"Links" = "Links";
 
 /*No comment provided by engineer.*/
-"Loading transaction" = "";
+"Loading transaction" = "Caricamento della transazioni";
 
 /*No comment provided by engineer.*/
 "Market Cap" = "";
@@ -367,3 +364,9 @@
 
 /*Sending email message failed body*/
 "Your email has failed to send." = "";
+
+/*No comment provided by engineer.*/
+"Loading article" = "";
+
+/*No comment provided by engineer.*/
+"NEO News" = "";

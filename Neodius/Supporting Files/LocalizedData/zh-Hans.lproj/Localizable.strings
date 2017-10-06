@@ -23,7 +23,7 @@
 /*No comment provided by engineer.*/
 "7 Days" = "7天";
 
-/* Translator: enter your information for credits! In English please. Like this: Dutch is translated by Benjamin de Bos (info@its-vision.nl). E-mail is not required! */
+/*Translator: enter your information for credits! In English please. Like this: Dutch is translated by Benjamin de Bos (info@its-vision.nl). E-mail is not required!*/
 "<Language> is translated by: <your (nick) name> (<e-mail>)" = "Chinese (Simplified) is translated by Yenct";
 
 /*Prefilled Email message text*/
@@ -364,3 +364,9 @@
 
 /*Sending email message failed body*/
 "Your email has failed to send." = "您的电子邮件无法发送。";
+
+/*No comment provided by engineer.*/
+"Loading article" = "载入文章";
+
+/*No comment provided by engineer.*/
+"NEO News" = "最新消息";

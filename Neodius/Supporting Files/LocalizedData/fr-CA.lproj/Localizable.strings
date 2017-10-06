@@ -364,3 +364,9 @@
 
 /*Sending email message failed body*/
 "Your email has failed to send." = "Votre email n'a pas pu être envoyé.";
+
+/*No comment provided by engineer.*/
+"Loading article" = "Chargement de l'article";
+
+/*No comment provided by engineer.*/
+"NEO News" = "NEO Nouvelles";
