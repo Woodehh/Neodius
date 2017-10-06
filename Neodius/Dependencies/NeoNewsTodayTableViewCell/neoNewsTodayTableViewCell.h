@@ -9,12 +9,11 @@
 #import <UIKit/UIKit.h>
 #import "neodiusDataSource.h"
 #import "neodiusUIComponents.h"
-#import <UIImageViewAligned/UIImageViewAligned.h>
 #import "EXPhotoViewer.h"
 
 
 @interface neoNewsTodayTableViewCell : UITableViewCell
 @property (nonatomic,retain) UILabel *titleLabel,*categoryLabel,*descriptionLabel;
-@property (nonatomic,retain) UIImageViewAligned *headerImage;
+@property (nonatomic,retain) UIImageView *headerImage;
 
 @end

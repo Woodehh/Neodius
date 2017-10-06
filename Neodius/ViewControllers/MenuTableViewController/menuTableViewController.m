@@ -68,7 +68,7 @@
             cell.textLabel.text = [NSString stringWithFormat:NSLocalizedString(@"%@ Market information",nil),@"GAS"];
             icon = @"fa-area-chart";
         } else if (indexPath.row == 4) {
-            cell.textLabel.text = NSLocalizedString(@"NEO News",nil);
+            cell.textLabel.text = @"NeoNewsToday"
             icon = @"fa-newspaper-o";
         } else if (indexPath.row == 5) {
             cell.textLabel.text = NSLocalizedString(@"Settings",nil);

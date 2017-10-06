@@ -64,7 +64,7 @@
 #pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-    return [posts count];
+    return [posts count]-1;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
@@ -115,7 +115,7 @@
     NSString *category;
     if ([cats isKindOfClass:[NSArray class]]) {
         category = [[[p objectForKey:@"category"] objectAtIndex:0] objectForKey:@"text"];
-        [category stringByAppendingFormat:@", %@",[[[p objectForKey:@"category"] objectAtIndex:1] objectForKey:@"text"]];
+        //[category stringByAppendingFormat:@", %@",[[[p objectForKey:@"category"] objectAtIndex:1] objectForKey:@"text"]];
     } else if ([cats isKindOfClass:[NSDictionary class]]) {
         category = [[p objectForKey:@"category"] objectForKey:@"text"];
     }
