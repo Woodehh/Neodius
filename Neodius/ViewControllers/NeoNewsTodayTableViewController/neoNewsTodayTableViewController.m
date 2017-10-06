@@ -135,7 +135,7 @@
     ".readon { color:#4BB604; font-weight: 500}"
                             "</style>";
     
-    NSString *compiledBody = [baseStyle stringByAppendingFormat:@"%@...<span class='readon'>tap to read on</span>.",[bodyPart stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceCharacterSet]]];
+    NSString *compiledBody = [baseStyle stringByAppendingFormat:@"%@...<span class='readon'>%@</span>.",[bodyPart stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceCharacterSet]],NSLocalizedString(@"Tap to read on", nil)];
     
     NSAttributedString * attrStr = [[NSAttributedString alloc] initWithData:[compiledBody dataUsingEncoding:NSUnicodeStringEncoding]
                                                                     options:@{NSDocumentTypeDocumentAttribute: NSHTMLTextDocumentType}
