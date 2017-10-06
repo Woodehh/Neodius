@@ -23,7 +23,7 @@
 /*No comment provided by engineer.*/
 "7 Days" = "7 Tage";
 
-/* Translator: enter your information for credits! In English please. Like this: Dutch is translated by Benjamin de Bos (info@its-vision.nl). E-mail is not required! */
+/*Translator: enter your information for credits! In English please. Like this: Dutch is translated by Benjamin de Bos (info@its-vision.nl). E-mail is not required!*/
 "<Language> is translated by: <your (nick) name> (<e-mail>)" = "German is translated by: Dominik Thanner (crashyourself22@gmail.com)";
 
 /*Prefilled Email message text*/
@@ -364,3 +364,9 @@
 
 /*Sending email message failed body*/
 "Your email has failed to send." = "Deine E-Mail konnte nicht versendet werden.";
+
+/*No comment provided by engineer.*/
+"Loading article" = "Artikel wird geladen";
+
+/*No comment provided by engineer.*/
+"NEO News" = "NEO Nachrichten";
