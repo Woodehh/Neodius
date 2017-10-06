@@ -314,8 +314,9 @@
             
         } else {
             cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:@"transactionCell"];
-            cell.selectionStyle = UITableViewCellSelectionStyleBlue;
             cell.accessoryType = UITableViewCellAccessoryDetailButton;
+            cell.tintColor = neoGreenColor;
+            
             
             UIView *selectionColor = [[UIView alloc] init];
             selectionColor.backgroundColor = neoGreenColor;
@@ -351,6 +352,10 @@
         cell.detailTextLabel.font = [UIFont fontWithName:@"HelveticaNeue-Light" size:14];
     }
     return cell;
+}
+
+- (void)tableView:(UITableView *)tableView accessoryButtonTappedForRowWithIndexPath:(NSIndexPath *)indexPath{
+    NSLog(@"tap called");
 }
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {

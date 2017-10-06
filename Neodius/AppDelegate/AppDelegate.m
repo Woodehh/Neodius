@@ -9,7 +9,6 @@
 #import "menuTableViewController.h"
 #import "walletViewTableViewController.h"
 #import "NeodiusDataSource.h"
-#import "gasCalculationTableViewController.h"
 
 @implementation AppDelegate
 @synthesize window = _window;

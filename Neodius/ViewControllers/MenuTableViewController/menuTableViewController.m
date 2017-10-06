@@ -13,6 +13,7 @@
 #import "marketInfoTableViewController.h"
 #import "tipJarTableViewController.h"
 #import "gasCalculationTableViewController.h"
+#import "neoNewsTodayTableViewController.h"
 
 @implementation menuTableViewController
 
@@ -67,12 +68,15 @@
             cell.textLabel.text = [NSString stringWithFormat:NSLocalizedString(@"%@ Market information",nil),@"GAS"];
             icon = @"fa-area-chart";
         } else if (indexPath.row == 4) {
+            cell.textLabel.text = NSLocalizedString(@"NEO News",nil);
+            icon = @"fa-newspaper-o";
+        } else if (indexPath.row == 5) {
             cell.textLabel.text = NSLocalizedString(@"Settings",nil);
             icon = @"fa-cog";
-        } else if (indexPath.row == 5) {
+        } else if (indexPath.row == 6) {
             cell.textLabel.text = NSLocalizedString(@"Tip jar",nil);
             icon = @"fa-beer";
-        } else if (indexPath.row == 6) {
+        } else if (indexPath.row == 7) {
             cell.textLabel.text = NSLocalizedString(@"About",nil);
             icon = @"fa-question-circle-o";
         }
@@ -158,12 +162,15 @@
             menuItem.type = @"GAS";
             self.viewDeckController.centerViewController = [[UINavigationController alloc] initWithRootViewController:menuItem];
         } else if (indexPath.row == 4) {
-            menuItem = [[settingsTableViewController alloc] initWithStyle:UITableViewStyleGrouped];
+            menuItem = [[neoNewsTodayTableViewController alloc] initWithStyle:UITableViewStyleGrouped];
             self.viewDeckController.centerViewController = [[UINavigationController alloc] initWithRootViewController:menuItem];
         } else if (indexPath.row == 5) {
-            menuItem = [[tipJarTableViewController alloc] initWithStyle:UITableViewStyleGrouped];
+            menuItem = [[settingsTableViewController alloc] initWithStyle:UITableViewStyleGrouped];
             self.viewDeckController.centerViewController = [[UINavigationController alloc] initWithRootViewController:menuItem];
         } else if (indexPath.row == 6) {
+            menuItem = [[tipJarTableViewController alloc] initWithStyle:UITableViewStyleGrouped];
+            self.viewDeckController.centerViewController = [[UINavigationController alloc] initWithRootViewController:menuItem];
+        } else if (indexPath.row == 7) {
             RFAboutViewController* menuItem = [[RFAboutViewController alloc] initWithAppName:@"NEODIUS"
                                                                                   appVersion:nil
                                                                                     appBuild:nil
@@ -258,7 +265,7 @@
     if (section == 0)
         return storedWallets.count+1;
     else if (section == 1)
-        return 7;
+        return 8;
     else
         return 3;
 }

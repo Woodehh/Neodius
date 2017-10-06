@@ -1,0 +1,28 @@
+//
+//  neoNewsTodayTableViewController.h
+//  Neodius
+//
+//  Created by Benjamin de Bos on 05-10-17.
+//  Copyright © 2017 ITS-VIsion. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+#import <MBProgressHUD/MBProgressHUD.h>
+#import <AFNetworking/AFNetworking.h>
+#import <XMLReader/XMLReader.h>
+#import <ViewDeck/ViewDeck.h>
+#import "neoNewsTodayTableViewCell.h"
+#import <KXHtmlLabel/KXHtmlLabel.h>
+#import <Regexer/Regexer.h>
+#import "neodiusUIComponents.h"
+#import <AsyncImageView/AsyncImageView.h>
+#import <UIWebView-Blocks/UIWebView+Blocks.h>
+
+@interface neoNewsTodayTableViewController : UITableViewController {
+    AFHTTPSessionManager *networkManager;
+    MBProgressHUD *hud;
+    NSArray *posts;
+    UIViewController *webViewRoot;
+}
+
+@end
