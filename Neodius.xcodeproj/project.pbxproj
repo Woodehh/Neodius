@@ -12,13 +12,13 @@
 		E22FEEC31F71091C000922C4 /* cryptoCurrencies.json in Resources */ = {isa = PBXBuildFile; fileRef = E22FEEC01F71091C000922C4 /* cryptoCurrencies.json */; };
 		E22FEEC41F71091C000922C4 /* fiatCurrencies.json in Resources */ = {isa = PBXBuildFile; fileRef = E22FEEC11F71091C000922C4 /* fiatCurrencies.json */; };
 		E22FEEC51F71091C000922C4 /* refreshIntervals.json in Resources */ = {isa = PBXBuildFile; fileRef = E22FEEC21F71091C000922C4 /* refreshIntervals.json */; };
+		E242D1091F8BFCDD0064F57E /* neoNewsTodayTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E242D1081F8BFCAC0064F57E /* neoNewsTodayTableViewController.m */; };
 		E25AB2AC1F7BC7E200CA1FF2 /* neodiusUIComponents.m in Sources */ = {isa = PBXBuildFile; fileRef = E25AB2AB1F7BC5BA00CA1FF2 /* neodiusUIComponents.m */; };
 		E25AB2B11F7C05E300CA1FF2 /* donationData.json in Resources */ = {isa = PBXBuildFile; fileRef = E25AB2B01F7C038700CA1FF2 /* donationData.json */; };
 		E25AB2B81F7C2BB500CA1FF2 /* tipJarTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E25AB2B71F7C2B6700CA1FF2 /* tipJarTableViewController.m */; };
 		E25AB2C31F7C431400CA1FF2 /* gasCalculationTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E25AB2C21F7C412300CA1FF2 /* gasCalculationTableViewCell.m */; };
 		E25AB2CD1F7D151500CA1FF2 /* gasCalculationTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E25AB2CC1F7D14FE00CA1FF2 /* gasCalculationTableViewController.m */; };
 		E25AB2D11F7D17A400CA1FF2 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E25AB2C71F7D021100CA1FF2 /* Localizable.strings */; };
-		E2A445B91F86195300A829FC /* neoNewsTodayTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2A445B81F86195300A829FC /* neoNewsTodayTableViewController.m */; };
 		E2A445C71F863D4200A829FC /* neoNewsTodayTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E2A445C61F863CDD00A829FC /* neoNewsTodayTableViewCell.m */; };
 		E2AD85A11F6FED9A00D03087 /* Acknowledgements.plist in Resources */ = {isa = PBXBuildFile; fileRef = E2AD85A01F6FED9A00D03087 /* Acknowledgements.plist */; };
 		E2B3AE0D1F7A58CD00713798 /* marketViewCustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E2B3ADEC1F7A58AA00713798 /* marketViewCustomTableViewCell.m */; };
@@ -60,6 +60,8 @@
 		E22FEEC01F71091C000922C4 /* cryptoCurrencies.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = cryptoCurrencies.json; sourceTree = "<group>"; };
 		E22FEEC11F71091C000922C4 /* fiatCurrencies.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fiatCurrencies.json; sourceTree = "<group>"; };
 		E22FEEC21F71091C000922C4 /* refreshIntervals.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = refreshIntervals.json; sourceTree = "<group>"; };
+		E242D1071F8BFCAC0064F57E /* neoNewsTodayTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = neoNewsTodayTableViewController.h; sourceTree = "<group>"; };
+		E242D1081F8BFCAC0064F57E /* neoNewsTodayTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = neoNewsTodayTableViewController.m; sourceTree = "<group>"; };
 		E25AB2AA1F7BC5BA00CA1FF2 /* neodiusUIComponents.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = neodiusUIComponents.h; sourceTree = "<group>"; };
 		E25AB2AB1F7BC5BA00CA1FF2 /* neodiusUIComponents.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = neodiusUIComponents.m; sourceTree = "<group>"; };
 		E25AB2B01F7C038700CA1FF2 /* donationData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = donationData.json; path = "Neodius/Supporting Files/SettingCache/donationData.json"; sourceTree = SOURCE_ROOT; };
@@ -71,6 +73,7 @@
 		E25AB2CB1F7D14FE00CA1FF2 /* gasCalculationTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gasCalculationTableViewController.h; sourceTree = "<group>"; };
 		E25AB2CC1F7D14FE00CA1FF2 /* gasCalculationTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gasCalculationTableViewController.m; sourceTree = "<group>"; };
 		E29EB73D1F8BBC7100324839 /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = "../../../Neodius/Supporting Files/LocalizedData/sv.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		E29EB7401F8BF8B800324839 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = "../../../Neodius/Supporting Files/LocalizedData/ja.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		E2A445AB1F82BE2200A829FC /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = "../../../Neodius/Supporting Files/LocalizedData/fr.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		E2A445AC1F8398DC00A829FC /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = "../../../Neodius/Supporting Files/LocalizedData/es.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		E2A445AD1F8398E700A829FC /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "../../../Neodius/Supporting Files/LocalizedData/zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
@@ -78,8 +81,6 @@
 		E2A445B21F8522E700A829FC /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "../../../Neodius/Supporting Files/LocalizedData/zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		E2A445B31F85896900A829FC /* nl-BE */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "nl-BE"; path = "../../../Neodius/Supporting Files/LocalizedData/nl-BE.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		E2A445B41F85897700A829FC /* fr-CA */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "fr-CA"; path = "../../../Neodius/Supporting Files/LocalizedData/fr-CA.lproj/Localizable.strings"; sourceTree = "<group>"; };
-		E2A445B71F86195300A829FC /* neoNewsTodayTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = neoNewsTodayTableViewController.h; path = NeoNewsTodayTableViewController/neoNewsTodayTableViewController.h; sourceTree = "<group>"; };
-		E2A445B81F86195300A829FC /* neoNewsTodayTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = neoNewsTodayTableViewController.m; path = NeoNewsTodayTableViewController/neoNewsTodayTableViewController.m; sourceTree = "<group>"; };
 		E2A445C51F863CDD00A829FC /* neoNewsTodayTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = neoNewsTodayTableViewCell.h; sourceTree = "<group>"; };
 		E2A445C61F863CDD00A829FC /* neoNewsTodayTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = neoNewsTodayTableViewCell.m; sourceTree = "<group>"; };
 		E2AD85A01F6FED9A00D03087 /* Acknowledgements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Acknowledgements.plist; path = neodius/Acknowledgements.plist; sourceTree = SOURCE_ROOT; };
@@ -184,6 +185,16 @@
 			);
 			name = LocalizedData;
 			path = "neodius/Supporting Files/LocalizedData";
+			sourceTree = SOURCE_ROOT;
+		};
+		E242D1061F8BFCAC0064F57E /* NeoNewsTodayTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E242D1071F8BFCAC0064F57E /* neoNewsTodayTableViewController.h */,
+				E242D1081F8BFCAC0064F57E /* neoNewsTodayTableViewController.m */,
+			);
+			name = NeoNewsTodayTableViewController;
+			path = Neodius/ViewControllers/NeoNewsTodayTableViewController;
 			sourceTree = SOURCE_ROOT;
 		};
 		E25AB2A91F7BC5BA00CA1FF2 /* NeodiusUIComponents */ = {
@@ -297,14 +308,13 @@
 		E2B3ADF91F7A58AA00713798 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				E242D1061F8BFCAC0064F57E /* NeoNewsTodayTableViewController */,
 				E25AB2CA1F7D14FE00CA1FF2 /* GasCalculationTableViewController */,
 				E2B3ADFA1F7A58AA00713798 /* MarketInfoTableViewController */,
 				E2B3ADFD1F7A58AA00713798 /* MenuTableViewController */,
 				E2B3AE001F7A58AA00713798 /* Settings */,
 				E2B3AE0A1F7A58AA00713798 /* WalletViewTableViewController */,
 				E25AB2B51F7C2B6700CA1FF2 /* TipJarTableViewController */,
-				E2A445B71F86195300A829FC /* neoNewsTodayTableViewController.h */,
-				E2A445B81F86195300A829FC /* neoNewsTodayTableViewController.m */,
 			);
 			name = ViewControllers;
 			path = Neodius/ViewControllers;
@@ -513,6 +523,7 @@
 				"nl-BE",
 				"fr-CA",
 				sv,
+				ja,
 			);
 			mainGroup = E2C209FA1F6D094500C2F8AB;
 			productRefGroup = E2C20A041F6D094500C2F8AB /* Products */;
@@ -643,6 +654,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E242D1091F8BFCDD0064F57E /* neoNewsTodayTableViewController.m in Sources */,
 				E2A445C71F863D4200A829FC /* neoNewsTodayTableViewCell.m in Sources */,
 				E25AB2CD1F7D151500CA1FF2 /* gasCalculationTableViewController.m in Sources */,
 				E25AB2C31F7C431400CA1FF2 /* gasCalculationTableViewCell.m in Sources */,
@@ -653,7 +665,6 @@
 				E2B3AE0E1F7A58CD00713798 /* NEOButton.m in Sources */,
 				E2B3AE0F1F7A58CD00713798 /* neodiusDataSource.m in Sources */,
 				E2B3AE101F7A58CD00713798 /* marketInfoTableViewController.m in Sources */,
-				E2A445B91F86195300A829FC /* neoNewsTodayTableViewController.m in Sources */,
 				E2B3AE111F7A58CD00713798 /* menuTableViewController.m in Sources */,
 				E2B3AE121F7A58CD00713798 /* selectionSettingsTableViewController.m in Sources */,
 				E2B3AE131F7A58CD00713798 /* settingsTableViewController.m in Sources */,
@@ -696,6 +707,7 @@
 				E2A445B31F85896900A829FC /* nl-BE */,
 				E2A445B41F85897700A829FC /* fr-CA */,
 				E29EB73D1F8BBC7100324839 /* sv */,
+				E29EB7401F8BF8B800324839 /* ja */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
@@ -755,6 +767,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -804,6 +817,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};

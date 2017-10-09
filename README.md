@@ -38,18 +38,6 @@ Features currently are:
 * Quick transaction lookup
 * QRCode for your address.
 * Switch between MainNet and TestNet
-* Localization in
-	* English - [English screenshots](https://github.com/ITSVision/Neodius/blob/master/Artwork/Screenshots/English/iPhone/english-screenshots.md)
-	* Dutch - [Dutch screenshots](https://github.com/ITSVision/Neodius/blob/master/Artwork/Screenshots/Dutch/iPhone/dutch-screenshots.md)
-	* Flemish - [Flemish screenshots](https://github.com/ITSVision/Neodius/blob/master/Artwork/Screenshots/Dutch%20(Belgium)/iPhone/dutch-belgium-screenshots.md)
-	* French - [French screenshots](https://github.com/ITSVision/Neodius/blob/master/Artwork/Screenshots/French/iPhone/french-screenshots.md)
-	* French Canadian - [French Canadian screenshots](https://github.com/ITSVision/Neodius/blob/master/Artwork/Screenshots/French%20(Canada)/iPhone/french-canada-screenshots.md)
-	* Spanish - [Spanish screenshots](https://github.com/ITSVision/Neodius/blob/master/Artwork/Screenshots/Spanish/iPhone/spanish-screenshots.md)
-	* German - [German screenshots](https://github.com/ITSVision/Neodius/blob/master/Artwork/Screenshots/German/iPhone/german-screenshots.md)
-	* Chinese Simplified - [Chinese Simplified screenshots](https://github.com/ITSVision/Neodius/blob/master/Artwork/Screenshots/Chinese%20Simplified/iPhone/chinese-simplified-screenshots.md)
-	* Chinese Traditional - [Chinese Traditional screenshots](https://github.com/ITSVision/Neodius/blob/master/Artwork/Screenshots/Chinese%20Traditional/iPhone/chinese-traditional-screenshots.md)
-	* **Work in progress: Norwegian, Italian, Japanese & Polish**
-	* **More to come: Help me out here [and join the translation project](https://poeditor.com/join/project/UCLcpved6I). We'll exchange for contributions :) <3**
 * View market information on GAS and NEO
 	* Bid/ask prices
 	* Current market (cap, volume, position)
@@ -58,7 +46,8 @@ Features currently are:
 * Scanning QR-Codes to add a wallet
 * GAS Calculation from a wallet or a user decided amount
 * On-the-fly language switching, without restarting the app!
-* More to come! :)
+* Supported languages:
+	* Dutch - [iPad](Artwork/Screenshots/iPad/dutch-screenshots.md) | [iPhone](Artwork/Screenshots/iPhone/dutch-screenshots.md) | [iPhone X](Artwork/Screenshots/iPhone+X/dutch-screenshots.md)
 
 ## Looks awesome, but how can i use it.
 ### The AppStore
@@ -73,6 +62,8 @@ We're making use of the API's of the awesome City of Zion developers community. 
 ## I want to help!
 ### Coding
 You can! I'll reward you with a lot of hugs :-) Send me a message or do a pull request.
+
+Help me out with translating [and join the translation project!](https://poeditor.com/join/project/UCLcpved6I). We'll exchange for contributions :) <3
 
 ### Translating
 You can help translating through [POEditor.com](https://www.poeditor.com). I have an application there and that way it keeps the strings updated and the contributors informed on new strings. Open an issue if you would like to help translating with your e-mail (nick)name and language or send me a message on the NEO Slack @Woodehh. I'll send you an invite for that!
@@ -97,14 +88,15 @@ For press inquiries, please send an e-mail to: Neodius[at]ITS-Vision[dot]nl
 ## Authors/Contributors
 The authors working on this project:
 
+### Main contributor
 * **Benjamin de Bos**
+
+### Translators
+* Dutch is translated by: Benjamin de Bos (info@its-vision.nl)
+
+### Specials thanks to
 * **[@N1njaWTF](http://twitter.com/N1njaWTF)** of (NeoToGas.com) for the GAS Calculation logic
-* **mati14** for the French translation
-* **Juan** for the Spanish translation
-* **Dominik Thanner** for the German translation
-* **yenct15** for both of the Chinese translations
-* **mpeter** for French (Canadian) translation
-* **ManicPreacher** for Flemish translation
+
 
 See also the list of [contributors](contributors) who participated in this project.
 
