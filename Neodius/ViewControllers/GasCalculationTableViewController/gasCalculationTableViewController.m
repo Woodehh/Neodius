@@ -59,17 +59,22 @@
 }
 
 -(void)calculationSource {
-    [UIAlertView showWithTitle:nil
-                       message:NSLocalizedString(@"What source would you like to have for the GAS Calculation?", nil)
-             cancelButtonTitle:NSLocalizedString(@"Cancel",nil)
-             otherButtonTitles:@[NSLocalizedString(@"By entering an amount of NEO",nil),NSLocalizedString(@"By selecting a wallet",nil)]
-                      tapBlock:^(UIAlertView *alertView, NSInteger buttonIndex) {
-                          if (buttonIndex == 1) {
-                              [self showAmountInput];
-                          } else if (buttonIndex == 2) {
-                              [self showWalletSelection];
-                          }
-                      }];
+
+    UIAlertView *view;
+    view.accessibilityIdentifier = @"Hi";
+    view = [UIAlertView showWithTitle:nil
+                               message:NSLocalizedString(@"What source would you like to have for the GAS Calculation?", nil)
+                     cancelButtonTitle:NSLocalizedString(@"Cancel",nil)
+                     otherButtonTitles:@[NSLocalizedString(@"By entering an amount of NEO",nil),NSLocalizedString(@"By selecting a wallet",nil)]
+                              tapBlock:^(UIAlertView *alertView, NSInteger buttonIndex) {
+                                  if (buttonIndex == 1) {
+                                      [self showAmountInput];
+                                  } else if (buttonIndex == 2) {
+                                      [self showWalletSelection];
+                                  }
+                              }];
+    
+
 }
 
 -(void)showWalletSelection {

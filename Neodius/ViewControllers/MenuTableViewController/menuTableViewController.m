@@ -44,39 +44,50 @@
         cell.selectedBackgroundView = selectionColor;
     }
     
-    NSString *icon;
+    NSString *icon, *identifier;
     
     if (indexPath.section == 0) {
         if (indexPath.row >= storedWallets.count) {
             cell.textLabel.text = NSLocalizedString(@"Add wallet",nil);
             icon = @"fa-plus-circle";
         } else {
+            if (indexPath.row == 0)
+                identifier = @"first_wallet";
+            
             cell.textLabel.text = storedWallets[indexPath.row][@"name"];
             icon = @"fa-folder-o";
         }
     } else if (indexPath.section == 1) {
         if (indexPath.row == 0) {
+            identifier = @"quick_lookup";
             cell.textLabel.text = NSLocalizedString(@"Quick address lookup",nil);
             icon = @"fa-eye";
         } else if (indexPath.row == 1) {
+            identifier = @"gas_calculation";
             cell.textLabel.text = [NSString stringWithFormat:NSLocalizedString(@"GAS Calculation",nil),@"NEO"];
             icon = @"fa-calculator";
         } else if (indexPath.row == 2) {
+            identifier = @"neo_market_info";
             cell.textLabel.text = [NSString stringWithFormat:NSLocalizedString(@"%@ Market information",nil),@"NEO"];
             icon = @"fa-line-chart";
         } else if (indexPath.row == 3) {
+            identifier = @"gas_market_info";
             cell.textLabel.text = [NSString stringWithFormat:NSLocalizedString(@"%@ Market information",nil),@"GAS"];
             icon = @"fa-area-chart";
         } else if (indexPath.row == 4) {
-            cell.textLabel.text = @"NeoNewsToday";
+            identifier = @"neo_news_today";
+            cell.textLabel.text = @"NEO News Today";
             icon = @"fa-rss";
         } else if (indexPath.row == 5) {
+            identifier = @"settings";
             cell.textLabel.text = NSLocalizedString(@"Settings",nil);
             icon = @"fa-cog";
         } else if (indexPath.row == 6) {
+            identifier = @"tip_jar";
             cell.textLabel.text = NSLocalizedString(@"Tip jar",nil);
             icon = @"fa-beer";
         } else if (indexPath.row == 7) {
+            identifier = @"about";
             cell.textLabel.text = NSLocalizedString(@"About",nil);
             icon = @"fa-question-circle-o";
         }
@@ -92,6 +103,10 @@
             icon = @"fa-bus";
         }
     }
+    
+    //set the accessibility identifier for screenshotting
+    if (![identifier isEqualToString:@""])
+        cell.accessibilityIdentifier = identifier;
 
     cell.imageView.image = [[NeodiusDataSource sharedData] tableIconPositive:icon];
     cell.imageView.highlightedImage = [[NeodiusDataSource sharedData] tableIconNegative:icon];
@@ -226,7 +241,7 @@
 }
 
 -(void)openLeftSide {
-    [self.viewDeckController openSide:IIViewDeckSideLeft animated:YES];
+ //   [self.viewDeckController openSide:IIViewDeckSideLeft animated:YES];
 }
 
 -(UIView*) headerView {
