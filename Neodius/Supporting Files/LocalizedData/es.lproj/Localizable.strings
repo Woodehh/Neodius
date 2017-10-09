@@ -24,7 +24,7 @@
 "7 Days" = "7 días";
 
 /*Translator: enter your information for credits! In English please. Like this: Dutch is translated by Benjamin de Bos (info@its-vision.nl). E-mail is not required!*/
-"<Language> is translated by: <your (nick) name> (<e-mail>)" = "Spanish is translated by Juan";
+"<Language> is translated by: <your (nick) name> (<e-mail>)" = "Spanish is translated by: aqdnk";
 
 /*Prefilled Email message text*/
 "<p>[Please insert your message here]</p><p><em>For support inquiries, please include the following information. These make it easier for me to help you. Thank you!</em><p><hr><p><strong>Support Information</strong></p></p>%@ Version %@ (%@)<br>%@ (%@)<br>iOS %@ (%@)</p><hr>" = "<p>[Por favor ingresar su mensaje aquí]</p><p><em>Para consultas de soporte, por favor incluya la siguiente información. Esto me hace más fácil ayudarte. ¡Muchas gracias!</em><p><hr><p><strong>Información de soporte</strong></p></p>%@ Version %@ (%@)<br>%@ (%@)<br>iOS %@ (%@)</p><hr>";
@@ -177,9 +177,6 @@
 "Links" = "Vínculos";
 
 /*No comment provided by engineer.*/
-"Loading article" = "Cargando artículo";
-
-/*No comment provided by engineer.*/
 "Loading transaction" = "Cargando transacción";
 
 /*No comment provided by engineer.*/
@@ -196,9 +193,6 @@
 
 /*No comment provided by engineer.*/
 "N1njaWTF Tip jar" = "Bote de punta N1njaWTF";
-
-/*No comment provided by engineer.*/
-"NEO News" = "NEO Noticias";
 
 /*No comment provided by engineer.*/
 "No Connection" = "Sin conexión";
@@ -277,9 +271,6 @@
 
 /*No comment provided by engineer.*/
 "Tap the icon on the right upper side to enter the NEO amount to calculate!" = "¡Haz tap en el ícono del lado superior derecho para ingresar la cantidad de NEO a calcular!";
-
-/*No comment provided by engineer.*/
-"Tap to read on" = "Toca para leer";
 
 /*No comment provided by engineer.*/
 "Theoretical" = "Teórico";
@@ -373,3 +364,12 @@
 
 /*Sending email message failed body*/
 "Your email has failed to send." = "Tu correo no se ha podido enviar.";
+
+/*No comment provided by engineer.*/
+"Loading article" = "Cargando artículo";
+
+/*No comment provided by engineer.*/
+"NEO News" = "NEO Noticias";
+
+/*No comment provided by engineer.*/
+"Tap to read on" = "Toca para leer";
