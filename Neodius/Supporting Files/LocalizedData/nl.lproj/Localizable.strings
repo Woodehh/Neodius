@@ -24,7 +24,7 @@
 "7 Days" = "7 Dagen";
 
 /*Translator: enter your information for credits! In English please. Like this: Dutch is translated by Benjamin de Bos (info@its-vision.nl). E-mail is not required!*/
-"<Language> is translated by: <your (nick) name> (<e-mail>)" = "Dutch is translated by Benjamin de Bos (info@its-vision.nl";
+"<Language> is translated by: <your (nick) name> (<e-mail>)" = "Dutch is translated by: Benjamin de Bos (info@its-vision.nl)";
 
 /*Prefilled Email message text*/
 "<p>[Please insert your message here]</p><p><em>For support inquiries, please include the following information. These make it easier for me to help you. Thank you!</em><p><hr><p><strong>Support Information</strong></p></p>%@ Version %@ (%@)<br>%@ (%@)<br>iOS %@ (%@)</p><hr>" = "<p>[Please insert your message here]</p><p><em>For support inquiries, please include the following information. These make it easier for me to help you. Thank you!</em><p><hr><p><strong>Support Information</strong></p></p>%@ Version %@ (%@)<br>%@ (%@)<br>iOS %@ (%@)</p><hr>";
@@ -48,7 +48,7 @@
 "Are you sure?" = "Weet je het zeker?";
 
 /*No comment provided by engineer.*/
-"Ask price" = "Laat prijs";
+"Ask price" = "Vraag prijs";
 
 /*No comment provided by engineer.*/
 "Base crypto currency" = "Basis crypto valuta";
@@ -114,7 +114,7 @@
 "Currency" = "Valuta";
 
 /*No comment provided by engineer.*/
-"Current bid/ask price" = "Huidige bied/laat prijs";
+"Current bid/ask price" = "Huidige bied/vraag prijs";
 
 /*No comment provided by engineer.*/
 "Current market values" = "Huidige marktvolume";
@@ -165,7 +165,7 @@
 "Getting best node" = "Beste node laden";
 
 /*No comment provided by engineer.*/
-"Getting last block" = "Laatste block laden";
+"Getting last block" = "Laatste blok laden";
 
 /*No comment provided by engineer.*/
 "Hey there!" = "Hey hallo!";
@@ -175,9 +175,6 @@
 
 /*No comment provided by engineer.*/
 "Links" = "Links";
-
-/*No comment provided by engineer.*/
-"Loading article" = "Artikel laden";
 
 /*No comment provided by engineer.*/
 "Loading transaction" = "Transactie laden";
@@ -196,9 +193,6 @@
 
 /*No comment provided by engineer.*/
 "N1njaWTF Tip jar" = "N1njaWTF fooienpot";
-
-/*No comment provided by engineer.*/
-"NEO News" = "NEO Nieuws";
 
 /*No comment provided by engineer.*/
 "No Connection" = "No Connection";
@@ -277,9 +271,6 @@
 
 /*No comment provided by engineer.*/
 "Tap the icon on the right upper side to enter the NEO amount to calculate!" = "Tap op het icoon rechtsbovenin om het NEO aantal op te geven voor de berekening!";
-
-/*No comment provided by engineer.*/
-"Tap to read on" = "Tap om meer te lezen";
 
 /*No comment provided by engineer.*/
 "Theoretical" = "Theoretisch";
@@ -373,3 +364,12 @@
 
 /*Sending email message failed body*/
 "Your email has failed to send." = "Je e-mail is niet verzonden!!";
+
+/*No comment provided by engineer.*/
+"Loading article" = "Artikel laden";
+
+/*No comment provided by engineer.*/
+"NEO News" = "NEO Nieuws";
+
+/*No comment provided by engineer.*/
+"Tap to read on" = "Tap om meer te lezen";
