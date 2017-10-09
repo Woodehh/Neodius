@@ -177,6 +177,9 @@
 "Links" = "Länkar";
 
 /*No comment provided by engineer.*/
+"Loading article" = "Läser in artikel";
+
+/*No comment provided by engineer.*/
 "Loading transaction" = "Läser in transaktion";
 
 /*No comment provided by engineer.*/
@@ -193,6 +196,9 @@
 
 /*No comment provided by engineer.*/
 "N1njaWTF Tip jar" = "N1njaWTF Donations-skål";
+
+/*No comment provided by engineer.*/
+"NEO News" = "NEO Nyheter";
 
 /*No comment provided by engineer.*/
 "No Connection" = "Ingen Anslutning";
@@ -271,6 +277,9 @@
 
 /*No comment provided by engineer.*/
 "Tap the icon on the right upper side to enter the NEO amount to calculate!" = "Tryck på ikonen uppe i högra hörnet för att fylla i antalet NEO att beräkna!";
+
+/*No comment provided by engineer.*/
+"Tap to read on" = "Tryck för att läsa vidare";
 
 /*No comment provided by engineer.*/
 "Theoretical" = "Teoretiskt";
@@ -364,12 +373,3 @@
 
 /*Sending email message failed body*/
 "Your email has failed to send." = "Ditt e-postmeddelande kunde inte sändas";
-
-/*No comment provided by engineer.*/
-"Loading article" = "Läser in artikel";
-
-/*No comment provided by engineer.*/
-"NEO News" = "NEO Nyheter";
-
-/*No comment provided by engineer.*/
-"Tap to read on" = "Tryck för att läsa vidare";

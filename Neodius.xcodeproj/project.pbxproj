@@ -70,6 +70,7 @@
 		E25AB2C91F7D021600CA1FF2 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = "../../../Neodius/Supporting Files/LocalizedData/nl.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		E25AB2CB1F7D14FE00CA1FF2 /* gasCalculationTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gasCalculationTableViewController.h; sourceTree = "<group>"; };
 		E25AB2CC1F7D14FE00CA1FF2 /* gasCalculationTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gasCalculationTableViewController.m; sourceTree = "<group>"; };
+		E29EB73D1F8BBC7100324839 /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = "../../../Neodius/Supporting Files/LocalizedData/sv.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		E2A445AB1F82BE2200A829FC /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = "../../../Neodius/Supporting Files/LocalizedData/fr.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		E2A445AC1F8398DC00A829FC /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = "../../../Neodius/Supporting Files/LocalizedData/es.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		E2A445AD1F8398E700A829FC /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "../../../Neodius/Supporting Files/LocalizedData/zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
@@ -511,6 +512,7 @@
 				"zh-Hant",
 				"nl-BE",
 				"fr-CA",
+				sv,
 			);
 			mainGroup = E2C209FA1F6D094500C2F8AB;
 			productRefGroup = E2C20A041F6D094500C2F8AB /* Products */;
@@ -693,6 +695,7 @@
 				E2A445B21F8522E700A829FC /* zh-Hant */,
 				E2A445B31F85896900A829FC /* nl-BE */,
 				E2A445B41F85897700A829FC /* fr-CA */,
+				E29EB73D1F8BBC7100324839 /* sv */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
