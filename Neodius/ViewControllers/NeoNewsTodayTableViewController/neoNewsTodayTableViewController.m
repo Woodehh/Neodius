@@ -100,10 +100,14 @@
     }
     
     //set image
-    [cell.headerImage pin_setImageFromURL:[NSURL URLWithString:imageUrl]];
+    cell.headerImage.showActivityIndicator = YES;
+    cell.headerImage.activityIndicatorColor = neoGreenColor;
+    cell.headerImage.activityIndicatorStyle = UIActivityIndicatorViewStyleWhiteLarge;
+    cell.headerImage.imageURL = [NSURL URLWithString:imageUrl];
     
     //set title label
     cell.titleLabel.text = [[p objectForKey:@"title"] objectForKey:@"text"];
+    //ScrollableGraphView* x = [[ScrollableGraphView alloc] init];
     
     //set the date and category
     NSDateFormatter *df = [[NSDateFormatter alloc] init];
