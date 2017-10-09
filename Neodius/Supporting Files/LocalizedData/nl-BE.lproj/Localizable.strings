@@ -24,7 +24,7 @@
 "7 Days" = "7 dagen";
 
 /*Translator: enter your information for credits! In English please. Like this: Dutch is translated by Benjamin de Bos (info@its-vision.nl). E-mail is not required!*/
-"<Language> is translated by: <your (nick) name> (<e-mail>)" = "Flemish is translated by ManicPreacher";
+"<Language> is translated by: <your (nick) name> (<e-mail>)" = "Flemish is translated by: ManicPreacher";
 
 /*Prefilled Email message text*/
 "<p>[Please insert your message here]</p><p><em>For support inquiries, please include the following information. These make it easier for me to help you. Thank you!</em><p><hr><p><strong>Support Information</strong></p></p>%@ Version %@ (%@)<br>%@ (%@)<br>iOS %@ (%@)</p><hr>" = "\n <p>[Uw bericht hier]</p><p><em>Voor support, gelieve volgende informatie toe te voegen. Deze maken het makkelijker om te helpen. Bedankt!</em><p><hr><p><strong>Support informatie</strong></p></p>%@ Versie%@ (%@)<br>%@ (%@)<br>iOS %@ (%@)</p><hr>";
@@ -177,9 +177,6 @@
 "Links" = "Links";
 
 /*No comment provided by engineer.*/
-"Loading article" = "Artikel laden";
-
-/*No comment provided by engineer.*/
 "Loading transaction" = "Transactie laden";
 
 /*No comment provided by engineer.*/
@@ -196,9 +193,6 @@
 
 /*No comment provided by engineer.*/
 "N1njaWTF Tip jar" = "N1njaWTF  Tip";
-
-/*No comment provided by engineer.*/
-"NEO News" = "NEO Nieuws";
 
 /*No comment provided by engineer.*/
 "No Connection" = "Geen verbinding";
@@ -277,9 +271,6 @@
 
 /*No comment provided by engineer.*/
 "Tap the icon on the right upper side to enter the NEO amount to calculate!" = "Klik op het icoon in de rechterbovenhoek om de hoeveelheid NEO in te geven";
-
-/*No comment provided by engineer.*/
-"Tap to read on" = "tap om meer te bekijken";
 
 /*No comment provided by engineer.*/
 "Theoretical" = "Theoretisch";
@@ -373,3 +364,12 @@
 
 /*Sending email message failed body*/
 "Your email has failed to send." = "Uw email kon niet verzonden worden";
+
+/*No comment provided by engineer.*/
+"Loading article" = "Artikel laden";
+
+/*No comment provided by engineer.*/
+"NEO News" = "NEO Nieuws";
+
+/*No comment provided by engineer.*/
+"Tap to read on" = "tap om meer te bekijken";
