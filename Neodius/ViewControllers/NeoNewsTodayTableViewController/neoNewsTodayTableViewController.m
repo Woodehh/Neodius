@@ -99,7 +99,8 @@
         imageUrl = @"empty";
     }
     
-    cell.headerImage.imageURL = [NSURL URLWithString:imageUrl];
+    //set image
+    [cell.headerImage pin_setImageFromURL:[NSURL URLWithString:imageUrl]];
     
     //set title label
     cell.titleLabel.text = [[p objectForKey:@"title"] objectForKey:@"text"];
