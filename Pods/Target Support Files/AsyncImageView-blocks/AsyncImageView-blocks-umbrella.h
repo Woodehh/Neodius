@@ -10,6 +10,8 @@
 #endif
 #endif
 
-#ifndef TARGET_OS_WATCH
-  #define TARGET_OS_WATCH 0
-#endif
+#import "AsyncImageView.h"
+
+FOUNDATION_EXPORT double AsyncImageView_blocksVersionNumber;
+FOUNDATION_EXPORT const unsigned char AsyncImageView_blocksVersionString[];
+

@@ -26,16 +26,16 @@ target 'Neodius' do
   pod "MSSimpleGauge"
   pod "QRCodeReaderViewController"
   pod "BDGShare"
-  pod "AsyncImageView"
   pod "XMLReader"
   pod "KXHtmlLabel"
   pod "Regexer"
   pod "AsyncImageView"
   pod "EXPhotoViewer"
   pod "GSLanguagePickerController"
-  pod "PINRemoteImage"
-  pod 'Fabric'
-  pod 'Crashlytics'
+  pod "AsyncImageView"
+  pod "Fabric"
+  pod "Crashlytics"
+
   
 
 
