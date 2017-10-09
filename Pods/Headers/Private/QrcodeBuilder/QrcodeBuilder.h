@@ -1,1 +1,0 @@
-../../../QrcodeBuilder/QrcodeBuilder/Classes/QrcodeBuilder.h

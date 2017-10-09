@@ -87,6 +87,61 @@ strip_invalid_archs() {
   fi
 }
 
+
+if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "$BUILT_PRODUCTS_DIR/AFNetworking/AFNetworking.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/APParallaxHeader/APParallaxHeader.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/AsyncImageView/AsyncImageView.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/BDGShare/BDGShare.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/CWStatusBarNotification/CWStatusBarNotification.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/EXPhotoViewer/EXPhotoViewer.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/FontAwesome4-ios/FontAwesome4_ios.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/GSLanguagePickerController/GSLanguagePickerController.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/KLCPopup/KLCPopup.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/KXHtmlLabel/KXHtmlLabel.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/LTHPasscodeViewController/LTHPasscodeViewController.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/MBProgressHUD/MBProgressHUD.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/MSSimpleGauge/MSSimpleGauge.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/QRCodeReaderViewController/QRCodeReaderViewController.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/QrcodeBuilder/QrcodeBuilder.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/RFAboutView/RFAboutView.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/Reachability/Reachability.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/Regexer/Regexer.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/SGNavigationProgress/SGNavigationProgress.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/SimpleKeychain/SimpleKeychain.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/UIAlertView+Blocks/UIAlertView_Blocks.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/UIWebView-Blocks/UIWebView_Blocks.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/ViewDeck/ViewDeck.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/XMLReader/XMLReader.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/YCFirstTime/YCFirstTime.framework"
+fi
+if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "$BUILT_PRODUCTS_DIR/AFNetworking/AFNetworking.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/APParallaxHeader/APParallaxHeader.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/AsyncImageView/AsyncImageView.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/BDGShare/BDGShare.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/CWStatusBarNotification/CWStatusBarNotification.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/EXPhotoViewer/EXPhotoViewer.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/FontAwesome4-ios/FontAwesome4_ios.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/GSLanguagePickerController/GSLanguagePickerController.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/KLCPopup/KLCPopup.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/KXHtmlLabel/KXHtmlLabel.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/LTHPasscodeViewController/LTHPasscodeViewController.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/MBProgressHUD/MBProgressHUD.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/MSSimpleGauge/MSSimpleGauge.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/QRCodeReaderViewController/QRCodeReaderViewController.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/QrcodeBuilder/QrcodeBuilder.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/RFAboutView/RFAboutView.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/Reachability/Reachability.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/Regexer/Regexer.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/SGNavigationProgress/SGNavigationProgress.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/SimpleKeychain/SimpleKeychain.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/UIAlertView+Blocks/UIAlertView_Blocks.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/UIWebView-Blocks/UIWebView_Blocks.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/ViewDeck/ViewDeck.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/XMLReader/XMLReader.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/YCFirstTime/YCFirstTime.framework"
+fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait
 fi

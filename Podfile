@@ -2,10 +2,13 @@ project 'Neodius.xcodeproj'
 platform :ios, '8.0'
 target 'Neodius' do
 
+  use_frameworks!
+  pod 'Fabric'
+  pod 'Crashlytics'
+
   #Git pods
   pod "FontAwesome4-ios", :git => 'https://github.com/ITSVision/FontAwesome4-ios.git'
   pod "RFAboutView", :git => 'https://github.com/ITSVision/RFAboutView.git'
-  pod "GSLanguagePickerController"#, :path=>'~/Dropbox/LocalDevelopment/GSLanguagePickerController'
   
   #Real pods
   pod "ViewDeck"
@@ -30,8 +33,8 @@ target 'Neodius' do
   pod "KXHtmlLabel"
   pod "Regexer"
   pod "AsyncImageView"
-  pod "UIImageViewAligned"
   pod "EXPhotoViewer"
+  pod "GSLanguagePickerController"
   
   post_install do |installer|
     require 'fileutils'

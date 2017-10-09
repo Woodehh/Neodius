@@ -1,0 +1,6 @@
+framework module GSLanguagePickerController {
+  umbrella header "GSLanguagePickerController-umbrella.h"
+
+  export *
+  module * { export * }
+}

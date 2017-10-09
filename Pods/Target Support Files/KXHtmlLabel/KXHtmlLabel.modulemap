@@ -1,0 +1,6 @@
+framework module KXHtmlLabel {
+  umbrella header "KXHtmlLabel-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module EXPhotoViewer {
+  umbrella header "EXPhotoViewer-umbrella.h"
+
+  export *
+  module * { export * }
+}
