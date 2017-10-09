@@ -9,6 +9,9 @@
 #import "menuTableViewController.h"
 #import "walletViewTableViewController.h"
 #import "NeodiusDataSource.h"
+#import <Fabric/Fabric.h>
+#import <Crashlytics/Crashlytics.h>
+
 
 @implementation AppDelegate
 @synthesize window = _window;
@@ -54,8 +57,9 @@
                                                                  andLogoutTitle:nil];
         }
     }
-    
-    
+
+    //Launch fabric for crash reporting
+    [Fabric with:@[[Crashlytics class]]];
     
     return YES;
 }

@@ -7,9 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <FontAwesome4-ios/FontAwesome4-ios.h>
-#import <UIAlertView+Blocks/UIAlertView+Blocks.h>
 #import <QRCodeReaderViewController/QRCodeReaderViewController.h>
+#import "FontAwesome4-ios.h"
+#import "UIAlertView+Blocks.h"
 #import "NeodiusDataSource.h"
 #import "neodiusUIComponents.h"
 

@@ -8,13 +8,12 @@
 
 #import <UIKit/UIKit.h>
 #import <ViewDeck/ViewDeck.h>
-#import <FontAwesome4-ios/FontAwesome4-ios.h>
 #import <AFNetworking/AFNetworking.h>
 #import <MSSimpleGauge/MSAnnotatedGauge.h>
-#import <FontAwesome4-ios/FontAwesome4-ios.h>
 #import <CWStatusBarNotification/CWStatusBarNotification.h>
 #import <Reachability/Reachability.h>
 #import <SGNavigationProgress/UINavigationController+SGProgress.h>
+#import "FontAwesome4-ios.h"
 #import "NeodiusDataSource.h"
 #import "marketViewCustomTableViewCell.h"
 

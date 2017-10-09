@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import <ViewDeck/ViewDeck.h>
-#import <FontAwesome4-ios/FontAwesome4-ios.h>
+#import "FontAwesome4-ios.h"
 #import "NeodiusDataSource.h"
 
 @interface selectionSettingsTableViewController : UITableViewController {

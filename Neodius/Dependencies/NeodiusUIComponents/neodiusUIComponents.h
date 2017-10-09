@@ -11,7 +11,7 @@
 #import <QRCodeReaderViewController/QRCodeReaderViewController.h>
 #import <KLCPopup/KLCPopup.h>
 #import <QrcodeBuilder/QrcodeBuilder.h>
-#import <CWStatusBarNotification/CWStatusBarNotification.h>
+#import "CWStatusBarNotification.h"
 #import <BDGShare/BDGShare.h>
 #import "NEOButton.h"
 #import "neodiusDataSource.h"

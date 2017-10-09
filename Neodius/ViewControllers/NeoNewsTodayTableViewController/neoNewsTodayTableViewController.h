@@ -11,12 +11,11 @@
 #import <AFNetworking/AFNetworking.h>
 #import <XMLReader/XMLReader.h>
 #import <ViewDeck/ViewDeck.h>
-#import "neoNewsTodayTableViewCell.h"
 #import <KXHtmlLabel/KXHtmlLabel.h>
 #import <Regexer/Regexer.h>
-#import "neodiusUIComponents.h"
 #import <AsyncImageView/AsyncImageView.h>
-#import <UIWebView-Blocks/UIWebView+Blocks.h>
+#import "UIWebView+Blocks.h"
+#import "neodiusUIComponents.h"
 
 @interface neoNewsTodayTableViewController : UITableViewController {
     AFHTTPSessionManager *networkManager;

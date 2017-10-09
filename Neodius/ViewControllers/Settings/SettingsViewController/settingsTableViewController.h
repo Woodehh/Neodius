@@ -8,10 +8,10 @@
 
 #import <UIKit/UIKit.h>
 #import <ViewDeck/ViewDeck.h>
-#import <FontAwesome4-ios/FontAwesome4-ios.h>
 #import <LTHPasscodeViewController/LTHPasscodeViewController.h>
 #import <LocalAuthentication/LocalAuthentication.h>
 #import <GSLanguagePickerController/GSLanguagePickerController.h>
+#import "FontAwesome4-ios.h"
 #import "NeodiusDataSource.h"
 
 @interface settingsTableViewController : UITableViewController {

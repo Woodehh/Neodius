@@ -7,9 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <FontAwesome4-ios/FontAwesome4-ios.h>
-#import <RFAboutView/RFAboutViewController.h>
 #import <ViewDeck/ViewDeck.h>
+#import <RFAboutView/RFAboutViewController.h>
+#import "FontAwesome4-ios.h"
 #import "neodiusUIComponents.h"
 
 @interface menuTableViewController : UITableViewController  {
