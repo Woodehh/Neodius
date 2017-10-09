@@ -1,1 +1,375 @@
-// Empty English Localization
+
+/*Acknowlegdments header title*/
+"%@ makes use of the following third party libraries. Many thanks to the developers making them available!" = "%@ använder följande tredje-parts bibliotek. Stort tack till alla utvecklare som gör dessa tillgängliga!";
+
+/*No comment provided by engineer.*/
+"%@ Market information" = "%@ Marknadsinformation";
+
+/*No comment provided by engineer.*/
+"1 Hour" = "1 Timme";
+
+/*No comment provided by engineer.*/
+"24 Hour trading" = "24 Timmars byteshandel";
+
+/*No comment provided by engineer.*/
+"24 Hours" = "24 Timmar";
+
+/*No comment provided by engineer.*/
+"24h high" = "24h högsta";
+
+/*No comment provided by engineer.*/
+"24h low" = "24h lägsta";
+
+/*No comment provided by engineer.*/
+"7 Days" = "7 Dagar";
+
+/*Translator: enter your information for credits! In English please. Like this: Dutch is translated by Benjamin de Bos (info@its-vision.nl). E-mail is not required!*/
+"<Language> is translated by: <your (nick) name> (<e-mail>)" = "Swedish is translated by: Kryptokenne (kryptokenne@kryptoteket.se)";
+
+/*Prefilled Email message text*/
+"<p>[Please insert your message here]</p><p><em>For support inquiries, please include the following information. These make it easier for me to help you. Thank you!</em><p><hr><p><strong>Support Information</strong></p></p>%@ Version %@ (%@)<br>%@ (%@)<br>iOS %@ (%@)</p><hr>" = "<p>[Vad god och skriv ditt meddelande här]</p><p><em>För frågor till support, vad god och inkludera följande information. Detta underlättar så jag enklare kan hjälpa dig. Tack så mycket!</em><p><hr><p><strong>Support Information</strong></p></p>%@ Version %@ (%@)<br>%@ (%@)<br>iOS %@ (%@)</p><hr>";
+
+/*UINavigationBar Title*/
+"About" = "Om Oss";
+
+/*No comment provided by engineer.*/
+"Actual" = "Faktisk";
+
+/*No comment provided by engineer.*/
+"Add wallet" = "Lägg till plånbok";
+
+/*No comment provided by engineer.*/
+"Address copied to clipboard" = "Adress kopierad till clipboard";
+
+/*No comment provided by engineer.*/
+"Address input" = "Adress-inmatning";
+
+/*No comment provided by engineer.*/
+"Are you sure?" = "Är du säker?";
+
+/*No comment provided by engineer.*/
+"Ask price" = "Säljkurs";
+
+/*No comment provided by engineer.*/
+"Base crypto currency" = "Bas kryptovaluta";
+
+/*No comment provided by engineer.*/
+"Base fiat currency" = "Bas fiatvaluta";
+
+/*No comment provided by engineer.*/
+"Bid price" = "Köpkurs";
+
+/*No comment provided by engineer.*/
+"Block generation time: %.1fs" = "Block genereringstid: %.1fs";
+
+/*No comment provided by engineer.*/
+"By entering an address" = "Genom att fylla i en adress";
+
+/*No comment provided by engineer.*/
+"By entering an amount of NEO" = "Genom att fylla i antal NEO";
+
+/*No comment provided by engineer.*/
+"By QR-Code" = "Med QR-kod";
+
+/*No comment provided by engineer.*/
+"By selecting a wallet" = "Genom att välja en plånbok";
+
+/*No comment provided by engineer.*/
+"Calculating GAS" = "Beräknar GAS";
+
+/*No comment provided by engineer.*/
+"Calculating GAS for: %@ NEO" = "Beräknar GAS för: %@ NEO";
+
+/*Cancel*/
+"Cancel" = "Avbryt";
+
+/*Cannot send Email*/
+"Cannot send Email" = "Kan ej sända E-post";
+
+/*No comment provided by engineer.*/
+"Cellular" = "Mobil";
+
+/*No comment provided by engineer.*/
+"Changes" = "Ändringar";
+
+/*No comment provided by engineer.*/
+"Cheers thanks!" = "Tack så mycket!";
+
+/*No comment provided by engineer.*/
+"Connecting to the blockchain" = "Ansluter till blockkedjan";
+
+/*No comment provided by engineer.*/
+"Connection status messages" = "Uppkopplingsstatus meddelanden";
+
+/*No comment provided by engineer.*/
+"Contact us" = "Kontakta oss";
+
+/*No comment provided by engineer.*/
+"Copy address" = "Kopiera adress";
+
+/*Copy diagnostic info to pasteboard*/
+"Copy Info" = "Kopiera information";
+
+/*No comment provided by engineer.*/
+"Currency" = "Valuta";
+
+/*No comment provided by engineer.*/
+"Current bid/ask price" = "Nuvarande köp/säljkurs";
+
+/*No comment provided by engineer.*/
+"Current market values" = "Nuvarande marknadsvärden";
+
+/*No comment provided by engineer.*/
+"Current wallets" = "Nuvarande plånböcker";
+
+/*Dismiss error message*/
+"Dismiss" = "Avfärda";
+
+/*No comment provided by engineer.*/
+"Dividend" = "Utdelning";
+
+/*No comment provided by engineer.*/
+"Donate %@" = "Donera %@";
+
+/*No comment provided by engineer.*/
+"Edit wallet" = "Redigera plånbok";
+
+/*No comment provided by engineer.*/
+"Enter a name" = "Fyll i ett namn";
+
+/*No comment provided by engineer.*/
+"Enter a name and the address" = "Fyll i ett namn och adressen";
+
+/*No comment provided by engineer.*/
+"Enter NEO Amount" = "Fyll i antal NEO";
+
+/*No comment provided by engineer.*/
+"Enter the address" = "Fyll i adressen";
+
+/*No comment provided by engineer.*/
+"Feel free to send some %@ in order to make support the Neodius development! :-)" = "Välkomna att skicka några %@ för att stödja utvecklingen av Neodius! :-)";
+
+/*No comment provided by engineer.*/
+"GAS Calculation" = "GAS-beräkning";
+
+/*No comment provided by engineer.*/
+"GAS Calculation has been brought to life by N1njaWTF of NeoToGas.com. Neodius' encourages you to tip some NEO/GAS to N1njaWTF for his awesome work!" = "GAS-beräkning har skapats av N1njaWTF från NeoToGas.com. Neodius' uppmuntrar NEO/GAS donationer till N1njaWTF för hans fantastiska arbete!";
+
+/*No comment provided by engineer.*/
+"General" = "Allmänt";
+
+/*No comment provided by engineer.*/
+"Get block %@" = "Hämta block %@";
+
+/*No comment provided by engineer.*/
+"Getting best node" = "Erhåller bästa noden";
+
+/*No comment provided by engineer.*/
+"Getting last block" = "Erhåller senaste blocket";
+
+/*No comment provided by engineer.*/
+"Hey there!" = "Hej där!";
+
+/*No comment provided by engineer.*/
+"Language" = "Språk";
+
+/*No comment provided by engineer.*/
+"Links" = "Länkar";
+
+/*No comment provided by engineer.*/
+"Loading transaction" = "Läser in transaktion";
+
+/*No comment provided by engineer.*/
+"Market Cap" = "Marknadslock";
+
+/*Sending email message failed*/
+"Message Failed!" = "Meddelandet misslyckades!";
+
+/*No comment provided by engineer.*/
+"minute" = "minut";
+
+/*No comment provided by engineer.*/
+"minutes" = "minuter";
+
+/*No comment provided by engineer.*/
+"N1njaWTF Tip jar" = "N1njaWTF Donations-skål";
+
+/*No comment provided by engineer.*/
+"No Connection" = "Ingen Anslutning";
+
+/*No comment provided by engineer.*/
+"No network we'll inform you when it's back!" = "Inget nätverk, vi informerar dig när det är tillbaka!";
+
+/*No comment provided by engineer.*/
+"No transactions found" = "Inga transaktioner funna";
+
+/*No comment provided by engineer.*/
+"Oh yes, internet is back!" = "Nice, internet är tillbaka!";
+
+/*No comment provided by engineer.*/
+"Okay" = "Okej";
+
+/*No comment provided by engineer.*/
+"Per day" = "Per dag";
+
+/*No comment provided by engineer.*/
+"Per month" = "Per månad";
+
+/*No comment provided by engineer.*/
+"Per week" = "Per vecka";
+
+/*No comment provided by engineer.*/
+"Per year" = "Per år";
+
+/*No comment provided by engineer.*/
+"Pick a method" = "Välj en metod";
+
+/*No comment provided by engineer.*/
+"Quick address lookup" = "Snabbt adressuppslag";
+
+/*No comment provided by engineer.*/
+"Rank" = "Ranking";
+
+/*No comment provided by engineer.*/
+"Receiving NEO Amount from wallet" = "Tar emot NEO Antal från plånbok";
+
+/*No comment provided by engineer.*/
+"Refresh interval" = "Uppdatera intervall";
+
+/*No comment provided by engineer.*/
+"Refresh timer" = "Uppdatera timer";
+
+/*No comment provided by engineer.*/
+"second" = "sekund";
+
+/*No comment provided by engineer.*/
+"seconds" = "sekunder";
+
+/*No comment provided by engineer.*/
+"Secure app with passcode" = "Säkra appen med lösenkod";
+
+/*No comment provided by engineer.*/
+"Security" = "Säkerhet";
+
+/*No comment provided by engineer.*/
+"Select crypto currency" = "Välj kryptovaluta";
+
+/*No comment provided by engineer.*/
+"Select currency" = "Välj valuta";
+
+/*No comment provided by engineer.*/
+"Select interval" = "Välj intervall";
+
+/*No comment provided by engineer.*/
+"Select wallet" = "Välj plånbok";
+
+/*No comment provided by engineer.*/
+"Settings" = "Inställningar";
+
+/*No comment provided by engineer.*/
+"Share address" = "Dela adress";
+
+/*No comment provided by engineer.*/
+"Tap the icon on the right upper side to enter the NEO amount to calculate!" = "Tryck på ikonen uppe i högra hörnet för att fylla i antalet NEO att beräkna!";
+
+/*No comment provided by engineer.*/
+"Theoretical" = "Teoretiskt";
+
+/*No comment provided by engineer.*/
+"This is the NEO address. Feel free to transfer some NEO or GAS! :)" = "Detta är NEO-adressen. Välkomna till att föra över lite NEO eller GAS! :-)";
+
+/*No comment provided by engineer.*/
+"Time" = "Tid";
+
+/*No comment provided by engineer.*/
+"Tip jar" = "Donations-skål";
+
+/*No comment provided by engineer.*/
+"Tip N1njaWTF" = "Donera till N1njaWTF";
+
+/*No comment provided by engineer.*/
+"Tip N1njaWTF of NeoToGas.com some GAS or NEO! :-)" = "Donera lite GAS eller NEO till N1njaWTF från NeoToGas.com! :-)";
+
+/*No comment provided by engineer.*/
+"Tools" = "Verktyg";
+
+/*No comment provided by engineer.*/
+"TouchID" = "TouchID";
+
+/*No comment provided by engineer.*/
+"TouchID (not available)" = "TouchID (inte tillgängligt)";
+
+/*No comment provided by engineer.*/
+"Transactions" = "Transaktioner";
+
+/*No comment provided by engineer.*/
+"Unclaimed GAS" = "Outtagna GAS";
+
+/*Error message: no email accounts available*/
+"Unfortunately there are no Email accounts available on your device.\n\nFor support questions, please send an Email to %@ and include the following information: %@.\n\nTab the 'Copy info' button to copy this information to your pasteboard. Thank you!" = "Tyvärr finns det inga E-postkonton tillgängliga för din enhet.\n\nFör frågor till support, skicka gärna ett e-postmeddelande till %@ och inkludera följande information:\n\nTryck på knappen 'Kopiera information' för att kopiera den här informationen. Tack så mycket!";
+
+/*No comment provided by engineer.*/
+"Use MainNet blockchain" = "Använd MainNet's blockkedja";
+
+/*No comment provided by engineer.*/
+"Use TouchID to unlock Neodius" = "Använd TouchID för att låsa upp Neodius";
+
+/*No comment provided by engineer.*/
+"View transaction" = "Se transaktion";
+
+/*No comment provided by engineer.*/
+"Visit GAS on Poloniex" = "Visa GAS på Poloniex";
+
+/*No comment provided by engineer.*/
+"Visit NEO on Bittrex" = "Visa NEO på Bittrex";
+
+/*No comment provided by engineer.*/
+"Visit NEO.org" = "Besök NEO.org";
+
+/*No comment provided by engineer.*/
+"Visit NeoToGas.com" = "Besök NeoToGas.com";
+
+/*No comment provided by engineer.*/
+"Visual and messages" = "Visuell och meddelanden";
+
+/*No comment provided by engineer.*/
+"Volume" = "Volym";
+
+/*No comment provided by engineer.*/
+"Wallet address" = "Plånboks-adress";
+
+/*No comment provided by engineer.*/
+"Wallet management" = "Hantera plånbok";
+
+/*No comment provided by engineer.*/
+"Wallet refresh interval" = "Uppdateringsintervall plånbok";
+
+/*No comment provided by engineer.*/
+"Wallets" = "Plånböcker";
+
+/*No comment provided by engineer.*/
+"Welcome to Neodius, we aim to make the NEO blockchain more accessible to everybody.\n\nTo use this app, get your wallet address and add this to Neodius. You can do that by tapping the menu button on the left top side and tap Add Wallet.\n\nDon't forget to give feedback through the about screen!" = "Välkommen till Neodius. Vårt mål är att göra NEO's blockkedja mer tillgänglig för alla.\n\nFör att använda denna app ska du ta reda på din plånboks-adress och lägga till den i Neodius. Du kan göra det genom att trycka på menyknappen uppe i det vänstra hörnet och sedan välja Lägg till Plånbok.\n\nGlöm inte att ge feedback via 'om oss' sidan!";
+
+/*No comment provided by engineer.*/
+"What source would you like to have for the GAS Calculation?" = "Vilken källa skulle du vilja ha för GAS-beräkningen?";
+
+/*No comment provided by engineer.*/
+"WiFi" = "WiFi";
+
+/*No comment provided by engineer.*/
+"Yes" = "Ja";
+
+/*No comment provided by engineer.*/
+"You're about to remove %@. Are you sure?" = "Du är på väg att ta bort %@. Är du säker?";
+
+/*Sending email message failed body*/
+"Your email has failed to send." = "Ditt e-postmeddelande kunde inte sändas";
+
+/*No comment provided by engineer.*/
+"Loading article" = "Läser in artikel";
+
+/*No comment provided by engineer.*/
+"NEO News" = "NEO Nyheter";
+
+/*No comment provided by engineer.*/
+"Tap to read on" = "Tryck för att läsa vidare";
