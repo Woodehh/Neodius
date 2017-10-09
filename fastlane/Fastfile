@@ -22,8 +22,8 @@ platform :ios do
 
 	desc "Deploying screenshots"
 	lane :buildscreenshots do
-		#snapshot
-		sh "../_helper-scripts/_screenshot-builder.sh"
+		snapshot
+		#sh "../_helper-scripts/_screenshot-builder.sh"
 	end
 	
 end

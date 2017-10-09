@@ -3,17 +3,21 @@
 # A list of devices you want to take the screenshots from
  devices([
    "iPhone 8 Plus",
-   "iPad Pro (12.9-inch) (2nd generation)"
+   "iPad Pro (12.9-inch) (2nd generation)",
+   "iPhone X"
  ])
 
 languages([
 	"nl-NL",
-	"en-EN",
-	"fr-FR",
-	"nl-BE",
-	"fr-CA",
 	"de-DE",
+	"en-GB",
 	"es-ES",
+	"fr-CA",
+	"fr-FR",
+	"ja-JA",
+	"nl-BE",
+	"nl-NL",
+	"sv-SV",
 	"zh-Hans",
 	"zh-Hant"
 ])
