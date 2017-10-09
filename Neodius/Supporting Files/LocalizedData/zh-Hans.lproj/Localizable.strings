@@ -24,7 +24,7 @@
 "7 Days" = "7天";
 
 /*Translator: enter your information for credits! In English please. Like this: Dutch is translated by Benjamin de Bos (info@its-vision.nl). E-mail is not required!*/
-"<Language> is translated by: <your (nick) name> (<e-mail>)" = "Chinese (Simplified) is translated by Yenct";
+"<Language> is translated by: <your (nick) name> (<e-mail>)" = "Chinese (Simplified) is translated by: Yenct15";
 
 /*Prefilled Email message text*/
 "<p>[Please insert your message here]</p><p><em>For support inquiries, please include the following information. These make it easier for me to help you. Thank you!</em><p><hr><p><strong>Support Information</strong></p></p>%@ Version %@ (%@)<br>%@ (%@)<br>iOS %@ (%@)</p><hr>" = "<p>[请在此处添写您的信息]</p><p><em>后台技术查询请提供，以下信息使我更容易帮助你。谢谢！</em><p><hr><p><strong>支持信息</ strong></p></p>%@版本%@（%@)<br> iOS %@（%@）</p><hr>";
@@ -177,9 +177,6 @@
 "Links" = "链接";
 
 /*No comment provided by engineer.*/
-"Loading article" = "载入文章";
-
-/*No comment provided by engineer.*/
 "Loading transaction" = "加载交易";
 
 /*No comment provided by engineer.*/
@@ -196,9 +193,6 @@
 
 /*No comment provided by engineer.*/
 "N1njaWTF Tip jar" = "N1njaWTF小费罐";
-
-/*No comment provided by engineer.*/
-"NEO News" = "最新消息";
 
 /*No comment provided by engineer.*/
 "No Connection" = "无连接";
@@ -277,9 +271,6 @@
 
 /*No comment provided by engineer.*/
 "Tap the icon on the right upper side to enter the NEO amount to calculate!" = "点击右上角的图标并输入NEO金额即可计算！";
-
-/*No comment provided by engineer.*/
-"Tap to read on" = "点击阅读";
 
 /*No comment provided by engineer.*/
 "Theoretical" = "理论";
@@ -373,3 +364,12 @@
 
 /*Sending email message failed body*/
 "Your email has failed to send." = "您的电子邮件无法发送。";
+
+/*No comment provided by engineer.*/
+"Loading article" = "载入文章";
+
+/*No comment provided by engineer.*/
+"NEO News" = "最新消息";
+
+/*No comment provided by engineer.*/
+"Tap to read on" = "点击阅读";
