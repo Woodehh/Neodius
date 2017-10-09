@@ -7,6 +7,7 @@
 //
 
 #import "neoNewsTodayTableViewController.h"
+#import "neoNewsTodayTableViewCell.h"
 
 @implementation neoNewsTodayTableViewController
 
@@ -28,7 +29,7 @@
     self.tableView.refreshControl = self.refreshControl;
     [self.refreshControl addTarget:self action:@selector(loadRss) forControlEvents:UIControlEventValueChanged];
     [self loadRss];
-    self.title = @"NeoNewsToday.com";
+    self.title = @"NEONewsToday.com";
 }
 
 -(void)loadRss {
@@ -115,7 +116,6 @@
     NSString *category;
     if ([cats isKindOfClass:[NSArray class]]) {
         category = [[[p objectForKey:@"category"] objectAtIndex:0] objectForKey:@"text"];
-        //[category stringByAppendingFormat:@", %@",[[[p objectForKey:@"category"] objectAtIndex:1] objectForKey:@"text"]];
     } else if ([cats isKindOfClass:[NSDictionary class]]) {
         category = [[p objectForKey:@"category"] objectForKey:@"text"];
     }
