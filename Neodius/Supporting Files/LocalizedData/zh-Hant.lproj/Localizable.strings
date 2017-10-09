@@ -177,6 +177,9 @@
 "Links" = "鏈接";
 
 /*No comment provided by engineer.*/
+"Loading article" = "載入文章";
+
+/*No comment provided by engineer.*/
 "Loading transaction" = "加載交易";
 
 /*No comment provided by engineer.*/
@@ -193,6 +196,9 @@
 
 /*No comment provided by engineer.*/
 "N1njaWTF Tip jar" = "N1njaWTF小費罐";
+
+/*No comment provided by engineer.*/
+"NEO News" = "NEO新手";
 
 /*No comment provided by engineer.*/
 "No Connection" = "無連接";
@@ -271,6 +277,9 @@
 
 /*No comment provided by engineer.*/
 "Tap the icon on the right upper side to enter the NEO amount to calculate!" = "點擊右上角的圖標並輸入NEO金額即可計算！";
+
+/*No comment provided by engineer.*/
+"Tap to read on" = "點擊閱讀";
 
 /*No comment provided by engineer.*/
 "Theoretical" = "理論";
@@ -364,12 +373,3 @@
 
 /*Sending email message failed body*/
 "Your email has failed to send." = "您的電子郵件無法發送。";
-
-/*No comment provided by engineer.*/
-"Loading article" = "載入文章";
-
-/*No comment provided by engineer.*/
-"NEO News" = "NEO新手";
-
-/*No comment provided by engineer.*/
-"Tap to read on" = "點擊閱讀";

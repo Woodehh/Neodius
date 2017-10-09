@@ -177,6 +177,9 @@
 "Links" = "Links";
 
 /*No comment provided by engineer.*/
+"Loading article" = "Artikel laden";
+
+/*No comment provided by engineer.*/
 "Loading transaction" = "Transactie laden";
 
 /*No comment provided by engineer.*/
@@ -193,6 +196,9 @@
 
 /*No comment provided by engineer.*/
 "N1njaWTF Tip jar" = "N1njaWTF fooienpot";
+
+/*No comment provided by engineer.*/
+"NEO News" = "NEO Nieuws";
 
 /*No comment provided by engineer.*/
 "No Connection" = "No Connection";
@@ -271,6 +277,9 @@
 
 /*No comment provided by engineer.*/
 "Tap the icon on the right upper side to enter the NEO amount to calculate!" = "Tap op het icoon rechtsbovenin om het NEO aantal op te geven voor de berekening!";
+
+/*No comment provided by engineer.*/
+"Tap to read on" = "Tap om meer te lezen";
 
 /*No comment provided by engineer.*/
 "Theoretical" = "Theoretisch";
@@ -364,12 +373,3 @@
 
 /*Sending email message failed body*/
 "Your email has failed to send." = "Je e-mail is niet verzonden!!";
-
-/*No comment provided by engineer.*/
-"Loading article" = "Artikel laden";
-
-/*No comment provided by engineer.*/
-"NEO News" = "NEO Nieuws";
-
-/*No comment provided by engineer.*/
-"Tap to read on" = "Tap om meer te lezen";
