@@ -24,7 +24,7 @@
 "7 Days" = "7 Jours";
 
 /*Translator: enter your information for credits! In English please. Like this: Dutch is translated by Benjamin de Bos (info@its-vision.nl). E-mail is not required!*/
-"<Language> is translated by: <your (nick) name> (<e-mail>)" = "French is translated by Mati14";
+"<Language> is translated by: <your (nick) name> (<e-mail>)" = "French is translated by: Mati14";
 
 /*Prefilled Email message text*/
 "<p>[Please insert your message here]</p><p><em>For support inquiries, please include the following information. These make it easier for me to help you. Thank you!</em><p><hr><p><strong>Support Information</strong></p></p>%@ Version %@ (%@)<br>%@ (%@)<br>iOS %@ (%@)</p><hr>" = "<p>[Veuillez écrire votre message ici]</p><p><em>Pour toute demande d'aide, veuillez inclure les informations suivantes. Elles nous permettrons de vous aider plus facilement. Merci !</em><p><hr><p><strong>Informations support</strong></p></p>%@ Version %@ (%@)<br>%@ (%@)<br>iOS %@ (%@)</p><hr>";
@@ -177,9 +177,6 @@
 "Links" = "Liens";
 
 /*No comment provided by engineer.*/
-"Loading article" = "Chargement de l'article";
-
-/*No comment provided by engineer.*/
 "Loading transaction" = "Chargement de la transaction";
 
 /*No comment provided by engineer.*/
@@ -196,9 +193,6 @@
 
 /*No comment provided by engineer.*/
 "N1njaWTF Tip jar" = "N1njaWTF pot de pointe";
-
-/*No comment provided by engineer.*/
-"NEO News" = "NEO Nouvelles";
 
 /*No comment provided by engineer.*/
 "No Connection" = "Pas de connexion";
@@ -277,9 +271,6 @@
 
 /*No comment provided by engineer.*/
 "Tap the icon on the right upper side to enter the NEO amount to calculate!" = "Touchez l'icone en haut à droite pour choisir le nombre de NEO à calculer";
-
-/*No comment provided by engineer.*/
-"Tap to read on" = "Appuyez pour lire la suite";
 
 /*No comment provided by engineer.*/
 "Theoretical" = "En théorie";
@@ -373,3 +364,12 @@
 
 /*Sending email message failed body*/
 "Your email has failed to send." = "Votre email n'a pas pu être envoyé.";
+
+/*No comment provided by engineer.*/
+"Loading article" = "Chargement de l'article";
+
+/*No comment provided by engineer.*/
+"NEO News" = "NEO Nouvelles";
+
+/*No comment provided by engineer.*/
+"Tap to read on" = "Appuyez pour lire la suite";
