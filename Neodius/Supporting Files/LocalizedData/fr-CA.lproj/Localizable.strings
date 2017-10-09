@@ -177,9 +177,6 @@
 "Links" = "Liens";
 
 /*No comment provided by engineer.*/
-"Loading article" = "Chargement de l'article";
-
-/*No comment provided by engineer.*/
 "Loading transaction" = "Chargement de la traduction";
 
 /*No comment provided by engineer.*/
@@ -196,9 +193,6 @@
 
 /*No comment provided by engineer.*/
 "N1njaWTF Tip jar" = "Tipper N1njaWTF";
-
-/*No comment provided by engineer.*/
-"NEO News" = "NEO Nouvelles";
 
 /*No comment provided by engineer.*/
 "No Connection" = "Aucune connection";
@@ -277,9 +271,6 @@
 
 /*No comment provided by engineer.*/
 "Tap the icon on the right upper side to enter the NEO amount to calculate!" = "Appuyez sur l’icône en haut à droite pour entrer la quantité de NEO à calculer ";
-
-/*No comment provided by engineer.*/
-"Tap to read on" = "Appuyez pour lire la suite";
 
 /*No comment provided by engineer.*/
 "Theoretical" = "Théorique";
@@ -373,3 +364,12 @@
 
 /*Sending email message failed body*/
 "Your email has failed to send." = "Votre email n'a pas pu être envoyé.";
+
+/*No comment provided by engineer.*/
+"Loading article" = "Chargement de l'article";
+
+/*No comment provided by engineer.*/
+"NEO News" = "NEO Nouvelles";
+
+/*No comment provided by engineer.*/
+"Tap to read on" = "Appuyez pour lire la suite";
