@@ -7,9 +7,10 @@
 //
 
 #import <XCTest/XCTest.h>
+#import "NeodiusUITests-Swift.h"
 
 @interface NeodiusUITests : XCTestCase
-
+@property (nonatomic,retain) XCUIApplication *app;
 @end
 
 @implementation NeodiusUITests
@@ -22,19 +23,106 @@
     // In UI tests it is usually best to stop immediately when a failure occurs.
     self.continueAfterFailure = NO;
     // UI tests must launch the application that they test. Doing this in setup will make sure it happens for each test method.
-    [[[XCUIApplication alloc] init] launch];
-    
-    // In UI tests it’s important to set the initial state - such as interface orientation - required for your tests before they run. The setUp method is a good place to do this.
+    XCUIApplication *app = [[XCUIApplication alloc] init];
+    [Snapshot setupSnapshot:app];
+    [app launch];
 }
 
 - (void)tearDown {
     // Put teardown code here. This method is called after the invocation of each test method in the class.
     [super tearDown];
 }
+-(void)openNavigationMenu {
+    [[[_app.navigationBars childrenMatchingType:XCUIElementTypeButton] elementBoundByIndex:0] tap];
+}
+
+-(void)openRightMenuOption {
+    [[[_app.navigationBars childrenMatchingType:XCUIElementTypeButton] elementBoundByIndex:1] tap];
+}
+
+-(void)selectMenuItemWithIdentifier:(NSString*)identifier {
+    [self openNavigationMenu];
+    [[_app.tables.cells matchingIdentifier:identifier].element tap];
+}
+
+-(void)tapBackButton {
+    [self openNavigationMenu];
+}
+
+-(void)selectMenuItemWithOfIndex:(NSInteger)index {
+    [self openNavigationMenu];
+    [[_app.tables.cells elementBoundByIndex:index] tap];
+}
+
+-(void)takeSnapShotWithName:(NSString*)name {
+    NSLog(@"TAKING SCREENSHOT: %@",name);
+    [Snapshot snapshot:name waitForLoadingIndicator:YES];
+}
+
+-(XCUIElement*)currentAlertView {
+    return [_app.alerts elementBoundByIndex:0];
+}
+
+-(void)tapButtonInCurrentAlertView:(NSInteger)button {
+    [[[self currentAlertView].buttons elementBoundByIndex:button] tap];
+}
+
+-(void)enterTextInAlertViewField:(NSInteger)field andValue:(NSString*)value {
+    XCUIElement *view = [self currentAlertView];
+    XCUIElement *input = [[view childrenMatchingType:XCUIElementTypeOther] elementBoundByIndex:field];
+    [input typeText:value];
+}
+
 
 - (void)testExample {
-    // Use recording to get started writing UI tests.
-    // Use XCTAssert and related functions to verify your tests produce the correct results.
+    
+    //new application: init the global app
+    _app = [[XCUIApplication alloc] init];
+
+    //screenshot from wallet
+    [self selectMenuItemWithIdentifier:@"first_wallet"];
+    [self takeSnapShotWithName:@"screen-wallet"];
+
+    //screenshot of QR Code
+    [self openRightMenuOption];
+    [self takeSnapShotWithName:@"screen-wallet-qr-code"];
+    [self openRightMenuOption]; // THIS IS A FIX FOR TAPPING OUTSIDE THE QR MODAL!
+    
+    
+    //gas calculation screenshot
+    [self selectMenuItemWithIdentifier:@"gas_calculation"];         //open gas calc
+    [self openRightMenuOption];                                     //open option menu
+    [self takeSnapShotWithName:@"screen-gas-calculation-options"];  //take screenshot
+    [self tapButtonInCurrentAlertView:0];                           //select manual option
+    [self enterTextInAlertViewField:0 andValue:@"1200"];            //enter 1200 in first field
+    [self tapButtonInCurrentAlertView:1];                           //tap calculate
+    [self takeSnapShotWithName:@"screen-gas-calculation"];          //take screenshot
+
+    //neo market info
+    [self selectMenuItemWithIdentifier:@"neo_market_info"];
+    [self takeSnapShotWithName:@"screen-neo-market-info"];
+
+    //gas market info
+    [self selectMenuItemWithIdentifier:@"gas_market_info"];
+    [self takeSnapShotWithName:@"screen-gas-market-info"];
+    
+    //settings screen
+    [self selectMenuItemWithIdentifier:@"settings"];
+    [self takeSnapShotWithName:@"screen-settings"];
+    
+    //tipjar screen
+    [self selectMenuItemWithIdentifier:@"tip_jar"];
+    [self takeSnapShotWithName:@"screen-tip-jar"];
+
+    //neo news today screen
+    [self selectMenuItemWithIdentifier:@"neo_news_today"];
+    [self takeSnapShotWithName:@"screen-neo-news-today"];
+
+    //neo news today screen
+    [self openNavigationMenu];
+    [self takeSnapShotWithName:@"screen-menu"];
+
+    
 }
 
 @end

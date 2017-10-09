@@ -1,0 +1,25 @@
+# Uncomment the lines below you want to change by removing the # in the beginning
+
+# A list of devices you want to take the screenshots from
+ devices([
+   "iPhone 8 Plus",
+   "iPad Pro (12.9-inch) (2nd generation)"
+ ])
+
+languages([
+	"nl-NL",
+	"en-EN",
+	"fr-FR",
+	"nl-BE",
+	"fr-CA",
+	"de-DE",
+	"es-ES",
+	"zh-Hans",
+	"zh-Hant"
+])
+
+output_directory "./_helper-scripts/_screenshot-builder/_tmp_screenshots/"
+workspace 'Neodius.xcworkspace'
+scheme 'Neodius'
+
+clear_previous_screenshots true
