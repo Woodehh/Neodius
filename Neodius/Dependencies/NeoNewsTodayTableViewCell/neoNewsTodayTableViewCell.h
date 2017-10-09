@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AsyncImageView/AsyncImageView.h>
 #import "neodiusDataSource.h"
 #import "neodiusUIComponents.h"
 #import "EXPhotoViewer.h"
@@ -14,6 +15,6 @@
 
 @interface neoNewsTodayTableViewCell : UITableViewCell
 @property (nonatomic,retain) UILabel *titleLabel,*categoryLabel,*descriptionLabel;
-@property (nonatomic,retain) UIImageView *headerImage;
+@property (nonatomic,retain) AsyncImageView *headerImage;
 
 @end

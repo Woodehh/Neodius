@@ -22,7 +22,7 @@
         
         self.selectionStyle = UITableViewCellSelectionStyleNone;
         
-        _headerImage = [[UIImageView alloc] init];
+        _headerImage = [[AsyncImageView alloc] init];
         _headerImage.translatesAutoresizingMaskIntoConstraints = NO;
         _headerImage.contentMode = UIViewContentModeScaleAspectFill;
         
