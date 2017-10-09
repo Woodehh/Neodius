@@ -22,6 +22,7 @@ PODS:
   - CWStatusBarNotification (2.3.5)
   - EXPhotoViewer (1.1.2)
   - Fabric (1.6.13)
+  - FLAnimatedImage (1.0.12)
   - FontAwesome4-ios (0.2.1)
   - GSLanguagePickerController (1.2.0)
   - KLCPopup (1.0)
@@ -29,6 +30,14 @@ PODS:
   - LTHPasscodeViewController (3.8.10)
   - MBProgressHUD (1.0.0)
   - MSSimpleGauge (0.5)
+  - PINCache (2.3)
+  - PINRemoteImage (2.1.4):
+    - PINRemoteImage/FLAnimatedImage (= 2.1.4)
+  - PINRemoteImage/Core (2.1.4):
+    - PINCache (>= 2.1)
+  - PINRemoteImage/FLAnimatedImage (2.1.4):
+    - FLAnimatedImage (>= 1.0)
+    - PINRemoteImage/Core
   - QrcodeBuilder (1.0.1)
   - QRCodeReaderViewController (4.0.2)
   - Reachability (3.2)
@@ -58,6 +67,7 @@ DEPENDENCIES:
   - LTHPasscodeViewController
   - MBProgressHUD
   - MSSimpleGauge
+  - PINRemoteImage
   - QrcodeBuilder
   - QRCodeReaderViewController
   - Reachability
@@ -94,6 +104,7 @@ SPEC CHECKSUMS:
   CWStatusBarNotification: 3d2738b25c3207f60cc50201388d3c96182545ff
   EXPhotoViewer: 01d391c4e5f7d25470d92b26837d40a362714ce0
   Fabric: 2fb5676bc811af011a04513451f463dac6803206
+  FLAnimatedImage: 4a0b56255d9b05f18b6dd7ee06871be5d3b89e31
   FontAwesome4-ios: 1ec6f396a7dd88b8116bebb8fa20a2bd8c2508bd
   GSLanguagePickerController: 1bb3cd830de672a3d4fe26ae4bf72cf014e4e408
   KLCPopup: 76c5a19227977f1e53d85236f9ef42257c168d98
@@ -101,6 +112,8 @@ SPEC CHECKSUMS:
   LTHPasscodeViewController: 17b0d49903dc1db6d35b95ccc4ecc4253791601f
   MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
   MSSimpleGauge: e5f7bf2561f1338055fcd321c5469b0d6c689d14
+  PINCache: ce36ed282031b92fc7733ffe831f474ff80fddc2
+  PINRemoteImage: 4ac4011c5caefd6befd99758e09becede05d3226
   QrcodeBuilder: 542404d402bee839245eddb16c23b749fd15b5a4
   QRCodeReaderViewController: e8f27d035b3e72b1d4b1c61ff66458287e3be0ff
   Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
@@ -114,6 +127,6 @@ SPEC CHECKSUMS:
   XMLReader: c7e54b707c368e2fa545d8313276b4de13a36ff5
   YCFirstTime: 7daef261357bd74b4badd85113e2adb309d69900
 
-PODFILE CHECKSUM: c568c8d42463390bc783a0388c33d9c648f3b0d6
+PODFILE CHECKSUM: 1cc1c271961eb04c1eb800abd2437e9e7b0f2b33
 
 COCOAPODS: 1.2.0

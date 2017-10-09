@@ -3,8 +3,6 @@ platform :ios, '8.0'
 target 'Neodius' do
 
   use_frameworks!
-  pod 'Fabric'
-  pod 'Crashlytics'
 
   #Git pods
   pod "FontAwesome4-ios", :git => 'https://github.com/ITSVision/FontAwesome4-ios.git'
@@ -35,7 +33,12 @@ target 'Neodius' do
   pod "AsyncImageView"
   pod "EXPhotoViewer"
   pod "GSLanguagePickerController"
+  pod "PINRemoteImage"
+  pod 'Fabric'
+  pod 'Crashlytics'
   
+
+
   post_install do |installer|
     require 'fileutils'
     FileUtils.cp_r('Pods/Target Support Files/Pods-Neodius/Pods-Neodius-acknowledgements.plist', 'Neodius/Acknowledgements.plist', :remove_destination => true)
