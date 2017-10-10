@@ -47,9 +47,6 @@ Features currently are:
 * GAS Calculation from a wallet or a user decided amount
 * On-the-fly language switching, without restarting the app!
 * Supported languages:
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 	* 🇨🇳  Chinese (Simplified) - [iPad screenshots](Artwork/Screenshots/Chinese%20%28Simplified%29/iPad/chinese-simplified-screenshots.md) | [iPhone screenshots](Artwork/Screenshots/Chinese%20%28Simplified%29/iPhone/chinese-simplified-screenshots.md) | [iPhone X screenshots](Artwork/Screenshots/Chinese%20%28Simplified%29/iPhone%20X/chinese-simplified-screenshots.md)
 	* 🇨🇳  Chinese (Traditional) - [iPad screenshots](Artwork/Screenshots/Chinese%20%28Traditional%29/iPad/chinese-traditional-screenshots.md) | [iPhone screenshots](Artwork/Screenshots/Chinese%20%28Traditional%29/iPhone/chinese-traditional-screenshots.md) | [iPhone X screenshots](Artwork/Screenshots/Chinese%20%28Traditional%29/iPhone%20X/chinese-traditional-screenshots.md)
 	* 🇧🇪  Dutch (Belgium) - [iPad screenshots](Artwork/Screenshots/Dutch%20%28Belgium%29/iPad/dutch-belgium-screenshots.md) | [iPhone screenshots](Artwork/Screenshots/Dutch%20%28Belgium%29/iPhone/dutch-belgium-screenshots.md) | [iPhone X screenshots](Artwork/Screenshots/Dutch%20%28Belgium%29/iPhone%20X/dutch-belgium-screenshots.md)
@@ -61,26 +58,6 @@ Features currently are:
 	* 🇯🇵  Japanese - [iPad screenshots](Artwork/Screenshots/Japanese/iPad/japanese-screenshots.md) | [iPhone screenshots](Artwork/Screenshots/Japanese/iPhone/japanese-screenshots.md) | [iPhone X screenshots](Artwork/Screenshots/Japanese/iPhone%20X/japanese-screenshots.md)
 	* 🇪🇸  Spanish - [iPad screenshots](Artwork/Screenshots/Spanish/iPad/spanish-screenshots.md) | [iPhone screenshots](Artwork/Screenshots/Spanish/iPhone/spanish-screenshots.md) | [iPhone X screenshots](Artwork/Screenshots/Spanish/iPhone%20X/spanish-screenshots.md)
 	* 🇸🇪  Swedish - [iPad screenshots](Artwork/Screenshots/Swedish/iPad/swedish-screenshots.md) | [iPhone screenshots](Artwork/Screenshots/Swedish/iPhone/swedish-screenshots.md) | [iPhone X screenshots](Artwork/Screenshots/Swedish/iPhone%20X/swedish-screenshots.md)
-=======
-	* 🇳🇱  Dutch - [iPad screenshots](Artwork/Screenshots/Dutch/iPad/dutch-screenshots.md) | [iPhone screenshots](Artwork/Screenshots/Dutch/iPhone/dutch-screenshots.md) | [iPhone X screenshots](Artwork/Screenshots/Dutch/iPhone%20X/dutch-screenshots.md)
-	* 🇸🇪  Swedish - [iPad screenshots](Artwork/Screenshots/Swedish/iPad/swedish-screenshots.md) | [iPhone screenshots](Artwork/Screenshots/Swedish/iPhone/swedish-screenshots.md) | [iPhone X screenshots](Artwork/Screenshots/Swedish/iPhone%20X/swedish-screenshots.md)
->>>>>>> 33a773d1ef5219689984691e0f99a9c5dde159c0
-	* 🇨🇳  Chinese (Simplified) - [iPad screenshots](Artwork/Screenshots/Chinese%20%28Simplified%29/iPad/chinese-simplified-screenshots.md) | [iPhone screenshots](Artwork/Screenshots/Chinese%20%28Simplified%29/iPhone/chinese-simplified-screenshots.md) | [iPhone X screenshots](Artwork/Screenshots/Chinese%20%28Simplified%29/iPhone%20X/chinese-simplified-screenshots.md)
-	* 🇨🇳  Chinese (Traditional) - [iPad screenshots](Artwork/Screenshots/Chinese%20%28Traditional%29/iPad/chinese-traditional-screenshots.md) | [iPhone screenshots](Artwork/Screenshots/Chinese%20%28Traditional%29/iPhone/chinese-traditional-screenshots.md) | [iPhone X screenshots](Artwork/Screenshots/Chinese%20%28Traditional%29/iPhone%20X/chinese-traditional-screenshots.md)
-	* 🇧🇪  Dutch (Belgium) - [iPad screenshots](Artwork/Screenshots/Dutch%20%28Belgium%29/iPad/dutch-belgium-screenshots.md) | [iPhone screenshots](Artwork/Screenshots/Dutch%20%28Belgium%29/iPhone/dutch-belgium-screenshots.md) | [iPhone X screenshots](Artwork/Screenshots/Dutch%20%28Belgium%29/iPhone%20X/dutch-belgium-screenshots.md)
-	* 🇯🇵  Japanese - [iPad screenshots](Artwork/Screenshots/Japanese/iPad/japanese-screenshots.md) | [iPhone screenshots](Artwork/Screenshots/Japanese/iPhone/japanese-screenshots.md) | [iPhone X screenshots](Artwork/Screenshots/Japanese/iPhone%20X/japanese-screenshots.md)
-	* 🇬🇧  English - [iPad screenshots](Artwork/Screenshots/English/iPad/english-screenshots.md) | [iPhone screenshots](Artwork/Screenshots/English/iPhone/english-screenshots.md) | [iPhone X screenshots](Artwork/Screenshots/English/iPhone%20X/english-screenshots.md)
-	* 🇪🇸  Spanish - [iPad screenshots](Artwork/Screenshots/Spanish/iPad/spanish-screenshots.md) | [iPhone screenshots](Artwork/Screenshots/Spanish/iPhone/spanish-screenshots.md) | [iPhone X screenshots](Artwork/Screenshots/Spanish/iPhone%20X/spanish-screenshots.md)
-	* 🇨🇦  French (Canada) - [iPad screenshots](Artwork/Screenshots/French%20%28Canada%29/iPad/french-canada-screenshots.md) | [iPhone screenshots](Artwork/Screenshots/French%20%28Canada%29/iPhone/french-canada-screenshots.md) | [iPhone X screenshots](Artwork/Screenshots/French%20%28Canada%29/iPhone%20X/french-canada-screenshots.md)
-	* 🇫🇷  French - [iPad screenshots](Artwork/Screenshots/French/iPad/french-screenshots.md) | [iPhone screenshots](Artwork/Screenshots/French/iPhone/french-screenshots.md) | [iPhone X screenshots](Artwork/Screenshots/French/iPhone%20X/french-screenshots.md)
-	* 🇩🇪  German - [iPad screenshots](Artwork/Screenshots/German/iPad/german-screenshots.md) | [iPhone screenshots](Artwork/Screenshots/German/iPhone/german-screenshots.md) | [iPhone X screenshots](Artwork/Screenshots/German/iPhone%20X/german-screenshots.md)
-<<<<<<< HEAD
-	* 🇯🇵  Japanese - [iPad screenshots](Artwork/Screenshots/Japanese/iPad/japanese-screenshots.md) | [iPhone screenshots](Artwork/Screenshots/Japanese/iPhone/japanese-screenshots.md) | [iPhone X screenshots](Artwork/Screenshots/Japanese/iPhone%20X/japanese-screenshots.md)
-	* 🇪🇸  Spanish - [iPad screenshots](Artwork/Screenshots/Spanish/iPad/spanish-screenshots.md) | [iPhone screenshots](Artwork/Screenshots/Spanish/iPhone/spanish-screenshots.md) | [iPhone X screenshots](Artwork/Screenshots/Spanish/iPhone%20X/spanish-screenshots.md)
-	* 🇸🇪  Swedish - [iPad screenshots](Artwork/Screenshots/Swedish/iPad/swedish-screenshots.md) | [iPhone screenshots](Artwork/Screenshots/Swedish/iPhone/swedish-screenshots.md) | [iPhone X screenshots](Artwork/Screenshots/Swedish/iPhone%20X/swedish-screenshots.md)
-=======
->>>>>>> ff67bb2f29c93bc7a8a484be002e9d69d2d2cb6f
->>>>>>> 33a773d1ef5219689984691e0f99a9c5dde159c0
 
 ## Looks awesome, but how can i use it.
 ### The AppStore
