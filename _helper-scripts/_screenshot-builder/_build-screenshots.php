@@ -44,13 +44,17 @@
 		$n = $l['nameLocalized'];
 		// English name: Nederlands, 中文（简体, 中文（繁體, etc
 		$n_e = $l['nameEnglish'];
+		
+		//emoji
+		$emoji = $l['emojiFlag'];
+		
 		// The strings file which we parse to get info from
 		parseStringsFile($l['stringsFile']);
 		//(re)load screenshot files	
 		include(SCREENSHOT_CONFIGS);
 		
 		// ...
-		echo "Processing: {$id} - {$n_e} ({$n}): \n";
+		echo "Processing: {$emoji}  {$id} - {$n_e} ({$n}): \n";
 		
 		
 		
@@ -59,6 +63,8 @@
 		if (is_dir($ld = SCREENSHOT_DIR.$id."/")) {
 			echo T."Found screenshots, check for devices\n";
 			$screenshot_files = glob($ld."/*.png");
+			$doneDevices = array();
+			
 			foreach ($devices as $device => $file_identfier) {
 				echo S."Scanning for {$device} files. \n";
 				$screenshots_filtered = array();
@@ -83,13 +89,14 @@
 				echo sprintf("\tfound %s screenshots: ",count($screenshots_filtered));
 				
 				if ($screenshot_count != $array_screenshots_count) {
-					echo "Not enough...skipping".F."\n";					
+					echo "Not enough...skipping".F."\n";
+					
 				} else {
+					
+					$doneDevices[] = $device;
 					
 					$target_readme_md = slugify($l['nameEnglish'])."-screenshots.md";
 										
-					$done_languages[$n_e][$device] = $target_readme_md;
-					
 					if (!is_writable(SCREENSHOT_TARGET_DIR))
 						die("SCREENSHOT_TARGET_DIR NOT WRITABLE");
 					
@@ -107,7 +114,7 @@
 					}
 						
 					$template_file = file_get_contents("./_dependencies/screenshot-template.md");
-					$readme_markdown = str_replace("%nameEnglish%", $l['nameEnglish'], $template_file);										
+					$readme_markdown = str_replace("%nameEnglish%", $emoji." ".$l['nameEnglish'], $template_file);										
 					$readme_markdown = str_replace("%nameLocalized%", $l['nameLocalized'], $readme_markdown);
 					$readme_markdown = str_replace("%creditLine%", __("<Language> is translated by: <your (nick) name> (<e-mail>)"), $readme_markdown);	
 					$readme_markdown = str_replace("%screenshots%", @implode(" ", $screenshot_html_code)	, $readme_markdown);
@@ -134,6 +141,14 @@
 					echo "done processing".T."\n";
 				}				
 			}
+			
+			$done_languages[] = array(
+				"emoji"=>$emoji,
+				"name"=>$l['nameEnglish'],
+				"readme"=>$target_readme_md,
+				"devices"=>$doneDevices
+			);
+			
 			$contributors[] = __("<Language> is translated by: <your (nick) name> (<e-mail>)");			
 			
 		} else {
@@ -142,20 +157,21 @@
 	}
 	
 	echo "\n\nFixing readme.md...";
-	//build the readme file:
+
 
 	if (count($done_languages)>0) {
 		echo count($done_languages)." Found!\n\n";
-		
-		$languages = "";
+
 		$screenshot_string="";
-		foreach ($done_languages as $k=>$v) {
-			$language_device = array();
-			foreach ($v as $d=>$r) {
-				$language_device[] = "[$d](Artwork/Screenshots/".urlencode($d)."/{$r})";
+
+		foreach ($done_languages as $l) {
+			$language_device = array();			
+			foreach ($l['devices'] as $d) {
+				$language_device[] = "[$d](Artwork/Screenshots/".urlencode($l['name'])."/".urlencode($d)."/{$l['readme']})";				
 			}
-			$screenshot_string .= "\t* {$k} - ".implode(" | ", $language_device)."\n";
+			$screenshot_string .= "\t* {$l['emoji']}  {$l['name']} - ".implode(" | ", $language_device)."\n";			
 		}
+
 		if (!file_exists(README_LOCATION))
 			die("Readme doesn't exists\n\n");
 			

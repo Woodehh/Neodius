@@ -91,7 +91,8 @@
 					"nameLocalized"=>@$localizations[$language_code]['localizedName'],
 					"nameEnglish"=>@$localizations[$language_code]['englishName'],
 					"stringsDir"=>realpath(LOCALIZATION_DIR.$l."/")."/",
-					"stringsFile"=>realpath(LOCALIZATION_DIR.$l."/Localizable.strings")
+					"stringsFile"=>realpath(LOCALIZATION_DIR.$l."/Localizable.strings"),
+					"emojiFlag"=>@$localizations[$language_code]['emojiFlag']
 				);
 			}	
 		}
