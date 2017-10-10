@@ -47,7 +47,17 @@ Features currently are:
 * GAS Calculation from a wallet or a user decided amount
 * On-the-fly language switching, without restarting the app!
 * Supported languages:
-	* Dutch - [iPad](Artwork/Screenshots/iPad/dutch-screenshots.md) | [iPhone](Artwork/Screenshots/iPhone/dutch-screenshots.md) | [iPhone X](Artwork/Screenshots/iPhone+X/dutch-screenshots.md)
+	* 🇩🇪  German - [iPad](Artwork/Screenshots/German/iPad/german-screenshots.md) | [iPhone](Artwork/Screenshots/German/iPhone/german-screenshots.md) | [iPhone X](Artwork/Screenshots/German/iPhone+X/german-screenshots.md)
+	* 🇬🇧  English - [iPad](Artwork/Screenshots/English/iPad/english-screenshots.md) | [iPhone](Artwork/Screenshots/English/iPhone/english-screenshots.md) | [iPhone X](Artwork/Screenshots/English/iPhone+X/english-screenshots.md)
+	* 🇪🇸  Spanish - [iPad](Artwork/Screenshots/Spanish/iPad/spanish-screenshots.md) | [iPhone](Artwork/Screenshots/Spanish/iPhone/spanish-screenshots.md) | [iPhone X](Artwork/Screenshots/Spanish/iPhone+X/spanish-screenshots.md)
+	* 🇨🇦  French (Canada) - [iPad](Artwork/Screenshots/French+%28Canada%29/iPad/french-canada-screenshots.md) | [iPhone](Artwork/Screenshots/French+%28Canada%29/iPhone/french-canada-screenshots.md) | [iPhone X](Artwork/Screenshots/French+%28Canada%29/iPhone+X/french-canada-screenshots.md)
+	* 🇫🇷  French - [iPad](Artwork/Screenshots/French/iPad/french-screenshots.md) | [iPhone](Artwork/Screenshots/French/iPhone/french-screenshots.md) | [iPhone X](Artwork/Screenshots/French/iPhone+X/french-screenshots.md)
+	* 🇯🇵  Japanese - [iPad](Artwork/Screenshots/Japanese/iPad/japanese-screenshots.md) | [iPhone](Artwork/Screenshots/Japanese/iPhone/japanese-screenshots.md) | [iPhone X](Artwork/Screenshots/Japanese/iPhone+X/japanese-screenshots.md)
+	* 🇧🇪  Dutch (Belgium) - [iPad](Artwork/Screenshots/Dutch+%28Belgium%29/iPad/dutch-belgium-screenshots.md) | [iPhone](Artwork/Screenshots/Dutch+%28Belgium%29/iPhone/dutch-belgium-screenshots.md) | [iPhone X](Artwork/Screenshots/Dutch+%28Belgium%29/iPhone+X/dutch-belgium-screenshots.md)
+	* 🇳🇱  Dutch - [iPad](Artwork/Screenshots/Dutch/iPad/dutch-screenshots.md) | [iPhone](Artwork/Screenshots/Dutch/iPhone/dutch-screenshots.md) | [iPhone X](Artwork/Screenshots/Dutch/iPhone+X/dutch-screenshots.md)
+	* 🇸🇪  Swedish - [iPad](Artwork/Screenshots/Swedish/iPad/swedish-screenshots.md) | [iPhone](Artwork/Screenshots/Swedish/iPhone/swedish-screenshots.md) | [iPhone X](Artwork/Screenshots/Swedish/iPhone+X/swedish-screenshots.md)
+	* 🇨🇳  Chinese (Simplified) - [iPad](Artwork/Screenshots/Chinese+%28Simplified%29/iPad/chinese-simplified-screenshots.md) | [iPhone](Artwork/Screenshots/Chinese+%28Simplified%29/iPhone/chinese-simplified-screenshots.md) | [iPhone X](Artwork/Screenshots/Chinese+%28Simplified%29/iPhone+X/chinese-simplified-screenshots.md)
+	* 🇨🇳  Chinese (Traditional) - [iPad](Artwork/Screenshots/Chinese+%28Traditional%29/iPad/chinese-traditional-screenshots.md) | [iPhone](Artwork/Screenshots/Chinese+%28Traditional%29/iPhone/chinese-traditional-screenshots.md) | [iPhone X](Artwork/Screenshots/Chinese+%28Traditional%29/iPhone+X/chinese-traditional-screenshots.md)
 
 ## Looks awesome, but how can i use it.
 ### The AppStore
@@ -92,7 +102,17 @@ The authors working on this project:
 * **Benjamin de Bos**
 
 ### Translators
+* German is translated by: Dominik Thanner (crashyourself22@gmail.com)
+* <Language> is translated by: <your (nick) name> (<e-mail>)
+* Spanish is translated by: aqdnk
+* French (Canadian) is translated by: mpeter
+* French is translated by: Mati14
+* Japanese is translated by: neoojisan (https://twitter.com/neoojisan)
+* Flemish is translated by: ManicPreacher
 * Dutch is translated by: Benjamin de Bos (info@its-vision.nl)
+* Swedish is translated by: Kryptokenne (kryptokenne@kryptoteket.se)
+* Chinese (Simplified) is translated by: Yenct15
+* Chinese (Traditional) is translated by: Yenct15
 
 ### Specials thanks to
 * **[@N1njaWTF](http://twitter.com/N1njaWTF)** of (NeoToGas.com) for the GAS Calculation logic
