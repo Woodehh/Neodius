@@ -1,6 +1,0 @@
-framework module AsyncImageView_blocks {
-  umbrella header "AsyncImageView-blocks-umbrella.h"
-
-  export *
-  module * { export * }
-}

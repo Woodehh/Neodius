@@ -92,12 +92,12 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "$BUILT_PRODUCTS_DIR/AFNetworking/AFNetworking.framework"
   install_framework "$BUILT_PRODUCTS_DIR/APParallaxHeader/APParallaxHeader.framework"
   install_framework "$BUILT_PRODUCTS_DIR/AsyncImageView/AsyncImageView.framework"
-  install_framework "$BUILT_PRODUCTS_DIR/AsyncImageView-blocks/AsyncImageView_blocks.framework"
   install_framework "$BUILT_PRODUCTS_DIR/BDGShare/BDGShare.framework"
   install_framework "$BUILT_PRODUCTS_DIR/CWStatusBarNotification/CWStatusBarNotification.framework"
   install_framework "$BUILT_PRODUCTS_DIR/EXPhotoViewer/EXPhotoViewer.framework"
   install_framework "$BUILT_PRODUCTS_DIR/FontAwesome4-ios/FontAwesome4_ios.framework"
   install_framework "$BUILT_PRODUCTS_DIR/GSLanguagePickerController/GSLanguagePickerController.framework"
+  install_framework "${PODS_ROOT}/Instabug/Instabug.framework"
   install_framework "$BUILT_PRODUCTS_DIR/KLCPopup/KLCPopup.framework"
   install_framework "$BUILT_PRODUCTS_DIR/KXHtmlLabel/KXHtmlLabel.framework"
   install_framework "$BUILT_PRODUCTS_DIR/LTHPasscodeViewController/LTHPasscodeViewController.framework"
@@ -115,17 +115,18 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "$BUILT_PRODUCTS_DIR/ViewDeck/ViewDeck.framework"
   install_framework "$BUILT_PRODUCTS_DIR/XMLReader/XMLReader.framework"
   install_framework "$BUILT_PRODUCTS_DIR/YCFirstTime/YCFirstTime.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/iOSFakeCarrier/iOSFakeCarrier.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "$BUILT_PRODUCTS_DIR/AFNetworking/AFNetworking.framework"
   install_framework "$BUILT_PRODUCTS_DIR/APParallaxHeader/APParallaxHeader.framework"
   install_framework "$BUILT_PRODUCTS_DIR/AsyncImageView/AsyncImageView.framework"
-  install_framework "$BUILT_PRODUCTS_DIR/AsyncImageView-blocks/AsyncImageView_blocks.framework"
   install_framework "$BUILT_PRODUCTS_DIR/BDGShare/BDGShare.framework"
   install_framework "$BUILT_PRODUCTS_DIR/CWStatusBarNotification/CWStatusBarNotification.framework"
   install_framework "$BUILT_PRODUCTS_DIR/EXPhotoViewer/EXPhotoViewer.framework"
   install_framework "$BUILT_PRODUCTS_DIR/FontAwesome4-ios/FontAwesome4_ios.framework"
   install_framework "$BUILT_PRODUCTS_DIR/GSLanguagePickerController/GSLanguagePickerController.framework"
+  install_framework "${PODS_ROOT}/Instabug/Instabug.framework"
   install_framework "$BUILT_PRODUCTS_DIR/KLCPopup/KLCPopup.framework"
   install_framework "$BUILT_PRODUCTS_DIR/KXHtmlLabel/KXHtmlLabel.framework"
   install_framework "$BUILT_PRODUCTS_DIR/LTHPasscodeViewController/LTHPasscodeViewController.framework"
@@ -143,6 +144,7 @@ if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "$BUILT_PRODUCTS_DIR/ViewDeck/ViewDeck.framework"
   install_framework "$BUILT_PRODUCTS_DIR/XMLReader/XMLReader.framework"
   install_framework "$BUILT_PRODUCTS_DIR/YCFirstTime/YCFirstTime.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/iOSFakeCarrier/iOSFakeCarrier.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait

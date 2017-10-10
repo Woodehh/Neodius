@@ -35,6 +35,8 @@ target 'Neodius' do
   pod "AsyncImageView"
   pod "Fabric"
   pod "Crashlytics"
+  pod "Instabug"
+  pod "iOSFakeCarrier"
 
   
 

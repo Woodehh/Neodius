@@ -1,0 +1,6 @@
+framework module iOSFakeCarrier {
+  umbrella header "iOSFakeCarrier-umbrella.h"
+
+  export *
+  module * { export * }
+}
