@@ -2,6 +2,6 @@
 
 **French (Canadian) is translated by: mpeter**
 
-[**View iPhone screenshots**](../iPhone/french-canada-screenshots.md) | [**View iPhone X screenshots**](../iPhone+X/french-canada-screenshots.md)
+[**View iPhone screenshots**](../iPhone/french-canada-screenshots.md) | [**View iPhone X screenshots**](../iPhone%20X/french-canada-screenshots.md)
 
 <img src="screen-gas-calculation-options.png" width="200" alt="Calcul du GAS - Choisissez une méthode"> <img src="screen-gas-calculation.png" width="200" alt="Calcul du GAS"> <img src="screen-gas-market-info.png" width="200" alt="GAS Information sur les marchés"> <img src="screen-menu.png" width="200" alt="Neodius"> <img src="screen-neo-market-info.png" width="200" alt="NEO Information sur les marchés"> <img src="screen-neo-news-today.png" width="200" alt="NEO News Today"> <img src="screen-settings.png" width="200" alt="Réglages"> <img src="screen-tip-jar.png" width="200" alt="Tipper"> <img src="screen-wallet-qr-code.png" width="200" alt="Portefeuilles actuels - Partager l'adresse"> <img src="screen-wallet.png" width="200" alt="Portefeuilles actuels">
