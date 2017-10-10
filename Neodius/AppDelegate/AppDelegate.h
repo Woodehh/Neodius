@@ -7,9 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <ViewDeck/IIViewDeckController.h>
+#import <ViewDeck/ViewDeck.h>
 #import <LocalAuthentication/LocalAuthentication.h>
 #import <LTHPasscodeViewController/LTHPasscodeViewController.h>
+#import <Instabug/Instabug.h>
 
 
 @class artViewController;

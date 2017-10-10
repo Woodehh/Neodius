@@ -50,6 +50,8 @@
     [LTHPasscodeViewController sharedUser].labelTextColor = neoGreenColor;
     [LTHPasscodeViewController sharedUser].labelFont = [UIFont fontWithName:@"HelveticaNeue-Light" size:20];
     
+    [Instabug startWithToken:@"04f8d4215669322237207f2fae43def6" invocationEvent:IBGInvocationEventShake];
+    
     if ([LTHPasscodeViewController doesPasscodeExist]) {
         if ([LTHPasscodeViewController didPasscodeTimerEnd]) {
             [[LTHPasscodeViewController sharedUser] showLockScreenWithAnimation:NO
