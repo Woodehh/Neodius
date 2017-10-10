@@ -1,7 +1,5 @@
 # %nameEnglish% (%nameLocalized%) screenshots
-
-**%creditLine%**
-
+%creditLine%
 %otherDevice%
 
 %screenshots%
