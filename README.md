@@ -45,6 +45,7 @@ Features currently are:
 	* Gauge showing current position on 24h tradingview
 * Scanning QR-Codes to add a wallet
 * GAS Calculation from a wallet or a user decided amount
+* View news from NEONewsToday.com
 * On-the-fly language switching, without restarting the app!
 * Supported languages:
 	* 🇨🇳  Chinese (Simplified) - [iPad screenshots](Artwork/Screenshots/Chinese%20%28Simplified%29/iPad/chinese-simplified-screenshots.md) | [iPhone screenshots](Artwork/Screenshots/Chinese%20%28Simplified%29/iPhone/chinese-simplified-screenshots.md) | [iPhone X screenshots](Artwork/Screenshots/Chinese%20%28Simplified%29/iPhone%20X/chinese-simplified-screenshots.md)
