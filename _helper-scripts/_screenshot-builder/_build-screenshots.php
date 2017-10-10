@@ -56,6 +56,7 @@
 		// ...
 		echo "Processing: {$emoji}  {$id} - {$n_e} ({$n}): \n";
 		
+		$contributor = __("<Language> is translated by: <your (nick) name> (<e-mail>)");
 		
 		
 		
@@ -116,7 +117,12 @@
 					$template_file = file_get_contents("./_dependencies/screenshot-template.md");
 					$readme_markdown = str_replace("%nameEnglish%", $emoji." ".$l['nameEnglish'], $template_file);										
 					$readme_markdown = str_replace("%nameLocalized%", $l['nameLocalized'], $readme_markdown);
-					$readme_markdown = str_replace("%creditLine%", __("<Language> is translated by: <your (nick) name> (<e-mail>)"), $readme_markdown);	
+
+					if (strpos($contributor,"<e-mail>") === FALSE)
+						$readme_markdown = str_replace("%creditLine%", "\n**{$contributor}**\n", $readme_markdown);	
+					else
+						$readme_markdown = str_replace("%creditLine%", "", $readme_markdown);	
+						
 					$readme_markdown = str_replace("%screenshots%", @implode(" ", $screenshot_html_code)	, $readme_markdown);
 					
 
@@ -130,7 +136,7 @@
 						if ($device == $d)
 							continue;
 							
-						$other_devices[] = "[**View {$d} screenshots**](../".urlencode($d)."/{$target_readme_md})";
+						$other_devices[] = "[**View {$d} screenshots**](../".rawurlencode($d)."/{$target_readme_md})";
 						
 					}
 					
@@ -149,7 +155,8 @@
 				"devices"=>$doneDevices
 			);
 			
-			$contributors[] = __("<Language> is translated by: <your (nick) name> (<e-mail>)");			
+			if (strpos($contributor,"<e-mail>") === FALSE)
+				$contributors[] = $contributor;
 			
 		} else {
 			echo F."Can't find screenshots\n";
@@ -160,6 +167,13 @@
 
 
 	if (count($done_languages)>0) {
+		
+		
+		//sort the stuff
+		usort($done_languages, function ($a, $b) {
+			  return strcmp($a["readme"], $b["readme"]);
+		});
+
 		echo count($done_languages)." Found!\n\n";
 
 		$screenshot_string="";
@@ -167,7 +181,7 @@
 		foreach ($done_languages as $l) {
 			$language_device = array();			
 			foreach ($l['devices'] as $d) {
-				$language_device[] = "[$d](Artwork/Screenshots/".urlencode($l['name'])."/".urlencode($d)."/{$l['readme']})";				
+				$language_device[] = "[$d screenshots](Artwork/Screenshots/".rawurlencode($l['name'])."/".rawurlencode($d)."/{$l['readme']})";				
 			}
 			$screenshot_string .= "\t* {$l['emoji']}  {$l['name']} - ".implode(" | ", $language_device)."\n";			
 		}
