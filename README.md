@@ -103,7 +103,6 @@ The authors working on this project:
 
 ### Translators
 * German is translated by: Dominik Thanner (crashyourself22@gmail.com)
-* <Language> is translated by: <your (nick) name> (<e-mail>)
 * Spanish is translated by: aqdnk
 * French (Canadian) is translated by: mpeter
 * French is translated by: Mati14

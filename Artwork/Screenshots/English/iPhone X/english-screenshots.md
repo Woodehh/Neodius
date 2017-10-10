@@ -1,6 +1,6 @@
 # 🇬🇧 English (English) screenshots
 
-**<Language> is translated by: <your (nick) name> (<e-mail>)**
+****
 
 [**View iPad screenshots**](../iPad/english-screenshots.md) | [**View iPhone screenshots**](../iPhone/english-screenshots.md)
 
