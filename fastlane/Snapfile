@@ -8,7 +8,20 @@
  ])
 
 languages([
-	"no-NB"
+	"nb"
+	"nl"
+	"de",
+	"en",
+	"es",
+	"fr-CA",
+	"fr",
+	"ja-JA",
+	"nl-BE",
+	"nl",
+	"sv",
+	"zh-Hans",
+	"zh-Hant"
+	
 ])
 
 output_directory "./_helper-scripts/_screenshot-builder/_tmp_screenshots/"
@@ -18,3 +31,4 @@ scheme 'Neodius'
 clear_previous_screenshots false
 clean true
 concurrent_simulators false
+skip_open_summary true
