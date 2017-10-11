@@ -12,6 +12,7 @@
 	define("SCREENSHOT_CONFIGS","./_dependencies/screenshots.config.php");
 	define("SCREENSHOT_TARGET_DIR","../../Artwork/Screenshots/");
 	define("README_LOCATION","../../README.md");
+	define("BLOB_LOCATION","https://github.com/ITSVision/Neodius/blob/master/");
 	define("T", " 👍  ");
 	define("F", " 😡  ");
 	define("S", " 🔍  ");
@@ -181,7 +182,7 @@
 		foreach ($done_languages as $l) {
 			$language_device = array();			
 			foreach ($l['devices'] as $d) {
-				$language_device[] = "[$d screenshots](Artwork/Screenshots/".rawurlencode($l['name'])."/".rawurlencode($d)."/{$l['readme']})";				
+				$language_device[] = "[$d screenshots](".BLOB_LOCATION."Artwork/Screenshots/".rawurlencode($l['name'])."/".rawurlencode($d)."/{$l['readme']})";				
 			}
 			$screenshot_string .= "\t* {$l['emoji']}  {$l['name']} - ".implode(" | ", $language_device)."\n";			
 		}
