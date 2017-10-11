@@ -8,22 +8,13 @@
  ])
 
 languages([
-	"nl-NL",
-	"de-DE",
-	"en-GB",
-	"es-ES",
-	"fr-CA",
-	"fr-FR",
-	"ja-JA",
-	"nl-BE",
-	"nl-NL",
-	"sv-SV",
-	"zh-Hans",
-	"zh-Hant"
+	"no-NB"
 ])
 
 output_directory "./_helper-scripts/_screenshot-builder/_tmp_screenshots/"
 workspace 'Neodius.xcworkspace'
 scheme 'Neodius'
 
-clear_previous_screenshots true
+clear_previous_screenshots false
+clean true
+concurrent_simulators false

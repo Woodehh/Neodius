@@ -17,13 +17,13 @@ default_platform :ios
 
 platform :ios do
 	before_all do
-		#cocoapods
+		cocoapods
 	end
 
 	desc "Deploying screenshots"
 	lane :buildscreenshots do
 		snapshot
-		#sh "../_helper-scripts/_screenshot-builder.sh"
+		sh "../_helper-scripts/_screenshot-builder.sh"
 	end
 	
 end
