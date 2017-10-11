@@ -199,14 +199,12 @@
 		}
 		
 		
-		$readme_new = preg_replace("/\### Translators(.*?)###/s", "### Translators\n".implode("", $contributors)."\n###", $readme_new);
-		
+		$readme_new = preg_replace("/\### Translators(.*?)###/s", "### Translators\n".implode("", $contributors)."\n###", $readme_new);		
 		
 		file_put_contents(README_LOCATION, $readme_new);
-		
-		
-		
+
 		echo "I've build the README.MD file\n\n";
+		@unlink(SCREENSHOT_DIR."/screenshots.html");
 		
 	} else {
 		echo "nothing found!";
