@@ -57,6 +57,7 @@ Features currently are:
 	* 🇫🇷  French - [iPad screenshots](Artwork/Screenshots/French/iPad/french-screenshots.md) | [iPhone screenshots](Artwork/Screenshots/French/iPhone/french-screenshots.md) | [iPhone X screenshots](Artwork/Screenshots/French/iPhone%20X/french-screenshots.md)
 	* 🇩🇪  German - [iPad screenshots](Artwork/Screenshots/German/iPad/german-screenshots.md) | [iPhone screenshots](Artwork/Screenshots/German/iPhone/german-screenshots.md) | [iPhone X screenshots](Artwork/Screenshots/German/iPhone%20X/german-screenshots.md)
 	* 🇯🇵  Japanese - [iPad screenshots](Artwork/Screenshots/Japanese/iPad/japanese-screenshots.md) | [iPhone screenshots](Artwork/Screenshots/Japanese/iPhone/japanese-screenshots.md) | [iPhone X screenshots](Artwork/Screenshots/Japanese/iPhone%20X/japanese-screenshots.md)
+	* 🇳🇴  Norwegian Bokmål - [iPad screenshots](Artwork/Screenshots/Norwegian%20Bokm%C3%A5l/iPad/norwegian-bokmal-screenshots.md) | [iPhone screenshots](Artwork/Screenshots/Norwegian%20Bokm%C3%A5l/iPhone/norwegian-bokmal-screenshots.md) | [iPhone X screenshots](Artwork/Screenshots/Norwegian%20Bokm%C3%A5l/iPhone%20X/norwegian-bokmal-screenshots.md)
 	* 🇪🇸  Spanish - [iPad screenshots](Artwork/Screenshots/Spanish/iPad/spanish-screenshots.md) | [iPhone screenshots](Artwork/Screenshots/Spanish/iPhone/spanish-screenshots.md) | [iPhone X screenshots](Artwork/Screenshots/Spanish/iPhone%20X/spanish-screenshots.md)
 	* 🇸🇪  Swedish - [iPad screenshots](Artwork/Screenshots/Swedish/iPad/swedish-screenshots.md) | [iPhone screenshots](Artwork/Screenshots/Swedish/iPhone/swedish-screenshots.md) | [iPhone X screenshots](Artwork/Screenshots/Swedish/iPhone%20X/swedish-screenshots.md)
 
@@ -108,6 +109,7 @@ The authors working on this project:
 * French (Canadian) is translated by: mpeter
 * French is translated by: Mati14
 * Japanese is translated by: neoojisan (https://twitter.com/neoojisan)
+* Norwegian is translated by: Nick the Dick
 * Flemish is translated by: ManicPreacher
 * Dutch is translated by: Benjamin de Bos (info@its-vision.nl)
 * Swedish is translated by: Kryptokenne (kryptokenne@kryptoteket.se)
