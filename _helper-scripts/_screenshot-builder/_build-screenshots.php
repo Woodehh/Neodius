@@ -39,7 +39,7 @@
 		// language identifier (eg: nl_NL/en/es_CO)
 		//if the languge identifier is two, we need to smallcase and then uppercase
 		//combined with a dash: nl-NL		
-		$id = ((strlen($id=$language_identifier) == 2) ? strtolower($id)."-".strtoupper($id): $id);
+		$id = $language_identifier;//((strlen($id=$language_identifier) == 2) ? strtolower($id)."-".strtoupper($id): $id);
 		// Localized Language name: E.G. Deutschland, Nederland, Espana
 		$n = $l['nameLocalized'];
 		// English name: Nederlands, 中文（简体, 中文（繁體, etc
