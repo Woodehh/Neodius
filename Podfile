@@ -1,6 +1,7 @@
 project 'Neodius.xcodeproj'
 platform :ios, '8.0'
 target 'Neodius' do
+  inhibit_all_warnings!
 
   use_frameworks!
 
