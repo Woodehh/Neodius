@@ -241,7 +241,7 @@
 }
 
 -(void)openLeftSide {
- //   [self.viewDeckController openSide:IIViewDeckSideLeft animated:YES];
+    [self.viewDeckController openSide:IIViewDeckSideLeft animated:YES];
 }
 
 -(UIView*) headerView {
