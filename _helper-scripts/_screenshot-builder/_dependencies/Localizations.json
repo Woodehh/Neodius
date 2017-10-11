@@ -2432,7 +2432,7 @@
     "nb": {
         "localizedName": "norsk bokm\u00e5l",
         "englishName": "Norwegian Bokm\u00e5l",
-        "emojiFlag": false
+        "emojiFlag": "\ud83c\uddf3\ud83c\uddf4"
     },
     "seh-MZ": {
         "localizedName": "sena (Mo\u00e7ambique)",
@@ -2607,7 +2607,7 @@
     "nn": {
         "localizedName": "nynorsk",
         "englishName": "Norwegian Nynorsk",
-        "emojiFlag": false
+        "emojiFlag": "\ud83c\uddf3\ud83c\uddf4"
     },
     "en-EE": {
         "localizedName": "English (Estonia)",
