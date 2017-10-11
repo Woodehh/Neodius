@@ -62,6 +62,7 @@
 		E22FEEC21F71091C000922C4 /* refreshIntervals.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = refreshIntervals.json; sourceTree = "<group>"; };
 		E242D1071F8BFCAC0064F57E /* neoNewsTodayTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = neoNewsTodayTableViewController.h; sourceTree = "<group>"; };
 		E242D1081F8BFCAC0064F57E /* neoNewsTodayTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = neoNewsTodayTableViewController.m; sourceTree = "<group>"; };
+		E24890801F8E110B00382553 /* nb */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nb; path = "../../../Neodius/Supporting Files/LocalizedData/nb.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		E25AB2AA1F7BC5BA00CA1FF2 /* neodiusUIComponents.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = neodiusUIComponents.h; sourceTree = "<group>"; };
 		E25AB2AB1F7BC5BA00CA1FF2 /* neodiusUIComponents.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = neodiusUIComponents.m; sourceTree = "<group>"; };
 		E25AB2B01F7C038700CA1FF2 /* donationData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = donationData.json; path = "Neodius/Supporting Files/SettingCache/donationData.json"; sourceTree = SOURCE_ROOT; };
@@ -524,6 +525,7 @@
 				"fr-CA",
 				sv,
 				ja,
+				nb,
 			);
 			mainGroup = E2C209FA1F6D094500C2F8AB;
 			productRefGroup = E2C20A041F6D094500C2F8AB /* Products */;
@@ -708,6 +710,7 @@
 				E2A445B41F85897700A829FC /* fr-CA */,
 				E29EB73D1F8BBC7100324839 /* sv */,
 				E29EB7401F8BF8B800324839 /* ja */,
+				E24890801F8E110B00382553 /* nb */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
