@@ -15,22 +15,22 @@
             <objects>
                 <viewController id="01J-lp-oVM" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
-                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                        <viewControllerLayoutGuide type="top" id="gZk-w6-L99"/>
+                        <viewControllerLayoutGuide type="bottom" id="9md-zX-jQW"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                    <view key="view" contentMode="scaleToFill" id="u5w-mb-BeK">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="ImageSplash" translatesAutoresizingMaskIntoConstraints="NO" id="HZk-6b-b9x">
-                                <rect key="frame" x="55" y="291.5" width="265" height="84"/>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" insetsLayoutMarginsFromSafeArea="NO" image="ImageSplash" translatesAutoresizingMaskIntoConstraints="NO" id="IBs-WL-vn0">
+                                <rect key="frame" x="40" y="28.5" width="295" height="610"/>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" red="0.29411764705882354" green="0.71372549019607845" blue="0.015686274509803921" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="HZk-6b-b9x" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="RSV-w9-qBc"/>
-                            <constraint firstItem="HZk-6b-b9x" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="wg1-Vz-wG5"/>
-                            <constraint firstItem="HZk-6b-b9x" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="height" multiplier="265:667" id="zKc-Nq-eRe"/>
+                            <constraint firstItem="IBs-WL-vn0" firstAttribute="width" secondItem="u5w-mb-BeK" secondAttribute="height" multiplier="295:667" id="Qc2-Qd-0bc"/>
+                            <constraint firstItem="IBs-WL-vn0" firstAttribute="centerX" secondItem="u5w-mb-BeK" secondAttribute="centerX" id="TaL-qd-yrc"/>
+                            <constraint firstItem="IBs-WL-vn0" firstAttribute="centerY" secondItem="u5w-mb-BeK" secondAttribute="centerY" id="jO8-n4-6DH"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -40,6 +40,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="ImageSplash" width="400" height="84"/>
+        <image name="ImageSplash" width="800" height="610"/>
     </resources>
 </document>
