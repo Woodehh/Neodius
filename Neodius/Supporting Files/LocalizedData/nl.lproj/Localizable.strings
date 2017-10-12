@@ -177,9 +177,6 @@
 "Links" = "Links";
 
 /*No comment provided by engineer.*/
-"Loading article" = "Artikel laden";
-
-/*No comment provided by engineer.*/
 "Loading transaction" = "Transactie laden";
 
 /*No comment provided by engineer.*/
@@ -196,9 +193,6 @@
 
 /*No comment provided by engineer.*/
 "N1njaWTF Tip jar" = "N1njaWTF fooienpot";
-
-/*No comment provided by engineer.*/
-"NEO News" = "NEO Nieuws";
 
 /*No comment provided by engineer.*/
 "No Connection" = "No Connection";
@@ -279,9 +273,6 @@
 "Tap the icon on the right upper side to enter the NEO amount to calculate!" = "Tap op het icoon rechtsbovenin om het NEO aantal op te geven voor de berekening!";
 
 /*No comment provided by engineer.*/
-"Tap to read on" = "Tap om meer te lezen";
-
-/*No comment provided by engineer.*/
 "Theoretical" = "Theoretisch";
 
 /*No comment provided by engineer.*/
@@ -327,18 +318,6 @@
 "View transaction" = "Bekijk transactie";
 
 /*No comment provided by engineer.*/
-"Visit GAS on Poloniex" = "Bezoek GAS op Poloniex";
-
-/*No comment provided by engineer.*/
-"Visit NEO on Bittrex" = "Bezoek NEO op Bittrex";
-
-/*No comment provided by engineer.*/
-"Visit NEO.org" = "Bezoek NEO.org";
-
-/*No comment provided by engineer.*/
-"Visit NeoToGas.com" = "Bezoek NeoToGas.com";
-
-/*No comment provided by engineer.*/
 "Visual and messages" = "Visueel en berichten";
 
 /*No comment provided by engineer.*/
@@ -373,3 +352,15 @@
 
 /*Sending email message failed body*/
 "Your email has failed to send." = "Je e-mail is niet verzonden!!";
+
+/*No comment provided by engineer.*/
+"Loading article" = "Artikel laden";
+
+/*No comment provided by engineer.*/
+"NEO News" = "NEO Nieuws";
+
+/*No comment provided by engineer.*/
+"Tap to read on" = "Tap om meer te lezen";
+
+/*No comment provided by engineer.*/
+"Visit %@" = "Bezoek %@";
