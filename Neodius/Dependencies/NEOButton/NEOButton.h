@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "FontAwesome4-ios.h"
+#import "neodiusUIComponents.h"
 
 @interface NEOButton : UIButton {
     UIColor *greenColor,*whiteColor;
