@@ -13,6 +13,8 @@
 		E22FEEC41F71091C000922C4 /* fiatCurrencies.json in Resources */ = {isa = PBXBuildFile; fileRef = E22FEEC11F71091C000922C4 /* fiatCurrencies.json */; };
 		E22FEEC51F71091C000922C4 /* refreshIntervals.json in Resources */ = {isa = PBXBuildFile; fileRef = E22FEEC21F71091C000922C4 /* refreshIntervals.json */; };
 		E242D1091F8BFCDD0064F57E /* neoNewsTodayTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E242D1081F8BFCAC0064F57E /* neoNewsTodayTableViewController.m */; };
+		E2459FEE1F8FB851000B7833 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2E586B01F87B0BF00AC2E17 /* Assets.xcassets */; };
+		E2459FEF1F8FB875000B7833 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2B3ADF51F7A58AA00713798 /* LaunchScreen.storyboard */; };
 		E25AB2AC1F7BC7E200CA1FF2 /* neodiusUIComponents.m in Sources */ = {isa = PBXBuildFile; fileRef = E25AB2AB1F7BC5BA00CA1FF2 /* neodiusUIComponents.m */; };
 		E25AB2B11F7C05E300CA1FF2 /* donationData.json in Resources */ = {isa = PBXBuildFile; fileRef = E25AB2B01F7C038700CA1FF2 /* donationData.json */; };
 		E25AB2B81F7C2BB500CA1FF2 /* tipJarTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E25AB2B71F7C2B6700CA1FF2 /* tipJarTableViewController.m */; };
@@ -31,10 +33,10 @@
 		E2B3AE141F7A58CD00713798 /* walletManagementTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2B3AE091F7A58AA00713798 /* walletManagementTableViewController.m */; };
 		E2B3AE151F7A58CD00713798 /* walletViewTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2B3AE0C1F7A58AA00713798 /* walletViewTableViewController.m */; };
 		E2B3AE161F7A58D600713798 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E2B3ADF81F7A58AA00713798 /* AppDelegate.m */; };
-		E2B3AE181F7A5BFB00713798 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2B3ADF51F7A58AA00713798 /* LaunchScreen.storyboard */; };
 		E2C20A941F6DCED700C2F8AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C20A7D1F6DCED700C2F8AB /* main.m */; };
 		E2C20A9A1F6DDF5C00C2F8AB /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2C20A991F6DDF5C00C2F8AB /* LocalAuthentication.framework */; };
-		E2E586B11F87C9C500AC2E17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2E586B01F87B0BF00AC2E17 /* Assets.xcassets */; };
+		E2E533AC1F8ECF930064A48D /* Lato-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E2E533AB1F8ECDC60064A48D /* Lato-Light.ttf */; };
+		E2E533AD1F8ECF930064A48D /* Lato.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E2E533AA1F8ECDC60064A48D /* Lato.ttf */; };
 		E2E586CA1F87CD0500AC2E17 /* NeodiusUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E2E586C91F87CD0500AC2E17 /* NeodiusUITests.m */; };
 		E2E586D31F87CD6900AC2E17 /* SnapshotHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E586D21F87CD6900AC2E17 /* SnapshotHelper.swift */; };
 /* End PBXBuildFile section */
@@ -110,6 +112,8 @@
 		E2C20A381F6DBE7700C2F8AB /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E2C20A7D1F6DCED700C2F8AB /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E2C20A991F6DDF5C00C2F8AB /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
+		E2E533AA1F8ECDC60064A48D /* Lato.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Lato.ttf; sourceTree = "<group>"; };
+		E2E533AB1F8ECDC60064A48D /* Lato-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Light.ttf"; sourceTree = "<group>"; };
 		E2E586B01F87B0BF00AC2E17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E2E586C71F87CD0500AC2E17 /* NeodiusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeodiusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2E586C91F87CD0500AC2E17 /* NeodiusUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NeodiusUITests.m; sourceTree = "<group>"; };
@@ -163,6 +167,8 @@
 		E22FEE9E1F70F9C1000922C4 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
+				E2E533AB1F8ECDC60064A48D /* Lato-Light.ttf */,
+				E2E533AA1F8ECDC60064A48D /* Lato.ttf */,
 				E22FEE9F1F70F9C1000922C4 /* FontAwesome4.ttf */,
 			);
 			path = Fonts;
@@ -318,7 +324,7 @@
 				E25AB2B51F7C2B6700CA1FF2 /* TipJarTableViewController */,
 			);
 			name = ViewControllers;
-			path = Neodius/ViewControllers;
+			path = neodius/ViewControllers;
 			sourceTree = SOURCE_ROOT;
 		};
 		E2B3ADFA1F7A58AA00713798 /* MarketInfoTableViewController */ = {
@@ -410,8 +416,8 @@
 			children = (
 				E2B3ADF61F7A58AA00713798 /* AppDelegate */,
 				E2B3ADF31F7A58AA00713798 /* Assets */,
-				E2B3ADE91F7A58AA00713798 /* Dependencies */,
 				E2B3ADF91F7A58AA00713798 /* ViewControllers */,
+				E2B3ADE91F7A58AA00713798 /* Dependencies */,
 				E2C20A781F6DCED700C2F8AB /* Supporting Files */,
 				E2C20A381F6DBE7700C2F8AB /* Info.plist */,
 				E2AD85A01F6FED9A00D03087 /* Acknowledgements.plist */,
@@ -543,9 +549,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E2E586B11F87C9C500AC2E17 /* Assets.xcassets in Resources */,
+				E2459FEF1F8FB875000B7833 /* LaunchScreen.storyboard in Resources */,
+				E2459FEE1F8FB851000B7833 /* Assets.xcassets in Resources */,
+				E2E533AC1F8ECF930064A48D /* Lato-Light.ttf in Resources */,
+				E2E533AD1F8ECF930064A48D /* Lato.ttf in Resources */,
 				E25AB2B11F7C05E300CA1FF2 /* donationData.json in Resources */,
-				E2B3AE181F7A5BFB00713798 /* LaunchScreen.storyboard in Resources */,
 				E22FEEC31F71091C000922C4 /* cryptoCurrencies.json in Resources */,
 				E25AB2D11F7D17A400CA1FF2 /* Localizable.strings in Resources */,
 				E22FEEC41F71091C000922C4 /* fiatCurrencies.json in Resources */,
