@@ -177,9 +177,6 @@
 "Links" = "リンク";
 
 /*No comment provided by engineer.*/
-"Loading article" = "記事を読み込む";
-
-/*No comment provided by engineer.*/
 "Loading transaction" = "トランザクションをロード中";
 
 /*No comment provided by engineer.*/
@@ -196,9 +193,6 @@
 
 /*No comment provided by engineer.*/
 "N1njaWTF Tip jar" = "N1njaWTFをサポートする";
-
-/*No comment provided by engineer.*/
-"NEO News" = "NEO News";
 
 /*No comment provided by engineer.*/
 "No Connection" = "接続がありません";
@@ -279,9 +273,6 @@
 "Tap the icon on the right upper side to enter the NEO amount to calculate!" = "右上のアイコンをタップしてNEOの数量を入力し計算してください。";
 
 /*No comment provided by engineer.*/
-"Tap to read on" = "タップして読み取る";
-
-/*No comment provided by engineer.*/
 "Theoretical" = "理論値";
 
 /*No comment provided by engineer.*/
@@ -327,18 +318,6 @@
 "View transaction" = "トランザクションを表示";
 
 /*No comment provided by engineer.*/
-"Visit GAS on Poloniex" = "PoloniexのGAS取引所に行く";
-
-/*No comment provided by engineer.*/
-"Visit NEO on Bittrex" = "BittrexのNEO取引所に行く";
-
-/*No comment provided by engineer.*/
-"Visit NEO.org" = "NEO.orgに行く";
-
-/*No comment provided by engineer.*/
-"Visit NeoToGas.com" = "NeoToGas.comに行く";
-
-/*No comment provided by engineer.*/
 "Visual and messages" = "ビジュアルとメッセージ";
 
 /*No comment provided by engineer.*/
@@ -373,3 +352,27 @@
 
 /*Sending email message failed body*/
 "Your email has failed to send." = "メールの送信に失敗しました";
+
+/*No comment provided by engineer.*/
+"Loading article" = "記事を読み込む";
+
+/*No comment provided by engineer.*/
+"NEO News" = "NEO News";
+
+/*No comment provided by engineer.*/
+"Tap to read on" = "タップして読み取る";
+
+/*No comment provided by engineer.*/
+"Visit %@" = "%@ に行く";
+
+/*No comment provided by engineer.*/
+"Visit GAS on Poloniex" = "";
+
+/*No comment provided by engineer.*/
+"Visit NEO on Bittrex" = "";
+
+/*No comment provided by engineer.*/
+"Visit NEO.org" = "";
+
+/*No comment provided by engineer.*/
+"Visit NeoToGas.com" = "";
