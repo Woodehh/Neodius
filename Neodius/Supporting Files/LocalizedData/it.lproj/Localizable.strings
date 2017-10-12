@@ -23,9 +23,6 @@
 /*No comment provided by engineer.*/
 "7 Days" = "7 Giorni";
 
-/*Translator: enter your information for credits! In English please. Like this: Dutch is translated by Benjamin de Bos (info@its-vision.nl). E-mail is not required!*/
-"<Language> is translated by: <your (nick) name> (<e-mail>)" = "";
-
 /*Prefilled Email message text*/
 "<p>[Please insert your message here]</p><p><em>For support inquiries, please include the following information. These make it easier for me to help you. Thank you!</em><p><hr><p><strong>Support Information</strong></p></p>%@ Version %@ (%@)<br>%@ (%@)<br>iOS %@ (%@)</p><hr>" = "<p>[Inserisci il tuo messaggio qui]</p><p><em>Per le domande di supporto, includi le seguenti informazioni. Questo renderà le cose più facili per poterti aiutare. Grazie!</em><p><hr><p><strong>Informazioni di supporto</strong></p></p>%@ Versione %@ (%@)<br>%@ (%@)<br>iOS %@ (%@)</p><hr>";
 
@@ -180,12 +177,6 @@
 "Loading transaction" = "Caricamento della transazioni";
 
 /*No comment provided by engineer.*/
-"Market Cap" = "";
-
-/*Sending email message failed*/
-"Message Failed!" = "";
-
-/*No comment provided by engineer.*/
 "minute" = "Minuto \n";
 
 /*No comment provided by engineer.*/
@@ -199,6 +190,21 @@
 
 /*No comment provided by engineer.*/
 "No network we'll inform you when it's back!" = "Disconnesso, verrai informations";
+
+/*Translator: enter your information for credits! In English please. Like this: Dutch is translated by Benjamin de Bos (info@its-vision.nl). E-mail is not required!*/
+"<Language> is translated by: <your (nick) name> (<e-mail>)" = "";
+
+/*No comment provided by engineer.*/
+"Loading article" = "";
+
+/*No comment provided by engineer.*/
+"Market Cap" = "";
+
+/*Sending email message failed*/
+"Message Failed!" = "";
+
+/*No comment provided by engineer.*/
+"NEO News" = "";
 
 /*No comment provided by engineer.*/
 "No transactions found" = "";
@@ -273,6 +279,9 @@
 "Tap the icon on the right upper side to enter the NEO amount to calculate!" = "";
 
 /*No comment provided by engineer.*/
+"Tap to read on" = "";
+
+/*No comment provided by engineer.*/
 "Theoretical" = "";
 
 /*No comment provided by engineer.*/
@@ -318,6 +327,21 @@
 "View transaction" = "";
 
 /*No comment provided by engineer.*/
+"Visit %@" = "";
+
+/*No comment provided by engineer.*/
+"Visit GAS on Poloniex" = "";
+
+/*No comment provided by engineer.*/
+"Visit NEO on Bittrex" = "";
+
+/*No comment provided by engineer.*/
+"Visit NEO.org" = "";
+
+/*No comment provided by engineer.*/
+"Visit NeoToGas.com" = "";
+
+/*No comment provided by engineer.*/
 "Visual and messages" = "";
 
 /*No comment provided by engineer.*/
@@ -352,27 +376,3 @@
 
 /*Sending email message failed body*/
 "Your email has failed to send." = "";
-
-/*No comment provided by engineer.*/
-"Loading article" = "";
-
-/*No comment provided by engineer.*/
-"NEO News" = "";
-
-/*No comment provided by engineer.*/
-"Tap to read on" = "";
-
-/*No comment provided by engineer.*/
-"Visit %@" = "";
-
-/*No comment provided by engineer.*/
-"Visit GAS on Poloniex" = "";
-
-/*No comment provided by engineer.*/
-"Visit NEO on Bittrex" = "";
-
-/*No comment provided by engineer.*/
-"Visit NEO.org" = "";
-
-/*No comment provided by engineer.*/
-"Visit NeoToGas.com" = "";
