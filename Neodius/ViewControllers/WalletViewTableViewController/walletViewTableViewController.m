@@ -14,6 +14,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+
 
     baseCrypto  = [[NeodiusDataSource sharedData] getCryptoData][[[NeodiusDataSource sharedData] getBaseCrypto]];
     baseFiat    = [[NeodiusDataSource sharedData] getFiatData][[[NeodiusDataSource sharedData] getBaseFiat]];
@@ -176,9 +178,9 @@
 
 -(void)showQrModal {
     
-    if (transactions.count==0)
-        return;
-    
+//    if (transactions.count==0)
+//        return;
+//    
     [[NeodiusUIComponents sharedComponents] showQrModalOnViewController:self
                                                             withAddress:_walletAddress
                                                               withTitle:nil
@@ -256,8 +258,8 @@
     s.autoresizingMask = UIViewAutoresizingFlexibleWidth;
 
     //setup fonts for big and small numbers
-    UIFont *titleFont = [UIFont fontWithName:@"HelveticaNeue-Light" size:16];
-    UIFont *valueFont = [UIFont fontWithName:@"HelveticaNeue" size:30];
+    UIFont *titleFont = [UIFont fontWithName:FONT_LIGHT size:16];
+    UIFont *valueFont = [UIFont fontWithName:FONT size:30];
     
     //title dictionary
     NSDictionary *titleDict = @{NSFontAttributeName: titleFont};
@@ -346,10 +348,10 @@
         NSNumber *trxAmount = @([transactions[indexPath.row][trxType] floatValue]);
         
         cell.textLabel.textAlignment = NSTextAlignmentLeft;
-        cell.textLabel.font = [UIFont fontWithName:@"HelveticaNeue-Light" size:16];
+        cell.textLabel.font = [UIFont fontWithName:FONT_LIGHT size:16];
         cell.textLabel.text = [NSString stringWithFormat:@"%@: %@",trxType, [[NeodiusDataSource sharedData] formatNumber:trxAmount ofType:3 withFiatSymbol:@""]];
         cell.detailTextLabel.text = txid;
-        cell.detailTextLabel.font = [UIFont fontWithName:@"HelveticaNeue-Light" size:14];
+        cell.detailTextLabel.font = [UIFont fontWithName:FONT_LIGHT size:14];
     }
     return cell;
 }
@@ -395,7 +397,7 @@
 
 - (void)tableView:(UITableView *)tableView willDisplayHeaderView:(UIView *)view forSection:(NSInteger)section {
     UITableViewHeaderFooterView *header = (UITableViewHeaderFooterView *)view;
-    header.textLabel.font = [UIFont fontWithName:@"HelveticaNeue-Light" size:header.textLabel.font.pointSize];
+    header.textLabel.font = [UIFont fontWithName:FONT_LIGHT size:header.textLabel.font.pointSize];
 }
 
 
