@@ -15,6 +15,7 @@
 #import <SGNavigationProgress/UINavigationController+SGProgress.h>
 #import "FontAwesome4-ios.h"
 #import "NeodiusDataSource.h"
+#import "neodiusUIComponents.h"
 #import "marketViewCustomTableViewCell.h"
 
 @interface marketInfoTableViewController : UITableViewController {

@@ -37,7 +37,7 @@
         _titleLabel = [[UILabel alloc] init];
         _titleLabel.translatesAutoresizingMaskIntoConstraints = NO;
         _titleLabel.numberOfLines = 0;
-        _titleLabel.font = [UIFont fontWithName:@"HelveticaNeue-Light" size:18];
+        _titleLabel.font = [UIFont fontWithName:FONT_LIGHT size:18];
         _titleLabel.highlightedTextColor = [UIColor whiteColor];
         [self.contentView addSubview:_titleLabel];
         
@@ -56,7 +56,7 @@
         _descriptionLabel = [[UILabel alloc] initWithFrame:self.frame];
         _descriptionLabel.translatesAutoresizingMaskIntoConstraints = NO;
         _descriptionLabel.highlightedTextColor = [UIColor whiteColor];
-        _descriptionLabel.font = [UIFont fontWithName:@"HelveticaNeue-Light" size:14];
+        _descriptionLabel.font = [UIFont fontWithName:FONT_LIGHT size:14];
         _descriptionLabel.numberOfLines = 0;
         [self.contentView addSubview:_descriptionLabel];
         

@@ -36,7 +36,7 @@
 
 - (void)tableView:(UITableView *)tableView willDisplayHeaderView:(UIView *)view forSection:(NSInteger)section {
     UITableViewHeaderFooterView *header = (UITableViewHeaderFooterView *)view;
-    header.textLabel.font = [UIFont fontWithName:@"HelveticaNeue-Light" size:header.textLabel.font.pointSize];
+    header.textLabel.font = [UIFont fontWithName:FONT_LIGHT size:header.textLabel.font.pointSize];
 }
 
 
@@ -92,9 +92,9 @@
             cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"menuCell"];
             cell.accessoryType = UITableViewCellAccessoryNone;
         }
-        cell.textLabel.font = [UIFont fontWithName:@"HelveticaNeue-Light" size:16];
+        cell.textLabel.font = [UIFont fontWithName:FONT_LIGHT size:16];
         cell.textLabel.highlightedTextColor = [UIColor whiteColor];
-        cell.detailTextLabel.font = [UIFont fontWithName:@"HelveticaNeue-Light" size:16];
+        cell.detailTextLabel.font = [UIFont fontWithName:FONT_LIGHT size:16];
         cell.detailTextLabel.highlightedTextColor = [UIColor whiteColor];
         UIView *selectionColor = [[UIView alloc] init];
         selectionColor.backgroundColor = neoGreenColor;
@@ -241,8 +241,8 @@
             vc.cellSelectedFontColor = [UIColor whiteColor];
             vc.cellSelectedBackgroundColor = neoGreenColor;
             vc.cellTintColor = neoGreenColor;
-            vc.cellFont = [UIFont fontWithName:@"HelveticaNeue" size:16.0];
-            vc.cellDetailFont = [UIFont fontWithName:@"HelveticaNeue-Light" size:14.0];
+            vc.cellFont = [UIFont fontWithName:FONT size:16.0];
+            vc.cellDetailFont = [UIFont fontWithName:FONT_LIGHT size:14.0];
             vc.title = NSLocalizedString(@"Language", nil);
             [self.navigationController pushViewController:vc animated:YES];
         }

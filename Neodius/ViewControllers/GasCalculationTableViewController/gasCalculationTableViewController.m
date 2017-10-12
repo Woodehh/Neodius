@@ -51,7 +51,7 @@
 
 - (void)tableView:(UITableView *)tableView willDisplayHeaderView:(UIView *)view forSection:(NSInteger)section {
     UITableViewHeaderFooterView *header = (UITableViewHeaderFooterView *)view;
-    header.textLabel.font = [UIFont fontWithName:@"HelveticaNeue-Light" size:14];
+    header.textLabel.font = [UIFont fontWithName:FONT_LIGHT size:14];
     header.textLabel.textColor = [UIColor blackColor];
     header.textLabel.textAlignment = NSTextAlignmentCenter;
     header.textLabel.attributedText =  [self setLineheightForString:[NSString stringWithFormat:@"%@",[self tableView:tableView titleForHeaderInSection:section]]];
@@ -267,7 +267,7 @@
                                                                      20,
                                                                      footerView.frame.size.width,
                                                                      120)];
-    creditLabel.font = [UIFont fontWithName:@"HelveticaNeue-Light" size:14];
+    creditLabel.font = [UIFont fontWithName:FONT_LIGHT size:14];
     creditLabel.numberOfLines = 0;
     creditLabel.textAlignment = NSTextAlignmentCenter;
     creditLabel.attributedText = [self setLineheightForString:NSLocalizedString(@"GAS Calculation has been brought to life by N1njaWTF of NeoToGas.com. Neodius' encourages you to tip some NEO/GAS to N1njaWTF for his awesome work!",nil)];
@@ -292,7 +292,7 @@
                                                                        btnDonate.frame.origin.y+btnDonate.frame.size.height+10,
                                                                        footerView.frame.size.width,
                                                                        40)
-                                                  withTitle:NSLocalizedString(@"Visit NeoToGas.com",nil)
+                                                 withTitle:[NSString stringWithFormat:NSLocalizedString(@"Visit %@",nil), @"NeoToGas.com"]
                                                    withIcon:FAIconGlobe
                                                   isPrimary:NO];
     [btnVisit addTarget:self action:@selector(visitWebsite) forControlEvents:UIControlEventTouchUpInside];

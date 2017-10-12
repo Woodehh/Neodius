@@ -114,14 +114,14 @@ static NeodiusUIComponents *sharedComponents = nil;
     lblTitle.textAlignment = NSTextAlignmentCenter;
     lblTitle.text = ((title == nil) ? NSLocalizedString(@"Wallet address",nil) : title);
     lblTitle.adjustsFontSizeToFitWidth = YES;
-    lblTitle.font = [UIFont fontWithName:@"HelveticaNeue-Light" size:32];
+    lblTitle.font = [UIFont fontWithName:FONT_LIGHT size:32];
     [v addSubview:lblTitle];
 
     UILabel *lbladdress = [[UILabel alloc] initWithFrame:CGRectMake(20, 60, v.frame.size.width-40, 40)];
     lbladdress.textAlignment = NSTextAlignmentCenter;
     lbladdress.text = address;
     lbladdress.adjustsFontSizeToFitWidth = YES;;
-    lbladdress.font = [UIFont fontWithName:@"HelveticaNeue-Light" size:16];
+    lbladdress.font = [UIFont fontWithName:FONT_LIGHT size:16];
     lbladdress.numberOfLines = 0;
     [v addSubview:lbladdress];
 

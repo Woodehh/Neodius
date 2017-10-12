@@ -10,6 +10,7 @@
 #import <ViewDeck/ViewDeck.h>
 #import "FontAwesome4-ios.h"
 #import "NeodiusDataSource.h"
+#import "neodiusUIComponents.h"
 
 @interface selectionSettingsTableViewController : UITableViewController {
     NSDictionary *settingData;

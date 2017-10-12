@@ -22,7 +22,7 @@
 - (UILabel *)label {
     UILabel *label = [[UILabel alloc] init];
     label.translatesAutoresizingMaskIntoConstraints = NO;
-    label.font = [UIFont fontWithName:@"HelveticaNeue-Light" size:14];
+    label.font = [UIFont fontWithName:FONT_LIGHT size:14];
     label.adjustsFontSizeToFitWidth = YES;
     [self.contentView addSubview:label];
     return label;
@@ -83,17 +83,17 @@
 -(void)isHeaderCell {
     self.backgroundColor = neoGreenColor;
     self.label1.textColor = [UIColor whiteColor];
-    self.label1.font = [UIFont fontWithName:@"HelveticaNeue" size:self.label1.font.pointSize];
+    self.label1.font = [UIFont fontWithName:FONT size:self.label1.font.pointSize];
     self.label2.textColor = [UIColor whiteColor];
-    self.label2.font = [UIFont fontWithName:@"HelveticaNeue" size:self.label2.font.pointSize];
+    self.label2.font = [UIFont fontWithName:FONT size:self.label2.font.pointSize];
     self.label3.textColor = [UIColor whiteColor];
-    self.label3.font = [UIFont fontWithName:@"HelveticaNeue" size:self.label3.font.pointSize];
+    self.label3.font = [UIFont fontWithName:FONT size:self.label3.font.pointSize];
 }
 
 -(void)isFooterCell {
-    self.label1.font = [UIFont fontWithName:@"HelveticaNeue" size:14];
-    self.label2.font = [UIFont fontWithName:@"HelveticaNeue" size:14];
-    self.label3.font = [UIFont fontWithName:@"HelveticaNeue" size:14];
+    self.label1.font = [UIFont fontWithName:FONT size:14];
+    self.label2.font = [UIFont fontWithName:FONT size:14];
+    self.label3.font = [UIFont fontWithName:FONT size:14];
 }
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {

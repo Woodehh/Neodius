@@ -231,12 +231,12 @@
             cell.selectionStyle = UITableViewCellSelectionStyleNone;
             
             //textlabel
-            cell.textLabel.font = [UIFont fontWithName:@"HelveticaNeue-Light" size:16.0];
+            cell.textLabel.font = [UIFont fontWithName:FONT_LIGHT size:16.0];
             cell.textLabel.numberOfLines = 2;
             [cell.textLabel sizeToFit];
             
             //detaillabel
-            cell.detailTextLabel.font = [UIFont fontWithName:@"HelveticaNeue-Light" size:16.0];
+            cell.detailTextLabel.font = [UIFont fontWithName:FONT_LIGHT size:16.0];
             cell.detailTextLabel.numberOfLines = 2;
             
         } else if (indexPath.section == 3) {
@@ -255,7 +255,7 @@
             
             //title
             UILabel *v = [[UILabel alloc] initWithFrame:CGRectMake(20,10,baseWidth-20,40)];
-            v.font = [UIFont fontWithName:@"HelveticaNeue-Light" size:16];
+            v.font = [UIFont fontWithName:FONT_LIGHT size:16];
             v.textAlignment = NSTextAlignmentCenter;
             v.numberOfLines = 2;
             v.tag = 11;
@@ -271,7 +271,7 @@
             //low
             UILabel *l = [[UILabel alloc] initWithFrame:CGRectMake(20,labelPosition,labelWidth,40)];
             l.tag = 13;
-            l.font = [UIFont fontWithName:@"HelveticaNeue-Light" size:14];
+            l.font = [UIFont fontWithName:FONT_LIGHT size:14];
             l.textAlignment = NSTextAlignmentCenter;
             l.numberOfLines = 2;
             l.text = [NSString stringWithFormat:@"%@\n%@",NSLocalizedString(@"24h low", nil),[[NeodiusDataSource sharedData] formatNumber:0 ofType:3 withFiatSymbol:nil]];
@@ -280,7 +280,7 @@
             //high
             UILabel *h = [[UILabel alloc] initWithFrame:CGRectMake(baseWidth-labelWidth,labelPosition,labelWidth,40)];
             h.tag = 14;
-            h.font = [UIFont fontWithName:@"HelveticaNeue-Light" size:14];
+            h.font = [UIFont fontWithName:FONT_LIGHT size:14];
             h.textAlignment = NSTextAlignmentCenter;
             h.numberOfLines = 2;
             h.text = [NSString stringWithFormat:@"%@\n%@",NSLocalizedString(@"24h low", nil),[[NeodiusDataSource sharedData] formatNumber:0 ofType:3 withFiatSymbol:nil]];
@@ -419,7 +419,7 @@
 
 - (void)tableView:(UITableView *)tableView willDisplayHeaderView:(UIView *)view forSection:(NSInteger)section {
     UITableViewHeaderFooterView *header = (UITableViewHeaderFooterView *)view;
-    header.textLabel.font = [UIFont fontWithName:@"HelveticaNeue-Light" size:header.textLabel.font.pointSize];
+    header.textLabel.font = [UIFont fontWithName:FONT_LIGHT size:header.textLabel.font.pointSize];
 }
 
 

@@ -37,7 +37,7 @@
     
     if (cell == nil) {
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"menuCell"];
-        cell.textLabel.font = [UIFont fontWithName:@"HelveticaNeue-Light" size:16];
+        cell.textLabel.font = [UIFont fontWithName:FONT_LIGHT size:16];
         cell.textLabel.highlightedTextColor = [UIColor whiteColor];
         UIView *selectionColor = [[UIView alloc] init];
         selectionColor.backgroundColor = neoGreenColor;
@@ -93,13 +93,16 @@
         }
     } else {
         if (indexPath.row == 0) {
-            cell.textLabel.text = NSLocalizedString(@"Visit NEO.org",nil);
-            icon = @"fa-rocket";
+            icon = @"fa-globe";
+            cell.textLabel.text = [NSString stringWithFormat:NSLocalizedString(@"Visit %@",nil), @"Neodius.io"];
         } else if (indexPath.row == 1) {
-            cell.textLabel.text = NSLocalizedString(@"Visit NEO on Bittrex",nil);
-            icon = @"fa-exchange";
+            cell.textLabel.text = [NSString stringWithFormat:NSLocalizedString(@"Visit %@",nil), @"NEO.org"];
+            icon = @"fa-rocket";
         } else if (indexPath.row == 2) {
-            cell.textLabel.text = NSLocalizedString(@"Visit GAS on Poloniex",nil);
+            cell.textLabel.text = [NSString stringWithFormat:NSLocalizedString(@"Visit %@",nil), @"NEO @ Bittrex"];
+            icon = @"fa-exchange";
+        } else if (indexPath.row == 3) {
+            cell.textLabel.text = [NSString stringWithFormat:NSLocalizedString(@"Visit %@",nil), @"GAS @ Poloniex"];
             icon = @"fa-bus";
         }
     }
@@ -116,7 +119,7 @@
 
 - (void)tableView:(UITableView *)tableView willDisplayHeaderView:(UIView *)view forSection:(NSInteger)section {
     UITableViewHeaderFooterView *header = (UITableViewHeaderFooterView *)view;
-    header.textLabel.font = [UIFont fontWithName:@"HelveticaNeue-Light" size:header.textLabel.font.pointSize];
+    header.textLabel.font = [UIFont fontWithName:FONT_LIGHT size:header.textLabel.font.pointSize];
 }
 
 
@@ -203,7 +206,7 @@
             menuItem.headerTextColor = [UIColor whiteColor];
             menuItem.headerBackgroundColor = neoGreenColor;
             menuItem.blurHeaderBackground = NO;
-            menuItem.fontAppName = [UIFont fontWithName:@"HelveticaNeue-light" size:36];
+            menuItem.fontAppName = [UIFont fontWithName:FONT_LIGHT size:36];
             menuItem.leftBarButton = [[UIBarButtonItem alloc] initWithImage:[[NeodiusDataSource sharedData] tableIconPositive:@"fa-reorder"]
                                                                       style:UIBarButtonItemStylePlain
                                                                      target:self
@@ -220,12 +223,15 @@
     } else {
         if (indexPath.row == 0) {
             UIApplication *application = [UIApplication sharedApplication];
-            [application openURL:[NSURL URLWithString:@"http://neo.org"] options:@{} completionHandler:nil];
+            [application openURL:[NSURL URLWithString:@"https://neodius.io"] options:@{} completionHandler:nil];
         } else if (indexPath.row == 1) {
+            UIApplication *application = [UIApplication sharedApplication];
+            [application openURL:[NSURL URLWithString:@"http://neo.org"] options:@{} completionHandler:nil];
+        } else if (indexPath.row == 2) {
             UIApplication *application = [UIApplication sharedApplication];
             [application openURL:[NSURL URLWithString:@"https://bittrex.com/Market/Index?MarketName=BTC-NEO"] options:@{} completionHandler:nil];
             
-        } else if (indexPath.row == 2) {
+        } else if (indexPath.row == 3) {
             UIApplication *application = [UIApplication sharedApplication];
             [application openURL:[NSURL URLWithString:@"https://poloniex.com/exchange#btc_gas"] options:@{} completionHandler:nil];
         }
@@ -245,7 +251,7 @@
 }
 
 -(UIView*) headerView {
-    UIView* headerview = [[UIView alloc] initWithFrame:CGRectMake(15, 15, 200, 50)];
+    UIView* headerview = [[UIView alloc] initWithFrame:CGRectMake(10, 15, 200, 63)];
     UIImageView *menuLogo = [[UIImageView alloc] initWithFrame:headerview.frame];
     menuLogo.image = [UIImage imageNamed:@"imageMenu"];
     menuLogo.contentMode = UIViewContentModeScaleAspectFit;
@@ -282,7 +288,7 @@
     else if (section == 1)
         return 8;
     else
-        return 3;
+        return 4;
 }
 
 @end

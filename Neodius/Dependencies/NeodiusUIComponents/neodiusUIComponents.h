@@ -26,6 +26,10 @@
 #define SCREEN_MAX_LENGTH (MAX(SCREEN_WIDTH, SCREEN_HEIGHT))
 #define IS_IPHONE_X (IS_IPHONE && SCREEN_MAX_LENGTH == 812.0)
 
+#define FONT @"Lato"
+#define FONT_LIGHT @"Lato-Light"
+
+#define neoGreenColor [UIColor colorWithRed:0.29 green:0.72 blue:0.28 alpha:1.0]
 
 @interface NeodiusUIComponents : NSObject <QRCodeReaderDelegate> {
     QRCodeReaderViewController *vc;

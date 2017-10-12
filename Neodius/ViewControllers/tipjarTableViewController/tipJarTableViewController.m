@@ -50,7 +50,7 @@
         cell.selectedBackgroundView = selectionColor;
 
         UILabel *cryptoTitle = [[UILabel alloc]init];
-        cryptoTitle.font = [UIFont fontWithName:@"HelveticaNeue-Light" size:20];
+        cryptoTitle.font = [UIFont fontWithName:FONT_LIGHT size:20];
         cryptoTitle.frame = CGRectMake(0, 10, self.tableView.frame.size.width, 40);
         cryptoTitle.textAlignment = NSTextAlignmentCenter;
         cryptoTitle.contentMode = UIViewContentModeScaleAspectFit;
@@ -65,7 +65,7 @@
         [cell.contentView addSubview:logoView];
 
         UILabel *cryptoAddress = [[UILabel alloc]init];
-        cryptoAddress.font = [UIFont fontWithName:@"HelveticaNeue-Light" size:16];
+        cryptoAddress.font = [UIFont fontWithName:FONT_LIGHT size:16];
         cryptoAddress.frame = CGRectMake(0, logoView.frame.origin.x + logoView.frame.size.height + 60, self.tableView.frame.size.width, 40);
         cryptoAddress.textAlignment = NSTextAlignmentCenter;
         cryptoAddress.contentMode = UIViewContentModeScaleAspectFit;
@@ -100,7 +100,7 @@
 
 - (void)tableView:(UITableView *)tableView willDisplayHeaderView:(UIView *)view forSection:(NSInteger)section {
     UITableViewHeaderFooterView *header = (UITableViewHeaderFooterView *)view;
-    header.textLabel.font = [UIFont fontWithName:@"HelveticaNeue-Light" size:header.textLabel.font.pointSize];
+    header.textLabel.font = [UIFont fontWithName:FONT_LIGHT size:header.textLabel.font.pointSize];
 }
 
 
