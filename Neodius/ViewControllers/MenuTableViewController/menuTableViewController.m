@@ -99,10 +99,10 @@
             cell.textLabel.text = [NSString stringWithFormat:NSLocalizedString(@"Visit %@",nil), @"NEO.org"];
             icon = @"fa-rocket";
         } else if (indexPath.row == 2) {
-            cell.textLabel.text = [NSString stringWithFormat:NSLocalizedString(@"Visit %@",nil), @"NEO @ Bittrex"];
+            cell.textLabel.text = [NSString stringWithFormat:NSLocalizedString(@"Visit %@",nil), @"NEO @ Bittrex.com"];
             icon = @"fa-exchange";
         } else if (indexPath.row == 3) {
-            cell.textLabel.text = [NSString stringWithFormat:NSLocalizedString(@"Visit %@",nil), @"GAS @ Poloniex"];
+            cell.textLabel.text = [NSString stringWithFormat:NSLocalizedString(@"Visit %@",nil), @"GAS @ Poloniex.com"];
             icon = @"fa-bus";
         }
     }
