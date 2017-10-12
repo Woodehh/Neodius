@@ -9,6 +9,7 @@
 #import "menuTableViewController.h"
 #import "walletViewTableViewController.h"
 #import "NeodiusDataSource.h"
+#import "neodiusUIComponents.h"
 #import <Fabric/Fabric.h>
 #import <Crashlytics/Crashlytics.h>
 
@@ -19,11 +20,12 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
-    [UINavigationBar appearance].barTintColor = [UIColor colorWithRed:0.35 green:0.75 blue:0.00 alpha:1.0];
+    
+    [UINavigationBar appearance].barTintColor = neoGreenColor;
     [UINavigationBar appearance].tintColor = [UIColor whiteColor];
     [UINavigationBar appearance].titleTextAttributes = @{
                                                            NSForegroundColorAttributeName: [UIColor whiteColor],
-                                                           NSFontAttributeName : [UIFont fontWithName:@"HelveticaNeue-Light" size:22]
+                                                           NSFontAttributeName : [UIFont fontWithName:FONT size:22]
                                                            };
 
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
@@ -48,7 +50,7 @@
     [LTHPasscodeViewController sharedUser].backgroundColor = [UIColor whiteColor];
     [LTHPasscodeViewController sharedUser].backgroundImage = [UIImage imageNamed:@"menuLogo"];
     [LTHPasscodeViewController sharedUser].labelTextColor = neoGreenColor;
-    [LTHPasscodeViewController sharedUser].labelFont = [UIFont fontWithName:@"HelveticaNeue-Light" size:20];
+    [LTHPasscodeViewController sharedUser].labelFont = [UIFont fontWithName:FONT_LIGHT size:20];
     
     [Instabug startWithToken:@"04f8d4215669322237207f2fae43def6" invocationEvent:IBGInvocationEventShake];
     
