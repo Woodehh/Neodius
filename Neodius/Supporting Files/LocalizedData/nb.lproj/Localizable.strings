@@ -177,9 +177,6 @@
 "Links" = "Linker";
 
 /*No comment provided by engineer.*/
-"Loading article" = "Henter artikkel";
-
-/*No comment provided by engineer.*/
 "Loading transaction" = "Laster inn transaksjon";
 
 /*No comment provided by engineer.*/
@@ -196,9 +193,6 @@
 
 /*No comment provided by engineer.*/
 "N1njaWTF Tip jar" = "N1njaWTF Tipbøtte";
-
-/*No comment provided by engineer.*/
-"NEO News" = "NEO Nyheter";
 
 /*No comment provided by engineer.*/
 "No Connection" = "Ingen forbindelse";
@@ -279,9 +273,6 @@
 "Tap the icon on the right upper side to enter the NEO amount to calculate!" = "Trykk på ikonet på høyre øvre side for å angi NEO-beløpet for å starte beregningen!";
 
 /*No comment provided by engineer.*/
-"Tap to read on" = "Trykk for å lese videre";
-
-/*No comment provided by engineer.*/
 "Theoretical" = "Teoretisk";
 
 /*No comment provided by engineer.*/
@@ -327,18 +318,6 @@
 "View transaction" = "Vis transaksjon";
 
 /*No comment provided by engineer.*/
-"Visit GAS on Poloniex" = "Gå til GAS on Poloniex";
-
-/*No comment provided by engineer.*/
-"Visit NEO on Bittrex" = "Gå til NEO on Bittrex";
-
-/*No comment provided by engineer.*/
-"Visit NEO.org" = "Gå til NEO.org";
-
-/*No comment provided by engineer.*/
-"Visit NeoToGas.com" = "Gå til NeoToGas.com";
-
-/*No comment provided by engineer.*/
 "Visual and messages" = "Visuelt og meldinger";
 
 /*No comment provided by engineer.*/
@@ -373,3 +352,27 @@
 
 /*Sending email message failed body*/
 "Your email has failed to send." = "Noe gikk feil ved å sende eposten din.";
+
+/*No comment provided by engineer.*/
+"Loading article" = "Henter artikkel";
+
+/*No comment provided by engineer.*/
+"NEO News" = "NEO Nyheter";
+
+/*No comment provided by engineer.*/
+"Tap to read on" = "Trykk for å lese videre";
+
+/*No comment provided by engineer.*/
+"Visit %@" = "Gå til %@";
+
+/*No comment provided by engineer.*/
+"Visit GAS on Poloniex" = "";
+
+/*No comment provided by engineer.*/
+"Visit NEO on Bittrex" = "";
+
+/*No comment provided by engineer.*/
+"Visit NEO.org" = "";
+
+/*No comment provided by engineer.*/
+"Visit NeoToGas.com" = "";
