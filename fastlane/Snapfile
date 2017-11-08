@@ -1,0 +1,20 @@
+# Uncomment the lines below you want to change by removing the # in the beginning
+
+# A list of devices you want to take the screenshots from
+ devices([
+   "iPhone 8 Plus",
+   "iPad Pro (12.9-inch) (2nd generation)"
+ ])
+
+languages([
+	"nl-BE"
+])
+
+output_directory "./_helper-scripts/_screenshot-builder/_tmp_screenshots/"
+workspace 'Nodius.xcworkspace'
+scheme 'Nodius'
+
+clear_previous_screenshots false
+concurrent_simulators true
+skip_open_summary true
+number_of_retries 3

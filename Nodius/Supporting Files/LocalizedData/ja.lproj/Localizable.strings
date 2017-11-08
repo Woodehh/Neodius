@@ -1,0 +1,393 @@
+
+/*Acknowlegdments header title*/
+"%@ makes use of the following third party libraries. Many thanks to the developers making them available!" = "%@により、これらのライブラリーの使用が可能になりました。ライブラリーの開発者に感謝します。";
+
+/*No comment provided by engineer.*/
+"%@ Market information" = "マーケット情報";
+
+/*No comment provided by engineer.*/
+"1 Hour" = "1時間";
+
+/*No comment provided by engineer.*/
+"24 Hour trading" = "過去24時間の取引";
+
+/*No comment provided by engineer.*/
+"24 Hours" = "24時間";
+
+/*No comment provided by engineer.*/
+"24h high" = "24時間最高値";
+
+/*No comment provided by engineer.*/
+"24h low" = "24時間最低値";
+
+/*No comment provided by engineer.*/
+"7 Days" = "7日間";
+
+/*Translator: enter your information for credits! In English please. Like this: Dutch is translated by Benjamin de Bos (info@its-vision.nl). E-mail is not required!*/
+"<Language> is translated by: <your (nick) name> (<e-mail>)" = "Japanese is translated by: neoojisan (https://twitter.com/neoojisan)";
+
+/*Prefilled Email message text*/
+"<p>[Please insert your message here]</p><p><em>For support inquiries, please include the following information. These make it easier for me to help you. Thank you!</em><p><hr><p><strong>Support Information</strong></p></p>%@ Version %@ (%@)<br>%@ (%@)<br>iOS %@ (%@)</p><hr>" = "<p>[ここにメッセージを入力してください]</p><p><em>サポートのお問い合わせには、次の情報を含んでください。これにより、じゅうぶんなサポートができるようになります。</em><p><hr><p><strong>サポート情報</strong></p></p>%@ Version %@ (%@)<br>%@ (%@)<br>iOS %@ (%@)</p><hr>";
+
+/*UINavigationBar Title*/
+"About" = "About";
+
+/*No comment provided by engineer.*/
+"Actual" = "実際";
+
+/*No comment provided by engineer.*/
+"Add wallet" = "ウォレットを追加";
+
+/*No comment provided by engineer.*/
+"Address copied to clipboard" = "アドレスをクリップボードにコピーしました";
+
+/*No comment provided by engineer.*/
+"Address input" = "アドレスを入力";
+
+/*No comment provided by engineer.*/
+"Are you sure?" = "よろしいですか？";
+
+/*No comment provided by engineer.*/
+"Ask price" = "売値";
+
+/*No comment provided by engineer.*/
+"Base crypto currency" = "比較する仮想通貨";
+
+/*No comment provided by engineer.*/
+"Base fiat currency" = "比較する法定通貨";
+
+/*No comment provided by engineer.*/
+"Bid price" = "買値";
+
+/*No comment provided by engineer.*/
+"Block generation time: %.1fs" = "ブロック生成時間: %.1fs";
+
+/*No comment provided by engineer.*/
+"By entering an address" = "アドレスを入力";
+
+/*No comment provided by engineer.*/
+"By entering an amount of NEO" = "NEOの数量を入力";
+
+/*No comment provided by engineer.*/
+"By QR-Code" = "QRコードで確認";
+
+/*No comment provided by engineer.*/
+"By selecting a wallet" = "ウォレットを選択";
+
+/*No comment provided by engineer.*/
+"Calculating GAS" = "GASを計算";
+
+/*No comment provided by engineer.*/
+"Calculating GAS for: %@ NEO" = "GASを計算: %@ NEO";
+
+/*Cancel*/
+"Cancel" = "キャンセル";
+
+/*Cannot send Email*/
+"Cannot send Email" = "Emailを送れません";
+
+/*No comment provided by engineer.*/
+"Cellular" = "携帯";
+
+/*No comment provided by engineer.*/
+"Changes" = "値動き";
+
+/*No comment provided by engineer.*/
+"Cheers thanks!" = "ありがとうございました！";
+
+/*No comment provided by engineer.*/
+"Connecting to the blockchain" = "ブロックチェーンに接続";
+
+/*No comment provided by engineer.*/
+"Connection status messages" = "接続ステータスのメッセージ";
+
+/*No comment provided by engineer.*/
+"Contact us" = "お問い合わせ";
+
+/*No comment provided by engineer.*/
+"Copy address" = "アドレスをコピー";
+
+/*Copy diagnostic info to pasteboard*/
+"Copy Info" = "インフォメーションをコピー";
+
+/*No comment provided by engineer.*/
+"Currency" = "通貨";
+
+/*No comment provided by engineer.*/
+"Current bid/ask price" = "現在の買値/売値";
+
+/*No comment provided by engineer.*/
+"Current market values" = "現在のマーケット価格";
+
+/*No comment provided by engineer.*/
+"Current wallets" = "現在のウォレット";
+
+/*Dismiss error message*/
+"Dismiss" = "無視";
+
+/*No comment provided by engineer.*/
+"Dividend" = "配当";
+
+/*No comment provided by engineer.*/
+"Donate %@" = "%@を寄付";
+
+/*No comment provided by engineer.*/
+"Edit wallet" = "ウォレットの編集";
+
+/*No comment provided by engineer.*/
+"Enter a name" = "名前を入力";
+
+/*No comment provided by engineer.*/
+"Enter a name and the address" = "名前とアドレスを入力";
+
+/*No comment provided by engineer.*/
+"Enter NEO Amount" = "NEOの数量を入力";
+
+/*No comment provided by engineer.*/
+"Enter the address" = "アドレスを入力";
+
+/*No comment provided by engineer.*/
+"Feel free to send some %@ in order to make support the Nodius development! :-)" = "Nodiusの開発サポートのために%@をお送りください";
+
+/*No comment provided by engineer.*/
+"GAS Calculation" = "GASの計算";
+
+/*No comment provided by engineer.*/
+"GAS Calculation has been brought to life by N1njaWTF of NeoToGas.com. Nodius' encourages you to tip some NEO/GAS to N1njaWTF for his awesome work!" = "GASの計算はNeoToGas.com運営者のN1njaWTFの貢献によるものです。是非ともN1njaWTFにNEO/GASの寄付をお願いします。";
+
+/*No comment provided by engineer.*/
+"General" = "一般";
+
+/*No comment provided by engineer.*/
+"Get block %@" = "ブロック%@を取得";
+
+/*No comment provided by engineer.*/
+"Getting best node" = "最適ノードを取得";
+
+/*No comment provided by engineer.*/
+"Getting last block" = "最終ブロックを取得";
+
+/*No comment provided by engineer.*/
+"Hey there!" = "こんにちは";
+
+/*No comment provided by engineer.*/
+"Language" = "言語";
+
+/*No comment provided by engineer.*/
+"Links" = "リンク";
+
+/*No comment provided by engineer.*/
+"Loading article" = "記事を読み込む";
+
+/*No comment provided by engineer.*/
+"Loading transaction" = "トランザクションをロード中";
+
+/*No comment provided by engineer.*/
+"Market Cap" = "時価総額";
+
+/*Sending email message failed*/
+"Message Failed!" = "メッセージの送信に失敗しました";
+
+/*No comment provided by engineer.*/
+"minute" = "分";
+
+/*No comment provided by engineer.*/
+"minutes" = "分";
+
+/*No comment provided by engineer.*/
+"N1njaWTF Tip jar" = "N1njaWTFをサポートする";
+
+/*No comment provided by engineer.*/
+"NEO News" = "NEO News";
+
+/*No comment provided by engineer.*/
+"No Connection" = "接続がありません";
+
+/*No comment provided by engineer.*/
+"No network we'll inform you when it's back!" = "ネットワークがありません。ネットワークが戻り次第通知します。";
+
+/*No comment provided by engineer.*/
+"No transactions found" = "トランザクションが見つかりませんでした";
+
+/*No comment provided by engineer.*/
+"Oh yes, internet is back!" = "インターネットに再接続しました";
+
+/*No comment provided by engineer.*/
+"Okay" = "OK";
+
+/*No comment provided by engineer.*/
+"Per day" = "1日";
+
+/*No comment provided by engineer.*/
+"Per month" = "1ヶ月";
+
+/*No comment provided by engineer.*/
+"Per week" = "1週間";
+
+/*No comment provided by engineer.*/
+"Per year" = "1年";
+
+/*No comment provided by engineer.*/
+"Pick a method" = "方法を選択";
+
+/*No comment provided by engineer.*/
+"Quick address lookup" = "アドレスでウォレット情報を見る";
+
+/*No comment provided by engineer.*/
+"Rank" = "ランキング";
+
+/*No comment provided by engineer.*/
+"Receiving NEO Amount from wallet" = "NEOをウォレットから受け取る";
+
+/*No comment provided by engineer.*/
+"Refresh interval" = "更新間隔";
+
+/*No comment provided by engineer.*/
+"Refresh timer" = "更新タイマー";
+
+/*No comment provided by engineer.*/
+"second" = "秒";
+
+/*No comment provided by engineer.*/
+"seconds" = "秒";
+
+/*No comment provided by engineer.*/
+"Secure app with passcode" = "パスコードでアプリを保護";
+
+/*No comment provided by engineer.*/
+"Security" = "セキュリティー";
+
+/*No comment provided by engineer.*/
+"Select crypto currency" = "仮想通貨を選択";
+
+/*No comment provided by engineer.*/
+"Select currency" = "法定通貨を選択";
+
+/*No comment provided by engineer.*/
+"Select interval" = "インターバルを選択";
+
+/*No comment provided by engineer.*/
+"Select wallet" = "ウォレットを選択";
+
+/*No comment provided by engineer.*/
+"Settings" = "設定";
+
+/*No comment provided by engineer.*/
+"Share address" = "アドレスをシェア";
+
+/*No comment provided by engineer.*/
+"Tap the icon on the right upper side to enter the NEO amount to calculate!" = "右上のアイコンをタップしてNEOの数量を入力し計算してください。";
+
+/*No comment provided by engineer.*/
+"Tap to read on" = "タップして読み取る";
+
+/*No comment provided by engineer.*/
+"Theoretical" = "理論値";
+
+/*No comment provided by engineer.*/
+"This is the NEO address. Feel free to transfer some NEO or GAS! :)" = "これがNEO/GASのアドレスです。NEO/GASを送りましょう。";
+
+/*No comment provided by engineer.*/
+"Time" = "時間";
+
+/*No comment provided by engineer.*/
+"Tip jar" = "サポート";
+
+/*No comment provided by engineer.*/
+"Tip N1njaWTF" = "N1njaWTFをサポートする";
+
+/*No comment provided by engineer.*/
+"Tip N1njaWTF of NeoToGas.com some GAS or NEO! :-)" = "N1njaWTFにGASかNEOを送る";
+
+/*No comment provided by engineer.*/
+"Tools" = "ツール";
+
+/*No comment provided by engineer.*/
+"TouchID" = "TouchID";
+
+/*No comment provided by engineer.*/
+"TouchID (not available)" = "TouchID (利用不可)";
+
+/*No comment provided by engineer.*/
+"Transactions" = "トランザクション";
+
+/*No comment provided by engineer.*/
+"Unclaimed GAS" = "未請求分のGAS";
+
+/*Error message: no email accounts available*/
+"Unfortunately there are no Email accounts available on your device.\n\nFor support questions, please send an Email to %@ and include the following information: %@.\n\nTab the 'Copy info' button to copy this information to your pasteboard. Thank you!" = "申し訳ありませんがこのデバイスで使えるメールアドレスがありません。\n\nサポートのお問い合わせには次の情報を含めた上で%@までメールをお送りください。\n\n「Copy info」ボタンのタブからこの情報をコピーしてください。";
+
+/*No comment provided by engineer.*/
+"Use MainNet blockchain" = "MainNetブロックチェーンを使用";
+
+/*No comment provided by engineer.*/
+"Use TouchID to unlock Nodius" = "TouchIDでNodiusのロックを解除";
+
+/*No comment provided by engineer.*/
+"View transaction" = "トランザクションを表示";
+
+/*No comment provided by engineer.*/
+"Visit %@" = "%@ に行く";
+
+/*No comment provided by engineer.*/
+"Visual and messages" = "ビジュアルとメッセージ";
+
+/*No comment provided by engineer.*/
+"Volume" = "取引量";
+
+/*No comment provided by engineer.*/
+"Wallet address" = "ウォレットアドレス";
+
+/*No comment provided by engineer.*/
+"Wallet management" = "ウォレット設定";
+
+/*No comment provided by engineer.*/
+"Wallet refresh interval" = "ウォレット更新のインターバル";
+
+/*No comment provided by engineer.*/
+"Wallets" = "ウォレット";
+
+/*No comment provided by engineer.*/
+"Welcome to Nodius, we aim to make the NEO blockchain more accessible to everybody.\n\nTo use this app, get your wallet address and add this to Nodius. You can do that by tapping the menu button on the left top side and tap Add Wallet.\n\nDon't forget to give feedback through the about screen!" = "Nodiusへようこそ。私たちはNEOブロックチェーンをアクセスしやすいものにするために活動しています。\n\nこのアプリを使うには、ウォレットのアドレスを取得して追加してください。左上のメニューボタンをタッチしたあとに「ウォレットを追加」をタップすることで、アドレスを追加できます。\n\nこのスクリーンについてのフィードバックをいただけると助かります。";
+
+/*No comment provided by engineer.*/
+"What source would you like to have for the GAS Calculation?" = "ガスの計算にどのソースを使用しますか？";
+
+/*No comment provided by engineer.*/
+"WiFi" = "WiFi";
+
+/*No comment provided by engineer.*/
+"Yes" = "はい";
+
+/*No comment provided by engineer.*/
+"You're about to remove %@. Are you sure?" = "%@を削除しようとしています。本当によろしいですか？";
+
+/*Sending email message failed body*/
+"Your email has failed to send." = "メールの送信に失敗しました";
+
+/* No comment provided by engineer. */
+"No Data" = "";
+
+/* No comment provided by engineer. */
+"Operation was unsuccessful." = "";
+
+/* No comment provided by engineer. */
+"Please try again by inserting a DTTimePeriod object." = "";
+
+/* No comment provided by engineer. */
+"Please try an index within the bounds of the group." = "";
+
+/* No comment provided by engineer. */
+"Please try an index within the bounds or the group." = "";
+
+/*No comment provided by engineer.*/
+"Visit GAS on Poloniex" = "";
+
+/*No comment provided by engineer.*/
+"Visit NEO on Bittrex" = "";
+
+/*No comment provided by engineer.*/
+"Visit NEO.org" = "";
+
+/*No comment provided by engineer.*/
+"Visit NeoToGas.com" = "";

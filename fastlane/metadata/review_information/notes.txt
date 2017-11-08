@@ -1,0 +1,12 @@
+You can use Adr3XjZ5QDzVJrWvzmsTTchpLRRGSzgS5A as address for the blockchain explorer.
+
+As per requested: 
+
+1. Around one billion. Its the 10th largest crypto currency: https://coinmarketcap.com/currencies/neo/
+2. Its close to ethereum but has a wider use. It also has a divident system called gas: neo.org
+3. It's used for Trading assets, smart contracts and providing dividend in the form of GAS
+4. Introduced in 2014 as Antshares: its now called neo since a couple of months
+5. History can be found: https://coinmarketcap.com/currencies/neo/
+6. Information about NEO/GAS can be found in the app aswel.
+
+I did not invent this. Im only letting people explore the existing blockchain with this app.

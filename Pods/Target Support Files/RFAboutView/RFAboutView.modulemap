@@ -1,0 +1,6 @@
+framework module RFAboutView {
+  umbrella header "RFAboutView-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,963 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		841CD66AF7BE5DE65EA83820 /* Pods_Nodius.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A547B8DADAA01E93BACE6EA /* Pods_Nodius.framework */; };
+		E28FE8A21FA9CC9800B1DF63 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E217DCF01FA9CB21008169BC /* AppDelegate.m */; };
+		E28FE8AA1FA9CC9800B1DF63 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E217DCE51FA9CB21008169BC /* main.m */; };
+		E28FE8AB1FA9CC9800B1DF63 /* gasCalculationTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E217DCAD1FA9CB21008169BC /* gasCalculationTableViewController.m */; };
+		E28FE8AC1FA9CC9800B1DF63 /* baseMarketInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E217DCB21FA9CB21008169BC /* baseMarketInfoViewController.m */; };
+		E28FE8AD1FA9CC9800B1DF63 /* marketGraphTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E217DCB51FA9CB21008169BC /* marketGraphTableViewController.m */; };
+		E28FE8AE1FA9CC9800B1DF63 /* marketInfoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E217DCB81FA9CB21008169BC /* marketInfoTableViewController.m */; };
+		E28FE8AF1FA9CC9800B1DF63 /* menuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E217DCBB1FA9CB21008169BC /* menuTableViewController.m */; };
+		E28FE8B01FA9CC9800B1DF63 /* neoNewsTodayTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E217DCBE1FA9CB21008169BC /* neoNewsTodayTableViewController.m */; };
+		E28FE8B11FA9CC9800B1DF63 /* selectionSettingsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E217DCC21FA9CB21008169BC /* selectionSettingsTableViewController.m */; };
+		E28FE8B21FA9CC9800B1DF63 /* settingsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E217DCC51FA9CB21008169BC /* settingsTableViewController.m */; };
+		E28FE8B31FA9CC9800B1DF63 /* walletManagementTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E217DCC81FA9CB21008169BC /* walletManagementTableViewController.m */; };
+		E28FE8B41FA9CC9800B1DF63 /* tipJarTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E217DCCB1FA9CB21008169BC /* tipJarTableViewController.m */; };
+		E28FE8B51FA9CC9800B1DF63 /* walletViewTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E217DCCE1FA9CB21008169BC /* walletViewTableViewController.m */; };
+		E28FE8B71FA9CCDF00B1DF63 /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E28FE8B61FA9CCDF00B1DF63 /* LocalAuthentication.framework */; };
+		E28FE8B81FA9CCE800B1DF63 /* Acknowledgements.plist in Resources */ = {isa = PBXBuildFile; fileRef = E217DCCF1FA9CB21008169BC /* Acknowledgements.plist */; };
+		E28FE8B91FA9CCEE00B1DF63 /* FontAwesome4.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E217DCD31FA9CB21008169BC /* FontAwesome4.ttf */; };
+		E28FE8BA1FA9CCEE00B1DF63 /* Lato-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E217DCD41FA9CB21008169BC /* Lato-Light.ttf */; };
+		E28FE8BB1FA9CCEE00B1DF63 /* Lato.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E217DCD51FA9CB21008169BC /* Lato.ttf */; };
+		E28FE8BC1FA9CCF400B1DF63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E217DCEC1FA9CB21008169BC /* Assets.xcassets */; };
+		E28FE8E41FA9CE2B00B1DF63 /* gasCalculationTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E28FE8D11FA9CE0700B1DF63 /* gasCalculationTableViewCell.m */; };
+		E28FE8E51FA9CE2B00B1DF63 /* marketGraphTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E28FE8D41FA9CE0700B1DF63 /* marketGraphTableViewCell.m */; };
+		E28FE8E61FA9CE2B00B1DF63 /* marketViewCustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E28FE8D71FA9CE0700B1DF63 /* marketViewCustomTableViewCell.m */; };
+		E28FE8E71FA9CE2B00B1DF63 /* NEOButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E28FE8DA1FA9CE0700B1DF63 /* NEOButton.m */; };
+		E28FE8E81FA9CE2B00B1DF63 /* neoNewsTodayTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E28FE8DD1FA9CE0700B1DF63 /* neoNewsTodayTableViewCell.m */; };
+		E28FE8E91FA9CE2B00B1DF63 /* nodiusDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = E28FE8E01FA9CE0700B1DF63 /* nodiusDataSource.m */; };
+		E28FE8EA1FA9CE2B00B1DF63 /* nodiusUIComponents.m in Sources */ = {isa = PBXBuildFile; fileRef = E28FE8E31FA9CE0700B1DF63 /* nodiusUIComponents.m */; };
+		E28FE8EC1FA9D31700B1DF63 /* cryptoCurrencies.json in Resources */ = {isa = PBXBuildFile; fileRef = E217DCE71FA9CB21008169BC /* cryptoCurrencies.json */; };
+		E28FE8ED1FA9D31700B1DF63 /* donationData.json in Resources */ = {isa = PBXBuildFile; fileRef = E217DCE81FA9CB21008169BC /* donationData.json */; };
+		E28FE8EE1FA9D31700B1DF63 /* fiatCurrencies.json in Resources */ = {isa = PBXBuildFile; fileRef = E217DCE91FA9CB21008169BC /* fiatCurrencies.json */; };
+		E28FE8EF1FA9D31700B1DF63 /* refreshIntervals.json in Resources */ = {isa = PBXBuildFile; fileRef = E217DCEA1FA9CB21008169BC /* refreshIntervals.json */; };
+		E28FE8F01FA9D35200B1DF63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E217DCED1FA9CB21008169BC /* LaunchScreen.storyboard */; };
+		E28FE8F81FA9D4B100B1DF63 /* NodiusUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E28FE8F71FA9D4B100B1DF63 /* NodiusUITests.m */; };
+		E28FE9011FA9D53D00B1DF63 /* SnapshotHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28FE9001FA9D53D00B1DF63 /* SnapshotHelper.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E28FE8FA1FA9D4B100B1DF63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E217DC731FA9CAFB008169BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E217DC7A1FA9CAFB008169BC;
+			remoteInfo = Nodius;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4A547B8DADAA01E93BACE6EA /* Pods_Nodius.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Nodius.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A3A75196282C8900906A7F8 /* Pods-Nodius.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nodius.release.xcconfig"; path = "Pods/Target Support Files/Pods-Nodius/Pods-Nodius.release.xcconfig"; sourceTree = "<group>"; };
+		A24CA368E0E90F715CC66BF3 /* Pods-Nodius.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nodius.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Nodius/Pods-Nodius.debug.xcconfig"; sourceTree = "<group>"; };
+		E217DC7B1FA9CAFB008169BC /* Nodius.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nodius.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E217DCAC1FA9CB21008169BC /* gasCalculationTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gasCalculationTableViewController.h; sourceTree = "<group>"; };
+		E217DCAD1FA9CB21008169BC /* gasCalculationTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gasCalculationTableViewController.m; sourceTree = "<group>"; };
+		E217DCB11FA9CB21008169BC /* baseMarketInfoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = baseMarketInfoViewController.h; sourceTree = "<group>"; };
+		E217DCB21FA9CB21008169BC /* baseMarketInfoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = baseMarketInfoViewController.m; sourceTree = "<group>"; };
+		E217DCB41FA9CB21008169BC /* marketGraphTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = marketGraphTableViewController.h; sourceTree = "<group>"; };
+		E217DCB51FA9CB21008169BC /* marketGraphTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = marketGraphTableViewController.m; sourceTree = "<group>"; };
+		E217DCB71FA9CB21008169BC /* marketInfoTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = marketInfoTableViewController.h; sourceTree = "<group>"; };
+		E217DCB81FA9CB21008169BC /* marketInfoTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = marketInfoTableViewController.m; sourceTree = "<group>"; };
+		E217DCBA1FA9CB21008169BC /* menuTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = menuTableViewController.h; sourceTree = "<group>"; };
+		E217DCBB1FA9CB21008169BC /* menuTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = menuTableViewController.m; sourceTree = "<group>"; };
+		E217DCBD1FA9CB21008169BC /* neoNewsTodayTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = neoNewsTodayTableViewController.h; sourceTree = "<group>"; };
+		E217DCBE1FA9CB21008169BC /* neoNewsTodayTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = neoNewsTodayTableViewController.m; sourceTree = "<group>"; };
+		E217DCC11FA9CB21008169BC /* selectionSettingsTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = selectionSettingsTableViewController.h; sourceTree = "<group>"; };
+		E217DCC21FA9CB21008169BC /* selectionSettingsTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = selectionSettingsTableViewController.m; sourceTree = "<group>"; };
+		E217DCC41FA9CB21008169BC /* settingsTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = settingsTableViewController.h; sourceTree = "<group>"; };
+		E217DCC51FA9CB21008169BC /* settingsTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = settingsTableViewController.m; sourceTree = "<group>"; };
+		E217DCC71FA9CB21008169BC /* walletManagementTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = walletManagementTableViewController.h; sourceTree = "<group>"; };
+		E217DCC81FA9CB21008169BC /* walletManagementTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = walletManagementTableViewController.m; sourceTree = "<group>"; };
+		E217DCCA1FA9CB21008169BC /* tipJarTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tipJarTableViewController.h; sourceTree = "<group>"; };
+		E217DCCB1FA9CB21008169BC /* tipJarTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tipJarTableViewController.m; sourceTree = "<group>"; };
+		E217DCCD1FA9CB21008169BC /* walletViewTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = walletViewTableViewController.h; sourceTree = "<group>"; };
+		E217DCCE1FA9CB21008169BC /* walletViewTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = walletViewTableViewController.m; sourceTree = "<group>"; };
+		E217DCCF1FA9CB21008169BC /* Acknowledgements.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Acknowledgements.plist; sourceTree = "<group>"; };
+		E217DCD01FA9CB21008169BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E217DCD31FA9CB21008169BC /* FontAwesome4.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome4.ttf; sourceTree = "<group>"; };
+		E217DCD41FA9CB21008169BC /* Lato-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Light.ttf"; sourceTree = "<group>"; };
+		E217DCD51FA9CB21008169BC /* Lato.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Lato.ttf; sourceTree = "<group>"; };
+		E217DCD81FA9CB21008169BC /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E217DCD91FA9CB21008169BC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E217DCDA1FA9CB21008169BC /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E217DCDB1FA9CB21008169BC /* fr-CA */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "fr-CA"; path = "fr-CA.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		E217DCDC1FA9CB21008169BC /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E217DCDD1FA9CB21008169BC /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E217DCDE1FA9CB21008169BC /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E217DCDF1FA9CB21008169BC /* nb */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nb; path = nb.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E217DCE01FA9CB21008169BC /* nl-BE */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "nl-BE"; path = "nl-BE.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		E217DCE11FA9CB21008169BC /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E217DCE21FA9CB21008169BC /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E217DCE31FA9CB21008169BC /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		E217DCE41FA9CB21008169BC /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		E217DCE51FA9CB21008169BC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E217DCE71FA9CB21008169BC /* cryptoCurrencies.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = cryptoCurrencies.json; sourceTree = "<group>"; };
+		E217DCE81FA9CB21008169BC /* donationData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = donationData.json; sourceTree = "<group>"; };
+		E217DCE91FA9CB21008169BC /* fiatCurrencies.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = fiatCurrencies.json; sourceTree = "<group>"; };
+		E217DCEA1FA9CB21008169BC /* refreshIntervals.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = refreshIntervals.json; sourceTree = "<group>"; };
+		E217DCEC1FA9CB21008169BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E217DCED1FA9CB21008169BC /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E217DCEF1FA9CB21008169BC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E217DCF01FA9CB21008169BC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E28FE8B61FA9CCDF00B1DF63 /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
+		E28FE8D01FA9CE0700B1DF63 /* gasCalculationTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gasCalculationTableViewCell.h; sourceTree = "<group>"; };
+		E28FE8D11FA9CE0700B1DF63 /* gasCalculationTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gasCalculationTableViewCell.m; sourceTree = "<group>"; };
+		E28FE8D31FA9CE0700B1DF63 /* marketGraphTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = marketGraphTableViewCell.h; sourceTree = "<group>"; };
+		E28FE8D41FA9CE0700B1DF63 /* marketGraphTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = marketGraphTableViewCell.m; sourceTree = "<group>"; };
+		E28FE8D61FA9CE0700B1DF63 /* marketViewCustomTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = marketViewCustomTableViewCell.h; sourceTree = "<group>"; };
+		E28FE8D71FA9CE0700B1DF63 /* marketViewCustomTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = marketViewCustomTableViewCell.m; sourceTree = "<group>"; };
+		E28FE8D91FA9CE0700B1DF63 /* NEOButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NEOButton.h; sourceTree = "<group>"; };
+		E28FE8DA1FA9CE0700B1DF63 /* NEOButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NEOButton.m; sourceTree = "<group>"; };
+		E28FE8DC1FA9CE0700B1DF63 /* neoNewsTodayTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = neoNewsTodayTableViewCell.h; sourceTree = "<group>"; };
+		E28FE8DD1FA9CE0700B1DF63 /* neoNewsTodayTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = neoNewsTodayTableViewCell.m; sourceTree = "<group>"; };
+		E28FE8DF1FA9CE0700B1DF63 /* nodiusDataSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = nodiusDataSource.h; sourceTree = "<group>"; };
+		E28FE8E01FA9CE0700B1DF63 /* nodiusDataSource.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = nodiusDataSource.m; sourceTree = "<group>"; };
+		E28FE8E21FA9CE0700B1DF63 /* nodiusUIComponents.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = nodiusUIComponents.h; sourceTree = "<group>"; };
+		E28FE8E31FA9CE0700B1DF63 /* nodiusUIComponents.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = nodiusUIComponents.m; sourceTree = "<group>"; };
+		E28FE8F51FA9D4B100B1DF63 /* NodiusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NodiusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E28FE8F71FA9D4B100B1DF63 /* NodiusUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NodiusUITests.m; sourceTree = "<group>"; };
+		E28FE8F91FA9D4B100B1DF63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E28FE8FF1FA9D53C00B1DF63 /* NodiusUITests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NodiusUITests-Bridging-Header.h"; sourceTree = "<group>"; };
+		E28FE9001FA9D53D00B1DF63 /* SnapshotHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapshotHelper.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E217DC781FA9CAFB008169BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E28FE8B71FA9CCDF00B1DF63 /* LocalAuthentication.framework in Frameworks */,
+				841CD66AF7BE5DE65EA83820 /* Pods_Nodius.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E28FE8F21FA9D4B100B1DF63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C6F0E32727D274BDAF8810EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E28FE8B61FA9CCDF00B1DF63 /* LocalAuthentication.framework */,
+				4A547B8DADAA01E93BACE6EA /* Pods_Nodius.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA273FDC5A69B32C947D0B3A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A24CA368E0E90F715CC66BF3 /* Pods-Nodius.debug.xcconfig */,
+				9A3A75196282C8900906A7F8 /* Pods-Nodius.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E217DC721FA9CAFB008169BC = {
+			isa = PBXGroup;
+			children = (
+				E217DC7D1FA9CAFB008169BC /* Nodius */,
+				E28FE8F61FA9D4B100B1DF63 /* NodiusUITests */,
+				E217DC7C1FA9CAFB008169BC /* Products */,
+				CA273FDC5A69B32C947D0B3A /* Pods */,
+				C6F0E32727D274BDAF8810EB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E217DC7C1FA9CAFB008169BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E217DC7B1FA9CAFB008169BC /* Nodius.app */,
+				E28FE8F51FA9D4B100B1DF63 /* NodiusUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E217DC7D1FA9CAFB008169BC /* Nodius */ = {
+			isa = PBXGroup;
+			children = (
+				E217DCCF1FA9CB21008169BC /* Acknowledgements.plist */,
+				E28FE8CE1FA9CE0700B1DF63 /* Dependencies */,
+				E217DCEE1FA9CB21008169BC /* AppDelegate */,
+				E217DCEB1FA9CB21008169BC /* Assets */,
+				E217DCD01FA9CB21008169BC /* Info.plist */,
+				E217DCD11FA9CB21008169BC /* Supporting Files */,
+				E217DCAA1FA9CB21008169BC /* ViewControllers */,
+			);
+			path = Nodius;
+			sourceTree = "<group>";
+		};
+		E217DCAA1FA9CB21008169BC /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E217DCAB1FA9CB21008169BC /* GasCalculationTableViewController */,
+				E217DCAE1FA9CB21008169BC /* mainMarketTableViewController */,
+				E217DCAF1FA9CB21008169BC /* MarketInfoTableViewController */,
+				E217DCB91FA9CB21008169BC /* MenuTableViewController */,
+				E217DCBC1FA9CB21008169BC /* NeoNewsTodayTableViewController */,
+				E217DCBF1FA9CB21008169BC /* Settings */,
+				E217DCC91FA9CB21008169BC /* TipJarTableViewController */,
+				E217DCCC1FA9CB21008169BC /* WalletViewTableViewController */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		E217DCAB1FA9CB21008169BC /* GasCalculationTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E217DCAC1FA9CB21008169BC /* gasCalculationTableViewController.h */,
+				E217DCAD1FA9CB21008169BC /* gasCalculationTableViewController.m */,
+			);
+			path = GasCalculationTableViewController;
+			sourceTree = "<group>";
+		};
+		E217DCAE1FA9CB21008169BC /* mainMarketTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = mainMarketTableViewController;
+			sourceTree = "<group>";
+		};
+		E217DCAF1FA9CB21008169BC /* MarketInfoTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E217DCB01FA9CB21008169BC /* baseMarketInfoViewController */,
+				E217DCB31FA9CB21008169BC /* marketGraphTableViewController */,
+				E217DCB61FA9CB21008169BC /* marketInfoTableViewController */,
+			);
+			path = MarketInfoTableViewController;
+			sourceTree = "<group>";
+		};
+		E217DCB01FA9CB21008169BC /* baseMarketInfoViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E217DCB11FA9CB21008169BC /* baseMarketInfoViewController.h */,
+				E217DCB21FA9CB21008169BC /* baseMarketInfoViewController.m */,
+			);
+			path = baseMarketInfoViewController;
+			sourceTree = "<group>";
+		};
+		E217DCB31FA9CB21008169BC /* marketGraphTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E217DCB41FA9CB21008169BC /* marketGraphTableViewController.h */,
+				E217DCB51FA9CB21008169BC /* marketGraphTableViewController.m */,
+			);
+			path = marketGraphTableViewController;
+			sourceTree = "<group>";
+		};
+		E217DCB61FA9CB21008169BC /* marketInfoTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E217DCB71FA9CB21008169BC /* marketInfoTableViewController.h */,
+				E217DCB81FA9CB21008169BC /* marketInfoTableViewController.m */,
+			);
+			path = marketInfoTableViewController;
+			sourceTree = "<group>";
+		};
+		E217DCB91FA9CB21008169BC /* MenuTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E217DCBA1FA9CB21008169BC /* menuTableViewController.h */,
+				E217DCBB1FA9CB21008169BC /* menuTableViewController.m */,
+			);
+			path = MenuTableViewController;
+			sourceTree = "<group>";
+		};
+		E217DCBC1FA9CB21008169BC /* NeoNewsTodayTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E217DCBD1FA9CB21008169BC /* neoNewsTodayTableViewController.h */,
+				E217DCBE1FA9CB21008169BC /* neoNewsTodayTableViewController.m */,
+			);
+			path = NeoNewsTodayTableViewController;
+			sourceTree = "<group>";
+		};
+		E217DCBF1FA9CB21008169BC /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				E217DCC01FA9CB21008169BC /* SelectionSettingsTableViewController */,
+				E217DCC31FA9CB21008169BC /* SettingsViewController */,
+				E217DCC61FA9CB21008169BC /* WalletManagementTableViewController */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		E217DCC01FA9CB21008169BC /* SelectionSettingsTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E217DCC11FA9CB21008169BC /* selectionSettingsTableViewController.h */,
+				E217DCC21FA9CB21008169BC /* selectionSettingsTableViewController.m */,
+			);
+			path = SelectionSettingsTableViewController;
+			sourceTree = "<group>";
+		};
+		E217DCC31FA9CB21008169BC /* SettingsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E217DCC41FA9CB21008169BC /* settingsTableViewController.h */,
+				E217DCC51FA9CB21008169BC /* settingsTableViewController.m */,
+			);
+			path = SettingsViewController;
+			sourceTree = "<group>";
+		};
+		E217DCC61FA9CB21008169BC /* WalletManagementTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E217DCC71FA9CB21008169BC /* walletManagementTableViewController.h */,
+				E217DCC81FA9CB21008169BC /* walletManagementTableViewController.m */,
+			);
+			path = WalletManagementTableViewController;
+			sourceTree = "<group>";
+		};
+		E217DCC91FA9CB21008169BC /* TipJarTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E217DCCA1FA9CB21008169BC /* tipJarTableViewController.h */,
+				E217DCCB1FA9CB21008169BC /* tipJarTableViewController.m */,
+			);
+			path = TipJarTableViewController;
+			sourceTree = "<group>";
+		};
+		E217DCCC1FA9CB21008169BC /* WalletViewTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E217DCCD1FA9CB21008169BC /* walletViewTableViewController.h */,
+				E217DCCE1FA9CB21008169BC /* walletViewTableViewController.m */,
+			);
+			path = WalletViewTableViewController;
+			sourceTree = "<group>";
+		};
+		E217DCD11FA9CB21008169BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E217DCD21FA9CB21008169BC /* Fonts */,
+				E217DCD61FA9CB21008169BC /* LocalizedData */,
+				E217DCE51FA9CB21008169BC /* main.m */,
+				E217DCE61FA9CB21008169BC /* SettingCache */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E217DCD21FA9CB21008169BC /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				E217DCD31FA9CB21008169BC /* FontAwesome4.ttf */,
+				E217DCD41FA9CB21008169BC /* Lato-Light.ttf */,
+				E217DCD51FA9CB21008169BC /* Lato.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		E217DCD61FA9CB21008169BC /* LocalizedData */ = {
+			isa = PBXGroup;
+			children = (
+				E217DCD71FA9CB21008169BC /* Localizable.strings */,
+			);
+			path = LocalizedData;
+			sourceTree = "<group>";
+		};
+		E217DCE61FA9CB21008169BC /* SettingCache */ = {
+			isa = PBXGroup;
+			children = (
+				E217DCE71FA9CB21008169BC /* cryptoCurrencies.json */,
+				E217DCE81FA9CB21008169BC /* donationData.json */,
+				E217DCE91FA9CB21008169BC /* fiatCurrencies.json */,
+				E217DCEA1FA9CB21008169BC /* refreshIntervals.json */,
+			);
+			path = SettingCache;
+			sourceTree = "<group>";
+		};
+		E217DCEB1FA9CB21008169BC /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				E217DCEC1FA9CB21008169BC /* Assets.xcassets */,
+				E217DCED1FA9CB21008169BC /* LaunchScreen.storyboard */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		E217DCEE1FA9CB21008169BC /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				E217DCEF1FA9CB21008169BC /* AppDelegate.h */,
+				E217DCF01FA9CB21008169BC /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		E28FE8CE1FA9CE0700B1DF63 /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				E28FE8CF1FA9CE0700B1DF63 /* GasCalculationTableViewCell */,
+				E28FE8D21FA9CE0700B1DF63 /* marketGraphTableViewCell */,
+				E28FE8D51FA9CE0700B1DF63 /* MarketViewCustomTableViewCell */,
+				E28FE8D81FA9CE0700B1DF63 /* NEOButton */,
+				E28FE8DB1FA9CE0700B1DF63 /* NeoNewsTodayTableViewCell */,
+				E28FE8DE1FA9CE0700B1DF63 /* NodiusDataSource */,
+				E28FE8E11FA9CE0700B1DF63 /* NodiusUIComponents */,
+			);
+			path = Dependencies;
+			sourceTree = "<group>";
+		};
+		E28FE8CF1FA9CE0700B1DF63 /* GasCalculationTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				E28FE8D01FA9CE0700B1DF63 /* gasCalculationTableViewCell.h */,
+				E28FE8D11FA9CE0700B1DF63 /* gasCalculationTableViewCell.m */,
+			);
+			path = GasCalculationTableViewCell;
+			sourceTree = "<group>";
+		};
+		E28FE8D21FA9CE0700B1DF63 /* marketGraphTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				E28FE8D31FA9CE0700B1DF63 /* marketGraphTableViewCell.h */,
+				E28FE8D41FA9CE0700B1DF63 /* marketGraphTableViewCell.m */,
+			);
+			path = marketGraphTableViewCell;
+			sourceTree = "<group>";
+		};
+		E28FE8D51FA9CE0700B1DF63 /* MarketViewCustomTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				E28FE8D61FA9CE0700B1DF63 /* marketViewCustomTableViewCell.h */,
+				E28FE8D71FA9CE0700B1DF63 /* marketViewCustomTableViewCell.m */,
+			);
+			path = MarketViewCustomTableViewCell;
+			sourceTree = "<group>";
+		};
+		E28FE8D81FA9CE0700B1DF63 /* NEOButton */ = {
+			isa = PBXGroup;
+			children = (
+				E28FE8D91FA9CE0700B1DF63 /* NEOButton.h */,
+				E28FE8DA1FA9CE0700B1DF63 /* NEOButton.m */,
+			);
+			path = NEOButton;
+			sourceTree = "<group>";
+		};
+		E28FE8DB1FA9CE0700B1DF63 /* NeoNewsTodayTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				E28FE8DC1FA9CE0700B1DF63 /* neoNewsTodayTableViewCell.h */,
+				E28FE8DD1FA9CE0700B1DF63 /* neoNewsTodayTableViewCell.m */,
+			);
+			path = NeoNewsTodayTableViewCell;
+			sourceTree = "<group>";
+		};
+		E28FE8DE1FA9CE0700B1DF63 /* NodiusDataSource */ = {
+			isa = PBXGroup;
+			children = (
+				E28FE8DF1FA9CE0700B1DF63 /* nodiusDataSource.h */,
+				E28FE8E01FA9CE0700B1DF63 /* nodiusDataSource.m */,
+			);
+			path = NodiusDataSource;
+			sourceTree = "<group>";
+		};
+		E28FE8E11FA9CE0700B1DF63 /* NodiusUIComponents */ = {
+			isa = PBXGroup;
+			children = (
+				E28FE8E21FA9CE0700B1DF63 /* nodiusUIComponents.h */,
+				E28FE8E31FA9CE0700B1DF63 /* nodiusUIComponents.m */,
+			);
+			path = NodiusUIComponents;
+			sourceTree = "<group>";
+		};
+		E28FE8F61FA9D4B100B1DF63 /* NodiusUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E28FE9001FA9D53D00B1DF63 /* SnapshotHelper.swift */,
+				E28FE8F71FA9D4B100B1DF63 /* NodiusUITests.m */,
+				E28FE8F91FA9D4B100B1DF63 /* Info.plist */,
+				E28FE8FF1FA9D53C00B1DF63 /* NodiusUITests-Bridging-Header.h */,
+			);
+			path = NodiusUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E217DC7A1FA9CAFB008169BC /* Nodius */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E217DC911FA9CAFB008169BC /* Build configuration list for PBXNativeTarget "Nodius" */;
+			buildPhases = (
+				9D4CCB7459D8DB7B19C538FE /* [CP] Check Pods Manifest.lock */,
+				E217DC771FA9CAFB008169BC /* Sources */,
+				E217DC781FA9CAFB008169BC /* Frameworks */,
+				E217DC791FA9CAFB008169BC /* Resources */,
+				9F32A975787EBCBDE573D1CE /* [CP] Embed Pods Frameworks */,
+				1EE3DBC7DA6C0E62E48C4EE9 /* [CP] Copy Pods Resources */,
+				E28FE8BD1FA9CCFF00B1DF63 /* Run Script */,
+				E28FE8BE1FA9CD0700B1DF63 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Nodius;
+			productName = Nodius;
+			productReference = E217DC7B1FA9CAFB008169BC /* Nodius.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E28FE8F41FA9D4B100B1DF63 /* NodiusUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E28FE8FC1FA9D4B100B1DF63 /* Build configuration list for PBXNativeTarget "NodiusUITests" */;
+			buildPhases = (
+				E28FE8F11FA9D4B100B1DF63 /* Sources */,
+				E28FE8F21FA9D4B100B1DF63 /* Frameworks */,
+				E28FE8F31FA9D4B100B1DF63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E28FE8FB1FA9D4B100B1DF63 /* PBXTargetDependency */,
+			);
+			name = NodiusUITests;
+			productName = NodiusUITests;
+			productReference = E28FE8F51FA9D4B100B1DF63 /* NodiusUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E217DC731FA9CAFB008169BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "ITS-VIsion";
+				TargetAttributes = {
+					E217DC7A1FA9CAFB008169BC = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					E28FE8F41FA9D4B100B1DF63 = {
+						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E217DC7A1FA9CAFB008169BC;
+					};
+				};
+			};
+			buildConfigurationList = E217DC761FA9CAFB008169BC /* Build configuration list for PBXProject "Nodius" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				de,
+				es,
+				"fr-CA",
+				fr,
+				it,
+				ja,
+				nb,
+				"nl-BE",
+				nl,
+				sv,
+				"zh-Hans",
+				"zh-Hant",
+			);
+			mainGroup = E217DC721FA9CAFB008169BC;
+			productRefGroup = E217DC7C1FA9CAFB008169BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E217DC7A1FA9CAFB008169BC /* Nodius */,
+				E28FE8F41FA9D4B100B1DF63 /* NodiusUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E217DC791FA9CAFB008169BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E28FE8F01FA9D35200B1DF63 /* LaunchScreen.storyboard in Resources */,
+				E28FE8EC1FA9D31700B1DF63 /* cryptoCurrencies.json in Resources */,
+				E28FE8ED1FA9D31700B1DF63 /* donationData.json in Resources */,
+				E28FE8EE1FA9D31700B1DF63 /* fiatCurrencies.json in Resources */,
+				E28FE8EF1FA9D31700B1DF63 /* refreshIntervals.json in Resources */,
+				E28FE8BC1FA9CCF400B1DF63 /* Assets.xcassets in Resources */,
+				E28FE8B91FA9CCEE00B1DF63 /* FontAwesome4.ttf in Resources */,
+				E28FE8BA1FA9CCEE00B1DF63 /* Lato-Light.ttf in Resources */,
+				E28FE8BB1FA9CCEE00B1DF63 /* Lato.ttf in Resources */,
+				E28FE8B81FA9CCE800B1DF63 /* Acknowledgements.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E28FE8F31FA9D4B100B1DF63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1EE3DBC7DA6C0E62E48C4EE9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Nodius/Pods-Nodius-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D4CCB7459D8DB7B19C538FE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9F32A975787EBCBDE573D1CE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Nodius/Pods-Nodius-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E28FE8BD1FA9CCFF00B1DF63 /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "buildNumber=$(/usr/libexec/PlistBuddy -c \"Print CFBundleVersion\" \"${PROJECT_DIR}/${INFOPLIST_FILE}\")\nbuildNumber=$(($buildNumber + 1))\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $buildNumber\" \"${PROJECT_DIR}/${INFOPLIST_FILE}\"";
+		};
+		E28FE8BE1FA9CD0700B1DF63 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which bartycrouch > /dev/null; then\nbartycrouch interfaces -p \"$PROJECT_DIR\"\nbartycrouch code -p \"$PROJECT_DIR\" -l \"$PROJECT_DIR\" -a -s\necho \"// Empty English Localization\" > \"$PROJECT_DIR/Nodius/Supporting Files/LocalizedData/en.lproj/Localizable.strings\"\nelse\necho \"warning: BartyCrouch not installed, download it from https://github.com/Flinesoft/BartyCrouch\"\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E217DC771FA9CAFB008169BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E28FE8E41FA9CE2B00B1DF63 /* gasCalculationTableViewCell.m in Sources */,
+				E28FE8E51FA9CE2B00B1DF63 /* marketGraphTableViewCell.m in Sources */,
+				E28FE8E61FA9CE2B00B1DF63 /* marketViewCustomTableViewCell.m in Sources */,
+				E28FE8E71FA9CE2B00B1DF63 /* NEOButton.m in Sources */,
+				E28FE8E81FA9CE2B00B1DF63 /* neoNewsTodayTableViewCell.m in Sources */,
+				E28FE8E91FA9CE2B00B1DF63 /* nodiusDataSource.m in Sources */,
+				E28FE8EA1FA9CE2B00B1DF63 /* nodiusUIComponents.m in Sources */,
+				E28FE8A21FA9CC9800B1DF63 /* AppDelegate.m in Sources */,
+				E28FE8AA1FA9CC9800B1DF63 /* main.m in Sources */,
+				E28FE8AB1FA9CC9800B1DF63 /* gasCalculationTableViewController.m in Sources */,
+				E28FE8AC1FA9CC9800B1DF63 /* baseMarketInfoViewController.m in Sources */,
+				E28FE8AD1FA9CC9800B1DF63 /* marketGraphTableViewController.m in Sources */,
+				E28FE8AE1FA9CC9800B1DF63 /* marketInfoTableViewController.m in Sources */,
+				E28FE8AF1FA9CC9800B1DF63 /* menuTableViewController.m in Sources */,
+				E28FE8B01FA9CC9800B1DF63 /* neoNewsTodayTableViewController.m in Sources */,
+				E28FE8B11FA9CC9800B1DF63 /* selectionSettingsTableViewController.m in Sources */,
+				E28FE8B21FA9CC9800B1DF63 /* settingsTableViewController.m in Sources */,
+				E28FE8B31FA9CC9800B1DF63 /* walletManagementTableViewController.m in Sources */,
+				E28FE8B41FA9CC9800B1DF63 /* tipJarTableViewController.m in Sources */,
+				E28FE8B51FA9CC9800B1DF63 /* walletViewTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E28FE8F11FA9D4B100B1DF63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E28FE8F81FA9D4B100B1DF63 /* NodiusUITests.m in Sources */,
+				E28FE9011FA9D53D00B1DF63 /* SnapshotHelper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E28FE8FB1FA9D4B100B1DF63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E217DC7A1FA9CAFB008169BC /* Nodius */;
+			targetProxy = E28FE8FA1FA9D4B100B1DF63 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E217DCD71FA9CB21008169BC /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E217DCD81FA9CB21008169BC /* de */,
+				E217DCD91FA9CB21008169BC /* en */,
+				E217DCDA1FA9CB21008169BC /* es */,
+				E217DCDB1FA9CB21008169BC /* fr-CA */,
+				E217DCDC1FA9CB21008169BC /* fr */,
+				E217DCDD1FA9CB21008169BC /* it */,
+				E217DCDE1FA9CB21008169BC /* ja */,
+				E217DCDF1FA9CB21008169BC /* nb */,
+				E217DCE01FA9CB21008169BC /* nl-BE */,
+				E217DCE11FA9CB21008169BC /* nl */,
+				E217DCE21FA9CB21008169BC /* sv */,
+				E217DCE31FA9CB21008169BC /* zh-Hans */,
+				E217DCE41FA9CB21008169BC /* zh-Hant */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E217DC8F1FA9CAFB008169BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E217DC901FA9CAFB008169BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E217DC921FA9CAFB008169BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A24CA368E0E90F715CC66BF3 /* Pods-Nodius.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J99FXNJHF9;
+				INFOPLIST_FILE = Nodius/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nl.itsvision.neodius;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E217DC931FA9CAFB008169BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A3A75196282C8900906A7F8 /* Pods-Nodius.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J99FXNJHF9;
+				INFOPLIST_FILE = Nodius/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nl.itsvision.neodius;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E28FE8FD1FA9D4B100B1DF63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J99FXNJHF9;
+				INFOPLIST_FILE = NodiusUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nl.itsvision.NodiusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "NodiusUITests/NodiusUITests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Nodius;
+			};
+			name = Debug;
+		};
+		E28FE8FE1FA9D4B100B1DF63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J99FXNJHF9;
+				INFOPLIST_FILE = NodiusUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nl.itsvision.NodiusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "NodiusUITests/NodiusUITests-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Nodius;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E217DC761FA9CAFB008169BC /* Build configuration list for PBXProject "Nodius" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E217DC8F1FA9CAFB008169BC /* Debug */,
+				E217DC901FA9CAFB008169BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E217DC911FA9CAFB008169BC /* Build configuration list for PBXNativeTarget "Nodius" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E217DC921FA9CAFB008169BC /* Debug */,
+				E217DC931FA9CAFB008169BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E28FE8FC1FA9D4B100B1DF63 /* Build configuration list for PBXNativeTarget "NodiusUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E28FE8FD1FA9D4B100B1DF63 /* Debug */,
+				E28FE8FE1FA9D4B100B1DF63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E217DC731FA9CAFB008169BC /* Project object */;
+}

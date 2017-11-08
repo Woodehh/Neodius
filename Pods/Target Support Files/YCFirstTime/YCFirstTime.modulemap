@@ -1,0 +1,6 @@
+framework module YCFirstTime {
+  umbrella header "YCFirstTime-umbrella.h"
+
+  export *
+  module * { export * }
+}

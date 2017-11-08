@@ -1,0 +1,12 @@
+{
+    "ETH": {
+        "id" : "ETH",
+        "name": "Ethereum",
+        "symbol": "ETH"
+    },
+    "BTC": {
+        "id" : "BTC",
+        "name": "Bitcoin",
+        "symbol": "BTC"
+    }
+}

@@ -1,0 +1,6 @@
+framework module FontAwesome4_ios {
+  umbrella header "FontAwesome4-ios-umbrella.h"
+
+  export *
+  module * { export * }
+}

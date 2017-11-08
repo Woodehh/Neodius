@@ -1,0 +1,6 @@
+framework module UIWebView_Blocks {
+  umbrella header "UIWebView-Blocks-umbrella.h"
+
+  export *
+  module * { export * }
+}

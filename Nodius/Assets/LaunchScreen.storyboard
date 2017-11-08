@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="gZk-w6-L99"/>
+                        <viewControllerLayoutGuide type="bottom" id="9md-zX-jQW"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="u5w-mb-BeK">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" insetsLayoutMarginsFromSafeArea="NO" image="ImageSplash" translatesAutoresizingMaskIntoConstraints="NO" id="IBs-WL-vn0">
+                                <rect key="frame" x="40" y="28.5" width="295" height="610"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="IBs-WL-vn0" firstAttribute="width" secondItem="u5w-mb-BeK" secondAttribute="height" multiplier="295:667" id="Qc2-Qd-0bc"/>
+                            <constraint firstItem="IBs-WL-vn0" firstAttribute="centerX" secondItem="u5w-mb-BeK" secondAttribute="centerX" id="TaL-qd-yrc"/>
+                            <constraint firstItem="IBs-WL-vn0" firstAttribute="centerY" secondItem="u5w-mb-BeK" secondAttribute="centerY" id="jO8-n4-6DH"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ImageSplash" width="800" height="610"/>
+    </resources>
+</document>

@@ -1,0 +1,135 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - APParallaxHeader (0.1.6)
+  - AsyncImageView (1.6)
+  - BDGShare (0.0.11)
+  - BEMSimpleLineGraph (4.1.1)
+  - Crashlytics (3.9.0):
+    - Fabric (~> 1.7.0)
+  - CWStatusBarNotification (2.3.5)
+  - DateTools (2.0.0)
+  - EXPhotoViewer (1.1.2)
+  - Fabric (1.7.0)
+  - FontAwesome4-ios (0.2.1)
+  - GSLanguagePickerController (1.2.0)
+  - Instabug (7.3.9)
+  - KLCPopup (1.0)
+  - KXHtmlLabel (0.8.1)
+  - LTHPasscodeViewController (3.8.10)
+  - MBProgressHUD (1.0.0)
+  - MSSimpleGauge (0.5)
+  - QrcodeBuilder (1.0.1)
+  - QRCodeReaderViewController (4.0.2)
+  - Reachability (3.2)
+  - Regexer (1.3.3)
+  - RFAboutView (1.0.4)
+  - SGNavigationProgress (1.2)
+  - SimpleKeychain (0.8.0)
+  - UIAlertView+Blocks (0.9)
+  - UIWebView-Blocks (1.0)
+  - ViewDeck (3.1.0)
+  - XMLReader (0.0.2)
+  - YCFirstTime (1.1.3)
+
+DEPENDENCIES:
+  - AFNetworking
+  - APParallaxHeader
+  - AsyncImageView
+  - BDGShare
+  - BEMSimpleLineGraph (from `~/Dropbox/LocalDevelopment/BEMSimpleLineGraph`)
+  - Crashlytics
+  - CWStatusBarNotification
+  - DateTools
+  - EXPhotoViewer
+  - Fabric
+  - FontAwesome4-ios (from `https://github.com/ITSVision/FontAwesome4-ios.git`)
+  - GSLanguagePickerController (from `https://github.com/ITSVision/GSLanguagePickerController`)
+  - Instabug
+  - KLCPopup
+  - KXHtmlLabel
+  - LTHPasscodeViewController
+  - MBProgressHUD
+  - MSSimpleGauge
+  - QrcodeBuilder
+  - QRCodeReaderViewController
+  - Reachability
+  - Regexer
+  - RFAboutView (from `https://github.com/ITSVision/RFAboutView.git`)
+  - SGNavigationProgress
+  - SimpleKeychain
+  - UIAlertView+Blocks
+  - UIWebView-Blocks
+  - ViewDeck
+  - XMLReader
+  - YCFirstTime
+
+EXTERNAL SOURCES:
+  BEMSimpleLineGraph:
+    :path: "~/Dropbox/LocalDevelopment/BEMSimpleLineGraph"
+  FontAwesome4-ios:
+    :git: https://github.com/ITSVision/FontAwesome4-ios.git
+  GSLanguagePickerController:
+    :git: https://github.com/ITSVision/GSLanguagePickerController
+  RFAboutView:
+    :git: https://github.com/ITSVision/RFAboutView.git
+
+CHECKOUT OPTIONS:
+  FontAwesome4-ios:
+    :commit: 59f322aff31dade278531ca9c68ae1ca18562765
+    :git: https://github.com/ITSVision/FontAwesome4-ios.git
+  GSLanguagePickerController:
+    :commit: 8031433a3dc42fcea2d25243f7ca2bb7460997ac
+    :git: https://github.com/ITSVision/GSLanguagePickerController
+  RFAboutView:
+    :commit: 4b363f7e5deed2a04f923a1e2b99a4417aa47468
+    :git: https://github.com/ITSVision/RFAboutView.git
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  APParallaxHeader: 854bc48a2487ca12c702f8a236fec0d89cdac5c3
+  AsyncImageView: 416e99402e5b1f20571de70ad619ced90f56a7d9
+  BDGShare: 32748bcc08221d403115d68d76f9ee9ed1734883
+  BEMSimpleLineGraph: 90d30ff3111380f93a0ea25db0eaaf41a5fc8579
+  Crashlytics: 64aad5dd97249dd3ff94b979fea140144590cdd3
+  CWStatusBarNotification: 3d2738b25c3207f60cc50201388d3c96182545ff
+  DateTools: 933ac9c490f21f92127cf690ccd8c397e0126caf
+  EXPhotoViewer: 01d391c4e5f7d25470d92b26837d40a362714ce0
+  Fabric: e6be012366472553807dada21243c5ab8d904151
+  FontAwesome4-ios: 1ec6f396a7dd88b8116bebb8fa20a2bd8c2508bd
+  GSLanguagePickerController: 1bb3cd830de672a3d4fe26ae4bf72cf014e4e408
+  Instabug: 927096f3267f38bdc79a2ecdceac68ab293b5bd0
+  KLCPopup: 76c5a19227977f1e53d85236f9ef42257c168d98
+  KXHtmlLabel: 292f4f33a7a2b42ac66bcca1eb4c4502e33e0903
+  LTHPasscodeViewController: 17b0d49903dc1db6d35b95ccc4ecc4253791601f
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  MSSimpleGauge: e5f7bf2561f1338055fcd321c5469b0d6c689d14
+  QrcodeBuilder: 542404d402bee839245eddb16c23b749fd15b5a4
+  QRCodeReaderViewController: e8f27d035b3e72b1d4b1c61ff66458287e3be0ff
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  Regexer: d313fc8028f02e9389ce574ed3e5818b62207997
+  RFAboutView: d775536bf571a2c61baea9974a027371fe7fa65c
+  SGNavigationProgress: f04e3bd0058c53e1172ee020b5239f22aa9e4a0f
+  SimpleKeychain: 84c748463eec601dfee5e7990f55cc82edc5488d
+  UIAlertView+Blocks: a46c99c5144f6c5dbc7d62fd2a0678daceec89a3
+  UIWebView-Blocks: 29e9c7ccd059e91db8b743a6287a1cef49052138
+  ViewDeck: 942d90dd23c9f97cc8038be352255378167edcca
+  XMLReader: c7e54b707c368e2fa545d8313276b4de13a36ff5
+  YCFirstTime: 7daef261357bd74b4badd85113e2adb309d69900
+
+PODFILE CHECKSUM: 8551dd206684e27d43c33c775c44f9696f993b74
+
+COCOAPODS: 1.2.0
