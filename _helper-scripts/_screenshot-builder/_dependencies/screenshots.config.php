@@ -11,5 +11,5 @@
 		"screen-neo-news-today.png"				=> __("NEO News Today"),
 		"screen-tip-jar.png"					=> __("Tip jar"),
 		"screen-settings.png"					=> __("Settings"),
-		"screen-menu.png"						=> __("Nodius")
+		"screen-menu.png"						=> __("Neodius")
 	);	

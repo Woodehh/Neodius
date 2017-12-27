@@ -1,6 +1,6 @@
-project 'Nodius.xcodeproj'
+project 'Neodius.xcodeproj'
 platform :ios, '8.0'
-target 'Nodius' do
+target 'Neodius' do
   inhibit_all_warnings!
 
   use_frameworks!
@@ -44,7 +44,7 @@ target 'Nodius' do
 
   post_install do |installer|
     require 'fileutils'
-    FileUtils.cp_r('Pods/Target Support Files/Pods-Nodius/Pods-Nodius-acknowledgements.plist', 'Nodius/Acknowledgements.plist', :remove_destination => true)
+    FileUtils.cp_r('Pods/Target Support Files/Pods-Neodius/Pods-Neodius-acknowledgements.plist', 'Neodius/Acknowledgements.plist', :remove_destination => true)
   end
 
 end

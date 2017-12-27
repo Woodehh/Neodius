@@ -1,0 +1,393 @@
+
+/*Acknowlegdments header title*/
+"%@ makes use of the following third party libraries. Many thanks to the developers making them available!" = "%@ brukes de følgende tredjepartsbiblioteker. Mange takk til utviklerne som gjør de tilgjengelige!";
+
+/*No comment provided by engineer.*/
+"%@ Market information" = "%@ Markedsinformasjon";
+
+/*No comment provided by engineer.*/
+"1 Hour" = "1 Time";
+
+/*No comment provided by engineer.*/
+"24 Hour trading" = "24 Timers handel";
+
+/*No comment provided by engineer.*/
+"24 Hours" = "24 Timer";
+
+/*No comment provided by engineer.*/
+"24h high" = "24h høy";
+
+/*No comment provided by engineer.*/
+"24h low" = "24h lav";
+
+/*No comment provided by engineer.*/
+"7 Days" = "7 Dager";
+
+/*Translator: enter your information for credits! In English please. Like this: Dutch is translated by Benjamin de Bos (info@its-vision.nl). E-mail is not required!*/
+"<Language> is translated by: <your (nick) name> (<e-mail>)" = "Norwegian is translated by: Nick the Dick";
+
+/*Prefilled Email message text*/
+"<p>[Please insert your message here]</p><p><em>For support inquiries, please include the following information. These make it easier for me to help you. Thank you!</em><p><hr><p><strong>Support Information</strong></p></p>%@ Version %@ (%@)<br>%@ (%@)<br>iOS %@ (%@)</p><hr>" = "<p>[Vennligst tast inn beskjeden din her]</p><p><em>For støtteforespørsler, vennligst ta med følgende informasjon. Dette gjør det lettere for meg å hjelpe deg. Tusen takk!</em><p><hr><p><strong>Støtte informasjon</strong></p></p>%@ Version %@ (%@)<br>%@ (%@)<br>iOS %@ (%@)</p><hr>";
+
+/*UINavigationBar Title*/
+"About" = "Om";
+
+/*No comment provided by engineer.*/
+"Actual" = "Aktuelt";
+
+/*No comment provided by engineer.*/
+"Add wallet" = "Legg til Wallet";
+
+/*No comment provided by engineer.*/
+"Address copied to clipboard" = "Adresse kopiert til utklippstavlen";
+
+/*No comment provided by engineer.*/
+"Address input" = "Adresse felt";
+
+/*No comment provided by engineer.*/
+"Are you sure?" = "Er du sikker?";
+
+/*No comment provided by engineer.*/
+"Ask price" = "Spørpris";
+
+/*No comment provided by engineer.*/
+"Base crypto currency" = "Basis crypto currency";
+
+/*No comment provided by engineer.*/
+"Base fiat currency" = "Basis fiat currency";
+
+/*No comment provided by engineer.*/
+"Bid price" = "Budpris";
+
+/*No comment provided by engineer.*/
+"Block generation time: %.1fs" = "Block generasjonstid: %.1fs";
+
+/*No comment provided by engineer.*/
+"By entering an address" = "Ved å taste inn en adresse";
+
+/*No comment provided by engineer.*/
+"By entering an amount of NEO" = "Ved å taste inn en mengde NEO";
+
+/*No comment provided by engineer.*/
+"By QR-Code" = "Ved QR-kode";
+
+/*No comment provided by engineer.*/
+"By selecting a wallet" = "Ved å velge en Wallet";
+
+/*No comment provided by engineer.*/
+"Calculating GAS" = "Beregner GAS";
+
+/*No comment provided by engineer.*/
+"Calculating GAS for: %@ NEO" = "Beregner GAS fo: %@ NEO";
+
+/*Cancel*/
+"Cancel" = "Avbryt";
+
+/*Cannot send Email*/
+"Cannot send Email" = "Kan ikke sende e-post";
+
+/*No comment provided by engineer.*/
+"Cellular" = "Mobilnett";
+
+/*No comment provided by engineer.*/
+"Changes" = "Forandringer";
+
+/*No comment provided by engineer.*/
+"Cheers thanks!" = "Takker og bukker!";
+
+/*No comment provided by engineer.*/
+"Connecting to the blockchain" = "Kobler til blockchain";
+
+/*No comment provided by engineer.*/
+"Connection status messages" = "Tilkoblingsstatusmeldinger";
+
+/*No comment provided by engineer.*/
+"Contact us" = "Ta kontakt";
+
+/*No comment provided by engineer.*/
+"Copy address" = "Kopier adresse";
+
+/*Copy diagnostic info to pasteboard*/
+"Copy Info" = "Kopier info";
+
+/*No comment provided by engineer.*/
+"Currency" = "Valuta";
+
+/*No comment provided by engineer.*/
+"Current bid/ask price" = "Nåværende bud / spørspris";
+
+/*No comment provided by engineer.*/
+"Current market values" = "Nåværende markedsverdier";
+
+/*No comment provided by engineer.*/
+"Current wallets" = "Nåværende wallets";
+
+/*Dismiss error message*/
+"Dismiss" = "Avbryt";
+
+/*No comment provided by engineer.*/
+"Dividend" = "Utbytte";
+
+/*No comment provided by engineer.*/
+"Donate %@" = "Doner %@";
+
+/*No comment provided by engineer.*/
+"Edit wallet" = "Rediger wallet";
+
+/*No comment provided by engineer.*/
+"Enter a name" = "Tast inn navnet";
+
+/*No comment provided by engineer.*/
+"Enter a name and the address" = "Tast inn navnet og adresse";
+
+/*No comment provided by engineer.*/
+"Enter NEO Amount" = "Tast inn NEO beløpet";
+
+/*No comment provided by engineer.*/
+"Enter the address" = "Tast inn adresse";
+
+/*No comment provided by engineer.*/
+"Feel free to send some %@ in order to make support the Neodius development! :-)" = "Du er velkommen til å sende noe %@ for å kunne støtte Neodius-utviklingen! :-)";
+
+/*No comment provided by engineer.*/
+"GAS Calculation" = "GAS Beregning";
+
+/*No comment provided by engineer.*/
+"GAS Calculation has been brought to life by N1njaWTF of NeoToGas.com. Neodius' encourages you to tip some NEO/GAS to N1njaWTF for his awesome work!" = "GAS Beregningen har blitt lagt tilgjengelig  av N1njaWTF av NeoToGas.com. Neodius' oppfordrer deg til å tippe noe NEO / GAS til N1njaWTF for hans fantastiske arbeid!";
+
+/*No comment provided by engineer.*/
+"General" = "Alminnelig";
+
+/*No comment provided by engineer.*/
+"Get block %@" = "Få block %@";
+
+/*No comment provided by engineer.*/
+"Getting best node" = "Henter inn beste node";
+
+/*No comment provided by engineer.*/
+"Getting last block" = "Henter inn siste block";
+
+/*No comment provided by engineer.*/
+"Hey there!" = "Heisann!";
+
+/*No comment provided by engineer.*/
+"Language" = "Språk";
+
+/*No comment provided by engineer.*/
+"Links" = "Linker";
+
+/*No comment provided by engineer.*/
+"Loading article" = "Henter artikkel";
+
+/*No comment provided by engineer.*/
+"Loading transaction" = "Laster inn transaksjon";
+
+/*No comment provided by engineer.*/
+"Market Cap" = "Markedsverdi";
+
+/*Sending email message failed*/
+"Message Failed!" = "Melding mislyktes!";
+
+/*No comment provided by engineer.*/
+"minute" = "minutt";
+
+/*No comment provided by engineer.*/
+"minutes" = "minutter";
+
+/*No comment provided by engineer.*/
+"N1njaWTF Tip jar" = "N1njaWTF Tipbøtte";
+
+/*No comment provided by engineer.*/
+"NEO News" = "NEO Nyheter";
+
+/*No comment provided by engineer.*/
+"No Connection" = "Ingen forbindelse";
+
+/*No comment provided by engineer.*/
+"No network we'll inform you when it's back!" = "Ingen nettverk, vi informerer deg når det er tilbake!";
+
+/*No comment provided by engineer.*/
+"No transactions found" = "Ingen transaksjoner funnet";
+
+/*No comment provided by engineer.*/
+"Oh yes, internet is back!" = "Jada, internet er tilbake!";
+
+/*No comment provided by engineer.*/
+"Okay" = "Okay";
+
+/*No comment provided by engineer.*/
+"Per day" = "Per dag";
+
+/*No comment provided by engineer.*/
+"Per month" = "Per måned";
+
+/*No comment provided by engineer.*/
+"Per week" = "Per uke";
+
+/*No comment provided by engineer.*/
+"Per year" = "Per år";
+
+/*No comment provided by engineer.*/
+"Pick a method" = "Velg en metode";
+
+/*No comment provided by engineer.*/
+"Quick address lookup" = "Finn raskt en adresse";
+
+/*No comment provided by engineer.*/
+"Rank" = "Rang";
+
+/*No comment provided by engineer.*/
+"Receiving NEO Amount from wallet" = "Motta NEO Beløp fra wallet";
+
+/*No comment provided by engineer.*/
+"Refresh interval" = "Refresh intervall";
+
+/*No comment provided by engineer.*/
+"Refresh timer" = "Refresh tidsur";
+
+/*No comment provided by engineer.*/
+"second" = "sekund";
+
+/*No comment provided by engineer.*/
+"seconds" = "sekunder";
+
+/*No comment provided by engineer.*/
+"Secure app with passcode" = "Sikre app'en med passcode";
+
+/*No comment provided by engineer.*/
+"Security" = "Sikkerhet";
+
+/*No comment provided by engineer.*/
+"Select crypto currency" = "Velg crypto valuta";
+
+/*No comment provided by engineer.*/
+"Select currency" = "Velg valuta";
+
+/*No comment provided by engineer.*/
+"Select interval" = "Velg intervall";
+
+/*No comment provided by engineer.*/
+"Select wallet" = "Velg wallet";
+
+/*No comment provided by engineer.*/
+"Settings" = "Innstilninger";
+
+/*No comment provided by engineer.*/
+"Share address" = "Del adresse";
+
+/*No comment provided by engineer.*/
+"Tap the icon on the right upper side to enter the NEO amount to calculate!" = "Trykk på ikonet på høyre øvre side for å angi NEO-beløpet for å starte beregningen!";
+
+/*No comment provided by engineer.*/
+"Tap to read on" = "Trykk for å lese videre";
+
+/*No comment provided by engineer.*/
+"Theoretical" = "Teoretisk";
+
+/*No comment provided by engineer.*/
+"This is the NEO address. Feel free to transfer some NEO or GAS! :)" = "Dette er NEO-adressen. Du er velkommen til å overføre noen NEO eller GAS! :)";
+
+/*No comment provided by engineer.*/
+"Time" = "Tid";
+
+/*No comment provided by engineer.*/
+"Tip jar" = "Tipbøtte";
+
+/*No comment provided by engineer.*/
+"Tip N1njaWTF" = "Tip N1njaWTF";
+
+/*No comment provided by engineer.*/
+"Tip N1njaWTF of NeoToGas.com some GAS or NEO! :-)" = "Tip N1njaWTF fra NeoToGas.com noe GAS eller NEO! :-)";
+
+/*No comment provided by engineer.*/
+"Tools" = "Verktøy";
+
+/*No comment provided by engineer.*/
+"TouchID" = "TouchID";
+
+/*No comment provided by engineer.*/
+"TouchID (not available)" = "TouchID (ikke tilgjengelig)";
+
+/*No comment provided by engineer.*/
+"Transactions" = "Transaksjoner";
+
+/*No comment provided by engineer.*/
+"Unclaimed GAS" = "Uoppfordret GAS";
+
+/*Error message: no email accounts available*/
+"Unfortunately there are no Email accounts available on your device.\n\nFor support questions, please send an Email to %@ and include the following information: %@.\n\nTab the 'Copy info' button to copy this information to your pasteboard. Thank you!" = "Beklager, det er ingen e-postkontoer tilgjengelig på din enhet.\n\nFor støtte spørsmål, vennligst send en e-post til %@ og ta med følgende informasjonen: %@.\n\nKlikk på 'Kopier info' -knappen for å kopiere denne informasjonen til din utklippstavlen. Tusen takk!";
+
+/*No comment provided by engineer.*/
+"Use MainNet blockchain" = "Bruk MainNet blockchain";
+
+/*No comment provided by engineer.*/
+"Use TouchID to unlock Neodius" = "Bruk TouchID for å låse opp Neodius";
+
+/*No comment provided by engineer.*/
+"View transaction" = "Vis transaksjon";
+
+/*No comment provided by engineer.*/
+"Visit %@" = "Gå til %@";
+
+/*No comment provided by engineer.*/
+"Visual and messages" = "Visuelt og meldinger";
+
+/*No comment provided by engineer.*/
+"Volume" = "Volum";
+
+/*No comment provided by engineer.*/
+"Wallet address" = "Wallet adresse";
+
+/*No comment provided by engineer.*/
+"Wallet management" = "Wallet administrasjon";
+
+/*No comment provided by engineer.*/
+"Wallet refresh interval" = "Wallet oppdateringsintervall";
+
+/*No comment provided by engineer.*/
+"Wallets" = "Wallets";
+
+/*No comment provided by engineer.*/
+"Welcome to Neodius, we aim to make the NEO blockchain more accessible to everybody.\n\nTo use this app, get your wallet address and add this to Neodius. You can do that by tapping the menu button on the left top side and tap Add Wallet.\n\nDon't forget to give feedback through the about screen!" = "Velkommen til Neodius, vi sikter på å få NEO blockhain mer tilgjengelige for alle.\n\nFor å bruke denne appen, legg til din wallet addresse i Neodius appen. Du kan gjøre det ved å trykke på menyknappen på venstre øverste side og trykke på 'Legg til wallet'.\n\nIkke glem å gi tilbakemelding ved å bruke 'Om' skjermen!";
+
+/*No comment provided by engineer.*/
+"What source would you like to have for the GAS Calculation?" = "Hvilken kilde vil du ha for GAS-beregningen?";
+
+/*No comment provided by engineer.*/
+"WiFi" = "WiFi";
+
+/*No comment provided by engineer.*/
+"Yes" = "Ja";
+
+/*No comment provided by engineer.*/
+"You're about to remove %@. Are you sure?" = "Er du sikker at du vil slette %@?";
+
+/*Sending email message failed body*/
+"Your email has failed to send." = "Noe gikk feil ved å sende eposten din.";
+
+/* No comment provided by engineer. */
+"No Data" = "";
+
+/* No comment provided by engineer. */
+"Operation was unsuccessful." = "";
+
+/* No comment provided by engineer. */
+"Please try again by inserting a DTTimePeriod object." = "";
+
+/* No comment provided by engineer. */
+"Please try an index within the bounds of the group." = "";
+
+/* No comment provided by engineer. */
+"Please try an index within the bounds or the group." = "";
+
+/*No comment provided by engineer.*/
+"Visit GAS on Poloniex" = "";
+
+/*No comment provided by engineer.*/
+"Visit NEO on Bittrex" = "";
+
+/*No comment provided by engineer.*/
+"Visit NEO.org" = "";
+
+/*No comment provided by engineer.*/
+"Visit NeoToGas.com" = "";

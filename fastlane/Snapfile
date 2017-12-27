@@ -11,8 +11,8 @@ languages([
 ])
 
 output_directory "./_helper-scripts/_screenshot-builder/_tmp_screenshots/"
-workspace 'Nodius.xcworkspace'
-scheme 'Nodius'
+workspace 'Neodius.xcworkspace'
+scheme 'Neodius'
 
 clear_previous_screenshots false
 concurrent_simulators true

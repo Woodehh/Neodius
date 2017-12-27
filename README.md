@@ -1,29 +1,29 @@
-<img src="Artwork/Logos/PNGs/Logo-Github.png" width="400" alt="Nodius Logo">
+<img src="Artwork/Logos/PNGs/Logo-Github.png" width="400" alt="Neodius Logo">
 
 
-# Nodius
+# Neodius
 ![](https://img.shields.io/badge/Updated-September%2019,%202017-lightgrey.svg)
 [![License](http://img.shields.io/badge/license-MIT-green.svg?style=flat)](LICENSE)
-[![GitHub issues](https://img.shields.io/github/issues/ITSVision/Nodius.svg)](https://github.com/ITSVision/Nodius/issues/)
-[![GitHub pull requests](https://img.shields.io/github/issues-pr/ITSVision/Nodius.svg)](https://github.com/ITSVision/Nodius/pulls/)
-[![GitHub contributors](https://img.shields.io/github/contributors/ITSVision/Nodius.svg)](https://github.com/ITSVision/Nodius/contributors/)
+[![GitHub issues](https://img.shields.io/github/issues/CityOfZion/Neodius.svg)](https://github.com/CityOfZion/Neodius/issues/)
+[![GitHub pull requests](https://img.shields.io/github/issues-pr/CityOfZion/Neodius.svg)](https://github.com/CityOfZion/Neodius/pulls/)
+[![GitHub contributors](https://img.shields.io/github/contributors/CityOfZion/Neodius.svg)](https://github.com/CityOfZion/Neodius/contributors/)
 
-Nodius is a NEO blockchain tool. Nodius let's you easily view your balance in various ways based on your address. A must have for every NEO fan. Poured in a pretty-and-easy iOS interface, of course. 
+Neodius is a NEO blockchain tool. Neodius let's you easily view your balance in various ways based on your address. A must have for every NEO fan. Poured in a pretty-and-easy iOS interface, of course. 
 
 <img src="Artwork/Screenshots/English/iPhone/screen-wallet.png" width="200" alt="Wallet view"> <img src="Artwork/Screenshots/English/iPhone/screen-neo-market-info.png" width="200" alt="Market view"> <img src="Artwork/Screenshots/English/iPhone/screen-menu.png" width="200" alt="Menu view"> <img src="Artwork/Screenshots/English/iPhone/screen-settings.png" width="200" alt="Settings view"> 
 
 ## Beta testing now open on Test Flight
-Test Flight is now open! Enroll in the Test Flight program to be an early try out for Nodius! [Enroll in Test Flight](http://www.its-vision.nl/Nodius/)
+Test Flight is now open! Enroll in the Test Flight program to be an early try out for Neodius! [Enroll in Test Flight](http://www.neodius.io/)
 
 ## What's this NEO all about
 NEO, formerly Antshares, is China's first ever open source blockchain. Founded in 2014, NEO’s mission has been to reinvent the way commerce is done. So basically it's just another improved Bitcoin rip-off. However, NEO has a lot of extra features which make it a good investment.
 
-## But what does Nodius do?
-Nodius was built with the idea to have a better insight into your Neo Crypto assets (love those hippie words :). Since NEO has that awesome GAS ([neotogas.com click on about](https://neotogas.com)), it's good to see how much you have and how much you can claim. But most importantly, you want to know how many beers you can buy with your NEO :beer:. So i have implemented an automatic conversion from NEO to a (realistic) fiat value.
+## But what does Neodius do?
+Neodius was built with the idea to have a better insight into your Neo Crypto assets (love those hippie words :). Since NEO has that awesome GAS ([neotogas.com click on about](https://neotogas.com)), it's good to see how much you have and how much you can claim. But most importantly, you want to know how many beers you can buy with your NEO :beer:. So i have implemented an automatic conversion from NEO to a (realistic) fiat value.
 
 ## What are the features?
 Probably the most important is:
-Nodius is based on public address, no private keys needed. So no worries about your private key being abused when your iDevice is lost/abused.
+Neodius is based on public address, no private keys needed. So no worries about your private key being abused when your iDevice is lost/abused.
 
 Features currently are:
 * Multi-wallet
@@ -31,9 +31,9 @@ Features currently are:
 * View your GAS
 * View your unclaimed gas
 * View NEO value in BTC/ETH
-* View NEO value in fiat currencies ([View currencies](https://github.com/ITSVision/Nodius/blob/master/Nodius/Supporting%20Files/SettingCache/fiatCurrencies.json))
+* View NEO value in fiat currencies ([View currencies](https://github.com/CityOfZion/Neodius/blob/master/Neodius/Supporting%20Files/SettingCache/fiatCurrencies.json))
 * Automatic refreshing of your wallet. Fun for real-time stats
-* Securing Nodius with a passcode or TouchID
+* Securing Neodius with a passcode or TouchID
 * Quick address lookup
 * Quick transaction lookup
 * QRCode for your address.
@@ -48,18 +48,18 @@ Features currently are:
 * View news from NEONewsToday.com
 * On-the-fly language switching, without restarting the app!
 * Supported languages:
-	* 🇨🇳  Chinese (Simplified) - [iPad screenshots](https://github.com/ITSVision/Nodius/blob/master/Artwork/Screenshots/Chinese%20%28Simplified%29/iPad/chinese-simplified-screenshots.md) | [iPhone screenshots](https://github.com/ITSVision/Nodius/blob/master/Artwork/Screenshots/Chinese%20%28Simplified%29/iPhone/chinese-simplified-screenshots.md) | [iPhone X screenshots](https://github.com/ITSVision/Nodius/blob/master/Artwork/Screenshots/Chinese%20%28Simplified%29/iPhone%20X/chinese-simplified-screenshots.md)
-	* 🇨🇳  Chinese (Traditional) - [iPad screenshots](https://github.com/ITSVision/Nodius/blob/master/Artwork/Screenshots/Chinese%20%28Traditional%29/iPad/chinese-traditional-screenshots.md) | [iPhone screenshots](https://github.com/ITSVision/Nodius/blob/master/Artwork/Screenshots/Chinese%20%28Traditional%29/iPhone/chinese-traditional-screenshots.md) | [iPhone X screenshots](https://github.com/ITSVision/Nodius/blob/master/Artwork/Screenshots/Chinese%20%28Traditional%29/iPhone%20X/chinese-traditional-screenshots.md)
-	* 🇧🇪  Dutch (Belgium) - [iPad screenshots](https://github.com/ITSVision/Nodius/blob/master/Artwork/Screenshots/Dutch%20%28Belgium%29/iPad/dutch-belgium-screenshots.md) | [iPhone screenshots](https://github.com/ITSVision/Nodius/blob/master/Artwork/Screenshots/Dutch%20%28Belgium%29/iPhone/dutch-belgium-screenshots.md) | [iPhone X screenshots](https://github.com/ITSVision/Nodius/blob/master/Artwork/Screenshots/Dutch%20%28Belgium%29/iPhone%20X/dutch-belgium-screenshots.md)
-	* 🇳🇱  Dutch - [iPad screenshots](https://github.com/ITSVision/Nodius/blob/master/Artwork/Screenshots/Dutch/iPad/dutch-screenshots.md) | [iPhone screenshots](https://github.com/ITSVision/Nodius/blob/master/Artwork/Screenshots/Dutch/iPhone/dutch-screenshots.md) | [iPhone X screenshots](https://github.com/ITSVision/Nodius/blob/master/Artwork/Screenshots/Dutch/iPhone%20X/dutch-screenshots.md)
-	* 🇬🇧  English - [iPad screenshots](https://github.com/ITSVision/Nodius/blob/master/Artwork/Screenshots/English/iPad/english-screenshots.md) | [iPhone screenshots](https://github.com/ITSVision/Nodius/blob/master/Artwork/Screenshots/English/iPhone/english-screenshots.md) | [iPhone X screenshots](https://github.com/ITSVision/Nodius/blob/master/Artwork/Screenshots/English/iPhone%20X/english-screenshots.md)
-	* 🇨🇦  French (Canada) - [iPad screenshots](https://github.com/ITSVision/Nodius/blob/master/Artwork/Screenshots/French%20%28Canada%29/iPad/french-canada-screenshots.md) | [iPhone screenshots](https://github.com/ITSVision/Nodius/blob/master/Artwork/Screenshots/French%20%28Canada%29/iPhone/french-canada-screenshots.md) | [iPhone X screenshots](https://github.com/ITSVision/Nodius/blob/master/Artwork/Screenshots/French%20%28Canada%29/iPhone%20X/french-canada-screenshots.md)
-	* 🇫🇷  French - [iPad screenshots](https://github.com/ITSVision/Nodius/blob/master/Artwork/Screenshots/French/iPad/french-screenshots.md) | [iPhone screenshots](https://github.com/ITSVision/Nodius/blob/master/Artwork/Screenshots/French/iPhone/french-screenshots.md) | [iPhone X screenshots](https://github.com/ITSVision/Nodius/blob/master/Artwork/Screenshots/French/iPhone%20X/french-screenshots.md)
-	* 🇩🇪  German - [iPad screenshots](https://github.com/ITSVision/Nodius/blob/master/Artwork/Screenshots/German/iPad/german-screenshots.md) | [iPhone screenshots](https://github.com/ITSVision/Nodius/blob/master/Artwork/Screenshots/German/iPhone/german-screenshots.md) | [iPhone X screenshots](https://github.com/ITSVision/Nodius/blob/master/Artwork/Screenshots/German/iPhone%20X/german-screenshots.md)
-	* 🇯🇵  Japanese - [iPad screenshots](https://github.com/ITSVision/Nodius/blob/master/Artwork/Screenshots/Japanese/iPad/japanese-screenshots.md) | [iPhone screenshots](https://github.com/ITSVision/Nodius/blob/master/Artwork/Screenshots/Japanese/iPhone/japanese-screenshots.md) | [iPhone X screenshots](https://github.com/ITSVision/Nodius/blob/master/Artwork/Screenshots/Japanese/iPhone%20X/japanese-screenshots.md)
-	* 🇳🇴  Norwegian Bokmål - [iPad screenshots](https://github.com/ITSVision/Nodius/blob/master/Artwork/Screenshots/Norwegian%20Bokm%C3%A5l/iPad/norwegian-bokmal-screenshots.md) | [iPhone screenshots](https://github.com/ITSVision/Nodius/blob/master/Artwork/Screenshots/Norwegian%20Bokm%C3%A5l/iPhone/norwegian-bokmal-screenshots.md) | [iPhone X screenshots](https://github.com/ITSVision/Nodius/blob/master/Artwork/Screenshots/Norwegian%20Bokm%C3%A5l/iPhone%20X/norwegian-bokmal-screenshots.md)
-	* 🇪🇸  Spanish - [iPad screenshots](https://github.com/ITSVision/Nodius/blob/master/Artwork/Screenshots/Spanish/iPad/spanish-screenshots.md) | [iPhone screenshots](https://github.com/ITSVision/Nodius/blob/master/Artwork/Screenshots/Spanish/iPhone/spanish-screenshots.md) | [iPhone X screenshots](https://github.com/ITSVision/Nodius/blob/master/Artwork/Screenshots/Spanish/iPhone%20X/spanish-screenshots.md)
-	* 🇸🇪  Swedish - [iPad screenshots](https://github.com/ITSVision/Nodius/blob/master/Artwork/Screenshots/Swedish/iPad/swedish-screenshots.md) | [iPhone screenshots](https://github.com/ITSVision/Nodius/blob/master/Artwork/Screenshots/Swedish/iPhone/swedish-screenshots.md) | [iPhone X screenshots](https://github.com/ITSVision/Nodius/blob/master/Artwork/Screenshots/Swedish/iPhone%20X/swedish-screenshots.md)
+	* 🇨🇳  Chinese (Simplified) - [iPad screenshots](https://github.com/CityOfZion/Neodius/blob/master/Artwork/Screenshots/Chinese%20%28Simplified%29/iPad/chinese-simplified-screenshots.md) | [iPhone screenshots](https://github.com/CityOfZion/Neodius/blob/master/Artwork/Screenshots/Chinese%20%28Simplified%29/iPhone/chinese-simplified-screenshots.md) | [iPhone X screenshots](https://github.com/CityOfZion/Neodius/blob/master/Artwork/Screenshots/Chinese%20%28Simplified%29/iPhone%20X/chinese-simplified-screenshots.md)
+	* 🇨🇳  Chinese (Traditional) - [iPad screenshots](https://github.com/CityOfZion/Neodius/blob/master/Artwork/Screenshots/Chinese%20%28Traditional%29/iPad/chinese-traditional-screenshots.md) | [iPhone screenshots](https://github.com/CityOfZion/Neodius/blob/master/Artwork/Screenshots/Chinese%20%28Traditional%29/iPhone/chinese-traditional-screenshots.md) | [iPhone X screenshots](https://github.com/CityOfZion/Neodius/blob/master/Artwork/Screenshots/Chinese%20%28Traditional%29/iPhone%20X/chinese-traditional-screenshots.md)
+	* 🇧🇪  Dutch (Belgium) - [iPad screenshots](https://github.com/CityOfZion/Neodius/blob/master/Artwork/Screenshots/Dutch%20%28Belgium%29/iPad/dutch-belgium-screenshots.md) | [iPhone screenshots](https://github.com/CityOfZion/Neodius/blob/master/Artwork/Screenshots/Dutch%20%28Belgium%29/iPhone/dutch-belgium-screenshots.md) | [iPhone X screenshots](https://github.com/CityOfZion/Neodius/blob/master/Artwork/Screenshots/Dutch%20%28Belgium%29/iPhone%20X/dutch-belgium-screenshots.md)
+	* 🇳🇱  Dutch - [iPad screenshots](https://github.com/CityOfZion/Neodius/blob/master/Artwork/Screenshots/Dutch/iPad/dutch-screenshots.md) | [iPhone screenshots](https://github.com/CityOfZion/Neodius/blob/master/Artwork/Screenshots/Dutch/iPhone/dutch-screenshots.md) | [iPhone X screenshots](https://github.com/CityOfZion/Neodius/blob/master/Artwork/Screenshots/Dutch/iPhone%20X/dutch-screenshots.md)
+	* 🇬🇧  English - [iPad screenshots](https://github.com/CityOfZion/Neodius/blob/master/Artwork/Screenshots/English/iPad/english-screenshots.md) | [iPhone screenshots](https://github.com/CityOfZion/Neodius/blob/master/Artwork/Screenshots/English/iPhone/english-screenshots.md) | [iPhone X screenshots](https://github.com/CityOfZion/Neodius/blob/master/Artwork/Screenshots/English/iPhone%20X/english-screenshots.md)
+	* 🇨🇦  French (Canada) - [iPad screenshots](https://github.com/CityOfZion/Neodius/blob/master/Artwork/Screenshots/French%20%28Canada%29/iPad/french-canada-screenshots.md) | [iPhone screenshots](https://github.com/CityOfZion/Neodius/blob/master/Artwork/Screenshots/French%20%28Canada%29/iPhone/french-canada-screenshots.md) | [iPhone X screenshots](https://github.com/CityOfZion/Neodius/blob/master/Artwork/Screenshots/French%20%28Canada%29/iPhone%20X/french-canada-screenshots.md)
+	* 🇫🇷  French - [iPad screenshots](https://github.com/CityOfZion/Neodius/blob/master/Artwork/Screenshots/French/iPad/french-screenshots.md) | [iPhone screenshots](https://github.com/CityOfZion/Neodius/blob/master/Artwork/Screenshots/French/iPhone/french-screenshots.md) | [iPhone X screenshots](https://github.com/CityOfZion/Neodius/blob/master/Artwork/Screenshots/French/iPhone%20X/french-screenshots.md)
+	* 🇩🇪  German - [iPad screenshots](https://github.com/CityOfZion/Neodius/blob/master/Artwork/Screenshots/German/iPad/german-screenshots.md) | [iPhone screenshots](https://github.com/CityOfZion/Neodius/blob/master/Artwork/Screenshots/German/iPhone/german-screenshots.md) | [iPhone X screenshots](https://github.com/CityOfZion/Neodius/blob/master/Artwork/Screenshots/German/iPhone%20X/german-screenshots.md)
+	* 🇯🇵  Japanese - [iPad screenshots](https://github.com/CityOfZion/Neodius/blob/master/Artwork/Screenshots/Japanese/iPad/japanese-screenshots.md) | [iPhone screenshots](https://github.com/CityOfZion/Neodius/blob/master/Artwork/Screenshots/Japanese/iPhone/japanese-screenshots.md) | [iPhone X screenshots](https://github.com/CityOfZion/Neodius/blob/master/Artwork/Screenshots/Japanese/iPhone%20X/japanese-screenshots.md)
+	* 🇳🇴  Norwegian Bokmål - [iPad screenshots](https://github.com/CityOfZion/Neodius/blob/master/Artwork/Screenshots/Norwegian%20Bokm%C3%A5l/iPad/norwegian-bokmal-screenshots.md) | [iPhone screenshots](https://github.com/CityOfZion/Neodius/blob/master/Artwork/Screenshots/Norwegian%20Bokm%C3%A5l/iPhone/norwegian-bokmal-screenshots.md) | [iPhone X screenshots](https://github.com/CityOfZion/Neodius/blob/master/Artwork/Screenshots/Norwegian%20Bokm%C3%A5l/iPhone%20X/norwegian-bokmal-screenshots.md)
+	* 🇪🇸  Spanish - [iPad screenshots](https://github.com/CityOfZion/Neodius/blob/master/Artwork/Screenshots/Spanish/iPad/spanish-screenshots.md) | [iPhone screenshots](https://github.com/CityOfZion/Neodius/blob/master/Artwork/Screenshots/Spanish/iPhone/spanish-screenshots.md) | [iPhone X screenshots](https://github.com/CityOfZion/Neodius/blob/master/Artwork/Screenshots/Spanish/iPhone%20X/spanish-screenshots.md)
+	* 🇸🇪  Swedish - [iPad screenshots](https://github.com/CityOfZion/Neodius/blob/master/Artwork/Screenshots/Swedish/iPad/swedish-screenshots.md) | [iPhone screenshots](https://github.com/CityOfZion/Neodius/blob/master/Artwork/Screenshots/Swedish/iPhone/swedish-screenshots.md) | [iPhone X screenshots](https://github.com/CityOfZion/Neodius/blob/master/Artwork/Screenshots/Swedish/iPhone%20X/swedish-screenshots.md)
 
 ## Looks awesome, but how can i use it.
 ### The AppStore
@@ -93,9 +93,9 @@ You can always send me some cryptos
 * ETH: `0x442a0092725a7c6c17938605c76c4c1d2b8bb4c1`
 
 ## Press
-We have some press displays. These can be found here: [Press Displays](https://github.com/ITSVision/Nodius/blob/master/Artwork/Press%20Displays/press-displays.md)
+We have some press displays. These can be found here: [Press Displays](https://github.com/CityOfZion/Neodius/blob/master/Artwork/Press%20Displays/press-displays.md)
 
-For press inquiries, please send an e-mail to: Nodius[at]ITS-Vision[dot]nl
+For press inquiries, please send an e-mail to: Neodius[at]ITS-Vision[dot]nl
 
 ## Authors/Contributors
 The authors working on this project:

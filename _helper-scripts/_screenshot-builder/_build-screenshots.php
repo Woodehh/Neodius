@@ -5,14 +5,14 @@
 	require("./_dependencies/_functions.php");
 
 	
-	define("LOCALIZATION_DIR", "../../Nodius/Supporting Files/LocalizedData/");
+	define("LOCALIZATION_DIR", "../../Neodius/Supporting Files/LocalizedData/");
 	define("LOCALES","./_dependencies/Localizations.json");
 	define("SCREENSHOT_DIR", "./_tmp_screenshots/");
 	define("DEVICES_FILE","./_dependencies/devices.json");
 	define("SCREENSHOT_CONFIGS","./_dependencies/screenshots.config.php");
 	define("SCREENSHOT_TARGET_DIR","../../Artwork/Screenshots/");
 	define("README_LOCATION","../../README.md");
-	define("BLOB_LOCATION","https://github.com/ITSVision/Nodius/blob/master/");
+	define("BLOB_LOCATION","https://github.com/CityOfZion/Neodius/blob/master/");
 	define("T", " 👍  ");
 	define("F", " 😡  ");
 	define("S", " 🔍  ");
